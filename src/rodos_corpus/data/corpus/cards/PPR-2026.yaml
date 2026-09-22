@@ -16,5 +16,5 @@ generated_by: ppr_schedule
 source: corpus/source/production/PPR-2026.table.yaml
 rendered: corpus/rendered/production/PPR-2026.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-bytes: 6222
-sha256: 6420c6e21134cbf5141e4c2e4d3fadb2d65109d037aff95809f7f5cf87828a2c
+bytes: 6213
+sha256: 468a17dc3266ecdb56a75bcd788fc72752f6f092801f8636d851ad33051e50fc

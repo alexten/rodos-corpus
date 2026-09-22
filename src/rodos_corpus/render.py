@@ -24,7 +24,11 @@ import yaml
 
 from rodos.corpus.source import SourceDoc, corpus_root
 
-FONT_DIR = Path("/usr/share/fonts/truetype/dejavu")
+# Шрифты лежат в репозитории, а не берутся из системы. Причина — воспроизводимость: fpdf встраивает
+# в PDF подмножество глифов, и другая версия DejaVu даёт другие байты. Пока шрифт брался из
+# /usr/share/fonts, корпус совпадал побайтово только на одной машине, а в CI пересборка «меняла»
+# полсотни PDF. Заодно снимается привязка к пути, которого нет вне Linux.
+FONT_DIR = Path(__file__).resolve().parents[3] / "assets" / "fonts"
 MIME = {
     "docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
     "pdf": "application/pdf",

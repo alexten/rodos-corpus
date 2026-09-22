@@ -107,7 +107,10 @@ def ppr_schedule(world: World, root: Path | None = None) -> list[Path]:
     for machine in world.equipment:
         shop = workshops[machine["workshop"]]
         interval = int(machine["maintenance_interval_days"])
-        start = date(2026, 1, 15) + timedelta(days=(hash(machine["key"]) % 30))
+        # random.Random(ключ), а не hash(ключ): встроенный hash для строк рандомизируется при каждом
+        # запуске интерпретатора (PYTHONHASHSEED), и график ППР получался разным на каждой сборке —
+        # локально это незаметно, потому что проверяли перерисовку, а не перегенерацию.
+        start = date(2026, 1, 15) + timedelta(days=random.Random(machine["key"]).randrange(30))
         dates = []
         current = start
         while current.year == 2026:

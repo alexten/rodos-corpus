@@ -15,5 +15,5 @@ mail_date: 2026-08-14
 source: corpus/source/sales/MAIL-2026-008.md
 rendered: corpus/rendered/sales/MAIL-2026-008.eml
 mime: message/rfc822
-bytes: 2895
-sha256: e1ca72a4aee167d62dc881cc737653b43f1bc3e8dcd71bab2da249b91f1743db
+bytes: 2896
+sha256: 2cc4aa70dfe171bb7223eeeceba35fdf09070dae9bb64ce1aac9a28ebfe09d20
