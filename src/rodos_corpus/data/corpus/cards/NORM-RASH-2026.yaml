@@ -1,0 +1,19 @@
+doc_id: NORM-RASH-2026
+doc_type: consumption_norm
+title: Нормы расхода инструмента и расходных материалов на 2026 год
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: xlsx
+channel: dropdir
+approved_at: 2026-01-12
+effective_from: 2026-02-01
+approved_by: Главный технолог
+generated_by: consumption_norms
+source: corpus/source/production/NORM-RASH-2026.table.yaml
+rendered: corpus/rendered/production/NORM-RASH-2026.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 6711
+sha256: 8b0207241bebeddf0fb8cd11ad8cfd649d9c6b217f62ea1ac0a7958478d45a66

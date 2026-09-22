@@ -1,0 +1,22 @@
+doc_id: SMZ-20260911-CEH-1
+doc_type: shift_task
+title: Сменное задание, Цех №1, токарно-фрезерный, 11.09.2026
+org_unit: Цех №1, токарно-фрезерный
+spaces:
+- production
+confidentiality: internal
+status: active
+format: xlsx
+channel: dropdir
+approved_at: &id001 2026-09-11
+effective_from: *id001
+effective_to: *id001
+approved_by: Начальник цеха
+plants:
+- kovrov
+generated_by: shift_tasks
+source: corpus/source/production/SMZ-20260911-CEH-1.table.yaml
+rendered: corpus/rendered/production/SMZ-20260911-CEH-1.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 5631
+sha256: d19c8a6fbe32a6830d890123ddf99fbc1c69b0adc1d1a01e870603b41cc91c1e

@@ -1,0 +1,21 @@
+doc_id: ПС-ОС-1231
+doc_type: equipment_passport
+title: 'Паспорт и руководство по эксплуатации: Стенд испытаний гидроцилиндров СИ-ГЦ-250'
+org_unit: Служба главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf
+channel: dropdir
+approved_at: &id001 2022-06-15
+effective_from: *id001
+plants:
+- tolyatti
+equipment: stend-gc-13
+generated_by: equipment_passports
+source: corpus/source/production/ПС-ОС-1231.md
+rendered: corpus/rendered/production/ПС-ОС-1231.pdf
+mime: application/pdf
+bytes: 26176
+sha256: 0a502e93a691d05cf85ccbae885bc64b6e866c56a2e6465411479b699bcdc096

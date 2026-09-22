@@ -1,0 +1,23 @@
+doc_id: TK-881454-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 88.14.54 «Гидроцилиндр ГЦ-100/56 в сборе»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-06-24
+effective_from: 2026-07-01
+approved_by: Главный технолог
+plants:
+- tolyatti
+part: 88.14.54
+generated_by: tech_cards
+source: corpus/source/production/TK-881454-r1.md
+rendered: corpus/rendered/production/TK-881454-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38061
+sha256: 5c8cc1eb53992f1694d307a22c00ad41c20ac4c3a8de8bd90c2f8716ec6f1eef

@@ -1,0 +1,23 @@
+doc_id: TK-881451-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 88.14.51 «Звёздочка приводная z=17, t=25,4»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-06-15
+effective_from: 2026-06-22
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 88.14.51
+generated_by: tech_cards
+source: corpus/source/production/TK-881451-r1.md
+rendered: corpus/rendered/production/TK-881451-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38176
+sha256: 1dc8be4d5f2c9392db8879488dbde21049b527a1946f4705b537d81053051435

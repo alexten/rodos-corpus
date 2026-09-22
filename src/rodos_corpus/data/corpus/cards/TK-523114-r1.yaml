@@ -1,0 +1,23 @@
+doc_id: TK-523114-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 52.31.14 «Шестерня привода насоса z=14, m=2,5»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-07
+effective_from: 2026-04-14
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 52.31.14
+generated_by: tech_cards
+source: corpus/source/production/TK-523114-r1.md
+rendered: corpus/rendered/production/TK-523114-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38179
+sha256: 999763c64c501746b0d7407c39f09c824a391463a9b74866232ab6086b57667d

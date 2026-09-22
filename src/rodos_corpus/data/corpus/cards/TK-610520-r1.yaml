@@ -1,0 +1,23 @@
+doc_id: TK-610520-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 61.05.20 «Корпус редуктора Р-160, нижняя часть»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-10
+effective_from: 2026-04-17
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 61.05.20
+generated_by: tech_cards
+source: corpus/source/production/TK-610520-r1.md
+rendered: corpus/rendered/production/TK-610520-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38227
+sha256: a4f4b8282842401dee36eef7100ecd6a594e425409f6213b438c375dcfbfd5df

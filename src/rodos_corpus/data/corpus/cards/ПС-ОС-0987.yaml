@@ -1,0 +1,21 @@
+doc_id: ПС-ОС-0987
+doc_type: equipment_passport
+title: 'Паспорт и руководство по эксплуатации: Вертикально-фрезерный станок 6Р13'
+org_unit: Служба главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf
+channel: dropdir
+approved_at: &id001 2009-11-30
+effective_from: *id001
+plants:
+- kovrov
+equipment: frz-6r13-04
+generated_by: equipment_passports
+source: corpus/source/production/ПС-ОС-0987.md
+rendered: corpus/rendered/production/ПС-ОС-0987.pdf
+mime: application/pdf
+bytes: 26529
+sha256: 97d4331ddbef16ff489768cd4aeb39af944450fcd3a427d5d6fee71b123eb3ac

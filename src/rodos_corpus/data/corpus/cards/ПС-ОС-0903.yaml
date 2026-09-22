@@ -1,0 +1,21 @@
+doc_id: ПС-ОС-0903
+doc_type: equipment_passport
+title: 'Паспорт и руководство по эксплуатации: Линия цинкования, автооператорная АГ-40'
+org_unit: Служба главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf
+channel: dropdir
+approved_at: &id001 2013-07-19
+effective_from: *id001
+plants:
+- perm
+equipment: galv-ag40-10
+generated_by: equipment_passports
+source: corpus/source/production/ПС-ОС-0903.md
+rendered: corpus/rendered/production/ПС-ОС-0903.pdf
+mime: application/pdf
+bytes: 26664
+sha256: 6ab634ceecdab5cb1e2a6867df6b9cad54c93d5ad77629cf1e6ccffe699eeffb

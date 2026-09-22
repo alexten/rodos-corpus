@@ -1,0 +1,23 @@
+doc_id: TK-456791-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 45.67.91 «Вал быстроходный редуктора Р-200»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-08
+effective_from: 2026-03-15
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 45.67.91
+generated_by: tech_cards
+source: corpus/source/production/TK-456791-r1.md
+rendered: corpus/rendered/production/TK-456791-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38349
+sha256: 1b77655c352cfeb195d75534b8595e48ec6eb16b32bdb1e7f175611eb94da0a7

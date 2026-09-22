@@ -1,0 +1,23 @@
+doc_id: TK-881448-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 88.14.48 «Гайка круглая шлицевая М64×2»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-06-06
+effective_from: 2026-06-13
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 88.14.48
+generated_by: tech_cards
+source: corpus/source/production/TK-881448-r1.md
+rendered: corpus/rendered/production/TK-881448-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38141
+sha256: d4a79ee5c730a406ff9d25699e9bf786c7718fc08a719ae86a667a1b35cec350

@@ -1,0 +1,23 @@
+doc_id: TK-732231-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 73.22.31 «Шток гидроцилиндра ГЦ-80/45, L=500»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-28
+effective_from: 2026-05-05
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 73.22.31
+generated_by: tech_cards
+source: corpus/source/production/TK-732231-r1.md
+rendered: corpus/rendered/production/TK-732231-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38367
+sha256: ff95046b6e24ddcda6e59b857d879cc5228959bbbfcc381527ddb03e3aeb38cd

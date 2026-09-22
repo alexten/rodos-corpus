@@ -1,0 +1,26 @@
+doc_id: OTK-REGL-003-r3
+doc_type: qc_regulation
+title: Регламент входного контроля материалов и комплектующих
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 3
+approved_at: 2026-07-14
+effective_from: 2026-08-01
+approved_by: Главный технолог
+supersedes: OTK-REGL-003-r2
+plants:
+- kovrov
+- perm
+- tolyatti
+refs_npa:
+- ГОСТ 24297-2013 Верификация закупленной продукции
+source: corpus/source/production/OTK-REGL-003-r3.md
+rendered: corpus/rendered/production/OTK-REGL-003-r3.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38808
+sha256: 7b8a03e9efe1d666bca870c247886de703cfcd13c2a549087a5d7a16521b129a

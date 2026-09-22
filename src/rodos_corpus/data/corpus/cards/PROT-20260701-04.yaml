@@ -1,0 +1,19 @@
+doc_id: PROT-20260701-04
+doc_type: test_report
+title: Протокол измерений партии детали 73.22.35 от 01.07.2026
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf
+channel: dropdir
+approved_at: 2026-07-01
+approved_by: Начальник ОТК
+part: 73.22.35
+generated_by: test_protocols
+source: corpus/source/production/PROT-20260701-04.md
+rendered: corpus/rendered/production/PROT-20260701-04.pdf
+mime: application/pdf
+bytes: 26895
+sha256: 0e09ad3555d10b4e929b92b243ea29684ed7d17589be4250616cf0200232fec2

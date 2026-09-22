@@ -1,0 +1,23 @@
+doc_id: TK-732233-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 73.22.33 «Поршень гидроцилиндра ГЦ-100/56»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-05-04
+effective_from: 2026-05-11
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 73.22.33
+generated_by: tech_cards
+source: corpus/source/production/TK-732233-r1.md
+rendered: corpus/rendered/production/TK-732233-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38081
+sha256: dd76c1a1f055666bc37a6ab92b3b53655d2e117dbb09f6e6d42940599dae6e02

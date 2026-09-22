@@ -1,0 +1,23 @@
+doc_id: TK-732234-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 73.22.34 «Крышка гидроцилиндра передняя ГЦ-100/56»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-05-07
+effective_from: 2026-05-14
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 73.22.34
+generated_by: tech_cards
+source: corpus/source/production/TK-732234-r1.md
+rendered: corpus/rendered/production/TK-732234-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38152
+sha256: 80a6d7fe2dff81f7beebcddab7f178222a15940fe848f8cb8c7f0bb0a1bf541c

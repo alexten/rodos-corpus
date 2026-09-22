@@ -1,0 +1,24 @@
+doc_id: TK-456796-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 45.67.96 «Вал редуктора Р-125, исполнение 3
+  (удлинённый хвостовик)»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-23
+effective_from: 2026-03-30
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 45.67.96
+generated_by: tech_cards
+source: corpus/source/production/TK-456796-r1.md
+rendered: corpus/rendered/production/TK-456796-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38333
+sha256: 1693cb8cf5d45adb85c1701998224fd0238ebe8f72e59b990f36c45a0212d5bb

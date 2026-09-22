@@ -1,0 +1,21 @@
+doc_id: ПС-ОС-1066
+doc_type: equipment_passport
+title: 'Паспорт и руководство по эксплуатации: Круглошлифовальный станок 3М151'
+org_unit: Служба главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf
+channel: dropdir
+approved_at: &id001 2016-02-11
+effective_from: *id001
+plants:
+- kovrov
+equipment: shl-3m151-06
+generated_by: equipment_passports
+source: corpus/source/production/ПС-ОС-1066.md
+rendered: corpus/rendered/production/ПС-ОС-1066.pdf
+mime: application/pdf
+bytes: 26347
+sha256: bc84fb879d9eb94cde387fa52c3b2320cea78e9267718104963d5339a81265f5

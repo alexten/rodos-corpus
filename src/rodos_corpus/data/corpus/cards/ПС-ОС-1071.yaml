@@ -1,0 +1,21 @@
+doc_id: ПС-ОС-1071
+doc_type: equipment_passport
+title: 'Паспорт и руководство по эксплуатации: Плоскошлифовальный станок 3Е711В'
+org_unit: Служба главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf
+channel: dropdir
+approved_at: &id001 2015-08-07
+effective_from: *id001
+plants:
+- kovrov
+equipment: shl-3e711-07
+generated_by: equipment_passports
+source: corpus/source/production/ПС-ОС-1071.md
+rendered: corpus/rendered/production/ПС-ОС-1071.pdf
+mime: application/pdf
+bytes: 26317
+sha256: b9d237cf434a1a8d47cb4096e92ea5bf98d90153f097f6b087f082f084f34dbb

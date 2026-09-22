@@ -1,0 +1,23 @@
+doc_id: TK-610522-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 61.05.22 «Корпус редуктора Р-200, нижняя часть»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-16
+effective_from: 2026-04-23
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 61.05.22
+generated_by: tech_cards
+source: corpus/source/production/TK-610522-r1.md
+rendered: corpus/rendered/production/TK-610522-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38218
+sha256: 4a457ee2eca8bda560c61447469250d172dae5b382c697a945dd954328503f54

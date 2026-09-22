@@ -1,0 +1,22 @@
+doc_id: SMZ-20260905-CEH-3
+doc_type: shift_task
+title: Сменное задание, Цех №3, термический, 05.09.2026
+org_unit: Цех №3, термический
+spaces:
+- production
+confidentiality: internal
+status: active
+format: xlsx
+channel: dropdir
+approved_at: &id001 2026-09-05
+effective_from: *id001
+effective_to: *id001
+approved_by: Начальник цеха
+plants:
+- perm
+generated_by: shift_tasks
+source: corpus/source/production/SMZ-20260905-CEH-3.table.yaml
+rendered: corpus/rendered/production/SMZ-20260905-CEH-3.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 5605
+sha256: c8feefa1ee7e6279aaafd33ae7783d04da7c6341f7ad0de235d61bc0898c1e1e

@@ -1,0 +1,23 @@
+doc_id: TK-610523-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 61.05.23 «Корпус подшипникового узла конвейера»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-19
+effective_from: 2026-04-26
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 61.05.23
+generated_by: tech_cards
+source: corpus/source/production/TK-610523-r1.md
+rendered: corpus/rendered/production/TK-610523-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38066
+sha256: 9a005e3ec7fb5716b3d44b3a151db272cbfb5e02ff4fb3d2dc6e3406b99afc9c

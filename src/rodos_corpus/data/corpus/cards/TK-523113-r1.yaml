@@ -1,0 +1,23 @@
+doc_id: TK-523113-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 52.31.13 «Колесо зубчатое z=62, m=3»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-04
+effective_from: 2026-04-11
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 52.31.13
+generated_by: tech_cards
+source: corpus/source/production/TK-523113-r1.md
+rendered: corpus/rendered/production/TK-523113-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38139
+sha256: 7bdd35b18d61afa9c1ee205e7d1b2f07fb3a8e7dcf70fc96fdccdc8a972c36c4

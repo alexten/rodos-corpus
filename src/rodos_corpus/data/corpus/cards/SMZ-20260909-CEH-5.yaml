@@ -1,0 +1,22 @@
+doc_id: SMZ-20260909-CEH-5
+doc_type: shift_task
+title: Сменное задание, Цех №5, сборочный, 09.09.2026
+org_unit: Цех №5, сборочный
+spaces:
+- production
+confidentiality: internal
+status: active
+format: xlsx
+channel: dropdir
+approved_at: &id001 2026-09-09
+effective_from: *id001
+effective_to: *id001
+approved_by: Начальник цеха
+plants:
+- tolyatti
+generated_by: shift_tasks
+source: corpus/source/production/SMZ-20260909-CEH-5.table.yaml
+rendered: corpus/rendered/production/SMZ-20260909-CEH-5.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 5593
+sha256: 07cd59ef6f57d3caae2ef71e9f843a6c3a79fa14cfc516536621fb0d864bb7f7

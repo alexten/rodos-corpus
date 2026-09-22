@@ -1,0 +1,19 @@
+doc_id: AKT-BRAK-20260714-04
+doc_type: defect_act
+title: Акт о браке по детали 88.14.51 от 14.07.2026
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-07-14
+approved_by: Начальник ОТК
+part: 88.14.51
+generated_by: defect_acts
+source: corpus/source/production/AKT-BRAK-20260714-04.md
+rendered: corpus/rendered/production/AKT-BRAK-20260714-04.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37393
+sha256: a7c5f80e5665045d2828b803981eb329ffd6d60d82c38c43be30ed29b178fe61

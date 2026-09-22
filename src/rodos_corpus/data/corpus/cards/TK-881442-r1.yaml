@@ -1,0 +1,23 @@
+doc_id: TK-881442-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 88.14.42 «Фланец присоединительный ø160»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-05-19
+effective_from: 2026-05-26
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 88.14.42
+generated_by: tech_cards
+source: corpus/source/production/TK-881442-r1.md
+rendered: corpus/rendered/production/TK-881442-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38142
+sha256: 67fed260c58352248a3e840a1beddbe5240778cd771868a87b02c7fc9a783db6

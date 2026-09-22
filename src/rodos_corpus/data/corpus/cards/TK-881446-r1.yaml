@@ -1,0 +1,23 @@
+doc_id: TK-881446-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 88.14.46 «Стакан подшипниковый ø140»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-05-31
+effective_from: 2026-06-07
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 88.14.46
+generated_by: tech_cards
+source: corpus/source/production/TK-881446-r1.md
+rendered: corpus/rendered/production/TK-881446-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38094
+sha256: 44032daeebdc3959de864d5fddcb497dddf61019151a4900df2065f7ea9c20f2

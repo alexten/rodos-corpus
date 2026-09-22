@@ -1,0 +1,22 @@
+doc_id: SMZ-20260903-CEH-2
+doc_type: shift_task
+title: Сменное задание, Цех №2, шлифовально-доводочный, 03.09.2026
+org_unit: Цех №2, шлифовально-доводочный
+spaces:
+- production
+confidentiality: internal
+status: active
+format: xlsx
+channel: dropdir
+approved_at: &id001 2026-09-03
+effective_from: *id001
+effective_to: *id001
+approved_by: Начальник цеха
+plants:
+- kovrov
+generated_by: shift_tasks
+source: corpus/source/production/SMZ-20260903-CEH-2.table.yaml
+rendered: corpus/rendered/production/SMZ-20260903-CEH-2.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 5620
+sha256: fdb51732cbb41cc45af829fa81b7a905e28f64f596d54f5575d5f869080f2e30

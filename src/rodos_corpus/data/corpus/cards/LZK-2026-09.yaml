@@ -1,0 +1,22 @@
+doc_id: LZK-2026-09
+doc_type: limit_card
+title: Лимитно-заборная карта на сентябрь 2026 года, цех №1
+org_unit: Цех №1, токарно-фрезерный
+spaces:
+- production
+confidentiality: internal
+status: active
+format: xlsx
+channel: dropdir
+approved_at: 2026-08-28
+effective_from: 2026-09-01
+effective_to: 2026-09-30
+approved_by: Начальник цеха
+plants:
+- kovrov
+generated_by: limit_cards
+source: corpus/source/production/LZK-2026-09.table.yaml
+rendered: corpus/rendered/production/LZK-2026-09.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 5866
+sha256: fe4e68068256a3b02a3ec61518ae7d7d11bd7e593dc1ce6de4080ac2a56d8b7b

@@ -1,0 +1,22 @@
+doc_id: ПС-ОС-1203
+doc_type: equipment_passport
+title: 'Паспорт и руководство по эксплуатации: Вертикально-фрезерный обрабатывающий
+  центр Haas VF-2'
+org_unit: Служба главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf
+channel: dropdir
+approved_at: &id001 2021-09-14
+effective_from: *id001
+plants:
+- kovrov
+equipment: frz-vf2-03
+generated_by: equipment_passports
+source: corpus/source/production/ПС-ОС-1203.md
+rendered: corpus/rendered/production/ПС-ОС-1203.pdf
+mime: application/pdf
+bytes: 27625
+sha256: 611dcce56c94981804cbc262cb29b0a7fb0c9b8ed28a5c6dad0ca2c22646bd62

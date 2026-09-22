@@ -1,0 +1,23 @@
+doc_id: TK-881450-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 88.14.50 «Полумуфта упругая ø160»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-06-12
+effective_from: 2026-06-19
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 88.14.50
+generated_by: tech_cards
+source: corpus/source/production/TK-881450-r1.md
+rendered: corpus/rendered/production/TK-881450-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38160
+sha256: e2f6b57d39c61c477c308f6ddd1ee0884dc6a44dec0a48560459a7c86183f795

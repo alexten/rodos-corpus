@@ -1,0 +1,19 @@
+doc_id: PROT-20260622-03
+doc_type: test_report
+title: Протокол измерений партии детали 73.22.30 от 22.06.2026
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf
+channel: dropdir
+approved_at: 2026-06-22
+approved_by: Начальник ОТК
+part: 73.22.30
+generated_by: test_protocols
+source: corpus/source/production/PROT-20260622-03.md
+rendered: corpus/rendered/production/PROT-20260622-03.pdf
+mime: application/pdf
+bytes: 27739
+sha256: bc5e220d0e1658162a50f9c95c510498f2f32304bcbb303ec551c370d9cd36e2

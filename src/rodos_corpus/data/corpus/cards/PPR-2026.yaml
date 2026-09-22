@@ -1,0 +1,20 @@
+doc_id: PPR-2026
+doc_type: maintenance_plan
+title: График планово-предупредительного ремонта оборудования на 2026 год
+org_unit: Служба главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: xlsx
+channel: dropdir
+approved_at: 2025-12-20
+effective_from: 2026-01-01
+effective_to: 2026-12-31
+approved_by: Главный механик
+generated_by: ppr_schedule
+source: corpus/source/production/PPR-2026.table.yaml
+rendered: corpus/rendered/production/PPR-2026.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 6157
+sha256: 4164b051d052b468c2f82bb96355fdad92055797c2172561833fe7806b5b2b93

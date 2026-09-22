@@ -1,0 +1,21 @@
+doc_id: ПС-ОС-1041
+doc_type: equipment_passport
+title: 'Паспорт и руководство по эксплуатации: Токарно-винторезный станок с ЧПУ 16К20Ф3'
+org_unit: Служба главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf
+channel: dropdir
+approved_at: &id001 2014-06-18
+effective_from: *id001
+plants:
+- kovrov
+equipment: tok-16k20-01
+generated_by: equipment_passports
+source: corpus/source/production/ПС-ОС-1041.md
+rendered: corpus/rendered/production/ПС-ОС-1041.pdf
+mime: application/pdf
+bytes: 26806
+sha256: 21e6701c33082b6502ce3ad6b7981d0c8ce600aaea653268f05d327824314ff0

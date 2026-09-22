@@ -1,0 +1,21 @@
+doc_id: ПС-ОС-0812
+doc_type: equipment_passport
+title: 'Паспорт и руководство по эксплуатации: Печь шахтная закалочная СШЗ-6.6/9'
+org_unit: Служба главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf
+channel: dropdir
+approved_at: &id001 2012-04-25
+effective_from: *id001
+plants:
+- perm
+equipment: term-sshz-08
+generated_by: equipment_passports
+source: corpus/source/production/ПС-ОС-0812.md
+rendered: corpus/rendered/production/ПС-ОС-0812.pdf
+mime: application/pdf
+bytes: 26534
+sha256: 69b991978e8a90d4e58fdfd41bec509ebe46d84bedbd4cc0b936a77037424fdd

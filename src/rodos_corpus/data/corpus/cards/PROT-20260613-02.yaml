@@ -1,0 +1,19 @@
+doc_id: PROT-20260613-02
+doc_type: test_report
+title: Протокол измерений партии детали 61.05.22 от 13.06.2026
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf
+channel: dropdir
+approved_at: 2026-06-13
+approved_by: Начальник ОТК
+part: 61.05.22
+generated_by: test_protocols
+source: corpus/source/production/PROT-20260613-02.md
+rendered: corpus/rendered/production/PROT-20260613-02.pdf
+mime: application/pdf
+bytes: 26749
+sha256: 1c281d984f62ad877aa467a113b298f86c6d6a56cf8f7add00d138282365f00c

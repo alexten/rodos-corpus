@@ -1,0 +1,23 @@
+doc_id: TK-732230-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 73.22.30 «Шток гидроцилиндра ГЦ-100/56, L=700»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-25
+effective_from: 2026-05-02
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 73.22.30
+generated_by: tech_cards
+source: corpus/source/production/TK-732230-r1.md
+rendered: corpus/rendered/production/TK-732230-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38368
+sha256: 79f092ca021b7f22903943fc60db602f54ea9f95c2f800b8313125a922788df7

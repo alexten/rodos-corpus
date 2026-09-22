@@ -1,0 +1,23 @@
+doc_id: TK-881443-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 88.14.43 «Кольцо распорное ø80/ø100×15»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-05-22
+effective_from: 2026-05-29
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 88.14.43
+generated_by: tech_cards
+source: corpus/source/production/TK-881443-r1.md
+rendered: corpus/rendered/production/TK-881443-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38035
+sha256: 01966b0641d84ce51d2bd27880d07e9e64825dec418e9206b16880c9ad34c658

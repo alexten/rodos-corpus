@@ -1,0 +1,23 @@
+doc_id: TK-610524-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 61.05.24 «Плита опорная натяжной станции»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-22
+effective_from: 2026-04-29
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 61.05.24
+generated_by: tech_cards
+source: corpus/source/production/TK-610524-r1.md
+rendered: corpus/rendered/production/TK-610524-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38124
+sha256: 47a573234e2284180db0808631a09602d5d0dff04b5bce1a506e7075638d1525

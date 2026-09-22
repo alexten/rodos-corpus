@@ -1,0 +1,23 @@
+doc_id: TK-881441-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 88.14.41 «Втулка скольжения ø65/ø90×80»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-05-16
+effective_from: 2026-05-23
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 88.14.41
+generated_by: tech_cards
+source: corpus/source/production/TK-881441-r1.md
+rendered: corpus/rendered/production/TK-881441-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38043
+sha256: 77ded779d0d62baa1038b4bee8f8d7909568967e2b69c6fd150ce466b4ad5f84

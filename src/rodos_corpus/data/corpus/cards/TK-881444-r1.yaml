@@ -1,0 +1,23 @@
+doc_id: TK-881444-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 88.14.44 «Шпонка призматическая 18×11×80»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-05-25
+effective_from: 2026-06-01
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 88.14.44
+generated_by: tech_cards
+source: corpus/source/production/TK-881444-r1.md
+rendered: corpus/rendered/production/TK-881444-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37980
+sha256: ad8a4f215429d212677055fbfcc457477cf9cf9f33057d08b5a88378f3d3b863

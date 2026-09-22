@@ -1,0 +1,22 @@
+doc_id: ПС-ОС-1155
+doc_type: equipment_passport
+title: 'Паспорт и руководство по эксплуатации: Установка ТВЧ для закалки шеек валов
+  ВЧГ7-60/0,066'
+org_unit: Служба главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf
+channel: dropdir
+approved_at: &id001 2019-10-03
+effective_from: *id001
+plants:
+- perm
+equipment: term-tvch-09
+generated_by: equipment_passports
+source: corpus/source/production/ПС-ОС-1155.md
+rendered: corpus/rendered/production/ПС-ОС-1155.pdf
+mime: application/pdf
+bytes: 26942
+sha256: 129f64ec3d05eda1859fe1496d7105084e66048a3b6729f7790bb28584f6f444

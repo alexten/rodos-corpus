@@ -1,0 +1,23 @@
+doc_id: TK-881449-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 88.14.49 «Шайба стопорная многолапчатая 64»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-06-09
+effective_from: 2026-06-16
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 88.14.49
+generated_by: tech_cards
+source: corpus/source/production/TK-881449-r1.md
+rendered: corpus/rendered/production/TK-881449-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37927
+sha256: d3f183329127c83fd52f439cd78dabc78ecc09498e27a59fa953bc1c31f299c8

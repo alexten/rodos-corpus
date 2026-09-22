@@ -1,0 +1,19 @@
+doc_id: PROT-20260710-05
+doc_type: test_report
+title: Протокол измерений партии детали 88.14.54 от 10.07.2026
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf
+channel: dropdir
+approved_at: 2026-07-10
+approved_by: Начальник ОТК
+part: 88.14.54
+generated_by: test_protocols
+source: corpus/source/production/PROT-20260710-05.md
+rendered: corpus/rendered/production/PROT-20260710-05.pdf
+mime: application/pdf
+bytes: 27171
+sha256: b3cf2f08da5d0e592003120d8ecc56f73392089fe545a51f4b7aca8c05b3bd54

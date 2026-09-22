@@ -1,0 +1,23 @@
+doc_id: TK-610521-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 61.05.21 «Корпус редуктора Р-160, крышка»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-13
+effective_from: 2026-04-20
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 61.05.21
+generated_by: tech_cards
+source: corpus/source/production/TK-610521-r1.md
+rendered: corpus/rendered/production/TK-610521-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38114
+sha256: 311313392632740ba66860379d3e751c0c36cd58a2472aabf24a1c73b52d9c54

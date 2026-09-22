@@ -1,0 +1,23 @@
+doc_id: TK-523110-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 52.31.10 «Шестерня цилиндрическая z=24, m=4»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-26
+effective_from: 2026-04-02
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 52.31.10
+generated_by: tech_cards
+source: corpus/source/production/TK-523110-r1.md
+rendered: corpus/rendered/production/TK-523110-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38307
+sha256: a799ad3bbf1dcd77f2e21a7f888ad386805106d378dfad5a2c215689bdd27198

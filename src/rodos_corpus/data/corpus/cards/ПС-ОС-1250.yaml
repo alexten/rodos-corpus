@@ -1,0 +1,22 @@
+doc_id: ПС-ОС-1250
+doc_type: equipment_passport
+title: 'Паспорт и руководство по эксплуатации: Токарно-фрезерный центр Sinumerik 828D
+  / СТЦ-1730'
+org_unit: Служба главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf
+channel: dropdir
+approved_at: &id001 2023-05-20
+effective_from: *id001
+plants:
+- kovrov
+equipment: cnc-1730-05
+generated_by: equipment_passports
+source: corpus/source/production/ПС-ОС-1250.md
+rendered: corpus/rendered/production/ПС-ОС-1250.pdf
+mime: application/pdf
+bytes: 29146
+sha256: dfa92116737cceb25924bf7a0dcf6d2d42b93f4af46b2a19bb5efa6b4a0784b0

@@ -1,0 +1,24 @@
+doc_id: TK-881445-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 88.14.45 «Крышка подшипникового узла глухая
+  ø120»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-05-28
+effective_from: 2026-06-04
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 88.14.45
+generated_by: tech_cards
+source: corpus/source/production/TK-881445-r1.md
+rendered: corpus/rendered/production/TK-881445-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38088
+sha256: d2faf2ced26f12dbe0e2b8a77f2088b30ca70603115fe683f829a5c1f5b325da

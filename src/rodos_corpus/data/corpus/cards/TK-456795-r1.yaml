@@ -1,0 +1,23 @@
+doc_id: TK-456795-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 45.67.95 «Вал редуктора Р-125, исполнение 2»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-20
+effective_from: 2026-03-27
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 45.67.95
+generated_by: tech_cards
+source: corpus/source/production/TK-456795-r1.md
+rendered: corpus/rendered/production/TK-456795-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38311
+sha256: f2fcb82426053df0a7bb27308ad0f7c3a58019c14b6bd89c72d4a4ee4d85c396

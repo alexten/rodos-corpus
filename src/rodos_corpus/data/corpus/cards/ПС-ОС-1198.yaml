@@ -1,0 +1,22 @@
+doc_id: ПС-ОС-1198
+doc_type: equipment_passport
+title: 'Паспорт и руководство по эксплуатации: Токарный обрабатывающий центр DMG MORI
+  CTX 310 ecoline'
+org_unit: Служба главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf
+channel: dropdir
+approved_at: &id001 2021-03-02
+effective_from: *id001
+plants:
+- kovrov
+equipment: tok-ctx310-02
+generated_by: equipment_passports
+source: corpus/source/production/ПС-ОС-1198.md
+rendered: corpus/rendered/production/ПС-ОС-1198.pdf
+mime: application/pdf
+bytes: 28641
+sha256: c0b53d99f201db6f3b700c5c83a0212c50a9dd27a7d7d6ba68d9e34f398b86e9

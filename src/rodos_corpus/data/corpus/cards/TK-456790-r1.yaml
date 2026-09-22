@@ -1,0 +1,23 @@
+doc_id: TK-456790-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 45.67.90 «Вал промежуточный редуктора Р-160»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-05
+effective_from: 2026-03-12
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 45.67.90
+generated_by: tech_cards
+source: corpus/source/production/TK-456790-r1.md
+rendered: corpus/rendered/production/TK-456790-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38334
+sha256: ae8bf319ed93a0e7195c2504befd9e56b0ff3aec7c0f6516c178486185dd0f1a

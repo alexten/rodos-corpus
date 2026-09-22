@@ -1,0 +1,23 @@
+doc_id: TK-523112-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 52.31.12 «Шестерня коническая z=18, m=5»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-01
+effective_from: 2026-04-08
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 52.31.12
+generated_by: tech_cards
+source: corpus/source/production/TK-523112-r1.md
+rendered: corpus/rendered/production/TK-523112-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38177
+sha256: 2e50b6cca7d853019f1165f5a067a65c695070623d70d122433c4d3b9c4f11fe

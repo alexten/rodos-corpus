@@ -1,0 +1,23 @@
+doc_id: TK-456789-r1
+doc_type: tech_card
+title: Технологическая карта на деталь 45.67.89 «Вал выходной редуктора Р-160»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-02
+effective_from: 2026-03-09
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 45.67.89
+generated_by: tech_cards
+source: corpus/source/production/TK-456789-r1.md
+rendered: corpus/rendered/production/TK-456789-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38349
+sha256: 2a6e4c4c43a01ce34050795063d0c42e65d6ecfcaf105f5277536fc7db6ca5cc

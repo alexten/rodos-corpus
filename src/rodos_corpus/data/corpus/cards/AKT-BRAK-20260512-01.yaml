@@ -1,0 +1,19 @@
+doc_id: AKT-BRAK-20260512-01
+doc_type: defect_act
+title: Акт о браке по детали 45.67.89 от 12.05.2026
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-05-12
+approved_by: Начальник ОТК
+part: 45.67.89
+generated_by: defect_acts
+source: corpus/source/production/AKT-BRAK-20260512-01.md
+rendered: corpus/rendered/production/AKT-BRAK-20260512-01.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37431
+sha256: 5019e55a5a6121078df82a8b2ae87aed50d38930ce7a5a996ea7712bdca30532

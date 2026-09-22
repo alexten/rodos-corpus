@@ -1,0 +1,22 @@
+doc_id: SMZ-20260907-CEH-4
+doc_type: shift_task
+title: Сменное задание, Цех №4, гальванический, 07.09.2026
+org_unit: Цех №4, гальванический
+spaces:
+- production
+confidentiality: internal
+status: active
+format: xlsx
+channel: dropdir
+approved_at: &id001 2026-09-07
+effective_from: *id001
+effective_to: *id001
+approved_by: Начальник цеха
+plants:
+- perm
+generated_by: shift_tasks
+source: corpus/source/production/SMZ-20260907-CEH-4.table.yaml
+rendered: corpus/rendered/production/SMZ-20260907-CEH-4.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 5614
+sha256: a299d02f2e7c99e17e40e3d28dd2c041815a20c7140fd3a4c4b0f7e745dfe59a
