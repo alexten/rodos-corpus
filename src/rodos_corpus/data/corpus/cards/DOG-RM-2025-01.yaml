@@ -21,5 +21,5 @@ valid_until: 2026-12-31
 source: corpus/source/finance/DOG-RM-2025-01.md
 rendered: corpus/rendered/finance/DOG-RM-2025-01.pdf
 mime: application/pdf
-bytes: 35503
-sha256: 7b87f83db5fef7f3ccd9164744dddfd49be4fee299a9cff36637db50b0e944b9
+bytes: 35497
+sha256: 04d483ad10c6ea6eb17f2324affdef155f952399a0066a3bfd65cd1636265d1c

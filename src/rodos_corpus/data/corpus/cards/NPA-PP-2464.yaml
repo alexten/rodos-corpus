@@ -17,5 +17,5 @@ npa_requisites: Постановление Правительства РФ от 
 source: corpus/source/common/NPA-PP-2464.md
 rendered: corpus/rendered/common/NPA-PP-2464.pdf
 mime: application/pdf
-bytes: 108489
-sha256: a9e0535d712a1f69e45703711a05ce8a637a74ca15d73cb30b92ddf67f19a839
+bytes: 108483
+sha256: 57f83fdb88fea18bddd8617823232cce52c9ce9f8e4071d47969e229b476ac33

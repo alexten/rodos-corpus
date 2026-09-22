@@ -18,5 +18,5 @@ npa_requisites: Приказ Минтруда России от 16.11.2020 № 7
 source: corpus/source/common/NPA-MINTRUD-782N.md
 rendered: corpus/rendered/common/NPA-MINTRUD-782N.pdf
 mime: application/pdf
-bytes: 152829
-sha256: 03b7874b8ab685a0a3231bece5ef68e0ec256c3b149b75eb6fbeffd2ab61f37c
+bytes: 152823
+sha256: db029a8e4b97a02cbab71dc21ef21e72d45bd22337c09a894d7712da63b99ec6

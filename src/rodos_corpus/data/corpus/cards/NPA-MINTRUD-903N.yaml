@@ -18,5 +18,5 @@ npa_requisites: Приказ Минтруда России от 15.12.2020 № 9
 source: corpus/source/common/NPA-MINTRUD-903N.md
 rendered: corpus/rendered/common/NPA-MINTRUD-903N.pdf
 mime: application/pdf
-bytes: 214925
-sha256: 10f46efbadb7aba6f7c0993979d1b930aaf7aa307cbd139a718a6d18cb808dee
+bytes: 214919
+sha256: d554fdea1bf54d597d4221abde426f8ec9b61e5c0892a777258e6f08090169b9

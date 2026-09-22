@@ -13,7 +13,7 @@ from __future__ import annotations
 import hashlib
 import random
 import re
-from datetime import date, datetime
+from datetime import UTC, date, datetime
 from email.message import EmailMessage
 from email.utils import format_datetime
 from functools import partial
@@ -45,6 +45,11 @@ SEPARATOR_ROW = re.compile(r"^[\s|:-]+$")
 # библиотеки норовят взять из системных часов — метаданные документа и отметки времени внутри zip, —
 # фиксируется на «сегодня» корпуса.
 BUILD_TIME = datetime(2026, 9, 22, 12, 0, 0)
+# То же время, но с явной зоной. Наивную дату fpdf дополняет зоной машины, и в PDF попадает
+# «D:20260922120000-07'00'» на одной машине и «…Z» на другой: файл меняется от часового пояса
+# сборщика. Разница ровно в длине смещения, поэтому она и не ловилась ничем, кроме побайтовой
+# сверки в CI (ADR-0011).
+BUILD_TIME_UTC = BUILD_TIME.replace(tzinfo=UTC)
 ZIP_TIME = (BUILD_TIME.year, BUILD_TIME.month, BUILD_TIME.day, BUILD_TIME.hour, BUILD_TIME.minute,
             BUILD_TIME.second)
 AUTHOR = "ГК «Родос-Деталь»"
@@ -188,7 +193,7 @@ def render_pdf(doc: SourceDoc, target: Path) -> None:
     from fpdf.enums import XPos, YPos
 
     pdf = FPDF(format="A4")
-    pdf.set_creation_date(BUILD_TIME)
+    pdf.set_creation_date(BUILD_TIME_UTC)
     pdf.set_author(AUTHOR)
     # fpdf после multi_cell оставляет курсор справа; всё, что пишем, начинается от левого поля.
     cell = partial(pdf.multi_cell, new_x=XPos.LMARGIN, new_y=YPos.NEXT)
@@ -339,7 +344,7 @@ def render_pdf_scan(doc: SourceDoc, target: Path) -> None:
     raster = target.with_suffix(".scan.png")
     page.save(raster, format="PNG")
     pdf = FPDF(format="A4")
-    pdf.set_creation_date(BUILD_TIME)
+    pdf.set_creation_date(BUILD_TIME_UTC)
     pdf.set_author(AUTHOR)
     pdf.set_auto_page_break(auto=False)
     pdf.add_page()

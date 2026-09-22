@@ -18,5 +18,5 @@ generated_by: scans
 source: corpus/source/production/SKAN-AKT-VVOD-1066.md
 rendered: corpus/rendered/production/SKAN-AKT-VVOD-1066.pdf
 mime: application/pdf
-bytes: 554973
-sha256: 34c26cc290d76b3bdc70ce7dcec143f3599707d1f29dbd9c14f79b6e45cc9c8d
+bytes: 554967
+sha256: 838b92e4ca52ed8047671df7d3821defa0499f644c6549c2a2ea3a77c63ac206

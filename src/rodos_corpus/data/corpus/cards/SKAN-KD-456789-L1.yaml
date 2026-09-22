@@ -18,5 +18,5 @@ generated_by: scans
 source: corpus/source/production/SKAN-KD-456789-L1.md
 rendered: corpus/rendered/production/SKAN-KD-456789-L1.pdf
 mime: application/pdf
-bytes: 550592
-sha256: 462520ceeba5aa2b030e93a8dd640e485e25ccccd2de784abbc3f0a27576b6b4
+bytes: 550586
+sha256: 27d9b2231447636950684ffcfde0d523541c3aaa61e888fcb052de2785901f24

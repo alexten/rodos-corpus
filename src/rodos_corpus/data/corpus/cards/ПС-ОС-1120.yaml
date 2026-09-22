@@ -18,5 +18,5 @@ generated_by: equipment_passports
 source: corpus/source/production/ПС-ОС-1120.md
 rendered: corpus/rendered/production/ПС-ОС-1120.pdf
 mime: application/pdf
-bytes: 26291
-sha256: 0f5d78f96d1cc08f89d9e5b24946d992d7e3d4337ac197a80cf1c4448bb34b91
+bytes: 26285
+sha256: 17151841481afcf82bddbdd1abb7d64c1333c97a7c5ab127070227504ea4a824

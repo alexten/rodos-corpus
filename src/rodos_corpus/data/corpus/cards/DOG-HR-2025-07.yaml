@@ -20,5 +20,5 @@ valid_until: 2026-12-31
 source: corpus/source/finance/DOG-HR-2025-07.md
 rendered: corpus/rendered/finance/DOG-HR-2025-07.pdf
 mime: application/pdf
-bytes: 34491
-sha256: 49eac6fc45a115f915b384e8eded0c3d5e841c373679984ccae6097c88281296
+bytes: 34485
+sha256: 40b7d859f6559e4522da48bfa35f8aa881d693d1d28d8dcd719cb31750896c08
