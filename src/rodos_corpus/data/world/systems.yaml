@@ -1,0 +1,59 @@
+# ИТ-системы предприятия: владелец, роли доступа, что хранится. Используется в реестрах и регламентах ИТ.
+- key: erp_1c
+  name: "1С:ERP Управление предприятием"
+  owner_role: rukovoditel_it
+  business_owner_role: fin_direktor
+  access_roles: [glavbuh, buhgalter_rascheti, kaznachey, nachalnik_snabzheniya, nachalnik_sklada, tehnolog, menedzher_prodazh]
+  data: "номенклатура, заказы, производственные заказы, склад, закупки"
+  critical: true
+- key: buh_1c
+  name: "1С:Бухгалтерия предприятия"
+  owner_role: rukovoditel_it
+  business_owner_role: glavbuh
+  access_roles: [glavbuh, buhgalter_rascheti]
+  data: "регламентированный учёт, отчётность"
+  critical: true
+- key: edo_diadoc
+  name: "ЭДО (Диадок)"
+  owner_role: sistemny_administrator
+  business_owner_role: glavbuh
+  access_roles: [glavbuh, buhgalter_rascheti, menedzher_prodazh]
+  data: "УПД, счета-фактуры, акты, подписанные договоры"
+  critical: true
+- key: mail_exchange
+  name: "Корпоративная почта (Exchange)"
+  owner_role: sistemny_administrator
+  access_roles: ["все сотрудники с учётной записью"]
+  data: "переписка, общие ящики zakaz@, reklamacii@, snab@"
+- key: file_server
+  name: "Файловый сервер \\\\rodos-fs"
+  owner_role: sistemny_administrator
+  access_roles: ["по группам подразделений"]
+  data: "регламенты, шаблоны, обменные папки, каталог ВходДляАссистента"
+- key: vpn
+  name: "Удалённый доступ (OpenVPN)"
+  owner_role: sistemny_administrator
+  access_roles: [rukovoditel_it, sistemny_administrator, menedzher_prodazh, fin_direktor]
+  data: "доступ в сеть предприятия извне"
+  critical: true
+- key: bitrix24
+  name: "Bitrix24"
+  owner_role: rukovoditel_it
+  business_owner_role: kom_direktor
+  access_roles: [kom_direktor, menedzher_prodazh, inzhener_prodazh]
+  data: "сделки, контакты, переписка с клиентами"
+- key: skud
+  name: "СКУД (система контроля доступа)"
+  owner_role: sistemny_administrator
+  access_roles: [nachalnik_ceha, inzhener_ot]
+  data: "пропуска, проходы по площадкам"
+- key: helpdesk
+  name: "Служба поддержки (заявки)"
+  owner_role: rukovoditel_it
+  access_roles: ["все сотрудники"]
+  data: "заявки, инциденты, SLA"
+- key: kip_lab
+  name: "Лабораторная система КИП и измерений"
+  owner_role: nachalnik_otk
+  access_roles: [nachalnik_otk, kontroler_otk]
+  data: "протоколы измерений, поверки средств измерений"

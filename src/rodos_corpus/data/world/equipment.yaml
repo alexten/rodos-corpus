@@ -1,0 +1,123 @@
+# Оборудование. Инвентарные номера и даты ввода фиктивны, модели станков — общеизвестные обозначения.
+- key: tok-16k20-01
+  inventory_no: "ОС-1041"
+  model: "16К20Ф3"
+  name: "Токарно-винторезный станок с ЧПУ"
+  workshop: ceh-1
+  commissioned: 2014-06-18
+  maintenance_interval_days: 90
+  passport_doc: "ПС-ОС-1041"
+  notes: "изношена задняя бабка, ремонт запланирован на 2026 год"
+
+- key: tok-ctx310-02
+  inventory_no: "ОС-1198"
+  model: "DMG MORI CTX 310 ecoline"
+  name: "Токарный обрабатывающий центр"
+  workshop: ceh-1
+  commissioned: 2021-03-02
+  maintenance_interval_days: 60
+  passport_doc: "ПС-ОС-1198"
+  notes: "основной станок по валам 45.67.xx"
+
+- key: frz-vf2-03
+  inventory_no: "ОС-1203"
+  model: "Haas VF-2"
+  name: "Вертикально-фрезерный обрабатывающий центр"
+  workshop: ceh-1
+  commissioned: 2021-09-14
+  maintenance_interval_days: 60
+  passport_doc: "ПС-ОС-1203"
+
+- key: frz-6r13-04
+  inventory_no: "ОС-0987"
+  model: "6Р13"
+  name: "Вертикально-фрезерный станок"
+  workshop: ceh-1
+  commissioned: 2009-11-30
+  maintenance_interval_days: 120
+  passport_doc: "ПС-ОС-0987"
+
+- key: cnc-1730-05
+  inventory_no: "ОС-1250"
+  model: "Sinumerik 828D / СТЦ-1730"
+  name: "Токарно-фрезерный центр"
+  workshop: ceh-1
+  commissioned: 2023-05-20
+  maintenance_interval_days: 60
+  passport_doc: "ПС-ОС-1250"
+
+- key: shl-3m151-06
+  inventory_no: "ОС-1066"
+  model: "3М151"
+  name: "Круглошлифовальный станок"
+  workshop: ceh-2
+  commissioned: 2016-02-11
+  maintenance_interval_days: 90
+  passport_doc: "ПС-ОС-1066"
+  notes: "критичен для допуска по биению 0,03 мм"
+
+- key: shl-3e711-07
+  inventory_no: "ОС-1071"
+  model: "3Е711В"
+  name: "Плоскошлифовальный станок"
+  workshop: ceh-2
+  commissioned: 2015-08-07
+  maintenance_interval_days: 90
+  passport_doc: "ПС-ОС-1071"
+
+- key: term-sshz-08
+  inventory_no: "ОС-0812"
+  model: "СШЗ-6.6/9"
+  name: "Печь шахтная закалочная"
+  workshop: ceh-3
+  commissioned: 2012-04-25
+  maintenance_interval_days: 45
+  passport_doc: "ПС-ОС-0812"
+  notes: "остановка печи согласуется с главным энергетиком"
+
+- key: term-tvch-09
+  inventory_no: "ОС-1155"
+  model: "ВЧГ7-60/0,066"
+  name: "Установка ТВЧ для закалки шеек валов"
+  workshop: ceh-3
+  commissioned: 2019-10-03
+  maintenance_interval_days: 45
+  passport_doc: "ПС-ОС-1155"
+
+- key: galv-ag40-10
+  inventory_no: "ОС-0903"
+  model: "АГ-40"
+  name: "Линия цинкования, автооператорная"
+  workshop: ceh-4
+  commissioned: 2013-07-19
+  maintenance_interval_days: 30
+  passport_doc: "ПС-ОС-0903"
+  notes: "опасный производственный объект, отдельный регламент обслуживания ванн"
+
+- key: galv-ag25-11
+  inventory_no: "ОС-0911"
+  model: "АГ-25Х"
+  name: "Линия хромирования"
+  workshop: ceh-4
+  commissioned: 2013-09-05
+  maintenance_interval_days: 30
+  passport_doc: "ПС-ОС-0911"
+
+- key: press-p6330-12
+  inventory_no: "ОС-1120"
+  model: "П-6330"
+  name: "Пресс гидравлический для запрессовки подшипников"
+  workshop: ceh-5
+  commissioned: 2018-01-22
+  maintenance_interval_days: 90
+  passport_doc: "ПС-ОС-1120"
+
+- key: stend-gc-13
+  inventory_no: "ОС-1231"
+  model: "СИ-ГЦ-250"
+  name: "Стенд испытаний гидроцилиндров"
+  workshop: ceh-5
+  commissioned: 2022-06-15
+  maintenance_interval_days: 60
+  passport_doc: "ПС-ОС-1231"
+  notes: "испытания до 250 бар, протокол на каждую партию"

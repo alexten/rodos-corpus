@@ -1,0 +1,85 @@
+# Материалы, инструмент и расходники. Нормы расхода — на одну деталь, если не указано иное.
+steels:
+  - key: st40h
+    grade: "Сталь 40Х ГОСТ 4543-2016"
+    form: "круг горячекатаный"
+    sizes: ["ø45", "ø60", "ø80", "ø110"]
+    supplier: prikamye_prokat
+    used_for: "валы, штоки, шестерни"
+  - key: st45
+    grade: "Сталь 45 ГОСТ 1050-2013"
+    form: "круг, поковка"
+    sizes: ["ø50", "ø75", "ø120"]
+    supplier: prikamye_prokat
+    used_for: "валы неответственные, втулки"
+  - key: st20h13
+    grade: "Сталь 20Х13 ГОСТ 5632-2014"
+    form: "круг"
+    sizes: ["ø40", "ø65"]
+    supplier: uralmetsnab
+    used_for: "штоки для агрессивных сред"
+  - key: st38hs
+    grade: "Сталь 38ХС ГОСТ 4543-2016"
+    form: "поковка"
+    sizes: ["ø90", "ø140"]
+    supplier: uralmetsnab
+    used_for: "шестерни ответственные"
+  - key: sch20
+    grade: "Чугун СЧ20 ГОСТ 1412-85"
+    form: "отливка"
+    sizes: ["корпус Р-160", "корпус Р-200"]
+    supplier: litejnyj_dvor
+    used_for: "корпусные детали"
+  - key: brazh
+    grade: "Бронза БрАЖ9-4 ГОСТ 18175-78"
+    form: "втулка литая"
+    sizes: ["ø50/ø70", "ø65/ø90"]
+    supplier: cvetmet_torg
+    used_for: "втулки скольжения"
+
+tooling:
+  - key: plate_cnmg
+    name: "Пластина сменная CNMG 120408"
+    unit: "шт."
+    norm_per_part: 0.08
+    supplier: instrument_servis
+  - key: mill_face_63
+    name: "Фреза торцевая ø63, 5 зубьев"
+    unit: "шт."
+    norm_per_part: 0.02
+    supplier: instrument_servis
+  - key: drill_12
+    name: "Сверло ø12 Р6М5"
+    unit: "шт."
+    norm_per_part: 0.05
+    supplier: instrument_servis
+  - key: wheel_600
+    name: "Круг шлифовальный 600×63×305 25А"
+    unit: "шт."
+    norm_per_part: 0.01
+    supplier: abraziv_center
+
+consumables:
+  - key: sozh_et2
+    name: "СОЖ полусинтетическая ЭТ-2, концентрат"
+    unit: "л"
+    norm_per_part: 0.12
+    concentration: "5–7 % рабочего раствора"
+    supplier: himresurs
+    note: "замена раствора в баке — раз в 60 суток или по результатам контроля"
+  - key: zinc_anode
+    name: "Анод цинковый Ц1"
+    unit: "кг"
+    norm_per_part: 0.04
+    supplier: himresurs
+  - key: chrome_anhydride
+    name: "Ангидрид хромовый технический"
+    unit: "кг"
+    norm_per_part: 0.02
+    supplier: himresurs
+    note: "вещество 1 класса опасности, учёт поштучный, доступ по наряду"
+  - key: preserv_oil
+    name: "Масло консервационное К-17"
+    unit: "л"
+    norm_per_part: 0.05
+    supplier: gsm_povolzhje

@@ -1,0 +1,182 @@
+# Вымышленные сотрудники. ФИО сгенерированы, любые совпадения случайны.
+# Используются только для подписей в документах; персональные данные в систему не попадают.
+- key: p01
+  fio: Чистяков Ю. И.
+  full_name: Чистяков Юрий Иванович
+  role: gen_direktor
+  email: y.chistyakov@rodos-detal.example.com
+  phone: +7 (495) 000-00-10
+- key: p02
+  fio: Ушакова И. Н.
+  full_name: Ушакова Ирина Николаевна
+  role: fin_direktor
+  email: i.ushakova@rodos-detal.example.com
+  phone: +7 (495) 000-00-11
+- key: p03
+  fio: Лапшин Н. С.
+  full_name: Лапшин Николай Сергеевич
+  role: glavbuh
+  email: n.lapshin@rodos-detal.example.com
+  phone: +7 (495) 000-00-12
+- key: p04
+  fio: Рыбаков Ю. А.
+  full_name: Рыбаков Юрий Андреевич
+  role: buhgalter_rascheti
+  email: y.rybakov@rodos-detal.example.com
+  phone: +7 (495) 000-00-13
+- key: p05
+  fio: Зуева О. С.
+  full_name: Зуева Ольга Сергеевна
+  role: kaznachey
+  email: o.zueva@rodos-detal.example.com
+  phone: +7 (495) 000-00-14
+- key: p06
+  fio: Ежов А. Д.
+  full_name: Ежов Андрей Дмитриевич
+  role: kom_direktor
+  email: a.ezhov@rodos-detal.example.com
+  phone: +7 (495) 000-00-15
+- key: p07
+  fio: Сазонов Н. Ю.
+  full_name: Сазонов Николай Юрьевич
+  role: menedzher_prodazh
+  email: n.sazonov@rodos-detal.example.com
+  phone: +7 (495) 000-00-16
+- key: p08
+  fio: Цветкова М. П.
+  full_name: Цветкова Марина Петровна
+  role: inzhener_prodazh
+  email: m.cvetkova@rodos-detal.example.com
+  phone: +7 (495) 000-00-17
+- key: p09
+  fio: Ковригин С. А.
+  full_name: Ковригин Сергей Андреевич
+  role: glavny_tehnolog
+  email: s.kovrigin@rodos-detal.example.com
+  phone: +7 (495) 000-00-18
+- key: p10
+  fio: Нестеров О. В.
+  full_name: Нестеров Олег Викторович
+  role: tehnolog
+  email: o.nesterov@rodos-detal.example.com
+  phone: +7 (495) 000-00-19
+- key: p11
+  fio: Мельникова Т. И.
+  full_name: Мельникова Татьяна Ивановна
+  role: nachalnik_ceha
+  email: t.melnikova@rodos-detal.example.com
+  phone: +7 (495) 000-00-20
+- key: p12
+  fio: Юдин А. И.
+  full_name: Юдин Алексей Иванович
+  role: master_uchastka
+  email: a.yudin@rodos-detal.example.com
+  phone: +7 (495) 000-00-21
+- key: p13
+  fio: Лукьянов И. В.
+  full_name: Лукьянов Игорь Викторович
+  role: nachalnik_otk
+  email: i.lukyanov@rodos-detal.example.com
+  phone: +7 (495) 000-00-22
+- key: p14
+  fio: Кабанова Е. И.
+  full_name: Кабанова Екатерина Ивановна
+  role: kontroler_otk
+  email: e.kabanova@rodos-detal.example.com
+  phone: +7 (495) 000-00-23
+- key: p15
+  fio: Овчинников И. П.
+  full_name: Овчинников Игорь Петрович
+  role: glavny_mehanik
+  email: i.ovchinnikov@rodos-detal.example.com
+  phone: +7 (495) 000-00-24
+- key: p16
+  fio: Тарасенко П. В.
+  full_name: Тарасенко Павел Викторович
+  role: nachalnik_snabzheniya
+  email: p.tarasenko@rodos-detal.example.com
+  phone: +7 (495) 000-00-25
+- key: p17
+  fio: Шилова Л. Н.
+  full_name: Шилова Людмила Николаевна
+  role: rukovoditel_it
+  email: l.shilova@rodos-detal.example.com
+  phone: +7 (495) 000-00-26
+- key: p18
+  fio: Верещагин А. А.
+  full_name: Верещагин Андрей Алексеевич
+  role: sistemny_administrator
+  email: a.vereschagin@rodos-detal.example.com
+  phone: +7 (495) 000-00-27
+- key: p19
+  fio: Некрасов К. А.
+  full_name: Некрасов Константин Андреевич
+  role: inzhener_ot
+  email: k.nekrasov@rodos-detal.example.com
+  phone: +7 (495) 000-00-28
+- key: p20
+  fio: Хабарова Н. С.
+  full_name: Хабарова Наталья Сергеевна
+  role: nachalnik_sklada
+  email: n.habarova@rodos-detal.example.com
+  phone: +7 (495) 000-00-29
+- key: p21
+  fio: Гурьев Д. А.
+  full_name: Гурьев Дмитрий Андреевич
+  role: gen_direktor
+  email: d.gurev@rodos-detal.example.com
+  phone: +7 (495) 000-00-30
+- key: p22
+  fio: Морозов М. Н.
+  full_name: Морозов Максим Николаевич
+  role: fin_direktor
+  email: m.morozov@rodos-detal.example.com
+  phone: +7 (495) 000-00-31
+- key: p23
+  fio: Бахтина О. П.
+  full_name: Бахтина Ольга Петровна
+  role: glavbuh
+  email: o.bahtina@rodos-detal.example.com
+  phone: +7 (495) 000-00-32
+- key: p24
+  fio: Фомин М. В.
+  full_name: Фомин Максим Викторович
+  role: buhgalter_rascheti
+  email: m.fomin@rodos-detal.example.com
+  phone: +7 (495) 000-00-33
+- key: p25
+  fio: Дёмин И. Б.
+  full_name: Дёмин Игорь Борисович
+  role: kaznachey
+  email: i.demin@rodos-detal.example.com
+  phone: +7 (495) 000-00-34
+- key: p26
+  fio: Панкратова Ю. Б.
+  full_name: Панкратова Юлия Борисовна
+  role: kom_direktor
+  email: y.pankratova@rodos-detal.example.com
+  phone: +7 (495) 000-00-35
+- key: p27
+  fio: Пестов П. С.
+  full_name: Пестов Павел Сергеевич
+  role: menedzher_prodazh
+  email: p.pestov@rodos-detal.example.com
+  phone: +7 (495) 000-00-36
+- key: p28
+  fio: Щербаков А. И.
+  full_name: Щербаков Артём Иванович
+  role: inzhener_prodazh
+  email: a.scherbakov@rodos-detal.example.com
+  phone: +7 (495) 000-00-37
+- key: p29
+  fio: Ярцева Ю. Н.
+  full_name: Ярцева Юлия Николаевна
+  role: glavny_tehnolog
+  email: y.yarceva@rodos-detal.example.com
+  phone: +7 (495) 000-00-38
+- key: p30
+  fio: Осипов П. Д.
+  full_name: Осипов Павел Дмитриевич
+  role: tehnolog
+  email: p.osipov@rodos-detal.example.com
+  phone: +7 (495) 000-00-39

@@ -1,0 +1,407 @@
+# Детали и узлы. Чертёжные номера вымышлены. Операции ссылаются на equipment.yaml, материалы — на materials.yaml.
+# Группы номеров: 45.67.xx валы · 52.31.xx шестерни · 61.05.xx корпусные · 73.22.xx гидроцилиндры · 88.14.xx прочее.
+
+- drawing_no: "45.67.89"
+  name: "Вал выходной редуктора Р-160"
+  material: st40h
+  blank: "круг ø80, L=420"
+  site: kovrov
+  route: [015 токарная, 025 фрезерная (шпоночный паз), 040 термообработка ТВЧ, 055 круглошлифовальная, 070 контроль ОТК]
+  equipment: [tok-ctx310-02, frz-vf2-03, term-tvch-09, shl-3m151-06]
+  tolerances: { runout_mm: 0.03, surface_ra: 1.25, hardness_hrc: "45…50", diameter_field: "ø60 k6" }
+  customers: [redmash, privod_nn]
+  weight_kg: 11.4
+- drawing_no: "45.67.90"
+  name: "Вал промежуточный редуктора Р-160"
+  material: st40h
+  blank: "круг ø60, L=310"
+  site: kovrov
+  route: [015 токарная, 025 фрезерная, 040 термообработка ТВЧ, 055 круглошлифовальная, 070 контроль ОТК]
+  equipment: [tok-ctx310-02, frz-vf2-03, term-tvch-09, shl-3m151-06]
+  tolerances: { runout_mm: 0.025, surface_ra: 1.25, hardness_hrc: "45…50", diameter_field: "ø45 k6" }
+  customers: [redmash]
+  weight_kg: 6.8
+- drawing_no: "45.67.91"
+  name: "Вал быстроходный редуктора Р-200"
+  material: st38hs
+  blank: "поковка ø90, L=520"
+  site: kovrov
+  route: [010 подготовительная, 015 токарная, 030 зубофрезерная, 040 термообработка печная, 055 круглошлифовальная, 070 контроль ОТК]
+  equipment: [tok-ctx310-02, frz-6r13-04, term-sshz-08, shl-3m151-06]
+  tolerances: { runout_mm: 0.02, surface_ra: 0.8, hardness_hrc: "52…56", diameter_field: "ø70 m6" }
+  customers: [redmash, konveyer_systems]
+  weight_kg: 19.2
+- drawing_no: "45.67.92"
+  name: "Вал тихоходный редуктора Р-200"
+  material: st38hs
+  blank: "поковка ø140, L=610"
+  site: kovrov
+  route: [010 подготовительная, 015 токарная, 025 фрезерная, 040 термообработка печная, 055 круглошлифовальная, 070 контроль ОТК]
+  equipment: [cnc-1730-05, frz-vf2-03, term-sshz-08, shl-3m151-06]
+  tolerances: { runout_mm: 0.03, surface_ra: 1.25, hardness_hrc: "50…54", diameter_field: "ø110 k6" }
+  customers: [redmash]
+  weight_kg: 41.5
+- drawing_no: "45.67.93"
+  name: "Вал-шестерня привода конвейера"
+  material: st40h
+  blank: "круг ø75, L=480"
+  site: kovrov
+  route: [015 токарная, 030 зубофрезерная, 040 термообработка ТВЧ, 055 круглошлифовальная, 070 контроль ОТК]
+  equipment: [tok-16k20-01, frz-6r13-04, term-tvch-09, shl-3m151-06]
+  tolerances: { runout_mm: 0.04, surface_ra: 1.6, hardness_hrc: "45…50" }
+  customers: [konveyer_systems]
+  weight_kg: 14.1
+- drawing_no: "45.67.94"
+  name: "Вал натяжной станции"
+  material: st45
+  blank: "круг ø50, L=350"
+  site: kovrov
+  route: [015 токарная, 025 фрезерная, 070 контроль ОТК]
+  equipment: [tok-16k20-01, frz-6r13-04]
+  tolerances: { runout_mm: 0.06, surface_ra: 2.5 }
+  customers: [konveyer_systems, remservis_ural]
+  weight_kg: 5.2
+- drawing_no: "45.67.95"
+  name: "Вал редуктора Р-125, исполнение 2"
+  material: st40h
+  blank: "круг ø60, L=280"
+  site: kovrov
+  route: [015 токарная, 025 фрезерная, 040 термообработка ТВЧ, 055 круглошлифовальная, 070 контроль ОТК]
+  equipment: [tok-ctx310-02, frz-vf2-03, term-tvch-09, shl-3m151-06]
+  tolerances: { runout_mm: 0.03, surface_ra: 1.25, hardness_hrc: "45…50" }
+  customers: [privod_nn, dealer_agroteh]
+  weight_kg: 5.9
+- drawing_no: "45.67.96"
+  name: "Вал редуктора Р-125, исполнение 3 (удлинённый хвостовик)"
+  material: st40h
+  blank: "круг ø60, L=340"
+  site: kovrov
+  route: [015 токарная, 025 фрезерная, 040 термообработка ТВЧ, 055 круглошлифовальная, 070 контроль ОТК]
+  equipment: [tok-ctx310-02, frz-vf2-03, term-tvch-09, shl-3m151-06]
+  tolerances: { runout_mm: 0.03, surface_ra: 1.25, hardness_hrc: "45…50" }
+  customers: [privod_nn]
+  weight_kg: 7.0
+  note: "отличается от 45.67.95 только длиной хвостовика — частый источник путаницы в цехе"
+- drawing_no: "52.31.10"
+  name: "Шестерня цилиндрическая z=24, m=4"
+  material: st38hs
+  blank: "поковка ø120"
+  site: kovrov
+  route: [015 токарная, 030 зубофрезерная, 035 шевингование, 040 термообработка печная, 070 контроль ОТК]
+  equipment: [tok-ctx310-02, frz-6r13-04, term-sshz-08]
+  tolerances: { gear_grade: "7-C ГОСТ 1643-81", hardness_hrc: "52…56", surface_ra: 1.25 }
+  customers: [redmash]
+  weight_kg: 8.3
+- drawing_no: "52.31.11"
+  name: "Шестерня цилиндрическая z=38, m=4"
+  material: st38hs
+  blank: "поковка ø170"
+  site: kovrov
+  route: [015 токарная, 030 зубофрезерная, 035 шевингование, 040 термообработка печная, 070 контроль ОТК]
+  equipment: [cnc-1730-05, frz-6r13-04, term-sshz-08]
+  tolerances: { gear_grade: "7-C ГОСТ 1643-81", hardness_hrc: "52…56", surface_ra: 1.25 }
+  customers: [redmash]
+  weight_kg: 14.7
+- drawing_no: "52.31.12"
+  name: "Шестерня коническая z=18, m=5"
+  material: st38hs
+  blank: "поковка ø110"
+  site: kovrov
+  route: [015 токарная, 032 зубострогальная, 040 термообработка печная, 070 контроль ОТК]
+  equipment: [tok-ctx310-02, term-sshz-08]
+  tolerances: { gear_grade: "8-C ГОСТ 1758-81", hardness_hrc: "50…54" }
+  customers: [konveyer_systems]
+  weight_kg: 9.1
+- drawing_no: "52.31.13"
+  name: "Колесо зубчатое z=62, m=3"
+  material: st45
+  blank: "поковка ø200"
+  site: kovrov
+  route: [015 токарная, 030 зубофрезерная, 070 контроль ОТК]
+  equipment: [cnc-1730-05, frz-6r13-04]
+  tolerances: { gear_grade: "8-C ГОСТ 1643-81", surface_ra: 2.5 }
+  customers: [privod_nn, remservis_ural]
+  weight_kg: 17.9
+- drawing_no: "52.31.14"
+  name: "Шестерня привода насоса z=14, m=2,5"
+  material: st40h
+  blank: "круг ø50"
+  site: kovrov
+  route: [015 токарная, 030 зубофрезерная, 040 термообработка ТВЧ, 070 контроль ОТК]
+  equipment: [tok-16k20-01, frz-6r13-04, term-tvch-09]
+  tolerances: { gear_grade: "8-C ГОСТ 1643-81", hardness_hrc: "45…50" }
+  customers: [gidromash_yug]
+  weight_kg: 1.8
+- drawing_no: "61.05.20"
+  name: "Корпус редуктора Р-160, нижняя часть"
+  material: sch20
+  blank: "отливка"
+  site: kovrov
+  route: [005 разметка, 015 расточная, 025 фрезерная, 045 сверлильная, 070 контроль ОТК]
+  equipment: [frz-vf2-03, cnc-1730-05]
+  tolerances: { axis_distance_mm: "±0,05", surface_ra: 3.2, flatness_mm: 0.05 }
+  customers: [redmash]
+  weight_kg: 52.0
+- drawing_no: "61.05.21"
+  name: "Корпус редуктора Р-160, крышка"
+  material: sch20
+  blank: "отливка"
+  site: kovrov
+  route: [005 разметка, 025 фрезерная, 045 сверлильная, 070 контроль ОТК]
+  equipment: [frz-vf2-03]
+  tolerances: { flatness_mm: 0.05, surface_ra: 3.2 }
+  customers: [redmash]
+  weight_kg: 28.4
+- drawing_no: "61.05.22"
+  name: "Корпус редуктора Р-200, нижняя часть"
+  material: sch20
+  blank: "отливка"
+  site: kovrov
+  route: [005 разметка, 015 расточная, 025 фрезерная, 045 сверлильная, 070 контроль ОТК]
+  equipment: [cnc-1730-05]
+  tolerances: { axis_distance_mm: "±0,05", surface_ra: 3.2, flatness_mm: 0.06 }
+  customers: [redmash, konveyer_systems]
+  weight_kg: 78.5
+- drawing_no: "61.05.23"
+  name: "Корпус подшипникового узла конвейера"
+  material: sch20
+  blank: "отливка"
+  site: kovrov
+  route: [015 расточная, 045 сверлильная, 070 контроль ОТК]
+  equipment: [frz-vf2-03]
+  tolerances: { bore_field: "ø120 H7", surface_ra: 2.5 }
+  customers: [konveyer_systems]
+  weight_kg: 24.0
+- drawing_no: "61.05.24"
+  name: "Плита опорная натяжной станции"
+  material: st45
+  blank: "лист 20 мм"
+  site: kovrov
+  route: [025 фрезерная, 045 сверлильная, 060 цинкование, 070 контроль ОТК]
+  equipment: [frz-6r13-04, galv-ag40-10]
+  tolerances: { flatness_mm: 0.1, coating: "Ц9.хр по ГОСТ 9.306-85" }
+  customers: [konveyer_systems]
+  weight_kg: 12.6
+- drawing_no: "73.22.30"
+  name: "Шток гидроцилиндра ГЦ-100/56, L=700"
+  material: st20h13
+  blank: "круг ø65, L=760"
+  site: kovrov
+  route: [015 токарная, 040 термообработка ТВЧ, 055 круглошлифовальная, 065 хромирование, 075 полирование, 070 контроль ОТК]
+  equipment: [tok-ctx310-02, term-tvch-09, shl-3m151-06, galv-ag25-11]
+  tolerances: { diameter_field: "ø56 f7", surface_ra: 0.32, coating_um: "20…25 хром", hardness_hrc: "48…52" }
+  customers: [gidromash_yug]
+  weight_kg: 18.9
+- drawing_no: "73.22.31"
+  name: "Шток гидроцилиндра ГЦ-80/45, L=500"
+  material: st20h13
+  blank: "круг ø50, L=560"
+  site: kovrov
+  route: [015 токарная, 040 термообработка ТВЧ, 055 круглошлифовальная, 065 хромирование, 075 полирование, 070 контроль ОТК]
+  equipment: [tok-ctx310-02, term-tvch-09, shl-3m151-06, galv-ag25-11]
+  tolerances: { diameter_field: "ø45 f7", surface_ra: 0.32, coating_um: "20…25 хром", hardness_hrc: "48…52" }
+  customers: [gidromash_yug, remservis_ural]
+  weight_kg: 9.7
+- drawing_no: "73.22.32"
+  name: "Гильза гидроцилиндра ГЦ-100/56"
+  material: st45
+  blank: "труба ø120×12"
+  site: kovrov
+  route: [015 токарная, 020 хонингование, 070 контроль ОТК]
+  equipment: [cnc-1730-05]
+  tolerances: { bore_field: "ø100 H8", surface_ra: 0.4, straightness_mm_per_m: 0.1 }
+  customers: [gidromash_yug]
+  weight_kg: 22.3
+- drawing_no: "73.22.33"
+  name: "Поршень гидроцилиндра ГЦ-100/56"
+  material: st45
+  blank: "круг ø110"
+  site: kovrov
+  route: [015 токарная, 045 сверлильная, 070 контроль ОТК]
+  equipment: [tok-16k20-01]
+  tolerances: { diameter_field: "ø100 f8", surface_ra: 1.6 }
+  customers: [gidromash_yug]
+  weight_kg: 3.4
+- drawing_no: "73.22.34"
+  name: "Крышка гидроцилиндра передняя ГЦ-100/56"
+  material: st45
+  blank: "круг ø140"
+  site: kovrov
+  route: [015 токарная, 045 сверлильная, 060 цинкование, 070 контроль ОТК]
+  equipment: [tok-ctx310-02, galv-ag40-10]
+  tolerances: { bore_field: "ø56 H8", coating: "Ц9.хр" }
+  customers: [gidromash_yug]
+  weight_kg: 5.1
+- drawing_no: "73.22.35"
+  name: "Проушина штока ГЦ-100/56"
+  material: st40h
+  blank: "поковка"
+  site: kovrov
+  route: [015 токарная, 025 фрезерная, 040 термообработка печная, 070 контроль ОТК]
+  equipment: [tok-16k20-01, frz-6r13-04, term-sshz-08]
+  tolerances: { bore_field: "ø40 H7", hardness_hrc: "40…45" }
+  customers: [gidromash_yug]
+  weight_kg: 2.8
+- drawing_no: "88.14.40"
+  name: "Втулка скольжения ø50/ø70×60"
+  material: brazh
+  blank: "втулка литая"
+  site: kovrov
+  route: [015 токарная, 070 контроль ОТК]
+  equipment: [tok-16k20-01]
+  tolerances: { bore_field: "ø50 H7", surface_ra: 1.6 }
+  customers: [redmash, remservis_ural]
+  weight_kg: 1.2
+- drawing_no: "88.14.41"
+  name: "Втулка скольжения ø65/ø90×80"
+  material: brazh
+  blank: "втулка литая"
+  site: kovrov
+  route: [015 токарная, 070 контроль ОТК]
+  equipment: [tok-16k20-01]
+  tolerances: { bore_field: "ø65 H7", surface_ra: 1.6 }
+  customers: [konveyer_systems, remservis_ural]
+  weight_kg: 2.4
+- drawing_no: "88.14.42"
+  name: "Фланец присоединительный ø160"
+  material: st45
+  blank: "круг ø170"
+  site: kovrov
+  route: [015 токарная, 045 сверлильная, 060 цинкование, 070 контроль ОТК]
+  equipment: [tok-ctx310-02, galv-ag40-10]
+  tolerances: { flatness_mm: 0.08, coating: "Ц9.хр" }
+  customers: [konveyer_systems]
+  weight_kg: 4.6
+- drawing_no: "88.14.43"
+  name: "Кольцо распорное ø80/ø100×15"
+  material: st45
+  blank: "круг ø105"
+  site: kovrov
+  route: [015 токарная, 070 контроль ОТК]
+  equipment: [tok-16k20-01]
+  tolerances: { thickness_mm: "15 ±0,1", surface_ra: 3.2 }
+  customers: [redmash, privod_nn]
+  weight_kg: 0.6
+- drawing_no: "88.14.44"
+  name: "Шпонка призматическая 18×11×80"
+  material: st45
+  blank: "полоса"
+  site: kovrov
+  route: [025 фрезерная, 070 контроль ОТК]
+  equipment: [frz-6r13-04]
+  tolerances: { width_field: "18 h9" }
+  customers: [redmash, privod_nn, remservis_ural]
+  weight_kg: 0.12
+- drawing_no: "88.14.45"
+  name: "Крышка подшипникового узла глухая ø120"
+  material: sch20
+  blank: "отливка"
+  site: kovrov
+  route: [015 токарная, 045 сверлильная, 070 контроль ОТК]
+  equipment: [tok-16k20-01]
+  tolerances: { bore_field: "ø120 h8", surface_ra: 3.2 }
+  customers: [konveyer_systems]
+  weight_kg: 3.1
+- drawing_no: "88.14.46"
+  name: "Стакан подшипниковый ø140"
+  material: st45
+  blank: "круг ø150"
+  site: kovrov
+  route: [015 токарная, 045 сверлильная, 070 контроль ОТК]
+  equipment: [cnc-1730-05]
+  tolerances: { bore_field: "ø110 H7", surface_ra: 1.6 }
+  customers: [redmash]
+  weight_kg: 6.7
+- drawing_no: "88.14.47"
+  name: "Ось натяжного ролика ø40×260"
+  material: st40h
+  blank: "круг ø45"
+  site: kovrov
+  route: [015 токарная, 040 термообработка ТВЧ, 055 круглошлифовальная, 070 контроль ОТК]
+  equipment: [tok-16k20-01, term-tvch-09, shl-3m151-06]
+  tolerances: { diameter_field: "ø40 k6", hardness_hrc: "45…50", surface_ra: 1.25 }
+  customers: [konveyer_systems]
+  weight_kg: 2.6
+- drawing_no: "88.14.48"
+  name: "Гайка круглая шлицевая М64×2"
+  material: st45
+  blank: "круг ø90"
+  site: kovrov
+  route: [015 токарная, 025 фрезерная, 060 цинкование, 070 контроль ОТК]
+  equipment: [tok-16k20-01, frz-6r13-04, galv-ag40-10]
+  tolerances: { thread: "М64×2-6H", coating: "Ц6.хр" }
+  customers: [redmash, remservis_ural]
+  weight_kg: 0.9
+- drawing_no: "88.14.49"
+  name: "Шайба стопорная многолапчатая 64"
+  material: st45
+  blank: "лист 2 мм"
+  site: kovrov
+  route: [050 штамповка, 060 цинкование, 070 контроль ОТК]
+  equipment: [press-p6330-12, galv-ag40-10]
+  tolerances: { coating: "Ц6.хр" }
+  customers: [redmash, remservis_ural]
+  weight_kg: 0.08
+- drawing_no: "88.14.50"
+  name: "Полумуфта упругая ø160"
+  material: st45
+  blank: "поковка ø170"
+  site: kovrov
+  route: [015 токарная, 025 фрезерная, 045 сверлильная, 070 контроль ОТК]
+  equipment: [cnc-1730-05, frz-vf2-03]
+  tolerances: { bore_field: "ø55 H7", balance_grade: "G6.3" }
+  customers: [privod_nn, konveyer_systems]
+  weight_kg: 8.8
+- drawing_no: "88.14.51"
+  name: "Звёздочка приводная z=17, t=25,4"
+  material: st40h
+  blank: "поковка ø180"
+  site: kovrov
+  route: [015 токарная, 030 зубофрезерная, 040 термообработка ТВЧ, 070 контроль ОТК]
+  equipment: [cnc-1730-05, frz-6r13-04, term-tvch-09]
+  tolerances: { hardness_hrc: "45…50", bore_field: "ø50 H7" }
+  customers: [konveyer_systems, dealer_agroteh]
+  weight_kg: 5.4
+- drawing_no: "88.14.52"
+  name: "Барабан приводной конвейера ø320×800"
+  material: st45
+  blank: "сварная конструкция"
+  site: tolyatti
+  route: [080 сборка сварная, 015 токарная, 060 цинкование, 070 контроль ОТК]
+  equipment: [cnc-1730-05, galv-ag40-10]
+  tolerances: { runout_mm: 0.15, balance_grade: "G16" }
+  customers: [konveyer_systems]
+  weight_kg: 96.0
+- drawing_no: "88.14.53"
+  name: "Узел редуктора Р-160 в сборе"
+  material: null
+  blank: "сборочная единица"
+  site: tolyatti
+  route: [085 сборка, 090 обкатка на стенде, 095 консервация, 070 контроль ОТК]
+  equipment: [press-p6330-12]
+  components: ["45.67.89", "45.67.90", "52.31.10", "52.31.11", "61.05.20", "61.05.21", "88.14.40"]
+  tolerances: { noise_db: "≤ 78", oil_leak: "не допускается", run_in_min: 30 }
+  customers: [redmash]
+  weight_kg: 128.0
+- drawing_no: "88.14.54"
+  name: "Гидроцилиндр ГЦ-100/56 в сборе"
+  material: null
+  blank: "сборочная единица"
+  site: tolyatti
+  route: [085 сборка, 092 испытание давлением, 095 консервация, 070 контроль ОТК]
+  equipment: [press-p6330-12, stend-gc-13]
+  components: ["73.22.30", "73.22.32", "73.22.33", "73.22.34", "73.22.35"]
+  tolerances: { test_pressure_bar: 250, leak: "не допускается", stroke_mm: 700 }
+  customers: [gidromash_yug]
+  weight_kg: 57.0
+- drawing_no: "88.14.55"
+  name: "Натяжная станция конвейера в сборе"
+  material: null
+  blank: "сборочная единица"
+  site: tolyatti
+  route: [085 сборка, 095 консервация, 070 контроль ОТК]
+  equipment: []
+  components: ["45.67.94", "61.05.23", "61.05.24", "88.14.41", "88.14.47"]
+  tolerances: { travel_mm: 250 }
+  customers: [konveyer_systems]
+  weight_kg: 84.0

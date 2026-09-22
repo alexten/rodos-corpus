@@ -1,0 +1,71 @@
+# Номенклатура для продаж: цены прайса (базовые, без скидок), сроки изготовления, гарантия.
+# Цены в рублях, без НДС. Прайс действует с 2026-09-01.
+price_list:
+  valid_from: 2026-09-01
+  currency: RUB
+  vat: "цены без НДС"
+  discount_matrix:
+    A: { base: 18, threshold_rub: 1000000, extra: 3 }
+    B: { base: 12, threshold_rub: 500000, extra: 3 }
+    C: { base: 7, threshold_rub: 0, extra: 0 }
+  lead_time_rules:
+    - group: "валы и оси"
+      standard_days: 21
+      rush_days: 12
+      rush_surcharge_pct: 20
+    - group: "шестерни и колёса"
+      standard_days: 28
+      rush_days: 18
+      rush_surcharge_pct: 25
+    - group: "корпусные детали"
+      standard_days: 30
+      rush_days: 20
+      rush_surcharge_pct: 25
+    - group: "гидроцилиндры и детали"
+      standard_days: 25
+      rush_days: 15
+      rush_surcharge_pct: 20
+    - group: "прочие детали"
+      standard_days: 18
+      rush_days: 10
+      rush_surcharge_pct: 20
+    - group: "узлы в сборе"
+      standard_days: 45
+      rush_days: 30
+      rush_surcharge_pct: 30
+  warranty:
+    default: "12 месяцев с даты отгрузки"
+    assemblies: "18 месяцев с даты отгрузки, но не более 12 месяцев эксплуатации"
+    exclusions: "нарушение условий монтажа, эксплуатация вне паспортных режимов, механические повреждения"
+
+items:
+  - { sku: "RD-450789", part: "45.67.89", group: "валы и оси", price: 14800 }
+  - { sku: "RD-450790", part: "45.67.90", group: "валы и оси", price: 9600 }
+  - { sku: "RD-450791", part: "45.67.91", group: "валы и оси", price: 26400 }
+  - { sku: "RD-450792", part: "45.67.92", group: "валы и оси", price: 48200 }
+  - { sku: "RD-450793", part: "45.67.93", group: "валы и оси", price: 19700 }
+  - { sku: "RD-450794", part: "45.67.94", group: "валы и оси", price: 7300 }
+  - { sku: "RD-450795", part: "45.67.95", group: "валы и оси", price: 8900 }
+  - { sku: "RD-450796", part: "45.67.96", group: "валы и оси", price: 9400 }
+  - { sku: "RD-523110", part: "52.31.10", group: "шестерни и колёса", price: 16300 }
+  - { sku: "RD-523111", part: "52.31.11", group: "шестерни и колёса", price: 24900 }
+  - { sku: "RD-523112", part: "52.31.12", group: "шестерни и колёса", price: 21500 }
+  - { sku: "RD-523113", part: "52.31.13", group: "шестерни и колёса", price: 27800 }
+  - { sku: "RD-523114", part: "52.31.14", group: "шестерни и колёса", price: 5200 }
+  - { sku: "RD-610520", part: "61.05.20", group: "корпусные детали", price: 61000 }
+  - { sku: "RD-610521", part: "61.05.21", group: "корпусные детали", price: 34500 }
+  - { sku: "RD-610522", part: "61.05.22", group: "корпусные детали", price: 89000 }
+  - { sku: "RD-610523", part: "61.05.23", group: "корпусные детали", price: 28700 }
+  - { sku: "RD-610524", part: "61.05.24", group: "корпусные детали", price: 11200 }
+  - { sku: "RD-732230", part: "73.22.30", group: "гидроцилиндры и детали", price: 32400 }
+  - { sku: "RD-732231", part: "73.22.31", group: "гидроцилиндры и детали", price: 21900 }
+  - { sku: "RD-732232", part: "73.22.32", group: "гидроцилиндры и детали", price: 27300 }
+  - { sku: "RD-732233", part: "73.22.33", group: "гидроцилиндры и детали", price: 6800 }
+  - { sku: "RD-732234", part: "73.22.34", group: "гидроцилиндры и детали", price: 8100 }
+  - { sku: "RD-732235", part: "73.22.35", group: "гидроцилиндры и детали", price: 5900 }
+  - { sku: "RD-881440", part: "88.14.40", group: "прочие детали", price: 3400 }
+  - { sku: "RD-881441", part: "88.14.41", group: "прочие детали", price: 5100 }
+  - { sku: "RD-881447", part: "88.14.47", group: "валы и оси", price: 4600 }
+  - { sku: "RD-881451", part: "88.14.51", group: "прочие детали", price: 12800 }
+  - { sku: "RD-881453", part: "88.14.53", group: "узлы в сборе", price: 268000 }
+  - { sku: "RD-881454", part: "88.14.54", group: "узлы в сборе", price: 141000 }

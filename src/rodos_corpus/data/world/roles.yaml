@@ -1,0 +1,89 @@
+# Должности и полномочия. В документах подписи ставятся по ролям, ФИО подставляются из people.yaml.
+- key: gen_direktor
+  title: "Генеральный директор"
+  site: perm
+  approves: ["договоры свыше 5 000 000 ₽", "приказы по предприятию", "штатные изменения"]
+  payment_limit_rub: null
+- key: fin_direktor
+  title: "Финансовый директор"
+  site: perm
+  space_owner: finance
+  approves: ["платежи до 5 000 000 ₽", "учётная политика", "бюджеты ЦФО"]
+  payment_limit_rub: 5000000
+- key: glavbuh
+  title: "Главный бухгалтер"
+  site: perm
+  approves: ["первичные документы", "налоговая отчётность"]
+  payment_limit_rub: 1000000
+- key: buhgalter_rascheti
+  title: "Бухгалтер по расчётам с контрагентами"
+  site: perm
+  approves: []
+- key: kaznachey
+  title: "Казначей"
+  site: perm
+  approves: ["реестр платежей на день"]
+  payment_limit_rub: 300000
+- key: kom_direktor
+  title: "Коммерческий директор"
+  site: perm
+  space_owner: sales
+  approves: ["скидки сверх матрицы", "договоры поставки до 5 000 000 ₽"]
+- key: menedzher_prodazh
+  title: "Менеджер по продажам"
+  site: perm
+  approves: ["коммерческие предложения в рамках матрицы скидок"]
+- key: inzhener_prodazh
+  title: "Инженер по продажам"
+  site: tolyatti
+  approves: ["технические заключения по запросам клиентов"]
+- key: glavny_tehnolog
+  title: "Главный технолог"
+  site: kovrov
+  space_owner: production
+  approves: ["технологические карты", "изменения технологии", "нормы расхода"]
+- key: tehnolog
+  title: "Инженер-технолог"
+  site: kovrov
+  approves: []
+- key: nachalnik_ceha
+  title: "Начальник цеха"
+  approves: ["сменные задания", "заявки на ремонт", "допуск к работе"]
+- key: master_uchastka
+  title: "Мастер участка"
+  approves: ["наряды на смену"]
+- key: nachalnik_otk
+  title: "Начальник ОТК"
+  site: kovrov
+  approves: ["акты о браке", "решения по несоответствиям", "протоколы испытаний"]
+- key: kontroler_otk
+  title: "Контролёр ОТК"
+  approves: []
+- key: glavny_mehanik
+  title: "Главный механик"
+  site: perm
+  approves: ["графики ППР", "вывод оборудования в ремонт"]
+- key: nachalnik_snabzheniya
+  title: "Начальник отдела снабжения"
+  site: perm
+  approves: ["заявки на закупку до 1 000 000 ₽"]
+  payment_limit_rub: 1000000
+- key: rukovoditel_it
+  title: "Руководитель ИТ"
+  site: perm
+  space_owner: it
+  approves: ["выдача доступов", "закупка техники до 500 000 ₽", "изменения в ИТ-системах"]
+  payment_limit_rub: 500000
+- key: sistemny_administrator
+  title: "Системный администратор"
+  site: perm
+  approves: []
+- key: inzhener_ot
+  title: "Инженер по охране труда"
+  site: perm
+  space_owner: common
+  approves: ["инструкции по охране труда", "наряды-допуски"]
+- key: nachalnik_sklada
+  title: "Начальник склада готовой продукции"
+  site: tolyatti
+  approves: ["отгрузочные документы"]

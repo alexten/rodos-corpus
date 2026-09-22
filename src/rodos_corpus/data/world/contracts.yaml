@@ -1,0 +1,182 @@
+# Договоры. Номера и даты фиктивны, но связаны: на них ссылаются УПД, акты сверки, рекламации и КП.
+- number: "РМ-2025/01"
+  party: redmash
+  kind: sale
+  signed: 2025-01-20
+  valid_until: 2026-12-31
+  subject: "поставка валов, шестерён и корпусных деталей по спецификациям"
+  payment_terms: "отсрочка 45 календарных дней с даты поставки"
+  delivery_terms: "самовывоз со склада в Тольятти, партиями по заявкам"
+  penalty: "0,1 % от стоимости партии за каждый день просрочки, не более 10 %"
+  specs: ["СП-01 валы Р-160", "СП-02 шестерни m=4", "СП-03 корпусные детали"]
+  confidentiality: dsp
+- number: "ПНН-2025/08"
+  party: privod_nn
+  kind: sale
+  signed: 2025-03-11
+  valid_until: 2026-12-31
+  subject: "поставка валов, втулок и штоков"
+  payment_terms: "отсрочка 30 календарных дней"
+  delivery_terms: "доставка транспортом поставщика, Дзержинск"
+  penalty: "0,05 % за день просрочки"
+  confidentiality: dsp
+- number: "ГЮ-2025/04"
+  party: gidromash_yug
+  kind: sale
+  signed: 2025-02-14
+  valid_until: 2026-06-30
+  subject: "поставка штоков, гильз и гидроцилиндров в сборе"
+  payment_terms: "предоплата 30 %, остальное в течение 15 дней после отгрузки"
+  delivery_terms: "доставка до Ростова-на-Дону, транспортная компания «Логистик-Лайн»"
+  penalty: "0,1 % за день просрочки"
+  warranty: "18 месяцев с даты отгрузки, но не более 12 месяцев эксплуатации"
+  confidentiality: dsp
+- number: "КС-2025/12"
+  party: konveyer_systems
+  kind: sale
+  signed: 2025-04-02
+  valid_until: 2027-04-01
+  subject: "поставка узлов конвейерного оборудования и запасных частей"
+  payment_terms: "отсрочка 60 календарных дней"
+  delivery_terms: "доставка до склада заказчика в Санкт-Петербурге"
+  penalty: "0,15 % за день просрочки, не более 15 %"
+  note: "крупнейший договор по объёму; сроки изготовления фиксируются в спецификации"
+  confidentiality: dsp
+- number: "РСУ-2024/33"
+  party: remservis_ural
+  kind: sale
+  signed: 2024-11-05
+  valid_until: 2026-11-04
+  subject: "поставка запасных частей на вторичный рынок"
+  payment_terms: "предоплата 100 %"
+  delivery_terms: "самовывоз"
+  confidentiality: dsp
+- number: "АТД-2025/06"
+  party: dealer_agroteh
+  kind: dealer
+  signed: 2025-02-28
+  valid_until: 2026-12-31
+  subject: "дилерский договор, категория B"
+  payment_terms: "отсрочка 21 день при выборке от 500 000 ₽ в месяц"
+  discount: "категория B: 12 % от прайса, при заказе от 500 000 ₽ — 15 %"
+  confidentiality: dsp
+- number: "МТЦ-2025/10"
+  party: mashtorg_center
+  kind: dealer
+  signed: 2025-05-19
+  valid_until: 2026-12-31
+  subject: "дилерский договор, категория C"
+  payment_terms: "предоплата"
+  discount: "категория C: 7 % от прайса"
+  confidentiality: dsp
+- number: "KMP-2025/02"
+  party: export_kz
+  kind: sale
+  signed: 2025-01-30
+  valid_until: 2026-12-31
+  subject: "экспортная поставка валов и шестерён"
+  payment_terms: "предоплата 50 %, остальное по факту отгрузки"
+  delivery_terms: "DAP Алматы"
+  note: "комплект документов на русском и английском языках"
+  confidentiality: dsp
+- number: "ПП-2025/14"
+  party: prikamye_prokat
+  kind: purchase
+  signed: 2025-01-15
+  valid_until: 2026-12-31
+  subject: "поставка сортового проката, сталь 40Х и 45"
+  payment_terms: "отсрочка 20 календарных дней"
+  delivery_terms: "доставка до склада в Коврове"
+  quality: "сертификат качества на каждую партию, входной контроль ОТК"
+  confidentiality: dsp
+- number: "УМС-2025/03"
+  party: uralmetsnab
+  kind: purchase
+  signed: 2025-02-03
+  valid_until: 2026-12-31
+  subject: "поставка поковок и проката специальных марок"
+  payment_terms: "отсрочка 30 календарных дней"
+  confidentiality: dsp
+- number: "ЛД-2024/27"
+  party: litejnyj_dvor
+  kind: purchase
+  signed: 2024-09-12
+  valid_until: 2026-09-11
+  subject: "поставка отливок из чугуна СЧ20"
+  payment_terms: "предоплата 40 %"
+  quality: "допустимый уровень брака по литью — не более 3 % партии"
+  confidentiality: dsp
+- number: "ЦМТ-2025/09"
+  party: cvetmet_torg
+  kind: purchase
+  signed: 2025-03-20
+  valid_until: 2026-03-19
+  subject: "поставка бронзовых втулок и латунного проката"
+  payment_terms: "отсрочка 15 календарных дней"
+  confidentiality: dsp
+- number: "ИС-2025/21"
+  party: instrument_servis
+  kind: purchase
+  signed: 2025-06-01
+  valid_until: 2026-05-31
+  subject: "поставка режущего инструмента и оснастки"
+  payment_terms: "отсрочка 30 календарных дней"
+  confidentiality: dsp
+- number: "АЦ-2024/45"
+  party: abraziv_center
+  kind: purchase
+  signed: 2024-12-10
+  valid_until: 2026-12-09
+  subject: "поставка абразивного инструмента"
+  payment_terms: "предоплата"
+  confidentiality: dsp
+- number: "ХР-2025/07"
+  party: himresurs
+  kind: purchase
+  signed: 2025-02-25
+  valid_until: 2026-12-31
+  subject: "поставка СОЖ, гальванических химикатов и анодов"
+  payment_terms: "отсрочка 20 календарных дней"
+  note: "вещества 1 класса опасности поставляются по отдельным заявкам с допуском"
+  confidentiality: dsp
+- number: "СИЗ-2025/02"
+  party: siz_profi
+  kind: purchase
+  signed: 2025-01-22
+  valid_until: 2026-12-31
+  subject: "поставка средств индивидуальной защиты и спецодежды"
+  payment_terms: "отсрочка 30 календарных дней"
+  confidentiality: dsp
+- number: "ТНЭ-2024/19"
+  party: tehnadzor_expert
+  kind: service
+  signed: 2024-08-14
+  valid_until: 2026-08-13
+  subject: "экспертиза промышленной безопасности и поверка средств измерений"
+  payment_terms: "по актам выполненных работ, 10 рабочих дней"
+  confidentiality: dsp
+- number: "ИТС-2025/16"
+  party: itsnab_partner
+  kind: purchase
+  signed: 2025-04-15
+  valid_until: 2026-12-31
+  subject: "поставка компьютерной техники, лицензий и сетевого оборудования"
+  payment_terms: "отсрочка 30 календарных дней"
+  confidentiality: dsp
+- number: "ГСМ-2025/11"
+  party: gsm_povolzhje
+  kind: purchase
+  signed: 2025-03-04
+  valid_until: 2026-12-31
+  subject: "поставка масел, смазок и консервационных составов"
+  payment_terms: "отсрочка 20 календарных дней"
+  confidentiality: dsp
+- number: "ЛЛ-2025/05"
+  party: logistic_line
+  kind: service
+  signed: 2025-02-10
+  valid_until: 2026-12-31
+  subject: "перевозка грузов между площадками и до складов заказчиков"
+  payment_terms: "по актам выполненных работ, 15 рабочих дней"
+  note: "тарифы согласуются приложением на каждый квартал"
+  confidentiality: dsp

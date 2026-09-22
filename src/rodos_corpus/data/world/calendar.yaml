@@ -1,0 +1,59 @@
+# Временная канва корпуса: периоды, схемы нумерации, ключевые события.
+# Все документы датируются внутри этих рамок, чтобы даты и ссылки были связными.
+horizon:
+  start: 2024-01-01
+  today: 2026-09-22          # «сегодня» для корпуса: свежие документы не новее этой даты
+  fiscal_year_start: 2026-01-01
+
+numbering:
+  order: "Приказ № {n} от {date}"          # сквозная нумерация по предприятию, с 2026-01-01 счёт с 1
+  order_seq_2026: { from: 1, to: 214 }
+  instruction_ot: "ИОТ-{nn}"               # инструкции по охране труда, двузначный номер
+  qc_regulation: "ОТК-РЕГЛ-{nnn}"
+  tech_card: "ТК-{drawing}-{rev}"
+  incident: "ИНЦ-{year}-{nn}"
+  it_instruction: "ИТ-ИНС-{nn}"
+  claim: "РКЛ-{year}-{nn}"
+  upd: "УПД-{year}-{nnnn}"
+  invoice: "СЧ-{year}-{nnnn}"
+  act: "АКТ-{year}-{nnn}"
+
+revisions:                                  # цепочки редакций: даты, в которые выходили новые версии
+  - doc: "ОТК-РЕГЛ-003"
+    title: "Регламент входного контроля материалов"
+    revisions:
+      - { rev: 1, approved: 2024-02-12, status: superseded }
+      - { rev: 2, approved: 2025-06-30, status: superseded }
+      - { rev: 3, approved: 2026-07-14, status: active }
+  - doc: "ИОТ-014"
+    title: "Инструкция по охране труда при работе на высоте"
+    revisions:
+      - { rev: 1, approved: 2023-11-20, status: superseded }
+      - { rev: 2, approved: 2026-04-06, status: active }
+  - doc: "ФИН-РЕГЛ-002"
+    title: "Регламент согласования платежей"
+    revisions:
+      - { rev: 1, approved: 2024-05-15, status: superseded }
+      - { rev: 2, approved: 2026-02-02, status: active }
+
+events:                                     # сюжеты корпуса (см. spec/06, §4)
+  - key: claim_valy
+    title: "Рекламация по партии валов 45.67.89 от «Редмаш»"
+    date: 2026-06-18
+    spaces: [sales, production, finance]
+  - key: new_worker
+    title: "Приём нового оператора ЧПУ в цех №1"
+    date: 2026-08-03
+    spaces: [common, it, production]
+  - key: steel_batch
+    title: "Закупка партии стали 40Х у «Прикамье-Прокат»"
+    date: 2026-05-12
+    spaces: [finance, production]
+  - key: galvanic_incident
+    title: "Отказ выпрямителя на линии цинкования в Перми"
+    date: 2026-07-09
+    spaces: [production, common]
+  - key: it_offboarding
+    title: "Увольнение системного администратора и отзыв доступов"
+    date: 2026-09-01
+    spaces: [it, common]
