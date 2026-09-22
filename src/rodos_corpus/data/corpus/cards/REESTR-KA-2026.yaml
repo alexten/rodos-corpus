@@ -1,0 +1,18 @@
+doc_id: REESTR-KA-2026
+doc_type: counterparty_register
+title: Реестр контрагентов и результаты проверки должной осмотрительности
+org_unit: Финансовая служба
+spaces:
+- finance
+confidentiality: dsp
+status: active
+format: xlsx
+channel: manual
+approved_at: 2026-09-22
+approved_by: Финансовый директор
+generated_by: counterparty_register
+source: corpus/source/finance/REESTR-KA-2026.table.yaml
+rendered: corpus/rendered/finance/REESTR-KA-2026.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 7557
+sha256: c1d4c768ae5fbbf109d1c42c43cf3bac9c033b9ecde61b1ae93d034a31bba86b

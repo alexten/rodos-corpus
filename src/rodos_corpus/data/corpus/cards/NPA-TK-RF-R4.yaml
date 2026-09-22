@@ -1,0 +1,20 @@
+doc_id: NPA-TK-RF-R4
+doc_type: npa
+title: Трудовой кодекс Российской Федерации. Раздел IV «Рабочее время» (гл. 15–16)
+  (извлечение)
+org_unit: Нормативная база
+spaces:
+- common
+confidentiality: public
+status: active
+format: docx
+channel: npa
+source_url: http://pravo.gov.ru/proxy/ips/?docbody=&nd=102074279
+retrieved_at: 2026-09-22
+npa_requisites: Трудовой кодекс РФ от 30.12.2001 № 197-ФЗ, ред. от 15.05.2026 № 32-П
+  (сводная редакция ИПС «Законодательство России» на дату снимка 22.09.2026)
+source: corpus/source/common/NPA-TK-RF-R4.md
+rendered: corpus/rendered/common/NPA-TK-RF-R4.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 44076
+sha256: 539101dde49251e8b885b3a3acb6ecb46cff513b796242fc30e088b7b292e0b1

@@ -1,0 +1,19 @@
+doc_id: INC-2026-10
+doc_type: incident_review
+title: 'Разбор инцидента: срыв сменного задания цеха №3 из-за задержки поставки стали
+  40Х'
+org_unit: Отдел главного механика
+spaces:
+- production
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-05-27
+approved_by: Технический директор
+source: corpus/source/production/INC-2026-10.md
+rendered: corpus/rendered/production/INC-2026-10.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39672
+sha256: 33da23f0c60e209b1e9448650137d03014325e9a10e0adcab9bae6486cbe3caf

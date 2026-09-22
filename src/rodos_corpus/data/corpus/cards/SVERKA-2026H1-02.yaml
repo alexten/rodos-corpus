@@ -1,0 +1,21 @@
+doc_id: SVERKA-2026H1-02
+doc_type: reconciliation_act
+title: Акт сверки взаимных расчётов с ООО «Привод-НН» за 1-е полугодие 2026 г.
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: xlsx
+channel: edo
+approved_at: 2026-07-10
+approved_by: Главный бухгалтер
+counterparty: ООО «Привод-НН»
+contract: ПНН-2025/08
+balance_rub: 3289410.15
+generated_by: reconciliation_acts
+source: corpus/source/finance/SVERKA-2026H1-02.table.yaml
+rendered: corpus/rendered/finance/SVERKA-2026H1-02.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 5556
+sha256: 41fbb093751d82b7b70b53e9c97b6696fbbdcc64a780ecf426581e5bb35077fc

@@ -1,0 +1,24 @@
+doc_id: DOG-HR-2025-07
+doc_type: contract
+title: Договор поставки № ХР-2025/07 от 25.02.2025
+org_unit: Юридический отдел
+spaces:
+- finance
+- production
+confidentiality: dsp
+status: active
+format: pdf
+channel: dropdir
+approved_at: 2025-02-25
+effective_from: 2025-02-25
+approved_by: Генеральный директор
+counterparty: ООО «Химресурс-Урал»
+contract: ХР-2025/07
+payment_terms: отсрочка 20 календарных дней
+note: вещества 1 класса опасности поставляются по отдельным заявкам с допуском
+valid_until: 2026-12-31
+source: corpus/source/finance/DOG-HR-2025-07.md
+rendered: corpus/rendered/finance/DOG-HR-2025-07.pdf
+mime: application/pdf
+bytes: 34402
+sha256: e7d21b9a0f808f9492f2d47890b9311ae44d067199bfbf1639fe753d431a176a

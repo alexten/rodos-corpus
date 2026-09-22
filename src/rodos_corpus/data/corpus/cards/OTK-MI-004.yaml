@@ -1,0 +1,21 @@
+doc_id: OTK-MI-004
+doc_type: qc_method
+title: Методика контроля шероховатости поверхности (Ra)
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-02
+effective_from: 2026-04-16
+approved_by: Начальник ОТК
+plants:
+- kovrov
+source: corpus/source/production/OTK-MI-004.md
+rendered: corpus/rendered/production/OTK-MI-004.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38414
+sha256: b08ba50361370a6ca45c17b533530a53fc12e8fcab6afcdf96967ef905883db3

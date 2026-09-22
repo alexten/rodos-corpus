@@ -1,0 +1,21 @@
+doc_id: PROSTOY-2026-08
+doc_type: downtime_report
+title: Отчёт о простоях оборудования за август 2026 г.
+org_unit: Отдел главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-03
+approved_by: Технический директор
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/production/PROSTOY-2026-08.md
+rendered: corpus/rendered/production/PROSTOY-2026-08.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38461
+sha256: 742529b5140c05296a8edd3e83fed3dfbfeffac01446ba8bb4f18bd7dc8d76cb

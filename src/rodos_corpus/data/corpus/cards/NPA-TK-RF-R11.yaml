@@ -1,0 +1,21 @@
+doc_id: NPA-TK-RF-R11
+doc_type: npa
+title: Трудовой кодекс Российской Федерации. Раздел XI «Материальная ответственность
+  сторон трудового договора» (гл. 37–39) (извлечение)
+org_unit: Нормативная база
+spaces:
+- common
+- finance
+confidentiality: public
+status: active
+format: docx
+channel: npa
+source_url: http://pravo.gov.ru/proxy/ips/?docbody=&nd=102074279
+retrieved_at: 2026-09-22
+npa_requisites: Трудовой кодекс РФ от 30.12.2001 № 197-ФЗ, ред. от 15.05.2026 № 32-П
+  (сводная редакция ИПС «Законодательство России» на дату снимка 22.09.2026)
+source: corpus/source/common/NPA-TK-RF-R11.md
+rendered: corpus/rendered/common/NPA-TK-RF-R11.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 42943
+sha256: b72b89ec465478bf83ede5e4dc80e350601127eea931d10bd4beb59c6471259c

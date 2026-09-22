@@ -1,0 +1,25 @@
+doc_id: ИОТ-017
+doc_type: safety_instruction
+title: Инструкция по охране труда для стропальщика и при работе с грузоподъёмными
+  механизмами
+org_unit: Служба охраны труда
+spaces:
+- common
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-08-11
+effective_from: 2025-08-25
+approved_by: Технический директор
+refs_npa:
+- ТК РФ, ст. 214, 215
+- Правила обучения по охране труда и проверки знания требований охраны труда, постановление
+  Правительства РФ от 24.12.2021 № 2464
+source: corpus/source/common/ИОТ-017.md
+rendered: corpus/rendered/common/ИОТ-017.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39957
+sha256: 8b9f5bb5d5526f97b7bad41025220707c47bb2491f4383bbf54829e999b4091f

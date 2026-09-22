@@ -1,0 +1,20 @@
+doc_id: PAMYATKA-002
+doc_type: onboarding_memo
+title: Памятка новому сотруднику производственных цехов
+org_unit: Отдел кадров
+spaces:
+- common
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-12-01
+effective_from: 2025-12-15
+approved_by: Директор по персоналу
+source: corpus/source/common/PAMYATKA-002.md
+rendered: corpus/rendered/common/PAMYATKA-002.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39492
+sha256: df026996f90e6791d36c1f9fdea871aec892801cf90bfc9acd9af65a92e3e5be

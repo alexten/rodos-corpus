@@ -1,0 +1,23 @@
+doc_id: 8D-2026-02
+doc_type: report_8d
+title: Отчёт 8D по несоответствию толщины цинкового покрытия на линии АГ-40 (цех №4,
+  Пермь)
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-07-25
+approved_by: Начальник ОТК
+plants:
+- perm
+part: 88.14.48
+opened_at: 2026-05-21
+closed_at: 2026-07-25
+source: corpus/source/production/8D-2026-02.md
+rendered: corpus/rendered/production/8D-2026-02.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39810
+sha256: 020ce7d806cbdd9e98ed7e7628450ade5ffa27d5e8a7dd2137afb6a1f0b7b99a

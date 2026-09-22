@@ -1,0 +1,17 @@
+doc_id: INC-2026-07
+doc_type: incident_review
+title: 'Разбор инцидента: падение заготовки при перемещении краном в цехе №2, микротравма'
+org_unit: Служба охраны труда
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-05-19
+approved_by: Технический директор
+source: corpus/source/production/INC-2026-07.md
+rendered: corpus/rendered/production/INC-2026-07.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39351
+sha256: dc71dc4e6aa3f98a9b01d4cb60beb48fe64e74c81ebcf8725c0f56497eec3a98

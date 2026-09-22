@@ -1,0 +1,18 @@
+doc_id: PLANFACT-2026-08
+doc_type: plan_fact_report
+title: Отчёт о исполнении бюджета за январь — август 2026 года
+org_unit: Финансовая служба
+spaces:
+- finance
+confidentiality: dsp
+status: active
+format: xlsx
+channel: manual
+approved_at: 2026-09-10
+approved_by: Финансовый директор
+generated_by: plan_fact
+source: corpus/source/finance/PLANFACT-2026-08.table.yaml
+rendered: corpus/rendered/finance/PLANFACT-2026-08.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 6701
+sha256: c22a39b7e725df61978d432dea3fe5941c27d301ee3364351eebdf805d914b9f

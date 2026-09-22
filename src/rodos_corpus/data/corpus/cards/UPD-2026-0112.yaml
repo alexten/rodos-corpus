@@ -1,0 +1,25 @@
+doc_id: UPD-2026-0112
+doc_type: upd
+title: Универсальный передаточный документ № УПД-2026-0112 от 17.05.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: xml
+channel: edo
+approved_at: 2026-05-17
+counterparty: ООО «Цветмет-Торг»
+counterparty_inn: '007712345001'
+contract: ЦМТ-2025/09
+payment_terms: отсрочка 15 календарных дней
+direction: закупка
+amount_net_rub: 719800.0
+amount_vat_rub: 143960.0
+amount_total_rub: 863760.0
+generated_by: upd
+source: corpus/source/finance/UPD-2026-0112.md
+rendered: corpus/rendered/finance/UPD-2026-0112.xml
+mime: application/xml
+bytes: 2471
+sha256: 9466ad94162988f1be5889a64a3291f83bf1a3649ed92ea0875546095c77d94c

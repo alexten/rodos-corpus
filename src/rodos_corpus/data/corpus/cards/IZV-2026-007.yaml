@@ -1,0 +1,22 @@
+doc_id: IZV-2026-007
+doc_type: change_notice
+title: Извещение об изменении технологической карты на деталь 88.14.43 «Кольцо распорное
+  ø80/ø100×15»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-07-27
+effective_from: 2026-08-04
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 88.14.43
+source: corpus/source/production/IZV-2026-007.md
+rendered: corpus/rendered/production/IZV-2026-007.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38027
+sha256: 2bd5239958f9c3e80f47726eb3097c4cdc327a4b573272ecfa27a7378ddfd1fa

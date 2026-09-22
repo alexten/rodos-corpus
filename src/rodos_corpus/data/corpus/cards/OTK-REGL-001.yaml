@@ -1,0 +1,22 @@
+doc_id: OTK-REGL-001
+doc_type: qc_regulation
+title: Регламент операционного контроля в процессе производства
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 2
+approved_at: 2026-03-11
+effective_from: 2026-04-01
+approved_by: Начальник ОТК
+plants:
+- kovrov
+- tolyatti
+source: corpus/source/production/OTK-REGL-001.md
+rendered: corpus/rendered/production/OTK-REGL-001.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38963
+sha256: e3db91e2c8c44d232ea3ad0b21b83694f98947ba35ff673378081144d78153e9

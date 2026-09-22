@@ -1,0 +1,25 @@
+doc_id: TOIR-REGL-001
+doc_type: maintenance_regulation
+title: Положение о системе технического обслуживания и ремонта оборудования
+org_unit: Отдел главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 2
+approved_at: 2026-01-15
+effective_from: 2026-02-01
+approved_by: Технический директор
+plants:
+- kovrov
+- perm
+- tolyatti
+refs_npa:
+- ГОСТ 18322-2016 Система технического обслуживания и ремонта техники. Термины и определения
+source: corpus/source/production/TOIR-REGL-001.md
+rendered: corpus/rendered/production/TOIR-REGL-001.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 43512
+sha256: 47df7ac3d72e2bd5a03a029aea54eb003b39867a4048e36cde9389ca97b565ff

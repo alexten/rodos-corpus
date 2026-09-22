@@ -1,0 +1,21 @@
+doc_id: SVERKA-2026H1-03
+doc_type: reconciliation_act
+title: Акт сверки взаимных расчётов с АО «Гидромаш-Юг» за 1-е полугодие 2026 г.
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: xlsx
+channel: edo
+approved_at: 2026-07-10
+approved_by: Главный бухгалтер
+counterparty: АО «Гидромаш-Юг»
+contract: ГЮ-2025/04
+balance_rub: 2669409.04
+generated_by: reconciliation_acts
+source: corpus/source/finance/SVERKA-2026H1-03.table.yaml
+rendered: corpus/rendered/finance/SVERKA-2026H1-03.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 5561
+sha256: 5a99c44626c2843b81e3ad8912762619350c03a85f4f9d86f53518348e52dceb

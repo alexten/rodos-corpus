@@ -1,0 +1,29 @@
+doc_id: ИОТ-021-r1
+doc_type: safety_instruction
+title: Инструкция по охране труда для работников гальванического участка
+org_unit: Служба охраны труда
+spaces:
+- common
+- production
+confidentiality: internal
+status: superseded
+superseded_by: ИОТ-021-r2
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2024-07-30
+effective_from: 2024-08-12
+approved_by: Технический директор
+plants:
+- perm
+refs_npa:
+- ТК РФ, ст. 214, 215
+- Правила по охране труда при эксплуатации электроустановок, приказ Минтруда России
+  от 15.12.2020 № 903н
+- Правила обучения по охране труда и проверки знания требований охраны труда, постановление
+  Правительства РФ от 24.12.2021 № 2464
+source: corpus/source/common/ИОТ-021-r1.md
+rendered: corpus/rendered/common/ИОТ-021-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39783
+sha256: 41fee214cc450af5370e049c6f2c3080b9deb318a1c8b6458b4efda2e01cd171

@@ -1,0 +1,22 @@
+doc_id: PVTR-r1
+doc_type: labour_rules
+title: Правила внутреннего трудового распорядка
+org_unit: Отдел кадров
+spaces:
+- common
+confidentiality: internal
+status: superseded
+superseded_by: PVTR-r2
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2024-03-18
+effective_from: 2024-04-01
+approved_by: Генеральный директор
+refs_npa:
+- ТК РФ, ст. 189, 190
+source: corpus/source/common/PVTR-r1.md
+rendered: corpus/rendered/common/PVTR-r1.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 40121
+sha256: 1491c4f7fec6850024697bde6783facf94ed176d0c5265a4fef2635248fbd3bd

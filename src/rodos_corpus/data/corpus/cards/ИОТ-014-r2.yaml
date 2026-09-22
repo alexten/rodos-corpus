@@ -1,0 +1,27 @@
+doc_id: ИОТ-014-r2
+doc_type: safety_instruction
+title: Инструкция по охране труда при работе на высоте
+org_unit: Служба охраны труда
+spaces:
+- common
+- production
+confidentiality: internal
+status: active
+supersedes: ИОТ-014-r1
+format: docx
+channel: dropdir
+version: ред. 2
+approved_at: 2026-04-06
+effective_from: 2026-04-20
+approved_by: Технический директор
+refs_npa:
+- ТК РФ, ст. 214, 215
+- Правила по охране труда при работе на высоте, приказ Минтруда России от 16.11.2020
+  № 782н
+- Правила обучения по охране труда и проверки знания требований охраны труда, постановление
+  Правительства РФ от 24.12.2021 № 2464
+source: corpus/source/common/ИОТ-014-r2.md
+rendered: corpus/rendered/common/ИОТ-014-r2.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39962
+sha256: c8b9f73db61cde70cdc2be1a7b2fca64ad439c463830ba28734f1f5f8b8bda4b

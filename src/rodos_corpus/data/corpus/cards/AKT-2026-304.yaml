@@ -1,0 +1,21 @@
+doc_id: AKT-2026-304
+doc_type: service_act
+title: Акт выполненных работ № АКТ-2026-304 от 28.07.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: edo
+approved_at: 2026-07-28
+approved_by: Главный бухгалтер
+counterparty: ООО «Логистик-Лайн»
+contract: ЛЛ-2025/05
+amount_total_rub: 444000.0
+generated_by: service_acts
+source: corpus/source/finance/AKT-2026-304.md
+rendered: corpus/rendered/finance/AKT-2026-304.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37671
+sha256: 3d34105d0aff29ade15936e413f80132ebfa4cee5a565e2e45a3ce1b1c4791cd

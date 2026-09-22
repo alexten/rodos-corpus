@@ -1,0 +1,28 @@
+doc_id: ИОТ-008
+doc_type: safety_instruction
+title: Инструкция по охране труда для термиста
+org_unit: Служба охраны труда
+spaces:
+- common
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-10-08
+effective_from: 2025-10-20
+approved_by: Технический директор
+plants:
+- perm
+refs_npa:
+- ТК РФ, ст. 214, 215
+- Правила по охране труда при эксплуатации электроустановок, приказ Минтруда России
+  от 15.12.2020 № 903н
+- Правила обучения по охране труда и проверки знания требований охраны труда, постановление
+  Правительства РФ от 24.12.2021 № 2464
+source: corpus/source/common/ИОТ-008.md
+rendered: corpus/rendered/common/ИОТ-008.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 40160
+sha256: 44ad405aa10be8b19f3bc0fd22b70eef5941b04c6dba3ca08b292ce7a89e2334

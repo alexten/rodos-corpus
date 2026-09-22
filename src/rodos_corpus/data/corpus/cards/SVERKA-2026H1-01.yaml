@@ -1,0 +1,21 @@
+doc_id: SVERKA-2026H1-01
+doc_type: reconciliation_act
+title: Акт сверки взаимных расчётов с АО «Редмаш» за 1-е полугодие 2026 г.
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: xlsx
+channel: edo
+approved_at: 2026-07-10
+approved_by: Главный бухгалтер
+counterparty: АО «Редмаш»
+contract: РМ-2025/01
+balance_rub: 2280431.24
+generated_by: reconciliation_acts
+source: corpus/source/finance/SVERKA-2026H1-01.table.yaml
+rendered: corpus/rendered/finance/SVERKA-2026H1-01.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 5551
+sha256: b4eb7c08f948b65162c277a4ba421eabd38ab793d4bc03a1510e01be5b8e9be4

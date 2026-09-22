@@ -89,7 +89,7 @@ def validate(doc: SourceDoc) -> list[str]:
         value = card.get(name)
         if value is not None and not isinstance(value, date):
             problems.append(f"{doc.path.name}: поле «{name}» должно быть датой, а не «{value}»")
-    if doc.table is None and not doc.body.strip() and doc.fmt != "xml":
+    if doc.table is None and not doc.body.strip():
         problems.append(f"{doc.path.name}: пустое тело документа")
     return problems
 

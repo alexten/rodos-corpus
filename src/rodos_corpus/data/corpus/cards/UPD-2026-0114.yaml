@@ -1,0 +1,25 @@
+doc_id: UPD-2026-0114
+doc_type: upd
+title: Универсальный передаточный документ № УПД-2026-0114 от 08.06.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: xml
+channel: edo
+approved_at: 2026-06-08
+counterparty: ООО «Абразив-Центр»
+counterparty_inn: '006452003311'
+contract: АЦ-2024/45
+payment_terms: предоплата
+direction: закупка
+amount_net_rub: 1458000.0
+amount_vat_rub: 291600.0
+amount_total_rub: 1749600.0
+generated_by: upd
+source: corpus/source/finance/UPD-2026-0114.md
+rendered: corpus/rendered/finance/UPD-2026-0114.xml
+mime: application/xml
+bytes: 2457
+sha256: 3a730dbbf3a83eb4dc190a0543a35671ab3a1f1e39e808848d73800c4dcb5717

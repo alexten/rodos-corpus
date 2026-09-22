@@ -1,0 +1,22 @@
+doc_id: IZV-2026-003
+doc_type: change_notice
+title: Извещение об изменении технологической карты на деталь 45.67.90 «Вал промежуточный
+  редуктора Р-160»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-05-04
+effective_from: 2026-05-12
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 45.67.90
+source: corpus/source/production/IZV-2026-003.md
+rendered: corpus/rendered/production/IZV-2026-003.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38129
+sha256: f9287f44e640f75a57a34000f4011d86e36647b8dae7cec4c4ab467e143b2fc9

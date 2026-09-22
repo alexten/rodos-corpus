@@ -19,4 +19,4 @@ source: corpus/source/production/SMZ-20260903-CEH-2.table.yaml
 rendered: corpus/rendered/production/SMZ-20260903-CEH-2.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
 bytes: 5620
-sha256: fdb51732cbb41cc45af829fa81b7a905e28f64f596d54f5575d5f869080f2e30
+sha256: 466c436d3fbe10da74197d5d96d3f15f52832559744cc61a520a5a991f4c0bdd

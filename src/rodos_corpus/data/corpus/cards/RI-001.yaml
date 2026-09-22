@@ -1,0 +1,21 @@
+doc_id: RI-001
+doc_type: work_instruction
+title: Работа на токарном обрабатывающем центре с ЧПУ DMG MORI CTX 310 ecoline
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-02-10
+effective_from: 2025-02-20
+approved_by: Главный технолог
+plants:
+- kovrov
+source: corpus/source/production/RI-001.md
+rendered: corpus/rendered/production/RI-001.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39554
+sha256: 134b61166062515f36f0de9c0841517c387ca6492d20bf80757ade91f0a1f906

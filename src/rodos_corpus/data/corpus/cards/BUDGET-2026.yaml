@@ -1,0 +1,18 @@
+doc_id: BUDGET-2026
+doc_type: budget
+title: Бюджет доходов и расходов ГК «Родос-Деталь» на 2026 год по ЦФО
+org_unit: Финансовая служба
+spaces:
+- finance
+confidentiality: dsp
+status: active
+format: xlsx
+channel: manual
+approved_at: 2025-12-22
+approved_by: Финансовый директор
+generated_by: cfo_budget
+source: corpus/source/finance/BUDGET-2026.table.yaml
+rendered: corpus/rendered/finance/BUDGET-2026.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 8743
+sha256: 8d023c31c074e45df25e888533a2d2ad29b9ded9c4a95e5036ffcc5dd1c6c3d3

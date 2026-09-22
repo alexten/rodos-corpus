@@ -1,0 +1,22 @@
+doc_id: SCH-2026-0203
+doc_type: invoice
+title: Счёт на оплату № СЧ-2026-0203 от 21.06.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: pdf
+channel: edo
+approved_at: 2026-06-21
+approved_by: Главный бухгалтер
+counterparty: АО «Гидромаш-Юг»
+contract: ГЮ-2025/04
+amount_total_rub: 1632000.0
+due_date: 2026-06-26
+generated_by: invoices
+source: corpus/source/finance/SCH-2026-0203.md
+rendered: corpus/rendered/finance/SCH-2026-0203.pdf
+mime: application/pdf
+bytes: 25913
+sha256: 86aa6271d761893b0c9a8cd569f6414c46b95f3467cabb3d37a165425156d2bd

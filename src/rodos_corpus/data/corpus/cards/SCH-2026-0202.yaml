@@ -1,0 +1,22 @@
+doc_id: SCH-2026-0202
+doc_type: invoice
+title: Счёт на оплату № СЧ-2026-0202 от 12.06.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: pdf
+channel: edo
+approved_at: 2026-06-12
+approved_by: Главный бухгалтер
+counterparty: ООО «Привод-НН»
+contract: ПНН-2025/08
+amount_total_rub: 7952400.0
+due_date: 2026-06-17
+generated_by: invoices
+source: corpus/source/finance/SCH-2026-0202.md
+rendered: corpus/rendered/finance/SCH-2026-0202.pdf
+mime: application/pdf
+bytes: 25853
+sha256: 2a706cbd843708996bb990039768b2779d1ebbe073c42d056b6de1d983b82317

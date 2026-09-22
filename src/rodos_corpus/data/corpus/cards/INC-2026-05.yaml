@@ -1,0 +1,19 @@
+doc_id: INC-2026-05
+doc_type: incident_review
+title: 'Разбор инцидента: отказ выпрямителя линии цинкования АГ-40, аварийная остановка,
+  цех №4, Пермь, 09.07.2026'
+org_unit: Отдел главного механика
+spaces:
+- production
+- common
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-07-16
+approved_by: Технический директор
+source: corpus/source/production/INC-2026-05.md
+rendered: corpus/rendered/production/INC-2026-05.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 41093
+sha256: b2412f4b82987714a4af4c5ab9a5b8b4db49f07b99a9d760b6f5d6a376dae84a

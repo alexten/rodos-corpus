@@ -1,0 +1,21 @@
+doc_id: RI-003
+doc_type: work_instruction
+title: Работа на фрезерном обрабатывающем центре Haas VF-2
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-04-18
+effective_from: 2025-04-28
+approved_by: Главный технолог
+plants:
+- kovrov
+source: corpus/source/production/RI-003.md
+rendered: corpus/rendered/production/RI-003.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39196
+sha256: 21cd1d276a229a444821fbafa8f11066ad4bf3efa57d9a71e747d6ece64481ab

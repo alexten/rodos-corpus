@@ -1,0 +1,18 @@
+doc_id: INC-2026-08
+doc_type: incident_review
+title: 'Разбор инцидента: ошибка комплектации отгрузки в цехе №6, неполный комплект
+  ушёл заказчику'
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-06-30
+approved_by: Технический директор
+source: corpus/source/production/INC-2026-08.md
+rendered: corpus/rendered/production/INC-2026-08.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39402
+sha256: 55ebc7933f81db6cbf27885afb1a62ab4bb5b6fde93c345d946340d0303e1dd9

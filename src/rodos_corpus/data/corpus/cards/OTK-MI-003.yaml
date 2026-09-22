@@ -1,0 +1,21 @@
+doc_id: OTK-MI-003
+doc_type: qc_method
+title: Методика контроля твёрдости после термообработки
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-05
+effective_from: 2026-03-19
+approved_by: Начальник ОТК
+plants:
+- perm
+source: corpus/source/production/OTK-MI-003.md
+rendered: corpus/rendered/production/OTK-MI-003.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38599
+sha256: c293a7d589a0f947af05de018dd1071c34741ac4aed595f9908fbdd772ac64f6

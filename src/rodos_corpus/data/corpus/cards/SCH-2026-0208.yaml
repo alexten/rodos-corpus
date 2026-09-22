@@ -1,0 +1,22 @@
+doc_id: SCH-2026-0208
+doc_type: invoice
+title: Счёт на оплату № СЧ-2026-0208 от 05.08.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: pdf
+channel: edo
+approved_at: 2026-08-05
+approved_by: Главный бухгалтер
+counterparty: ТОО «KazMashParts»
+contract: KMP-2025/02
+amount_total_rub: 20304000.0
+due_date: 2026-08-10
+generated_by: invoices
+source: corpus/source/finance/SCH-2026-0208.md
+rendered: corpus/rendered/finance/SCH-2026-0208.pdf
+mime: application/pdf
+bytes: 27209
+sha256: 751b35a7754eb54b771d0950776bf3238cd48408882593eb8a480dafaf0a9be0

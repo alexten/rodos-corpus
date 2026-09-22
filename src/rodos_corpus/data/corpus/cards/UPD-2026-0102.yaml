@@ -1,0 +1,25 @@
+doc_id: UPD-2026-0102
+doc_type: upd
+title: Универсальный передаточный документ № УПД-2026-0102 от 27.01.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: xml
+channel: edo
+approved_at: 2026-01-27
+counterparty: ООО «Привод-НН»
+counterparty_inn: '005261334455'
+contract: ПНН-2025/08
+payment_terms: отсрочка 30 календарных дней
+direction: реализация
+amount_net_rub: 1335000.0
+amount_vat_rub: 267000.0
+amount_total_rub: 1602000.0
+generated_by: upd
+source: corpus/source/finance/UPD-2026-0102.md
+rendered: corpus/rendered/finance/UPD-2026-0102.xml
+mime: application/xml
+bytes: 2550
+sha256: 323dca715605ee7a68be361d1ef8c507df606802a164403616258c1d67e6e225

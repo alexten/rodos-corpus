@@ -1,0 +1,22 @@
+doc_id: SCH-2026-0204
+doc_type: invoice
+title: Счёт на оплату № СЧ-2026-0204 от 30.06.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: pdf
+channel: edo
+approved_at: 2026-06-30
+approved_by: Главный бухгалтер
+counterparty: ООО «Конвейер-Системс»
+contract: КС-2025/12
+amount_total_rub: 1839600.0
+due_date: 2026-07-05
+generated_by: invoices
+source: corpus/source/finance/SCH-2026-0204.md
+rendered: corpus/rendered/finance/SCH-2026-0204.pdf
+mime: application/pdf
+bytes: 25289
+sha256: 2e0307551cd450880949d1e32107fef202e64b401ebaf7739db0c9437a303624

@@ -1,0 +1,23 @@
+doc_id: OTK-MI-005
+doc_type: qc_method
+title: Методика контроля толщины гальванического покрытия
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-05-07
+effective_from: 2026-05-21
+approved_by: Начальник ОТК
+plants:
+- perm
+refs_npa:
+- ГОСТ 9.302-88 Покрытия металлические и неметаллические неорганические. Методы контроля
+source: corpus/source/production/OTK-MI-005.md
+rendered: corpus/rendered/production/OTK-MI-005.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38466
+sha256: 2c95e2f3d33e4c310c25c3058b5cf366c66a21a5204dafb2d91df6f2100945ca

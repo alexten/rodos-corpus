@@ -1,0 +1,17 @@
+doc_id: INC-2026-04
+doc_type: incident_review
+title: 'Протокол разбора: прекращение подачи СОЖ на участке ЧПУ цеха №1'
+org_unit: Отдел главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: txt
+channel: dropdir
+approved_at: 2026-04-16
+approved_by: Технический директор
+source: corpus/source/production/INC-2026-04.md
+rendered: corpus/rendered/production/INC-2026-04.txt
+mime: text/plain
+bytes: 6964
+sha256: 25272b754644134a7f79019c9e6b902e96c759e4692e255735d05184965e7506

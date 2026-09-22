@@ -1,0 +1,23 @@
+doc_id: IZV-2026-004
+doc_type: change_notice
+title: Извещение об изменении технологической карты на деталь 45.67.89 «Вал выходной
+  редуктора Р-160» (по рекламации АО «Редмаш»)
+org_unit: Технологический отдел
+spaces:
+- production
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-07-06
+effective_from: 2026-07-14
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 45.67.89
+source: corpus/source/production/IZV-2026-004.md
+rendered: corpus/rendered/production/IZV-2026-004.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38325
+sha256: d8647b9ba2369f39e4d321fae4a9206c177da72db44283ce712690e3c433f63b

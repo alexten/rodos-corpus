@@ -1,0 +1,21 @@
+doc_id: OTK-MI-008
+doc_type: qc_method
+title: Методика контроля комплектности, маркировки и консервации готовой продукции
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-08-06
+effective_from: 2026-08-20
+approved_by: Начальник ОТК
+plants:
+- tolyatti
+source: corpus/source/production/OTK-MI-008.md
+rendered: corpus/rendered/production/OTK-MI-008.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38546
+sha256: 1a7ba398ffb27f843b0ea7bb7b16bc0784504fb4e82280dcd22573d2ad6ac915

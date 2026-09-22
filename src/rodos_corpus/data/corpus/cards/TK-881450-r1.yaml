@@ -20,4 +20,4 @@ source: corpus/source/production/TK-881450-r1.md
 rendered: corpus/rendered/production/TK-881450-r1.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
 bytes: 38160
-sha256: e2f6b57d39c61c477c308f6ddd1ee0884dc6a44dec0a48560459a7c86183f795
+sha256: cc1b1eb3d0b57a494edc9229db5dce5ee04296881a92a3b699f0763e59abdc22

@@ -1,0 +1,21 @@
+doc_id: AKT-2026-302
+doc_type: service_act
+title: Акт выполненных работ № АКТ-2026-302 от 28.05.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: edo
+approved_at: 2026-05-28
+approved_by: Главный бухгалтер
+counterparty: ООО «Логистик-Лайн»
+contract: ЛЛ-2025/05
+amount_total_rub: 822000.0
+generated_by: service_acts
+source: corpus/source/finance/AKT-2026-302.md
+rendered: corpus/rendered/finance/AKT-2026-302.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37673
+sha256: e8ed19f84973b66daa086ea7712c6b145384be2df66b73f9c3e7b5ed6eee3f02

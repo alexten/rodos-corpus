@@ -1,0 +1,21 @@
+doc_id: RI-007
+doc_type: work_instruction
+title: Закалка токами высокой частоты на установке ВЧГ7-60/0,066
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-09-05
+effective_from: 2025-09-16
+approved_by: Главный технолог
+plants:
+- perm
+source: corpus/source/production/RI-007.md
+rendered: corpus/rendered/production/RI-007.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39201
+sha256: 0a6fba661b75d8eaba4286e2d7fc9c4e04e9bee5022b0c5c2711afc6cae8a5ce

@@ -1,0 +1,23 @@
+doc_id: POL-ADAPT-001
+doc_type: policy
+title: Положение об адаптации и наставничестве
+org_unit: Отдел кадров
+spaces:
+- common
+- it
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-05-05
+effective_from: 2026-06-01
+approved_by: Генеральный директор
+refs_npa:
+- ТК РФ, ст. 70
+source: corpus/source/common/POL-ADAPT-001.md
+rendered: corpus/rendered/common/POL-ADAPT-001.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39058
+sha256: c3be95e77136da352280d37d277c586b19e11a435d9b7acc5293484ae921e8e4

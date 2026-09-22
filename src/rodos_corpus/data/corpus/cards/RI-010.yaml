@@ -1,0 +1,21 @@
+doc_id: RI-010
+doc_type: work_instruction
+title: Нанесение хромового покрытия на линии АГ-25Х
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-12-12
+effective_from: 2025-12-23
+approved_by: Главный технолог
+plants:
+- perm
+source: corpus/source/production/RI-010.md
+rendered: corpus/rendered/production/RI-010.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39231
+sha256: 021549200015e9072b4d463dfddf536664f6e43edd3c0ab726078858a452e37a

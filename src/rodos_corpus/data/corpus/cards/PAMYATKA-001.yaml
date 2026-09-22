@@ -1,0 +1,19 @@
+doc_id: PAMYATKA-001
+doc_type: onboarding_memo
+title: Памятка новому сотруднику ГК «Родос-Деталь»
+org_unit: Отдел кадров
+spaces:
+- common
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-11-01
+effective_from: 2025-11-15
+approved_by: Директор по персоналу
+source: corpus/source/common/PAMYATKA-001.md
+rendered: corpus/rendered/common/PAMYATKA-001.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38846
+sha256: f1f8f227d172696fd26cecc4f5ea015365416b278a27322eafab0dec00ae070a

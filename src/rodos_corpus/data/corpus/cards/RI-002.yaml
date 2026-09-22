@@ -1,0 +1,21 @@
+doc_id: RI-002
+doc_type: work_instruction
+title: Работа на токарно-винторезном станке 16К20Ф3
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-03-14
+effective_from: 2025-03-25
+approved_by: Главный технолог
+plants:
+- kovrov
+source: corpus/source/production/RI-002.md
+rendered: corpus/rendered/production/RI-002.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39365
+sha256: 01528489fd901a246079971b5bc2fe0c14316e315375c280aa2d51580b2b57fd

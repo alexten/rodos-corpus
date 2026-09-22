@@ -1,0 +1,21 @@
+doc_id: OTK-MI-002
+doc_type: qc_method
+title: Методика контроля радиального биения и геометрии валов
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-02-10
+effective_from: 2026-02-24
+approved_by: Начальник ОТК
+plants:
+- kovrov
+source: corpus/source/production/OTK-MI-002.md
+rendered: corpus/rendered/production/OTK-MI-002.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38586
+sha256: df6d06955f8535922232a91e5b9e46e113a8427ece07ad3ba2f7189259acd066

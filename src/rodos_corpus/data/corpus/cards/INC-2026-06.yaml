@@ -1,0 +1,18 @@
+doc_id: INC-2026-06
+doc_type: incident_review
+title: 'Протокол разбора: утечка электролита при перегрузке ванны хромирования линии
+  АГ-25Х'
+org_unit: Служба охраны труда
+spaces:
+- production
+confidentiality: internal
+status: active
+format: txt
+channel: dropdir
+approved_at: 2026-08-21
+approved_by: Технический директор
+source: corpus/source/production/INC-2026-06.md
+rendered: corpus/rendered/production/INC-2026-06.txt
+mime: text/plain
+bytes: 7155
+sha256: 45e3fc003ef68533d773f6fa811c1a377a9eeae90ef5a89bd5ae346671452995

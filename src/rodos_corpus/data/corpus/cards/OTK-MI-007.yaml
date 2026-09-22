@@ -1,0 +1,21 @@
+doc_id: OTK-MI-007
+doc_type: qc_method
+title: Методика испытания гидроцилиндров на герметичность и прочность
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-07-10
+effective_from: 2026-07-24
+approved_by: Начальник ОТК
+plants:
+- tolyatti
+source: corpus/source/production/OTK-MI-007.md
+rendered: corpus/rendered/production/OTK-MI-007.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38720
+sha256: 9d23137eeb0334d31328bd4679243517843e3bce08777b5b849499fd5f9b4290

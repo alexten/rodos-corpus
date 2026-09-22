@@ -1,0 +1,18 @@
+doc_id: REESTR-PLAT-20260922
+doc_type: payment_register
+title: Реестр платежей на 22.09.2026
+org_unit: Финансовая служба
+spaces:
+- finance
+confidentiality: dsp
+status: active
+format: xlsx
+channel: manual
+approved_at: 2026-09-22
+approved_by: Казначей
+generated_by: payment_registers
+source: corpus/source/finance/REESTR-PLAT-20260922.table.yaml
+rendered: corpus/rendered/finance/REESTR-PLAT-20260922.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 5909
+sha256: 5104b36ced966466bb8d7cfd10f1d037d2bf5fefb453719ee0f0e81865b530bc

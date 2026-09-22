@@ -1,0 +1,23 @@
+doc_id: 8D-2026-04
+doc_type: report_8d
+title: Отчёт 8D по течи рабочей жидкости по штоку при испытании гидроцилиндров ГЦ-100/56
+  (цех №5, Тольятти)
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-10
+approved_by: Начальник ОТК
+plants:
+- tolyatti
+part: 88.14.54
+opened_at: 2026-08-12
+closed_at: 2026-09-10
+source: corpus/source/production/8D-2026-04.md
+rendered: corpus/rendered/production/8D-2026-04.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39680
+sha256: f9ac569900d28ae1cba4727484faf2aca68a71d57351ddc3fc664109ceef48d6

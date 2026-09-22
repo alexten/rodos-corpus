@@ -1,0 +1,22 @@
+doc_id: PVTR-r2
+doc_type: labour_rules
+title: Правила внутреннего трудового распорядка
+org_unit: Отдел кадров
+spaces:
+- common
+confidentiality: internal
+status: active
+supersedes: PVTR-r1
+format: docx
+channel: dropdir
+version: ред. 2
+approved_at: 2026-05-25
+effective_from: 2026-06-15
+approved_by: Генеральный директор
+refs_npa:
+- ТК РФ, ст. 91, 99, 100, 103, 104, 108, 114, 115, 122, 123, 189, 190, 192, 193
+source: corpus/source/common/PVTR-r2.md
+rendered: corpus/rendered/common/PVTR-r2.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 43559
+sha256: 042d33dcdff988e949c812292e894fd587d0f3d86266ac675b9cc7d2b7b05bb0

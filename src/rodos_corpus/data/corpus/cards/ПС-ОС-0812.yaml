@@ -18,4 +18,4 @@ source: corpus/source/production/ПС-ОС-0812.md
 rendered: corpus/rendered/production/ПС-ОС-0812.pdf
 mime: application/pdf
 bytes: 26534
-sha256: 69b991978e8a90d4e58fdfd41bec509ebe46d84bedbd4cc0b936a77037424fdd
+sha256: bb59b3c71e2f8b177c540adb856ba2c689e9b911bd0b73a812f750675deb4c5e

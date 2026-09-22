@@ -1,0 +1,22 @@
+doc_id: SVERKA-2026H1-04
+doc_type: reconciliation_act
+title: Акт сверки взаимных расчётов с ООО «Конвейер-Системс» за 1-е полугодие 2026
+  г.
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: xlsx
+channel: edo
+approved_at: 2026-07-10
+approved_by: Главный бухгалтер
+counterparty: ООО «Конвейер-Системс»
+contract: КС-2025/12
+balance_rub: 178611.82
+generated_by: reconciliation_acts
+source: corpus/source/finance/SVERKA-2026H1-04.table.yaml
+rendered: corpus/rendered/finance/SVERKA-2026H1-04.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 5560
+sha256: 57ee36d1960d11d9e120a0320a1dac0b6187e920dfe9f788b35e67c40f81ca83

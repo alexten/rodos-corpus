@@ -1,0 +1,19 @@
+doc_id: POL-PR-001
+doc_type: policy
+title: Положение о пропускном и внутриобъектовом режиме
+org_unit: Служба безопасности
+spaces:
+- common
+confidentiality: dsp
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-09-01
+effective_from: 2025-09-15
+approved_by: Генеральный директор
+source: corpus/source/common/POL-PR-001.md
+rendered: corpus/rendered/common/POL-PR-001.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39027
+sha256: 07a911c15fb0074ba33220aca5f0f204c949dcb735f0241a2f452ea44cc11cd2

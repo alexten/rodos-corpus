@@ -1,0 +1,22 @@
+doc_id: IZV-2026-008
+doc_type: change_notice
+title: Извещение об изменении технологической карты на деталь 61.05.24 «Плита опорная
+  натяжной станции»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-05-18
+effective_from: 2026-05-26
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 61.05.24
+source: corpus/source/production/IZV-2026-008.md
+rendered: corpus/rendered/production/IZV-2026-008.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38207
+sha256: b3cdf59d140ff2699a566a3cf53cfd0d66bdc032dea6c747e179e9bf32ee18b0

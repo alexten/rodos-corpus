@@ -1,0 +1,21 @@
+doc_id: RI-013-TLT
+doc_type: work_instruction
+title: Порядок приготовления, контроля и замены СОЖ ЭТ-2 (Тольяттинская площадка)
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-17
+effective_from: 2026-03-28
+approved_by: Главный технолог
+plants:
+- tolyatti
+source: corpus/source/production/RI-013-TLT.md
+rendered: corpus/rendered/production/RI-013-TLT.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39144
+sha256: de510db143ffbf76e24a06f4c411a672c314967e5f9796847de42f0dfe3daadb

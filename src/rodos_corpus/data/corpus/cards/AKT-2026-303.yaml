@@ -1,0 +1,21 @@
+doc_id: AKT-2026-303
+doc_type: service_act
+title: Акт выполненных работ № АКТ-2026-303 от 28.06.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: edo
+approved_at: 2026-06-28
+approved_by: Главный бухгалтер
+counterparty: ООО «Технадзор-Эксперт»
+contract: ТНЭ-2024/19
+amount_total_rub: 750000.0
+generated_by: service_acts
+source: corpus/source/finance/AKT-2026-303.md
+rendered: corpus/rendered/finance/AKT-2026-303.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37677
+sha256: 534c69dcd0391facc48baccd4aea887b8cad1ef20fe7daf73d2a7884684f4d82

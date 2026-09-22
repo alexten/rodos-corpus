@@ -1,0 +1,23 @@
+doc_id: IZV-2026-009
+doc_type: change_notice
+title: Извещение об изменении технологической карты на деталь 88.14.42 «Фланец присоединительный
+  ø160»
+org_unit: Технологический отдел
+spaces:
+- production
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-08-17
+effective_from: 2026-08-25
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 88.14.42
+source: corpus/source/production/IZV-2026-009.md
+rendered: corpus/rendered/production/IZV-2026-009.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38131
+sha256: 9346e2afa88c47e8ebe1e7c61f6e1b5044e94f66956d8a42331fddebb1ccc8d6

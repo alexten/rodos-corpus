@@ -1,0 +1,22 @@
+doc_id: IZV-2026-002
+doc_type: change_notice
+title: Извещение об изменении технологической карты на деталь 45.67.93 «Вал-шестерня
+  привода конвейера»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-04-13
+effective_from: 2026-04-21
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 45.67.93
+source: corpus/source/production/IZV-2026-002.md
+rendered: corpus/rendered/production/IZV-2026-002.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38145
+sha256: f5422f72fbb25cff511476d88b8bdc1c14672eb58a94875583c1bc4a2898d761

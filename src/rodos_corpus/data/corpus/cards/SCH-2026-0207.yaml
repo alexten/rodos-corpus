@@ -1,0 +1,22 @@
+doc_id: SCH-2026-0207
+doc_type: invoice
+title: Счёт на оплату № СЧ-2026-0207 от 27.07.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: pdf
+channel: edo
+approved_at: 2026-07-27
+approved_by: Главный бухгалтер
+counterparty: ООО «Машторг-Центр»
+contract: МТЦ-2025/10
+amount_total_rub: 6336000.0
+due_date: 2026-08-01
+generated_by: invoices
+source: corpus/source/finance/SCH-2026-0207.md
+rendered: corpus/rendered/finance/SCH-2026-0207.pdf
+mime: application/pdf
+bytes: 25561
+sha256: cbd5eeb7e1803ea58cb2daa3e8322a6ed7c93ba7fc35591e339f307aa59f1a91

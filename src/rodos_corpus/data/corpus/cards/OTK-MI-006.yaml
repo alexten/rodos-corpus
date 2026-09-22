@@ -1,0 +1,24 @@
+doc_id: OTK-MI-006
+doc_type: qc_method
+title: Методика контроля зубчатых венцов
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-06-04
+effective_from: 2026-06-18
+approved_by: Начальник ОТК
+plants:
+- kovrov
+refs_npa:
+- ГОСТ 1643-81 Передачи зубчатые цилиндрические. Допуски
+- ГОСТ 1758-81 Передачи зубчатые конические и гипоидные. Допуски
+source: corpus/source/production/OTK-MI-006.md
+rendered: corpus/rendered/production/OTK-MI-006.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38667
+sha256: 3ee213ee6fbb92d2d1c51de06a49a4bd58fc5f048268066c26fe751d464bca14

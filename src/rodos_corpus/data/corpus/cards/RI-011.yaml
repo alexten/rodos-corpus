@@ -1,0 +1,21 @@
+doc_id: RI-011
+doc_type: work_instruction
+title: Сборка редукторных узлов на прессе П-6330
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-01-16
+effective_from: 2026-01-27
+approved_by: Главный технолог
+plants:
+- tolyatti
+source: corpus/source/production/RI-011.md
+rendered: corpus/rendered/production/RI-011.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39079
+sha256: d3340dac088fee5cb41bb5476ad4bf026019d83858c9bafec375021b5998768f

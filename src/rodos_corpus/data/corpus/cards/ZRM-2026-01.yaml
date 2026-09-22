@@ -1,0 +1,17 @@
+doc_id: ZRM-2026-01
+doc_type: repair_request
+title: 'Заявка на ремонт: плановая замена подшипников шпинделя станка 6Р13'
+org_unit: Цех №1, токарно-фрезерный
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-01-14
+approved_by: Начальник цеха
+source: corpus/source/production/ZRM-2026-01.md
+rendered: corpus/rendered/production/ZRM-2026-01.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37913
+sha256: ae61eea049c55f79ee518d9c9a2b466cbaa0d6850e7d231a2f314d2b958e64c8

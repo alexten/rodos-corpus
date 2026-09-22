@@ -1,0 +1,23 @@
+doc_id: TEH-REGL-001
+doc_type: process_regulation
+title: Технологический регламент линии цинкования АГ-40
+org_unit: Цех №4, гальванический
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 2
+approved_at: 2026-08-04
+effective_from: 2026-08-11
+approved_by: Главный технолог
+plants:
+- perm
+refs_npa:
+- ГОСТ 9.306-85 Покрытия металлические и неметаллические неорганические. Обозначения
+source: corpus/source/production/TEH-REGL-001.md
+rendered: corpus/rendered/production/TEH-REGL-001.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 40420
+sha256: 238f7ec00a7ddabd67ae43a80ed499aa6857ccd7ab865c2c3645a5ae414e0725

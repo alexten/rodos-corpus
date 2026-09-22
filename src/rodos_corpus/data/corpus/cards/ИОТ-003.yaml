@@ -1,0 +1,30 @@
+doc_id: ИОТ-003
+doc_type: safety_instruction
+title: Инструкция по охране труда для оператора станков с числовым программным управлением
+org_unit: Служба охраны труда
+spaces:
+- common
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-09-15
+effective_from: 2025-10-01
+approved_by: Технический директор
+plants:
+- kovrov
+refs_npa:
+- ТК РФ, ст. 214, 215
+- Правила по охране труда при работе с инструментом и приспособлениями, приказ Минтруда
+  России от 27.11.2020 № 835н
+- Правила по охране труда при эксплуатации электроустановок, приказ Минтруда России
+  от 15.12.2020 № 903н
+- Правила обучения по охране труда и проверки знания требований охраны труда, постановление
+  Правительства РФ от 24.12.2021 № 2464
+source: corpus/source/common/ИОТ-003.md
+rendered: corpus/rendered/common/ИОТ-003.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 40288
+sha256: 278a4a467dabab32d6818a0187095a082a358a3d340b942f80746e2f21ca1291

@@ -1,0 +1,26 @@
+doc_id: DOG-KS-2025-12
+doc_type: contract
+title: Договор поставки № КС-2025/12 от 02.04.2025
+org_unit: Юридический отдел
+spaces:
+- finance
+- sales
+confidentiality: dsp
+status: active
+format: pdf
+channel: dropdir
+approved_at: 2025-04-02
+effective_from: 2025-04-02
+approved_by: Генеральный директор
+counterparty: ООО «Конвейер-Системс»
+contract: КС-2025/12
+payment_terms: отсрочка 60 календарных дней
+delivery_terms: доставка до склада заказчика в Санкт-Петербурге
+penalty: 0,15 % за день просрочки, не более 15 %
+note: крупнейший договор по объёму; сроки изготовления фиксируются в спецификации
+valid_until: 2027-04-01
+source: corpus/source/finance/DOG-KS-2025-12.md
+rendered: corpus/rendered/finance/DOG-KS-2025-12.pdf
+mime: application/pdf
+bytes: 34465
+sha256: 9247f52a6b9944ba4e99cb366bfbcfcc8d7f124a6690a2522e9736abee2e2f6c

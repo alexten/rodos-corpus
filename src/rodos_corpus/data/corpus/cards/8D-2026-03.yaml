@@ -1,0 +1,22 @@
+doc_id: 8D-2026-03
+doc_type: report_8d
+title: Отчёт 8D по занижению твёрдости после закалки ТВЧ (цех №3, Пермь)
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-04-15
+approved_by: Начальник ОТК
+plants:
+- perm
+part: 45.67.90
+opened_at: 2026-03-10
+closed_at: 2026-04-15
+source: corpus/source/production/8D-2026-03.md
+rendered: corpus/rendered/production/8D-2026-03.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39706
+sha256: e7165e70b820930dc8d2bc4c50d8f9fb3b20d5cfc060e7dfccb0374633875c88

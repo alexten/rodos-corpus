@@ -1,0 +1,21 @@
+doc_id: RI-005
+doc_type: work_instruction
+title: Круглошлифовальная обработка на станке 3М151
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-06-20
+effective_from: 2025-06-30
+approved_by: Главный технолог
+plants:
+- kovrov
+source: corpus/source/production/RI-005.md
+rendered: corpus/rendered/production/RI-005.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39225
+sha256: 6b6b7a416088abee5c43b8f4a6bd5f83f5a2e1018977d157aa6f87e4c28e0410

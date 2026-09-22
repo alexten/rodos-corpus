@@ -1,0 +1,18 @@
+doc_id: INC-2026-02
+doc_type: incident_review
+title: 'Разбор инцидента: перегрев шпинделя токарного станка 16К20Ф3 из-за пропуска
+  планового технического обслуживания'
+org_unit: Отдел главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-02-16
+approved_by: Технический директор
+source: corpus/source/production/INC-2026-02.md
+rendered: corpus/rendered/production/INC-2026-02.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39428
+sha256: b7a58f12e9effba01bad998de78b8e19d16622ade135e3bb6d7061a3dc62578b

@@ -1,0 +1,21 @@
+doc_id: RI-006
+doc_type: work_instruction
+title: Плоское шлифование на станке 3Е711В
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-07-11
+effective_from: 2025-07-22
+approved_by: Главный технолог
+plants:
+- kovrov
+source: corpus/source/production/RI-006.md
+rendered: corpus/rendered/production/RI-006.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39092
+sha256: d922ccc886b136a00c26cce84f446ae95a120bdbdee2b33d621e08bf2cbce2c7

@@ -1,0 +1,23 @@
+doc_id: DS-RM-2025-01-02
+doc_type: contract_amendment
+title: Дополнительное соглашение № 2 к договору поставки № РМ-2025/01 от 20.01.2025
+org_unit: Юридический отдел
+spaces:
+- finance
+- sales
+- production
+confidentiality: dsp
+status: active
+format: pdf
+channel: dropdir
+approved_at: 2026-07-20
+effective_from: 2026-07-20
+approved_by: Генеральный директор
+counterparty: АО «Редмаш»
+contract: РМ-2025/01
+part: 45.67.89
+source: corpus/source/finance/DS-RM-2025-01-02.md
+rendered: corpus/rendered/finance/DS-RM-2025-01-02.pdf
+mime: application/pdf
+bytes: 28448
+sha256: 6e7e182b94670a6359ec0f7bba3351885d3f06b611b07daeebadfd0f5f873635

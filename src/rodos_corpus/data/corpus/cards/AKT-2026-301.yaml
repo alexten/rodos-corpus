@@ -1,0 +1,21 @@
+doc_id: AKT-2026-301
+doc_type: service_act
+title: Акт выполненных работ № АКТ-2026-301 от 28.04.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: edo
+approved_at: 2026-04-28
+approved_by: Главный бухгалтер
+counterparty: ООО «Технадзор-Эксперт»
+contract: ТНЭ-2024/19
+amount_total_rub: 324000.0
+generated_by: service_acts
+source: corpus/source/finance/AKT-2026-301.md
+rendered: corpus/rendered/finance/AKT-2026-301.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37675
+sha256: c6b1815f9598d004c9eb23f53c5de6d0b09726c7f8b49e86eefa5131f8fdfc20

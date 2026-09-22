@@ -1,0 +1,18 @@
+doc_id: INC-2026-03
+doc_type: incident_review
+title: 'Разбор инцидента: нарушение выдержки при термообработке в печи СШЗ-6.6/9,
+  повторная термообработка партии'
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-03-19
+approved_by: Технический директор
+source: corpus/source/production/INC-2026-03.md
+rendered: corpus/rendered/production/INC-2026-03.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39442
+sha256: 4069831960b44d70addf858426197e794eb4f00d44be394518dd4ecb8e5e19ce

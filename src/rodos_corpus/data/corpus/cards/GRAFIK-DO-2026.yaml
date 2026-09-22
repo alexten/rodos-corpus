@@ -1,0 +1,19 @@
+doc_id: GRAFIK-DO-2026
+doc_type: document_flow_schedule
+title: График документооборота на 2026 год
+org_unit: Бухгалтерия
+spaces:
+- finance
+- common
+confidentiality: internal
+status: active
+format: xlsx
+channel: manual
+approved_at: 2025-12-29
+approved_by: Главный бухгалтер
+generated_by: document_flow_schedule
+source: corpus/source/finance/GRAFIK-DO-2026.table.yaml
+rendered: corpus/rendered/finance/GRAFIK-DO-2026.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 6444
+sha256: 0468d5013f4d145b05e61eee37bc69e86a28488e39f7ce8a9c8025eb1fe6c0fc

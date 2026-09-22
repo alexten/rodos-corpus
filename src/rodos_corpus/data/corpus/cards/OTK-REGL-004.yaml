@@ -1,0 +1,23 @@
+doc_id: OTK-REGL-004
+doc_type: qc_regulation
+title: Порядок управления несоответствующей продукцией
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 3
+approved_at: 2026-05-19
+effective_from: 2026-06-01
+approved_by: Начальник ОТК
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/production/OTK-REGL-004.md
+rendered: corpus/rendered/production/OTK-REGL-004.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 42389
+sha256: 397f473b379a6f10fca2bdbe019f27a60e53ab7c85b54160bab8cd6210c843a3

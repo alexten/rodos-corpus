@@ -15,7 +15,7 @@ import yaml
 
 FILES = (
     "sites", "workshops", "equipment", "materials", "parts", "counterparties",
-    "contracts", "products", "systems", "roles", "people", "calendar",
+    "contracts", "products", "systems", "roles", "people", "calendar", "cfo",
 )
 
 
@@ -62,5 +62,6 @@ class World:
         }.get(collection, self.data.get(collection))
         if not isinstance(items, list):
             raise KeyError(f"{collection} не список записей")
-        field = {"parts": "drawing_no", "contracts": "number", "products": "sku"}.get(collection, "key")
+        field = {"parts": "drawing_no", "contracts": "number", "products": "sku",
+                 "cfo": "code"}.get(collection, "key")
         return {item[field]: item for item in items}

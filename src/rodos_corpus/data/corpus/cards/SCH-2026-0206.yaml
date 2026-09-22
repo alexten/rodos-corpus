@@ -1,0 +1,22 @@
+doc_id: SCH-2026-0206
+doc_type: invoice
+title: Счёт на оплату № СЧ-2026-0206 от 18.07.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: pdf
+channel: edo
+approved_at: 2026-07-18
+approved_by: Главный бухгалтер
+counterparty: ООО «Агротех-Деталь»
+contract: АТД-2025/06
+amount_total_rub: 3465600.0
+due_date: 2026-07-23
+generated_by: invoices
+source: corpus/source/finance/SCH-2026-0206.md
+rendered: corpus/rendered/finance/SCH-2026-0206.pdf
+mime: application/pdf
+bytes: 26151
+sha256: 587c43cf096c37415761de79f825fb1e5b78f996f2db35c598511c540a5f32f4

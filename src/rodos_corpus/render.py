@@ -253,7 +253,21 @@ def render_txt(doc: SourceDoc, target: Path) -> None:
     target.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-RENDERERS = {"docx": render_docx, "pdf": render_pdf, "xlsx": render_xlsx, "eml": render_eml, "txt": render_txt}
+def render_xml(doc: SourceDoc, target: Path) -> None:
+    """Первичка ЭДО: тело исходника уже XML, пишем как есть.
+
+    Извлечение из XML — отдельная ветка приёма: карточка почти целиком структурна, и проверять её
+    нужно на настоящем дереве, а не на пересказе (docs/spec/06, §6).
+    """
+    from xml.etree import ElementTree
+
+    payload = doc.body.strip()
+    ElementTree.fromstring(payload)  # исходник обязан быть разбираемым XML
+    target.write_text(payload + "\n", encoding="utf-8")
+
+
+RENDERERS = {"docx": render_docx, "pdf": render_pdf, "xlsx": render_xlsx, "eml": render_eml,
+             "txt": render_txt, "xml": render_xml}
 
 
 def render(doc: SourceDoc, root: Path | None = None) -> tuple[Path, dict[str, Any]]:

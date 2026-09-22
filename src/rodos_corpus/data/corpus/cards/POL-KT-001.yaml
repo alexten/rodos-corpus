@@ -1,0 +1,26 @@
+doc_id: POL-KT-001
+doc_type: policy
+title: Положение о коммерческой тайне
+org_unit: Юридический отдел
+spaces:
+- common
+- it
+- finance
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-11-10
+effective_from: 2025-12-01
+approved_by: Генеральный директор
+refs_npa:
+- Федеральный закон от 29.07.2004 № 98-ФЗ «О коммерческой тайне»
+- ТК РФ, ст. 81
+- УК РФ, ст. 183
+source: corpus/source/common/POL-KT-001.md
+rendered: corpus/rendered/common/POL-KT-001.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39236
+sha256: 747d353f5d8a51b6436841b2012f9094ec4822f1a2b4297de8d5cc20be341d10

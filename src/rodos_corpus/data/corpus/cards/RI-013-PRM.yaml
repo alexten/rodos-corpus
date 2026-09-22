@@ -1,0 +1,21 @@
+doc_id: RI-013-PRM
+doc_type: work_instruction
+title: Порядок приготовления, контроля и замены СОЖ ЭТ-2 (Пермская площадка)
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-12
+effective_from: 2026-03-24
+approved_by: Главный технолог
+plants:
+- perm
+source: corpus/source/production/RI-013-PRM.md
+rendered: corpus/rendered/production/RI-013-PRM.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39221
+sha256: 8d8bc0a8984e137f5052b8a65c1e15caad4492f3b0e704947d9ca0a428b28bfa

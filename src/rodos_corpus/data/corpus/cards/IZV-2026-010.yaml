@@ -1,0 +1,21 @@
+doc_id: IZV-2026-010
+doc_type: change_notice
+title: Извещение об унификации маркировки деталей 45.67.95 и 45.67.96
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-07
+effective_from: 2026-09-15
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 45.67.95
+source: corpus/source/production/IZV-2026-010.md
+rendered: corpus/rendered/production/IZV-2026-010.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38107
+sha256: 5186f3057a35cec7b501700ebe6db401b7003e7790d6d159adad4a0d2dad7b69

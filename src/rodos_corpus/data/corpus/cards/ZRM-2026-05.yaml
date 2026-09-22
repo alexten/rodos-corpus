@@ -1,0 +1,18 @@
+doc_id: ZRM-2026-05
+doc_type: repair_request
+title: 'Заявка на ремонт: плановая замена подшипников шпинделя круглошлифовального
+  станка 3М151'
+org_unit: Цех №2, шлифовально-доводочный
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-08-10
+approved_by: Начальник цеха
+source: corpus/source/production/ZRM-2026-05.md
+rendered: corpus/rendered/production/ZRM-2026-05.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37825
+sha256: e07e2caabb3c464c62e79c855f9b095cd3745efe4d68b71dad5c9d681d684327

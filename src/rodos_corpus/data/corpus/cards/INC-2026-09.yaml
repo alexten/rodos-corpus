@@ -1,0 +1,17 @@
+doc_id: INC-2026-09
+doc_type: incident_review
+title: 'Протокол разбора: отказ стенда испытаний гидроцилиндров СИ-ГЦ-250 в цехе №5'
+org_unit: Отдел главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: txt
+channel: dropdir
+approved_at: 2026-09-16
+approved_by: Технический директор
+source: corpus/source/production/INC-2026-09.md
+rendered: corpus/rendered/production/INC-2026-09.txt
+mime: text/plain
+bytes: 8039
+sha256: 50482df52e97e2d0c8e16ba10041ee5d78cf5d0de4c5e2a4748f7bb69713f91d

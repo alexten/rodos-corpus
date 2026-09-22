@@ -1,0 +1,18 @@
+doc_id: INC-2026-01
+doc_type: incident_review
+title: 'Разбор инцидента: поломка инструмента и остановка станка Haas VF-2 из-за ошибки
+  в управляющей программе'
+org_unit: Отдел главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-01-23
+approved_by: Технический директор
+source: corpus/source/production/INC-2026-01.md
+rendered: corpus/rendered/production/INC-2026-01.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39470
+sha256: a98acadf7735d0e312bfc7468e23dd83d1d1e8cf325a08741821d8ac141e8054

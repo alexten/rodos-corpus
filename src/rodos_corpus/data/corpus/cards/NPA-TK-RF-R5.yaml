@@ -1,0 +1,19 @@
+doc_id: NPA-TK-RF-R5
+doc_type: npa
+title: Трудовой кодекс Российской Федерации. Раздел V «Время отдыха» (гл. 17–19) (извлечение)
+org_unit: Нормативная база
+spaces:
+- common
+confidentiality: public
+status: active
+format: docx
+channel: npa
+source_url: http://pravo.gov.ru/proxy/ips/?docbody=&nd=102074279
+retrieved_at: 2026-09-22
+npa_requisites: Трудовой кодекс РФ от 30.12.2001 № 197-ФЗ, ред. от 15.05.2026 № 32-П
+  (сводная редакция ИПС «Законодательство России» на дату снимка 22.09.2026)
+source: corpus/source/common/NPA-TK-RF-R5.md
+rendered: corpus/rendered/common/NPA-TK-RF-R5.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 45242
+sha256: 5e18c8ab2e73eb945b1a7d2805f648993023640966c1425b7b824e0080878811

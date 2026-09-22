@@ -1,0 +1,23 @@
+doc_id: IZV-2026-005
+doc_type: change_notice
+title: Извещение об изменении технологической карты на деталь 73.22.30 «Шток гидроцилиндра
+  ГЦ-100/56, L=700»
+org_unit: Технологический отдел
+spaces:
+- production
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-06-01
+effective_from: 2026-06-09
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 73.22.30
+source: corpus/source/production/IZV-2026-005.md
+rendered: corpus/rendered/production/IZV-2026-005.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38166
+sha256: 29001a6caa639e219543bf2d29d939314792c6366de9fe56d588b0f362f287c1

@@ -1,0 +1,23 @@
+doc_id: 8D-2026-01
+doc_type: report_8d
+title: Отчёт 8D по рекламации АО «Редмаш» на партию валов 45.67.89 (радиальное биение)
+org_unit: Отдел технического контроля
+spaces:
+- production
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-08-28
+approved_by: Начальник ОТК
+plants:
+- kovrov
+part: 45.67.89
+opened_at: 2026-06-19
+closed_at: 2026-08-28
+source: corpus/source/production/8D-2026-01.md
+rendered: corpus/rendered/production/8D-2026-01.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39918
+sha256: f59b093aa48b50d9301846da70419d47571328f7408a46bdb8f4762eaf304f8b

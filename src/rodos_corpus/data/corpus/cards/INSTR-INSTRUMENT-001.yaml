@@ -1,0 +1,21 @@
+doc_id: INSTR-INSTRUMENT-001
+doc_type: work_instruction
+title: Порядок выдачи, учёта и заточки режущего инструмента
+org_unit: Инструментальное хозяйство
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-21
+effective_from: 2026-05-04
+approved_by: Главный технолог
+plants:
+- kovrov
+source: corpus/source/production/INSTR-INSTRUMENT-001.md
+rendered: corpus/rendered/production/INSTR-INSTRUMENT-001.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39042
+sha256: 43018b1a4d8c6e2c53f39983e04344878f21ab19b665115f57d668e5c722a3a3

@@ -1,0 +1,24 @@
+doc_id: POL-SUOT-001
+doc_type: policy
+title: Положение о системе управления охраной труда
+org_unit: Служба охраны труда
+spaces:
+- common
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-02-10
+effective_from: 2026-03-01
+approved_by: Генеральный директор
+refs_npa:
+- ТК РФ, ст. 214, 215
+- Примерное положение о системе управления охраной труда, приказ Минтруда России от
+  29.10.2021 № 776н
+source: corpus/source/common/POL-SUOT-001.md
+rendered: corpus/rendered/common/POL-SUOT-001.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39209
+sha256: d80bdbbfc2ad9c105ad222f32dde86566ca3a7db75ddd97bc733da31043b70fb

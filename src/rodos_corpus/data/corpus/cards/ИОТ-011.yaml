@@ -1,0 +1,30 @@
+doc_id: ИОТ-011
+doc_type: safety_instruction
+title: Инструкция по охране труда для слесаря механосборочных работ
+org_unit: Служба охраны труда
+spaces:
+- common
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-12-03
+effective_from: 2025-12-15
+approved_by: Технический директор
+plants:
+- tolyatti
+refs_npa:
+- ТК РФ, ст. 214, 215
+- Правила по охране труда при работе с инструментом и приспособлениями, приказ Минтруда
+  России от 27.11.2020 № 835н
+- Правила по охране труда при эксплуатации электроустановок, приказ Минтруда России
+  от 15.12.2020 № 903н
+- Правила обучения по охране труда и проверки знания требований охраны труда, постановление
+  Правительства РФ от 24.12.2021 № 2464
+source: corpus/source/common/ИОТ-011.md
+rendered: corpus/rendered/common/ИОТ-011.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39930
+sha256: 1daf423c12dad3ee20bede440363ff6a4b45b4a02c5cb8b2e978683310ff100a

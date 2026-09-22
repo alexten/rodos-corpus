@@ -1,0 +1,19 @@
+doc_id: NORM-SPIS-2026
+doc_type: writeoff_norms
+title: Нормативы списания материалов и инструмента на 2026 год
+org_unit: Бухгалтерия
+spaces:
+- finance
+- production
+confidentiality: internal
+status: active
+format: xlsx
+channel: manual
+approved_at: 2026-01-19
+approved_by: Главный бухгалтер
+generated_by: writeoff_norms
+source: corpus/source/finance/NORM-SPIS-2026.table.yaml
+rendered: corpus/rendered/finance/NORM-SPIS-2026.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 5820
+sha256: 6ff420fa343b997e3ed95ca133a42993443aab492d196824707172fb8c095408

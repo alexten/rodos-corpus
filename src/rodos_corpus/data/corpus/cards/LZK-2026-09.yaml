@@ -19,4 +19,4 @@ source: corpus/source/production/LZK-2026-09.table.yaml
 rendered: corpus/rendered/production/LZK-2026-09.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
 bytes: 5866
-sha256: fe4e68068256a3b02a3ec61518ae7d7d11bd7e593dc1ce6de4080ac2a56d8b7b
+sha256: ccc11d24d14d0eaeb347c90a9bb38f0c7ca094830110cd630c92f4b97f101511

@@ -1,0 +1,23 @@
+doc_id: SPEC-KS-2025-12-04
+doc_type: contract_spec
+title: Спецификация № 4 к договору поставки № КС-2025/12 на 4-й квартал 2026 года
+org_unit: Юридический отдел
+spaces:
+- finance
+- sales
+confidentiality: dsp
+status: active
+format: pdf
+channel: dropdir
+approved_at: 2026-09-15
+effective_from: 2026-10-01
+effective_to: 2026-12-31
+approved_by: Генеральный директор
+counterparty: ООО «Конвейер-Системс»
+contract: КС-2025/12
+amount_total_rub: 14952000.0
+source: corpus/source/finance/SPEC-KS-2025-12-04.md
+rendered: corpus/rendered/finance/SPEC-KS-2025-12-04.pdf
+mime: application/pdf
+bytes: 29741
+sha256: 9c5df8274ebecc484e1a3af9ad035a05e955fce6dd7e8a888089bf558e0c6e2b

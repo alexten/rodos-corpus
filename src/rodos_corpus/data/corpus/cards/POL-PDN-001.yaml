@@ -1,0 +1,23 @@
+doc_id: POL-PDN-001
+doc_type: policy
+title: Политика в отношении обработки персональных данных
+org_unit: Отдел кадров
+spaces:
+- common
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-10
+effective_from: 2026-04-01
+approved_by: Генеральный директор
+refs_npa:
+- Федеральный закон от 27.07.2006 № 152-ФЗ «О персональных данных», ст. 14, 18.1,
+  21
+source: corpus/source/common/POL-PDN-001.md
+rendered: corpus/rendered/common/POL-PDN-001.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39070
+sha256: 38d91b4461d46d817205055895543c74bc37bc79a6136f60fc63837ecbc5fd66

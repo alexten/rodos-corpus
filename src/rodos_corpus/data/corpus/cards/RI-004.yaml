@@ -1,0 +1,21 @@
+doc_id: RI-004
+doc_type: work_instruction
+title: Фрезерная обработка на универсально-фрезерном станке 6Р13
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-05-16
+effective_from: 2025-05-27
+approved_by: Главный технолог
+plants:
+- kovrov
+source: corpus/source/production/RI-004.md
+rendered: corpus/rendered/production/RI-004.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39180
+sha256: 7762b67a2a235f6ab5d679b237b4f2b6e4c610597428faa3867df71d257d3ba4

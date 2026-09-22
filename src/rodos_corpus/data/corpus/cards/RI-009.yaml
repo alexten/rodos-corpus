@@ -1,0 +1,21 @@
+doc_id: RI-009
+doc_type: work_instruction
+title: Нанесение цинкового покрытия на линии АГ-40
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-11-14
+effective_from: 2025-11-25
+approved_by: Главный технолог
+plants:
+- perm
+source: corpus/source/production/RI-009.md
+rendered: corpus/rendered/production/RI-009.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39221
+sha256: b16812649c4787a5ea526a9d5655be81427fe4c8c452c09779663ef076b7e10c

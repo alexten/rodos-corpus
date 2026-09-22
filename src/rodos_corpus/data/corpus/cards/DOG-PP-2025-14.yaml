@@ -1,0 +1,25 @@
+doc_id: DOG-PP-2025-14
+doc_type: contract
+title: Договор поставки № ПП-2025/14 от 15.01.2025
+org_unit: Юридический отдел
+spaces:
+- finance
+- production
+confidentiality: dsp
+status: active
+format: pdf
+channel: dropdir
+approved_at: 2025-01-15
+effective_from: 2025-01-15
+approved_by: Генеральный директор
+counterparty: ООО «Прикамье-Прокат»
+contract: ПП-2025/14
+payment_terms: отсрочка 20 календарных дней
+delivery_terms: доставка до склада в Коврове
+quality: сертификат качества на каждую партию, входной контроль ОТК
+valid_until: 2026-12-31
+source: corpus/source/finance/DOG-PP-2025-14.md
+rendered: corpus/rendered/finance/DOG-PP-2025-14.pdf
+mime: application/pdf
+bytes: 34471
+sha256: b7d6946116dbbaeba6b43fcdd20e7469898484fc8ac2288d7bbd35bdf9fdc2e8

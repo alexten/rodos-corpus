@@ -1,0 +1,22 @@
+doc_id: IZV-2026-001
+doc_type: change_notice
+title: Извещение об изменении технологической карты на деталь 45.67.91 «Вал быстроходный
+  редуктора Р-200»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-03-30
+effective_from: 2026-04-07
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 45.67.91
+source: corpus/source/production/IZV-2026-001.md
+rendered: corpus/rendered/production/IZV-2026-001.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37958
+sha256: 76cec901c41096afae2b2019eaac8bc4a91ecab9ce12a89b07ed5c96df977bae

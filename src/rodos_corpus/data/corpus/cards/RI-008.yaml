@@ -1,0 +1,21 @@
+doc_id: RI-008
+doc_type: work_instruction
+title: Термообработка в шахтной электропечи СШЗ-6.6/9
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-10-10
+effective_from: 2025-10-21
+approved_by: Главный технолог
+plants:
+- perm
+source: corpus/source/production/RI-008.md
+rendered: corpus/rendered/production/RI-008.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39089
+sha256: 82cb07ea21a3f9c48d3ee97e5e8496936f2da31758cd2eb2d1922ae588cec7b3

@@ -1,0 +1,22 @@
+doc_id: IZV-2026-006
+doc_type: change_notice
+title: Извещение об изменении технологической карты на деталь 73.22.32 «Гильза гидроцилиндра
+  ГЦ-100/56»
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-06-15
+effective_from: 2026-06-23
+approved_by: Главный технолог
+plants:
+- kovrov
+part: 73.22.32
+source: corpus/source/production/IZV-2026-006.md
+rendered: corpus/rendered/production/IZV-2026-006.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38128
+sha256: b2b23971820aaf2d154d51a97e9993a887b828ae2551a768cf90b7b19934f6de

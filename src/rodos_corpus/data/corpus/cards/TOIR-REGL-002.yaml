@@ -1,0 +1,23 @@
+doc_id: TOIR-REGL-002
+doc_type: maintenance_regulation
+title: Порядок вывода оборудования в ремонт и допуска к работе после ремонта
+org_unit: Отдел главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-02-20
+effective_from: 2026-03-01
+approved_by: Технический директор
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/production/TOIR-REGL-002.md
+rendered: corpus/rendered/production/TOIR-REGL-002.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39509
+sha256: 2a59c91e397af86a5718b491a21a500be61d278e3bb63d9963d9caffca0227d4

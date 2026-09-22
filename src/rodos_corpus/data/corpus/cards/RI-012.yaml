@@ -1,0 +1,21 @@
+doc_id: RI-012
+doc_type: work_instruction
+title: Испытание гидроцилиндров на стенде СИ-ГЦ-250
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-02-13
+effective_from: 2026-02-24
+approved_by: Главный технолог
+plants:
+- tolyatti
+source: corpus/source/production/RI-012.md
+rendered: corpus/rendered/production/RI-012.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39152
+sha256: d477a6ea6524775b34a507305fab3529ca635631014d6ff89c6833f1934930dc

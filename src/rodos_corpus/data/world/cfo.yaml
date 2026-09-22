@@ -1,0 +1,112 @@
+# Центры финансовой ответственности. Из них порождаются бюджеты, план-факт и разнесение затрат.
+# Суммы годового бюджета — плановые, в рублях без НДС; они же служат эталоном для оценки ответов
+# вроде «какой бюджет у гальванического цеха на 2026 год».
+- code: "ЦФО-101"
+  name: "Цех №1, токарно-фрезерный"
+  kind: expense
+  site: kovrov
+  owner_role: nachalnik_ceha
+  budget_2026_rub: 214000000
+- code: "ЦФО-102"
+  name: "Цех №2, шлифовально-доводочный"
+  kind: expense
+  site: kovrov
+  owner_role: nachalnik_ceha
+  budget_2026_rub: 118000000
+- code: "ЦФО-103"
+  name: "Цех №3, термический"
+  kind: expense
+  site: perm
+  owner_role: nachalnik_ceha
+  budget_2026_rub: 163000000
+- code: "ЦФО-104"
+  name: "Цех №4, гальванический"
+  kind: expense
+  site: perm
+  owner_role: nachalnik_ceha
+  budget_2026_rub: 142000000
+- code: "ЦФО-105"
+  name: "Цех №5, сборочный"
+  kind: expense
+  site: tolyatti
+  owner_role: nachalnik_ceha
+  budget_2026_rub: 187000000
+- code: "ЦФО-106"
+  name: "Цех №6, упаковка и отгрузка"
+  kind: expense
+  site: tolyatti
+  owner_role: nachalnik_sklada
+  budget_2026_rub: 64000000
+- code: "ЦФО-201"
+  name: "Технологический отдел"
+  kind: expense
+  site: kovrov
+  owner_role: glavny_tehnolog
+  budget_2026_rub: 41000000
+- code: "ЦФО-202"
+  name: "Отдел технического контроля"
+  kind: expense
+  site: kovrov
+  owner_role: nachalnik_otk
+  budget_2026_rub: 38000000
+- code: "ЦФО-203"
+  name: "Отдел главного механика, ТОиР"
+  kind: expense
+  site: perm
+  owner_role: glavny_mehanik
+  budget_2026_rub: 96000000
+- code: "ЦФО-204"
+  name: "Отдел снабжения"
+  kind: expense
+  site: perm
+  owner_role: nachalnik_snabzheniya
+  budget_2026_rub: 29000000
+- code: "ЦФО-205"
+  name: "ИТ-служба"
+  kind: expense
+  site: perm
+  owner_role: rukovoditel_it
+  budget_2026_rub: 34000000
+- code: "ЦФО-206"
+  name: "Служба охраны труда"
+  kind: expense
+  site: perm
+  owner_role: inzhener_ot
+  budget_2026_rub: 22000000
+- code: "ЦФО-207"
+  name: "Администрация и финансовая служба"
+  kind: expense
+  site: perm
+  owner_role: fin_direktor
+  budget_2026_rub: 78000000
+- code: "ЦФО-208"
+  name: "Склад готовой продукции и логистика"
+  kind: expense
+  site: tolyatti
+  owner_role: nachalnik_sklada
+  budget_2026_rub: 47000000
+
+- code: "ЦФО-301"
+  name: "Продажи, прямые заказчики"
+  kind: income
+  site: perm
+  owner_role: kom_direktor
+  budget_2026_rub: 1420000000
+- code: "ЦФО-302"
+  name: "Продажи, дилерская сеть"
+  kind: income
+  site: perm
+  owner_role: menedzher_prodazh
+  budget_2026_rub: 268000000
+- code: "ЦФО-303"
+  name: "Экспортные поставки"
+  kind: income
+  site: perm
+  owner_role: kom_direktor
+  budget_2026_rub: 96000000
+- code: "ЦФО-304"
+  name: "Запасные части и вторичный рынок"
+  kind: income
+  site: tolyatti
+  owner_role: menedzher_prodazh
+  budget_2026_rub: 184000000

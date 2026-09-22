@@ -1,0 +1,24 @@
+doc_id: POL-KM-001
+doc_type: policy
+title: Положение о служебных командировках
+org_unit: Отдел кадров
+spaces:
+- common
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-01-15
+effective_from: 2026-02-01
+approved_by: Генеральный директор
+refs_npa:
+- ТК РФ, гл. 24
+- Постановление Правительства РФ от 13.10.2008 № 749 «Об особенностях направления
+  работников в служебные командировки»
+source: corpus/source/common/POL-KM-001.md
+rendered: corpus/rendered/common/POL-KM-001.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39232
+sha256: e4dd614901e9af4c7e0149167cfccfbdb7401e4fb6183982b452bfc7facd6de3

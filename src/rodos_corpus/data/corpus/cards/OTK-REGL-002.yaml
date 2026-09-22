@@ -1,0 +1,21 @@
+doc_id: OTK-REGL-002
+doc_type: qc_regulation
+title: Регламент приёмо-сдаточных испытаний собранных узлов
+org_unit: Отдел технического контроля
+spaces:
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-01-27
+effective_from: 2026-02-10
+approved_by: Начальник ОТК
+plants:
+- tolyatti
+source: corpus/source/production/OTK-REGL-002.md
+rendered: corpus/rendered/production/OTK-REGL-002.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38715
+sha256: c8dac5d91310775b79d0259f47180bd869006fe99d0d5d3c1a16c9a0f24e06d3
