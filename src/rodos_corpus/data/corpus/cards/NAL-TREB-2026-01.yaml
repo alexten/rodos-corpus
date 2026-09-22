@@ -1,0 +1,19 @@
+doc_id: NAL-TREB-2026-01
+doc_type: tax_request
+title: Требование о представлении документов (информации) № 00-17/00312 от 12.03.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: edo
+approved_at: 2026-03-12
+approved_by: Главный бухгалтер
+counterparty: ООО «Прикамье-Прокат»
+contract: ПП-2025/14
+source: corpus/source/finance/NAL-TREB-2026-01.md
+rendered: corpus/rendered/finance/NAL-TREB-2026-01.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38066
+sha256: 810145595970d971b9f9a214613e75f55da9f584c71b22072d43dbaee31878fd

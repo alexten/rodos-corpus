@@ -1,0 +1,19 @@
+doc_id: KAT-2026-GIDRO
+doc_type: product_catalogue
+title: 'Каталог продукции ГК «Родос-Деталь»: гидроцилиндры и детали'
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: public
+status: active
+format: pdf
+channel: dropdir
+version: ред. 1
+approved_at: 2026-08-25
+effective_from: 2026-09-01
+approved_by: Коммерческий директор
+source: corpus/source/sales/KAT-2026-GIDRO.md
+rendered: corpus/rendered/sales/KAT-2026-GIDRO.pdf
+mime: application/pdf
+bytes: 33795
+sha256: e6884ecef0f8b3d9e90d848613dbcbd4d5aaf78c8b9ddbd7264234a4299043c4

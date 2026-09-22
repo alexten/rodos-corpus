@@ -14,5 +14,5 @@ generated_by: counterparty_register
 source: corpus/source/finance/REESTR-KA-2026.table.yaml
 rendered: corpus/rendered/finance/REESTR-KA-2026.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-bytes: 7557
-sha256: c1d4c768ae5fbbf109d1c42c43cf3bac9c033b9ecde61b1ae93d034a31bba86b
+bytes: 7615
+sha256: e04bea5584f681f693add2bc18fa9d4ab066193baea5f954f1d958cd3f5f50f9

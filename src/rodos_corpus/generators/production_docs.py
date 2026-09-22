@@ -9,7 +9,6 @@ from __future__ import annotations
 import random
 from datetime import date, timedelta
 from pathlib import Path
-from typing import Any
 
 from rodos.corpus.generators.common import write_source, write_table_source
 from rodos.corpus.world import World
@@ -26,6 +25,9 @@ def equipment_passports(world: World, root: Path | None = None) -> list[Path]:
         shop = workshops[machine["workshop"]]
         commissioned: date = machine["commissioned"]
         interval = int(machine["maintenance_interval_days"])
+        danger_note = ("5.3. Оборудование относится к опасному производственному объекту; "
+                       "обслуживание выполняется по наряду-допуску."
+                       if machine["key"].startswith("galv-") else "")
         body = f"""## 1. Общие сведения
 
 | Параметр | Значение |
@@ -76,7 +78,7 @@ def equipment_passports(world: World, root: Path | None = None) -> list[Path]:
 5.2. Запрещается работа со снятыми или неисправными ограждениями, а также очистка станка при включённом
 приводе.
 
-{'5.3. Оборудование относится к опасному производственному объекту; обслуживание выполняется по наряду-допуску.' if machine['key'].startswith('galv-') else ''}
+{danger_note}
 """
         card = {
             "doc_id": doc_id,
@@ -168,7 +170,8 @@ def consumption_norms(world: World, root: Path | None = None) -> list[Path]:
         {"name": "Инструмент", "title": "Нормы расхода режущего инструмента",
          "columns": ["Наименование", "Ед. изм.", "Норма", "Основание", "Поставщик"], "rows": tooling_rows},
         {"name": "Расходные материалы", "title": "Нормы расхода СОЖ, химикатов и масел",
-         "columns": ["Наименование", "Ед. изм.", "Норма", "Примечание", "Поставщик"], "rows": consumable_rows},
+         "columns": ["Наименование", "Ед. изм.", "Норма", "Примечание", "Поставщик"],
+         "rows": consumable_rows},
     ]
     return [write_table_source("production", card["doc_id"], card, table, root)]
 
@@ -280,26 +283,40 @@ def test_protocols(world: World, root: Path | None = None) -> list[Path]:
 def defect_acts(world: World, root: Path | None = None) -> list[Path]:
     """Акты о браке — документ, из которого начинается разбор и претензия поставщику."""
     random.seed(SEED + 2)
-    reasons = [
-        ("отклонение по твёрдости после термообработки", "нарушение режима отпуска",
-         "перешлифовать нельзя, партия переведена в брак"),
-        ("превышение радиального биения", "износ центров станка", "детали направлены на перешлифовку"),
-        ("раковины на литой поверхности", "дефект отливки поставщика", "претензия поставщику"),
-        ("несоответствие толщины покрытия", "падение плотности тока на линии", "повторное покрытие"),
+    # Деталь и причина закреплены за каждым актом, а не выбираются случайно: на эти акты ссылаются
+    # отчёты 8D, претензии и разборы инцидентов, и расхождение между актом и тем, что о нём написано
+    # в другом документе, обесценивает весь корпус — его смысл именно в связности.
+    acts = [
+        (date(2026, 5, 12), 1, "45.67.90", 42,
+         "занижение твёрдости после закалки ТВЧ", "загрязнение индуктора установки ОС-1155",
+         "партия направлена на повторную термообработку", "разбор оформлен отчётом 8D-2026-03"),
+        (date(2026, 6, 2), 2, "61.05.20", 88,
+         "раковины на литой поверхности заготовки", "дефект отливки поставщика по договору ЛД-2024/27",
+         "заготовки возвращены поставщику", "оформлена претензия ПРЕТ-2026-01"),
+        (date(2026, 6, 23), 3, "45.67.89", 120,
+         "превышение радиального биения сверх нормы чертежа", "износ центров станка 3М151, инв. № ОС-1066",
+         "детали направлены на перешлифовку, партия заказчику не отгружена",
+         "по рекламации АО «Редмаш» оформлен отчёт 8D-2026-01 и извещение ИЗВ-2026-004"),
+        (date(2026, 7, 14), 4, "88.14.42", 64,
+         "несоответствие толщины цинкового покрытия",
+         "нестабильность выпрямителя линии АГ-40, инв. № ОС-0903",
+         "детали направлены на повторное покрытие",
+         "разбор оформлен отчётом 8D-2026-02, отказ выпрямителя разобран в ИНЦ-2026-05"),
     ]
+    parts = world.by_key("parts")
     written: list[Path] = []
-    for index, part in enumerate(random.sample([p for p in world.parts if p.get("material")], 4)):
-        day = date(2026, 5, 12) + timedelta(days=index * 21)
-        defect, cause, decision = reasons[index % len(reasons)]
+    for day, number, drawing, batch, defect, cause, decision, link in acts:
+        part = parts[drawing]
         quantity = random.randint(3, 18)
-        doc_id = f"AKT-BRAK-{day:%Y%m%d}-{index + 1:02d}"
+        operation = part["route"][-1] if part.get("route") else "070 контроль ОТК"
+        doc_id = f"AKT-BRAK-{day:%Y%m%d}-{number:02d}"
         body = f"""## 1. Обстоятельства
 
 1.1. При контроле партии детали {part['drawing_no']} «{part['name']}» выявлено {defect}.
 
-1.2. Количество забракованных деталей: {quantity} шт. из партии {random.randint(40, 120)} шт.
+1.2. Количество забракованных деталей: {quantity} шт. из партии {batch} шт.
 
-1.3. Операция, на которой выявлено несоответствие: {part['route'][-1] if part.get('route') else '070 контроль ОТК'}.
+1.3. Операция, на которой выявлено несоответствие: {operation}.
 
 ## 2. Причина
 
@@ -313,7 +330,7 @@ def defect_acts(world: World, root: Path | None = None) -> list[Path]:
 
 3.2. Стоимость брака относится на затраты цеха и учитывается в отчёте за месяц.
 
-3.3. Корректирующие действия и срок их выполнения определяются отдельным протоколом разбора.
+3.3. Корректирующие действия и срок их выполнения определяются отдельным протоколом разбора: {link}.
 
 ## 4. Подписи
 
@@ -345,7 +362,8 @@ def limit_cards(world: World, root: Path | None = None) -> list[Path]:
     for material in world.materials["steels"] + world.materials["consumables"]:
         limit = random.choice([200, 350, 500, 800, 1200])
         issued = int(limit * random.uniform(0.55, 0.95))
-        rows.append([material.get("grade", material.get("name")), material.get("form", material.get("unit", "—")),
+        rows.append([material.get("grade", material.get("name")),
+                     material.get("form", material.get("unit", "—")),
                      limit, issued, limit - issued, "цех №1"])
     card = {
         "doc_id": "LZK-2026-09",

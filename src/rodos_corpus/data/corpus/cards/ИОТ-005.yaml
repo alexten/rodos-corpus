@@ -27,5 +27,5 @@ refs_npa:
 source: corpus/source/common/ИОТ-005.md
 rendered: corpus/rendered/common/ИОТ-005.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 40587
-sha256: 368caef5155297ea6ace056f453a7f13a64a4eca03c2f897f97950ac163ca2b1
+bytes: 40643
+sha256: 74c4badd0216528a15dcfb5634e31dbb344b4750454ae098fd6e6a81ef58a87a

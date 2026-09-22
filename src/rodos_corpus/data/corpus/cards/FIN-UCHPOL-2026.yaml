@@ -1,0 +1,17 @@
+doc_id: FIN-UCHPOL-2026
+doc_type: accounting_policy
+title: Учётная политика для целей бухгалтерского учёта на 2026 год
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: dsp
+status: active
+format: docx
+channel: dropdir
+approved_at: 2025-12-29
+approved_by: Генеральный директор
+source: corpus/source/finance/FIN-UCHPOL-2026.md
+rendered: corpus/rendered/finance/FIN-UCHPOL-2026.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 43766
+sha256: be989ae0c6968c8b311b070e1cec7246eac2d948297b2c60faeee4520f947095

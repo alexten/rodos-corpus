@@ -21,5 +21,5 @@ generated_by: upd
 source: corpus/source/finance/UPD-2026-0101.md
 rendered: corpus/rendered/finance/UPD-2026-0101.xml
 mime: application/xml
-bytes: 2584
-sha256: c39614566134c828b3e629ed53dc1431174b0784c7f53baf4f6b6c8c6028b60a
+bytes: 2596
+sha256: 604b29af606cd7b97f4b6100c4510673e674e85129faf69851e147e3f4f9c3a2

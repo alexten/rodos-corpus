@@ -1,0 +1,20 @@
+doc_id: SALES-SROKI-2025
+doc_type: lead_time_schedule
+title: Сроки изготовления по группам продукции на 2025 год
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: superseded
+superseded_by: SALES-SROKI-2026
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-01-15
+effective_from: 2025-02-01
+approved_by: Коммерческий директор
+source: corpus/source/sales/SALES-SROKI-2025.md
+rendered: corpus/rendered/sales/SALES-SROKI-2025.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38026
+sha256: f5ebe5b318224ead141b14dd98407a067a29adb6bb3e0a5ec60588a5d2b177a8

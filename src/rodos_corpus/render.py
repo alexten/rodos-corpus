@@ -11,6 +11,7 @@
 from __future__ import annotations
 
 import hashlib
+import random
 import re
 from datetime import date, datetime
 from email.message import EmailMessage
@@ -34,6 +35,36 @@ MIME = {
 }
 TABLE_ROW = re.compile(r"^\s*\|(.+)\|\s*$")
 SEPARATOR_ROW = re.compile(r"^[\s|:-]+$")
+
+# Перегенерация обязана давать побайтово те же файлы: иначе хеш документа меняется сам по себе, а
+# сравнивать прогоны оценки между собой становится нельзя (docs/spec/06, §3). Поэтому всё, что
+# библиотеки норовят взять из системных часов — метаданные документа и отметки времени внутри zip, —
+# фиксируется на «сегодня» корпуса.
+BUILD_TIME = datetime(2026, 9, 22, 12, 0, 0)
+ZIP_TIME = (BUILD_TIME.year, BUILD_TIME.month, BUILD_TIME.day, BUILD_TIME.hour, BUILD_TIME.minute,
+            BUILD_TIME.second)
+AUTHOR = "ГК «Родос-Деталь»"
+
+
+def _freeze_zip(path: Path) -> None:
+    """Переписывает DOCX/XLSX: отметки времени записей архива и даты в свойствах документа.
+
+    Свойства приходится править уже в архиве: openpyxl ставит `modified` в момент сохранения,
+    перекрывая то, что задано в объекте книги.
+    """
+    import zipfile
+
+    stamp = f"{BUILD_TIME:%Y-%m-%dT%H:%M:%S}Z".encode()
+    with zipfile.ZipFile(path) as archive:
+        entries = [(info, archive.read(info.filename)) for info in archive.infolist()]
+    with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as archive:
+        for info, payload in entries:
+            if info.filename == "docProps/core.xml":
+                payload = re.sub(rb">[0-9T:\-]+Z<", b">" + stamp + b"<", payload)
+            frozen = zipfile.ZipInfo(info.filename, date_time=ZIP_TIME)
+            frozen.compress_type = info.compress_type
+            frozen.external_attr = info.external_attr
+            archive.writestr(frozen, payload)
 
 
 def _blocks(body: str) -> list[tuple[str, Any]]:
@@ -140,7 +171,12 @@ def render_docx(doc: SourceDoc, target: Path) -> None:
             for row_index, row in enumerate(rows):
                 for cell_index, value in enumerate(row):
                     table.cell(row_index, cell_index).text = _plain(value)
-    document.save(target)
+    core = document.core_properties
+    core.author = core.last_modified_by = AUTHOR
+    core.created = core.modified = BUILD_TIME
+    core.revision = 1
+    document.save(str(target))
+    _freeze_zip(target)
 
 
 def render_pdf(doc: SourceDoc, target: Path) -> None:
@@ -148,6 +184,8 @@ def render_pdf(doc: SourceDoc, target: Path) -> None:
     from fpdf.enums import XPos, YPos
 
     pdf = FPDF(format="A4")
+    pdf.set_creation_date(BUILD_TIME)
+    pdf.set_author(AUTHOR)
     # fpdf после multi_cell оставляет курсор справа; всё, что пишем, начинается от левого поля.
     cell = partial(pdf.multi_cell, new_x=XPos.LMARGIN, new_y=YPos.NEXT)
     pdf.add_font("DejaVu", "", str(FONT_DIR / "DejaVuSans.ttf"))
@@ -191,9 +229,9 @@ def render_pdf(doc: SourceDoc, target: Path) -> None:
             with pdf.table(col_widths=widths, line_height=5, first_row_as_headings=len(rows) > 1,
                            text_align="LEFT") as table:
                 for row in rows:
-                    line = table.row()
+                    table_row = table.row()
                     for index in range(columns):
-                        line.cell(_plain(row[index]) if index < len(row) else "")
+                        table_row.cell(_plain(row[index]) if index < len(row) else "")
         pdf.ln(1)
     pdf.output(str(target))
 
@@ -205,7 +243,9 @@ def render_xlsx(doc: SourceDoc, target: Path) -> None:
     assert doc.table is not None, f"{doc.path}: нет описания таблицы"
     workbook = Workbook()
     sheets = doc.table if isinstance(doc.table, list) else [doc.table]
-    workbook.remove(workbook.active)
+    default = workbook.active
+    assert default is not None
+    workbook.remove(default)
     for sheet_spec in sheets:
         sheet = workbook.create_sheet(str(sheet_spec.get("name", "Лист"))[:31])
         row_index = 1
@@ -229,7 +269,10 @@ def render_xlsx(doc: SourceDoc, target: Path) -> None:
                 for record in sheet_spec["rows"]])
             sheet.column_dimensions[sheet.cell(row=1, column=column_index).column_letter].width = min(
                 max(12, longest + 2), 60)
-    workbook.save(target)
+    workbook.properties.creator = workbook.properties.lastModifiedBy = AUTHOR
+    workbook.properties.created = workbook.properties.modified = BUILD_TIME
+    workbook.save(str(target))
+    _freeze_zip(target)
 
 
 def render_eml(doc: SourceDoc, target: Path) -> None:
@@ -253,6 +296,68 @@ def render_txt(doc: SourceDoc, target: Path) -> None:
     target.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def render_pdf_scan(doc: SourceDoc, target: Path) -> None:
+    """PDF без текстового слоя: страница — одна растровая картинка, как со сканера.
+
+    Нужен, чтобы доказать честный путь «карточка есть, содержимого нет»: приём обязан завести документ,
+    не выдумывая текст, и не пускать его в ответы (docs/spec/03, §3).
+    """
+    from fpdf import FPDF
+    from PIL import Image, ImageDraw, ImageFont
+
+    width, height = 1240, 1754  # A4 при 150 dpi
+    page = Image.new("L", (width, height), 244)
+    draw = ImageDraw.Draw(page)
+    title_font = ImageFont.truetype(str(FONT_DIR / "DejaVuSans-Bold.ttf"), 30)
+    body_font = ImageFont.truetype(str(FONT_DIR / "DejaVuSans.ttf"), 23)
+
+    y = 150
+    draw.text((110, y), str(doc.card["title"]), font=title_font, fill=40)
+    y += 70
+    for kind, payload in _blocks(doc.body):
+        text = _plain(payload if isinstance(payload, str) else str(payload[1]))
+        font = title_font if kind == "heading" else body_font
+        for line in _wrap(text, 64 if kind == "heading" else 78):
+            draw.text((110, y), line, font=font, fill=55)
+            y += 38 if kind == "heading" else 32
+        y += 12
+        if y > height - 150:
+            break
+
+    # Признаки скана: лёгкий перекос и шум — иначе документ слишком чистый, чтобы быть похожим.
+    # Шум берётся из генератора, засеянного идентификатором документа: `Image.effect_noise` засевается
+    # системной энтропией и ломает побайтовую воспроизводимость сборки (docs/spec/06, §3).
+    page = page.rotate(-0.45, resample=Image.Resampling.BILINEAR, fillcolor=244)
+    grain = random.Random(doc.doc_id).randbytes(width * height)
+    noise = Image.frombytes("L", (width, height), grain).point(lambda value: value // 8 + 240)
+    page = Image.blend(page.convert("L"), noise.convert("L"), 0.10)
+
+    raster = target.with_suffix(".scan.png")
+    page.save(raster, format="PNG")
+    pdf = FPDF(format="A4")
+    pdf.set_creation_date(BUILD_TIME)
+    pdf.set_author(AUTHOR)
+    pdf.set_auto_page_break(auto=False)
+    pdf.add_page()
+    pdf.image(str(raster), x=0, y=0, w=210, h=297)
+    pdf.output(str(target))
+    raster.unlink()
+
+
+def _wrap(text: str, width: int) -> list[str]:
+    words, lines, current = text.split(), [], ""
+    for word in words:
+        candidate = f"{current} {word}".strip()
+        if len(candidate) > width and current:
+            lines.append(current)
+            current = word
+        else:
+            current = candidate
+    if current:
+        lines.append(current)
+    return lines or [""]
+
+
 def render_xml(doc: SourceDoc, target: Path) -> None:
     """Первичка ЭДО: тело исходника уже XML, пишем как есть.
 
@@ -267,7 +372,21 @@ def render_xml(doc: SourceDoc, target: Path) -> None:
 
 
 RENDERERS = {"docx": render_docx, "pdf": render_pdf, "xlsx": render_xlsx, "eml": render_eml,
-             "txt": render_txt, "xml": render_xml}
+             "txt": render_txt, "xml": render_xml, "pdf_scan": render_pdf_scan}
+# Скан — это тоже .pdf: формат исходника говорит, как рендерить, а не как называется файл.
+EXTENSIONS = {"pdf_scan": "pdf"}
+
+
+def _repo_path(path: Path, base: Path) -> str:
+    """Путь относительно базы, если он внутри неё, иначе абсолютный.
+
+    Карточка должна читаться и тогда, когда рендер идёт мимо репозитория, а не падать на вычислении
+    относительного пути.
+    """
+    try:
+        return str(path.relative_to(base))
+    except ValueError:
+        return str(path)
 
 
 def render(doc: SourceDoc, root: Path | None = None) -> tuple[Path, dict[str, Any]]:
@@ -275,7 +394,7 @@ def render(doc: SourceDoc, root: Path | None = None) -> tuple[Path, dict[str, An
     base = root or corpus_root()
     target_dir = base / "rendered" / doc.space
     target_dir.mkdir(parents=True, exist_ok=True)
-    target = target_dir / f"{doc.doc_id}.{doc.fmt}"
+    target = target_dir / f"{doc.doc_id}.{EXTENSIONS.get(doc.fmt, doc.fmt)}"
     if doc.fmt not in RENDERERS:
         raise ValueError(f"{doc.path}: формат {doc.fmt} не поддерживается")
     RENDERERS[doc.fmt](doc, target)
@@ -283,9 +402,11 @@ def render(doc: SourceDoc, root: Path | None = None) -> tuple[Path, dict[str, An
     card = dict(doc.card)
     payload = target.read_bytes()
     card.update({
-        "source": str(doc.path.relative_to(base.parent)),
-        "rendered": str(target.relative_to(base.parent)),
-        "mime": MIME[doc.fmt],
+        # Исходник — это происхождение документа: он лежит в репозитории независимо от того, куда
+        # сейчас рендерим. Сборка во временный каталог (тесты) не должна менять эту запись.
+        "source": _repo_path(doc.path, corpus_root().parent),
+        "rendered": _repo_path(target, base.parent),
+        "mime": MIME[EXTENSIONS.get(doc.fmt, doc.fmt)],
         "bytes": len(payload),
         "sha256": hashlib.sha256(payload).hexdigest(),
     })

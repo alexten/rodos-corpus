@@ -19,5 +19,5 @@ part: 45.67.89
 source: corpus/source/production/IZV-2026-004.md
 rendered: corpus/rendered/production/IZV-2026-004.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 38325
-sha256: d8647b9ba2369f39e4d321fae4a9206c177da72db44283ce712690e3c433f63b
+bytes: 38381
+sha256: 708a2ab27fc057c62625f27ec18b34b4de3fb7e52c4acd766d9ca2132a8e43b7

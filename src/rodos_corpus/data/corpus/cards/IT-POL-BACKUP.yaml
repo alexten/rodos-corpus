@@ -1,0 +1,19 @@
+doc_id: IT-POL-BACKUP
+doc_type: backup_policy
+title: Политика резервного копирования
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-08-15
+effective_from: 2025-09-01
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-POL-BACKUP.md
+rendered: corpus/rendered/it/IT-POL-BACKUP.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39486
+sha256: 0fe933a01ca6bdb2108cf7700cdd11c4fe579f55003bb5afe5758145491e13df

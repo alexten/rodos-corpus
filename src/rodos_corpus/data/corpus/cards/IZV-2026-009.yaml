@@ -19,5 +19,5 @@ part: 88.14.42
 source: corpus/source/production/IZV-2026-009.md
 rendered: corpus/rendered/production/IZV-2026-009.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 38131
-sha256: 9346e2afa88c47e8ebe1e7c61f6e1b5044e94f66956d8a42331fddebb1ccc8d6
+bytes: 38187
+sha256: 511a7311c425b8fd63e586b86712223869bcaf4a74a8f3f5a40489745a263ed7

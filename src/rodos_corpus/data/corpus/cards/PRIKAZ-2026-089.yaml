@@ -1,0 +1,19 @@
+doc_id: PRIKAZ-2026-089
+doc_type: order
+title: Об усилении входного контроля материалов
+org_unit: Администрация
+spaces:
+- common
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-05-26
+effective_from: 2026-05-26
+approved_by: Генеральный директор
+source: corpus/source/common/PRIKAZ-2026-089.md
+rendered: corpus/rendered/common/PRIKAZ-2026-089.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37868
+sha256: 40ddb6c3474e50e2e00820ff894820120308b46729f3281ed8d630290d6d5f64

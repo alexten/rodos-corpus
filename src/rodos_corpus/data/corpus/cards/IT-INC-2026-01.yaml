@@ -1,0 +1,21 @@
+doc_id: IT-INC-2026-01
+doc_type: incident_review
+title: 'Разбор инцидента: массовая фишинговая рассылка под видом писем от поставщика'
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-02-19
+approved_by: Руководитель ИТ
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/it/IT-INC-2026-01.md
+rendered: corpus/rendered/it/IT-INC-2026-01.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39552
+sha256: 252808c48f19434b19d01f588080834ef72fe7cd432aeb4c995677f29fbfff0f

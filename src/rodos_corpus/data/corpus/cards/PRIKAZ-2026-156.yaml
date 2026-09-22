@@ -1,0 +1,21 @@
+doc_id: PRIKAZ-2026-156
+doc_type: order
+title: О прекращении доступа к информационным системам в связи с увольнением
+org_unit: Администрация
+spaces:
+- common
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-01
+effective_from: 2026-09-01
+approved_by: Генеральный директор
+refs_npa:
+- ТК РФ, ст. 84.1
+source: corpus/source/common/PRIKAZ-2026-156.md
+rendered: corpus/rendered/common/PRIKAZ-2026-156.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37840
+sha256: 004bfc9daedd2ae53f538eb75de1d4961e97ae64ed73a0fce9d9f3ff24c492dc

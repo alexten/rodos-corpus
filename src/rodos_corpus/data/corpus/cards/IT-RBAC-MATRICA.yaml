@@ -1,0 +1,20 @@
+doc_id: IT-RBAC-MATRICA
+doc_type: access_matrix
+title: Матрица доступа к системам
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-01-20
+effective_from: 2026-02-01
+approved_by: Руководитель ИТ
+supersedes: null
+source: corpus/source/it/IT-RBAC-MATRICA.md
+rendered: corpus/rendered/it/IT-RBAC-MATRICA.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39345
+sha256: b02bdeda095163b95ca2e34038559879be1c52b58a465ece26a2ded91145cd39

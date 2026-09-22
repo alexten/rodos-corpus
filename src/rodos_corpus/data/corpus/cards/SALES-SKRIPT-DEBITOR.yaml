@@ -1,0 +1,20 @@
+doc_id: SALES-SKRIPT-DEBITOR
+doc_type: sales_script
+title: Скрипт разговора о просроченной оплате
+org_unit: Коммерческий отдел
+spaces:
+- sales
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-07
+effective_from: 2026-04-14
+approved_by: Коммерческий директор
+source: corpus/source/sales/SALES-SKRIPT-DEBITOR.md
+rendered: corpus/rendered/sales/SALES-SKRIPT-DEBITOR.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39063
+sha256: 0f70138cc0ea246af3d58d57bebe227c3b807c6cf5315d6de56d1781a8600fed

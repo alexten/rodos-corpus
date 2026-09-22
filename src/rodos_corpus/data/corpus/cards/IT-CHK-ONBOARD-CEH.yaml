@@ -1,0 +1,20 @@
+doc_id: IT-CHK-ONBOARD-CEH
+doc_type: onboarding_checklist
+title: Чек-лист подключения нового сотрудника производственных цехов
+org_unit: ИТ-служба
+spaces:
+- it
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-01-15
+effective_from: 2026-02-01
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-CHK-ONBOARD-CEH.md
+rendered: corpus/rendered/it/IT-CHK-ONBOARD-CEH.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39705
+sha256: 0ff3f5b370dc1edf2606d9ba7c2e04006b8d6d5b30e2e30d9fa4901e7d62042b

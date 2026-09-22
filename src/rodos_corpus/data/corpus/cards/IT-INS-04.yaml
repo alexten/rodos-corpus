@@ -1,0 +1,22 @@
+doc_id: IT-INS-04
+doc_type: user_guide
+title: 'Работа в ЭДО (Диадок): подписание и отправка УПД'
+org_unit: ИТ-служба
+spaces:
+- it
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-30
+effective_from: 2026-04-08
+approved_by: Руководитель ИТ
+plants:
+- perm
+source: corpus/source/it/IT-INS-04.md
+rendered: corpus/rendered/it/IT-INS-04.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38931
+sha256: 61f7d1c4d9ae6b4506f130581c0f488f032de0d2701ddf3211408fe55782836e

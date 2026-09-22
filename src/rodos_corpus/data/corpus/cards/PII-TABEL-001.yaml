@@ -1,0 +1,25 @@
+doc_id: PII-TABEL-001
+doc_type: timesheet
+title: Табель учёта рабочего времени (фикстура с ПДн)
+org_unit: Отдел кадров
+spaces:
+- _pii
+confidentiality: dsp
+status: active
+format: xlsx
+channel: manual
+contains_pii: true
+difficulty_class: pii_fixture
+expected_behaviour: 'карантин: не индексировать, в облачную модель не отправлять'
+generated_by: pii_fixtures
+approved_at: 2026-09-02
+approved_by: Начальник цеха
+pii_kinds:
+- фио
+- табельный номер
+- отработанное время
+source: corpus/source/_pii/PII-TABEL-001.table.yaml
+rendered: corpus/rendered/_pii/PII-TABEL-001.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 6114
+sha256: 40bbec00aebe7c771759c3fde494546021ad54ad004e65bac59960ed1a757b2e

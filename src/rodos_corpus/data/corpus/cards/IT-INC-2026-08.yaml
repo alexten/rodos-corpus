@@ -1,0 +1,21 @@
+doc_id: IT-INC-2026-08
+doc_type: incident_review
+title: 'Разбор инцидента: увольнение системного администратора и несвоевременный отзыв
+  двух привилегированных учётных записей'
+org_unit: ИТ-служба
+spaces:
+- it
+- common
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-16
+approved_by: Руководитель ИТ
+plants:
+- perm
+source: corpus/source/it/IT-INC-2026-08.md
+rendered: corpus/rendered/it/IT-INC-2026-08.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39847
+sha256: 6805fee9fdec4687126aca65800e9f128fa9715acd14116d92817c781dd330e6

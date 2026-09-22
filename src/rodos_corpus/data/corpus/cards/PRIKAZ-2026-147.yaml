@@ -1,0 +1,19 @@
+doc_id: PRIKAZ-2026-147
+doc_type: order
+title: О порядке выдачи денежных средств под отчёт на хозяйственные нужды
+org_unit: Администрация
+spaces:
+- common
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-08-24
+effective_from: 2026-08-24
+approved_by: Генеральный директор
+source: corpus/source/common/PRIKAZ-2026-147.md
+rendered: corpus/rendered/common/PRIKAZ-2026-147.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37622
+sha256: df106157035a8a33246f4343c106b6dac7f0bf560a7ae499accfe678a450b0d8

@@ -1,0 +1,17 @@
+doc_id: FIN-POL-VNUTRKONTROL
+doc_type: internal_control_policy
+title: Положение о внутреннем контроле фактов хозяйственной жизни
+org_unit: Финансовая служба
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-06-08
+approved_by: Генеральный директор
+source: corpus/source/finance/FIN-POL-VNUTRKONTROL.md
+rendered: corpus/rendered/finance/FIN-POL-VNUTRKONTROL.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38855
+sha256: b158776ed5d2d6e43c8d58303ea53df88409942d27de31bda4013155e3d2c3bb

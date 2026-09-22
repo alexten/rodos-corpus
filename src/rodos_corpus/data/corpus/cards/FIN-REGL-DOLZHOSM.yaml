@@ -1,0 +1,17 @@
+doc_id: FIN-REGL-DOLZHOSM
+doc_type: counterparty_due_diligence_regulation
+title: Регламент проверки контрагентов и должной осмотрительности
+org_unit: Финансовая служба
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-04-06
+approved_by: Финансовый директор
+source: corpus/source/finance/FIN-REGL-DOLZHOSM.md
+rendered: corpus/rendered/finance/FIN-REGL-DOLZHOSM.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38735
+sha256: 2a15ae60115221eaa80c4a958970af7058e5b2fcfa0500679b2da559d1ea37dd

@@ -1,0 +1,19 @@
+doc_id: SALES-SHABLON-KP-SROCH
+doc_type: quote_template
+title: Шаблон коммерческого предложения с ускоренным сроком изготовления
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-08-20
+effective_from: 2026-09-01
+approved_by: Коммерческий директор
+source: corpus/source/sales/SALES-SHABLON-KP-SROCH.md
+rendered: corpus/rendered/sales/SALES-SHABLON-KP-SROCH.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38600
+sha256: f37282b441773eea484fdc01312d53f47a343bdd9b2ee938b32f21a817890c35

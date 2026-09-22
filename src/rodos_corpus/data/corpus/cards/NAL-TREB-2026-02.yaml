@@ -1,0 +1,20 @@
+doc_id: NAL-TREB-2026-02
+doc_type: tax_request
+title: Требование о представлении пояснений № 00-21/00587 от 08.05.2026 (декларация
+  по НДС за 1 квартал 2026 года)
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: edo
+approved_at: 2026-05-08
+approved_by: Главный бухгалтер
+counterparty: АО «Редмаш»
+contract: РМ-2025/01
+source: corpus/source/finance/NAL-TREB-2026-02.md
+rendered: corpus/rendered/finance/NAL-TREB-2026-02.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38029
+sha256: 942711b352d2341d04b074e3d931c45820e4b3af04ff88f488a261968c91298b

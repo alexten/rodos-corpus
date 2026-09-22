@@ -1,0 +1,20 @@
+doc_id: TU-88-14-53
+doc_type: technical_spec
+title: Технические условия на узел редуктора Р-160 в сборе (88.14.53)
+org_unit: Коммерческий отдел
+spaces:
+- sales
+- production
+confidentiality: public
+status: active
+format: pdf
+channel: dropdir
+version: ред. 1
+approved_at: 2026-06-05
+effective_from: 2026-06-20
+approved_by: Коммерческий директор
+source: corpus/source/sales/TU-88-14-53.md
+rendered: corpus/rendered/sales/TU-88-14-53.pdf
+mime: application/pdf
+bytes: 30061
+sha256: 160b147890a0320dc27936ac8789cef5f82ad675c4b6e838e8fd2d8cb53f8f53

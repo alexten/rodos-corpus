@@ -1,0 +1,20 @@
+doc_id: CALL-2026-05
+doc_type: call_transcript
+title: Жалоба на упаковку и маркировку — ООО «Конвейер-Системс»
+org_unit: Коммерческий отдел
+spaces:
+- sales
+- production
+confidentiality: internal
+status: active
+format: txt
+channel: manual
+call_date: 2026-09-04
+call_direction: входящий
+counterparty: ООО «Конвейер-Системс»
+duration_min: 4
+source: corpus/source/sales/CALL-2026-05.md
+rendered: corpus/rendered/sales/CALL-2026-05.txt
+mime: text/plain
+bytes: 6136
+sha256: a708b45e5278332228805accd77759454de4d334116309e309cbf7606f55703e

@@ -1,0 +1,20 @@
+doc_id: PRET-2026-02
+doc_type: claim_letter
+title: Претензия № 00-78 от 30.06.2026 к ООО «Ремсервис-Урал» по договору № РСУ-2024/33
+org_unit: Юридический отдел
+spaces:
+- finance
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: edo
+approved_at: 2026-06-30
+approved_by: Финансовый директор
+counterparty: ООО «Ремсервис-Урал»
+contract: РСУ-2024/33
+source: corpus/source/finance/PRET-2026-02.md
+rendered: corpus/rendered/finance/PRET-2026-02.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38761
+sha256: a322db82d2c65be98fc61b54708d88118b2631998f6203a53e1fb292abdc3296

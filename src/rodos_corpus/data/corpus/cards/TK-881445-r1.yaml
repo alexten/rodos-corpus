@@ -20,5 +20,5 @@ generated_by: tech_cards
 source: corpus/source/production/TK-881445-r1.md
 rendered: corpus/rendered/production/TK-881445-r1.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 38088
-sha256: c9ba3f570da51a3aa64d97b319e6132189243d8a996111b2a74331d22d3ac007
+bytes: 38144
+sha256: 30dbde2ffbdf3af4637ea244006da6d34e2965552a3418b665fb4bb256bbae53

@@ -69,7 +69,8 @@ def _upd_xml(number: str, issued: date, seller: dict[str, str], buyer: dict[str,
     table = "\n".join(rows)
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <Файл ИдФайл="DP_UPD_{number.replace('/', '_')}" ВерсПрог="Родос-ЭДО 1.0" ВерсФорм="5.03">
-  <Документ КНД="1115131" Функция="СЧФДОП" ДатаИнфПр="{issued:%d.%m.%Y}" НаимЭконСубСост="{escape(seller['name'])}">
+  <Документ КНД="1115131" Функция="СЧФДОП" ДатаИнфПр="{issued:%d.%m.%Y}"
+            НаимЭконСубСост="{escape(seller['name'])}">
   <СвСчФакт НомерСчФ="{number}" ДатаСчФ="{issued:%d.%m.%Y}" КодОКВ="643">
     <СвПрод>
       <ИдСв><СвЮЛУч НаимОрг="{escape(seller['name'])}" ИННЮЛ="{seller['inn']}" КПП="{seller['kpp']}"/></ИдСв>
@@ -141,7 +142,6 @@ def _purchase_lines(world: World, supplier: dict[str, Any], seed: str) -> list[d
 def upd(world: World, root: Path | None = None) -> list[Path]:
     """УПД по реализации и по закупкам — основной поток ЭДО."""
     sites = world.by_key("sites")
-    contracts = world.by_key("contracts")
     parties = world.by_key("counterparties")
     written: list[Path] = []
     sale_contracts = [c for c in world.contracts if c["kind"] in {"sale", "dealer"}]
@@ -200,8 +200,8 @@ def invoices(world: World, root: Path | None = None) -> list[Path]:
     sites = world.by_key("sites")
     parties = world.by_key("counterparties")
     written: list[Path] = []
-    contracts = [c for c in world.contracts if c["kind"] in {"sale", "dealer", "service"}][:8]
-    for index, contract in enumerate(contracts):
+    chosen = [c for c in world.contracts if c["kind"] in {"sale", "dealer", "service"}][:8]
+    for index, contract in enumerate(chosen):
         doc_id = f"SCH-2026-{index + 201:04d}"
         issued = date(2026, 6, 3) + timedelta(days=index * 9)
         party = parties[contract["party"]]

@@ -19,5 +19,5 @@ amount_total_rub: 14952000.0
 source: corpus/source/finance/SPEC-KS-2025-12-04.md
 rendered: corpus/rendered/finance/SPEC-KS-2025-12-04.pdf
 mime: application/pdf
-bytes: 29741
-sha256: 9c5df8274ebecc484e1a3af9ad035a05e955fce6dd7e8a888089bf558e0c6e2b
+bytes: 29830
+sha256: 4616a28c29691bfbcc15f358a5db53601b3f445420f450a1d8b991e9a2cd85e0

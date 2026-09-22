@@ -1,0 +1,19 @@
+doc_id: KAT-2026-SHEST
+doc_type: product_catalogue
+title: 'Каталог продукции ГК «Родос-Деталь»: шестерни и колёса'
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: public
+status: active
+format: pdf
+channel: dropdir
+version: ред. 1
+approved_at: 2026-08-25
+effective_from: 2026-09-01
+approved_by: Коммерческий директор
+source: corpus/source/sales/KAT-2026-SHEST.md
+rendered: corpus/rendered/sales/KAT-2026-SHEST.pdf
+mime: application/pdf
+bytes: 33737
+sha256: 4e110512a865a7d2ddd243e5205adfd8d0fce04520da910cbfa97e27eec23d07

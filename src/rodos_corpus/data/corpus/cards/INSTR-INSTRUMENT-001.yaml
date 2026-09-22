@@ -17,5 +17,5 @@ plants:
 source: corpus/source/production/INSTR-INSTRUMENT-001.md
 rendered: corpus/rendered/production/INSTR-INSTRUMENT-001.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 39042
-sha256: 43018b1a4d8c6e2c53f39983e04344878f21ab19b665115f57d668e5c722a3a3
+bytes: 39098
+sha256: fe601b04812b01de246001376a356f147429eb9dfed8a67103cc55ccf632c6c5

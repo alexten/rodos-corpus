@@ -1,0 +1,23 @@
+doc_id: IT-REL-ERP-2026-05
+doc_type: release_notes
+title: 'Релиз-ноты 1С:ERP, май 2026 года: изменение формы сменного задания'
+org_unit: ИТ-служба
+spaces:
+- it
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-05-14
+effective_from: 2026-05-20
+approved_by: Руководитель ИТ
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/it/IT-REL-ERP-2026-05.md
+rendered: corpus/rendered/it/IT-REL-ERP-2026-05.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38372
+sha256: c1caa885834dfdeb61379a59d792fad6635fc92482eb106b9f6a61259fe3465d

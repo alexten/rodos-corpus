@@ -14,5 +14,5 @@ generated_by: cfo_budget
 source: corpus/source/finance/BUDGET-2026.table.yaml
 rendered: corpus/rendered/finance/BUDGET-2026.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-bytes: 8743
-sha256: 8d023c31c074e45df25e888533a2d2ad29b9ded9c4a95e5036ffcc5dd1c6c3d3
+bytes: 8800
+sha256: ec64f4d455caba4fa33409d342c19f2c701b392b5664b784764c752913d7715c

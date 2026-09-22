@@ -25,5 +25,5 @@ refs_npa:
 source: corpus/source/common/ИОТ-021-r1.md
 rendered: corpus/rendered/common/ИОТ-021-r1.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 39783
-sha256: 41fee214cc450af5370e049c6f2c3080b9deb318a1c8b6458b4efda2e01cd171
+bytes: 39839
+sha256: 74e0ccea22cd4ca8ffbb5a4cee43e8e8b17fb524bbe835eca3c812c0deb577bf

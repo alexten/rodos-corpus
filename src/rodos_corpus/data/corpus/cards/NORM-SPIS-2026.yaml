@@ -15,5 +15,5 @@ generated_by: writeoff_norms
 source: corpus/source/finance/NORM-SPIS-2026.table.yaml
 rendered: corpus/rendered/finance/NORM-SPIS-2026.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-bytes: 5820
-sha256: 6ff420fa343b997e3ed95ca133a42993443aab492d196824707172fb8c095408
+bytes: 5878
+sha256: 0abfa86f208050e051dc6d64f31a3cd3136f6b47fb71db5e4fb002daa3feba29

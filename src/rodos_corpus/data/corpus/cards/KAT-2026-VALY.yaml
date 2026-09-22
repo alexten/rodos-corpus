@@ -1,0 +1,19 @@
+doc_id: KAT-2026-VALY
+doc_type: product_catalogue
+title: 'Каталог продукции ГК «Родос-Деталь»: валы и оси'
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: public
+status: active
+format: pdf
+channel: dropdir
+version: ред. 1
+approved_at: 2026-08-25
+effective_from: 2026-09-01
+approved_by: Коммерческий директор
+source: corpus/source/sales/KAT-2026-VALY.md
+rendered: corpus/rendered/sales/KAT-2026-VALY.pdf
+mime: application/pdf
+bytes: 34831
+sha256: b25c5cfb4b7eb5cf3f8bd1b69d387067b818f95b9f95c1c9818d0fc3fffd8157

@@ -1,0 +1,19 @@
+doc_id: IT-REESTR-PO
+doc_type: software_register
+title: Реестр разрешённого программного обеспечения
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-09-10
+effective_from: 2025-09-22
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-REESTR-PO.md
+rendered: corpus/rendered/it/IT-REESTR-PO.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39205
+sha256: 75bc3d0775bf45bab18eb135f3da39be2643f7a4e37ac005d2347cdc70dad9b1

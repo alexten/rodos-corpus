@@ -1,0 +1,22 @@
+doc_id: NPA-GOST-24297-2013
+doc_type: npa
+title: ГОСТ 24297-2013 «Верификация закупленной продукции. Организация проведения
+  и методы контроля» (справочная карточка)
+org_unit: Нормативная база
+spaces:
+- common
+- production
+confidentiality: public
+status: active
+format: docx
+channel: npa
+content: reference_only
+source_url: https://protect.gost.ru/gost/details/21042746-61e8-44c1-b84a-6e15219b011f
+retrieved_at: 2026-09-22
+npa_requisites: ГОСТ 24297-2013, введён в действие приказом Росстандарта от 26.08.2013
+  № 544-ст с 01.01.2014, действует на дату снимка
+source: corpus/source/common/NPA-GOST-24297-2013.md
+rendered: corpus/rendered/common/NPA-GOST-24297-2013.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38377
+sha256: 886e1ab887900ab4523ec087e7056e5f2fc041b21e7f8ef3550da83a5f701d41

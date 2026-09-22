@@ -1,0 +1,19 @@
+doc_id: SALES-SKRIPT-HOLOD
+doc_type: sales_script
+title: Скрипт первого контакта с новым клиентом
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-03
+effective_from: 2026-03-10
+approved_by: Коммерческий директор
+source: corpus/source/sales/SALES-SKRIPT-HOLOD.md
+rendered: corpus/rendered/sales/SALES-SKRIPT-HOLOD.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39092
+sha256: e4c32bf13b8666d0bd53605f4c2390fe2c8f532dc8b4570d62e7cbc9d7268d17

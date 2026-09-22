@@ -1,0 +1,20 @@
+doc_id: SALES-REGL-VOZVRAT
+doc_type: process_regulation
+title: Порядок возврата продукции и оформления документов
+org_unit: Коммерческий отдел
+spaces:
+- sales
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-21
+effective_from: 2026-04-28
+approved_by: Коммерческий директор
+source: corpus/source/sales/SALES-REGL-VOZVRAT.md
+rendered: corpus/rendered/sales/SALES-REGL-VOZVRAT.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39325
+sha256: b1034068e64182d5b291464a3d7eb3358082d35337b6656f221b5acfd7c679a8

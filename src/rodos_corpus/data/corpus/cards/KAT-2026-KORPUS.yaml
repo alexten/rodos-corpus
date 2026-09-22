@@ -1,0 +1,19 @@
+doc_id: KAT-2026-KORPUS
+doc_type: product_catalogue
+title: 'Каталог продукции ГК «Родос-Деталь»: корпусные детали'
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: public
+status: active
+format: pdf
+channel: dropdir
+version: ред. 1
+approved_at: 2026-08-25
+effective_from: 2026-09-01
+approved_by: Коммерческий директор
+source: corpus/source/sales/KAT-2026-KORPUS.md
+rendered: corpus/rendered/sales/KAT-2026-KORPUS.pdf
+mime: application/pdf
+bytes: 33507
+sha256: 953ff5349266d5a022e7e7e44dad8cfde5124fdd0233bfca7e85f122d38fc0e4

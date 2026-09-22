@@ -1,0 +1,20 @@
+doc_id: PRIKAZ-2026-131
+doc_type: order
+title: Об утверждении инструкции по охране труда для работников гальванического участка,
+  редакция 2
+org_unit: Администрация
+spaces:
+- common
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-08-10
+effective_from: 2026-08-10
+approved_by: Генеральный директор
+source: corpus/source/common/PRIKAZ-2026-131.md
+rendered: corpus/rendered/common/PRIKAZ-2026-131.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37646
+sha256: 472e22d0ed3ad3c2d8b296e47c3ab0a3a113f20c310013e6f594997b743e1530

@@ -1,0 +1,19 @@
+doc_id: KAT-2026-UZLY
+doc_type: product_catalogue
+title: 'Каталог продукции ГК «Родос-Деталь»: узлы в сборе'
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: public
+status: active
+format: pdf
+channel: dropdir
+version: ред. 1
+approved_at: 2026-08-25
+effective_from: 2026-09-01
+approved_by: Коммерческий директор
+source: corpus/source/sales/KAT-2026-UZLY.md
+rendered: corpus/rendered/sales/KAT-2026-UZLY.pdf
+mime: application/pdf
+bytes: 32689
+sha256: 5252a22958daee142b4d943837cb16a24fa16796bd2b87ae42edf3db6e763f6f

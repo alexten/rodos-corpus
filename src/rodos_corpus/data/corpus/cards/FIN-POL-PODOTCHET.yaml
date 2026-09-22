@@ -1,0 +1,18 @@
+doc_id: FIN-POL-PODOTCHET
+doc_type: accountable_persons_policy
+title: Положение о расчётах с подотчётными лицами
+org_unit: Финансовая служба
+spaces:
+- finance
+- common
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-01-26
+approved_by: Главный бухгалтер
+source: corpus/source/finance/FIN-POL-PODOTCHET.md
+rendered: corpus/rendered/finance/FIN-POL-PODOTCHET.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38651
+sha256: e6c19f5ca270661bb06fa01ec3cc78a7d08530ae06f1a146c93a0d1e3c64c4a8

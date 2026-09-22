@@ -1,0 +1,19 @@
+doc_id: IT-PLAN-DRP
+doc_type: drp_plan
+title: План восстановления работоспособности информационных систем
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: dsp
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-08-15
+effective_from: 2025-09-01
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-PLAN-DRP.md
+rendered: corpus/rendered/it/IT-PLAN-DRP.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 40147
+sha256: 85b32adf6d6415f4f79d5323d79d155a9ba414e152647e93c903d6a68cd22cc4

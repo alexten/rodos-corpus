@@ -1,0 +1,19 @@
+doc_id: PRIKAZ-2026-093
+doc_type: order
+title: Об отмене приказа от 06.05.2026 № 72
+org_unit: Администрация
+spaces:
+- common
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-06-08
+effective_from: 2026-06-08
+approved_by: Генеральный директор
+retracts: PRIKAZ-2026-072
+source: corpus/source/common/PRIKAZ-2026-093.md
+rendered: corpus/rendered/common/PRIKAZ-2026-093.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37729
+sha256: 5ea4629578e6d44d70c1c628e9dd0d8be9a477538d211da011ed8ab66411abca

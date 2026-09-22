@@ -1,0 +1,23 @@
+doc_id: IT-REESTR-UZ
+doc_type: account_register
+title: Реестр учётных записей
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: dsp
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-09-22
+effective_from: 2026-09-22
+approved_by: Руководитель ИТ
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/it/IT-REESTR-UZ.md
+rendered: corpus/rendered/it/IT-REESTR-UZ.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39368
+sha256: 30314c75b28476f9dbd6eae28a9babc2c8bc677abb95a3d5b88acb78dd6094e7

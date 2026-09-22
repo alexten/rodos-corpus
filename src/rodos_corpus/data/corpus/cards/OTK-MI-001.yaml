@@ -17,5 +17,5 @@ plants:
 source: corpus/source/production/OTK-MI-001.md
 rendered: corpus/rendered/production/OTK-MI-001.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 38599
-sha256: 197b3b9c01f730cbc2ffb514dbaad00ade97c06eb295889e7403e7b8f57b78bd
+bytes: 38655
+sha256: 73fb5950575713a70754a7a26c614d771be9e4a5664a0b183f760f4345860f8b

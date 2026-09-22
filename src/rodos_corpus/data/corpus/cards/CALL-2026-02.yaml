@@ -1,0 +1,20 @@
+doc_id: CALL-2026-02
+doc_type: call_transcript
+title: Звонок дилеру ООО «Машторг-Центр» по просроченной оплате
+org_unit: Коммерческий отдел
+spaces:
+- sales
+- finance
+confidentiality: internal
+status: active
+format: txt
+channel: manual
+call_date: 2026-07-14
+call_direction: исходящий
+counterparty: ООО «Машторг-Центр»
+duration_min: 4
+source: corpus/source/sales/CALL-2026-02.md
+rendered: corpus/rendered/sales/CALL-2026-02.txt
+mime: text/plain
+bytes: 5955
+sha256: 0536bcbe9b38898107a219aa6c906d5139669b77d01d46084a8847cb865bb0f9

@@ -1,0 +1,23 @@
+doc_id: NPA-GOST-R-2-503-2023
+doc_type: npa
+title: ГОСТ Р 2.503-2023 «Единая система конструкторской документации. Правила внесения
+  изменений» (справочная карточка)
+org_unit: Нормативная база
+spaces:
+- common
+- production
+confidentiality: public
+status: active
+format: docx
+channel: npa
+content: reference_only
+source_url: https://protect.gost.ru/document.aspx?control=7&id=256448
+retrieved_at: 2026-09-22
+npa_requisites: ГОСТ Р 2.503-2023, введён в действие приказом Росстандарта от 10.11.2023
+  № 1374-ст с 01.03.2024, действует на дату снимка; заменяет утративший силу ГОСТ
+  2.503-2013 (реквизит из задания исправлен)
+source: corpus/source/common/NPA-GOST-R-2-503-2023.md
+rendered: corpus/rendered/common/NPA-GOST-R-2-503-2023.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38309
+sha256: 4b7018632e517dd24011f0ecccd0dfb0de5ce7c4b53667992d62b513d855c835

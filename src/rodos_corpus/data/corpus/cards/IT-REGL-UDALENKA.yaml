@@ -1,0 +1,19 @@
+doc_id: IT-REGL-UDALENKA
+doc_type: remote_access_policy
+title: Регламент удалённого доступа и работы вне периметра
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-10-15
+effective_from: 2025-11-01
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-REGL-UDALENKA.md
+rendered: corpus/rendered/it/IT-REGL-UDALENKA.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38970
+sha256: 236d251d664f6abc05184c60e7b29c37c81e807348b67a9a05213ca7d8d535cf

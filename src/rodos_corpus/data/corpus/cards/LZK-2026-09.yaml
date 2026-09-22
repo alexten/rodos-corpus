@@ -18,5 +18,5 @@ generated_by: limit_cards
 source: corpus/source/production/LZK-2026-09.table.yaml
 rendered: corpus/rendered/production/LZK-2026-09.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-bytes: 5866
-sha256: ccc11d24d14d0eaeb347c90a9bb38f0c7ca094830110cd630c92f4b97f101511
+bytes: 5924
+sha256: 7571f188a71408960b94ae1105183ee822be17f908f2bdc1f86960fb600183e6

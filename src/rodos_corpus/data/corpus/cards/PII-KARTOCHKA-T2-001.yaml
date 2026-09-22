@@ -1,0 +1,29 @@
+doc_id: PII-KARTOCHKA-T2-001
+doc_type: hr_record
+title: Личная карточка работника (фикстура с ПДн)
+org_unit: Отдел кадров
+spaces:
+- _pii
+confidentiality: dsp
+status: active
+format: docx
+channel: manual
+contains_pii: true
+difficulty_class: pii_fixture
+expected_behaviour: 'карантин: не индексировать, в облачную модель не отправлять'
+generated_by: pii_fixtures
+approved_at: 2026-01-15
+pii_kinds:
+- фио
+- дата рождения
+- паспорт
+- снилс
+- инн
+- адрес
+- оклад
+- состав семьи
+source: corpus/source/_pii/PII-KARTOCHKA-T2-001.md
+rendered: corpus/rendered/_pii/PII-KARTOCHKA-T2-001.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37497
+sha256: 6cf344545ee143712cf3eaeed1ae01275ea71d3cef3f11e52209de6969b06f1a

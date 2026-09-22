@@ -1,0 +1,30 @@
+doc_id: PII-MAIL-KANDIDAT-001
+doc_type: hr_email
+title: Письмо с персональными данными кандидата (фикстура с ПДн)
+org_unit: Отдел кадров
+spaces:
+- _pii
+confidentiality: dsp
+status: active
+format: eml
+channel: manual
+contains_pii: true
+difficulty_class: pii_fixture
+expected_behaviour: 'карантин: не индексировать, в облачную модель не отправлять'
+generated_by: pii_fixtures
+mail_from: hr@rodos-detal.example.com
+mail_to: a.vereschagin@rodos-detal.example.com
+mail_subject: Данные кандидата на должность оператора ЧПУ
+mail_date: 2026-07-28
+pii_kinds:
+- фио
+- дата рождения
+- паспорт
+- телефон
+- адрес
+- зарплата
+source: corpus/source/_pii/PII-MAIL-KANDIDAT-001.md
+rendered: corpus/rendered/_pii/PII-MAIL-KANDIDAT-001.eml
+mime: message/rfc822
+bytes: 1653
+sha256: 1ea08523a7acc783b9ab494980d6f6453d4ff1fbb417107766b4b387b7b2b93f

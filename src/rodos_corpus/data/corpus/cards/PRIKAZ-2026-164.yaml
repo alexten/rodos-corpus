@@ -1,0 +1,23 @@
+doc_id: PRIKAZ-2026-164
+doc_type: order
+title: Об утверждении перечня сведений, составляющих коммерческую тайну
+org_unit: Администрация
+spaces:
+- common
+- it
+- finance
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-14
+effective_from: 2026-09-14
+approved_by: Генеральный директор
+refs_npa:
+- Федеральный закон от 29.07.2004 № 98-ФЗ «О коммерческой тайне»
+source: corpus/source/common/PRIKAZ-2026-164.md
+rendered: corpus/rendered/common/PRIKAZ-2026-164.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37709
+sha256: 13db00dfe7000a608c657f7c77abaf2b6ac7159dea1afd88a69cb2d1ae5d5aba

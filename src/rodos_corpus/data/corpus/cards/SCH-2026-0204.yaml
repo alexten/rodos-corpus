@@ -18,5 +18,5 @@ generated_by: invoices
 source: corpus/source/finance/SCH-2026-0204.md
 rendered: corpus/rendered/finance/SCH-2026-0204.pdf
 mime: application/pdf
-bytes: 25289
-sha256: 2e0307551cd450880949d1e32107fef202e64b401ebaf7739db0c9437a303624
+bytes: 25378
+sha256: 6d4dcef90f16628faa54ade2c0e01094552c12f82052c5da945a8969ce346e9a

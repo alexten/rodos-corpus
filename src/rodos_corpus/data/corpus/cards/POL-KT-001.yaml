@@ -22,5 +22,5 @@ refs_npa:
 source: corpus/source/common/POL-KT-001.md
 rendered: corpus/rendered/common/POL-KT-001.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 39236
-sha256: 747d353f5d8a51b6436841b2012f9094ec4822f1a2b4297de8d5cc20be341d10
+bytes: 39292
+sha256: d58f8ba0107a5372b2e181349fc7b30ddc1df32df1ffc4a3ee1ad01f8d819134

@@ -1,0 +1,19 @@
+doc_id: IT-REGL-DOSTUP
+doc_type: access_regulation
+title: Регламент согласования и выдачи доступа
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-02-03
+effective_from: 2026-02-17
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-REGL-DOSTUP.md
+rendered: corpus/rendered/it/IT-REGL-DOSTUP.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39596
+sha256: 69392f428592752f4b49ce808e56063498ca29d469538beb42a819702c9d5023

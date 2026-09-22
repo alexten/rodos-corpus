@@ -18,5 +18,5 @@ generated_by: shift_tasks
 source: corpus/source/production/SMZ-20260903-CEH-2.table.yaml
 rendered: corpus/rendered/production/SMZ-20260903-CEH-2.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-bytes: 5620
-sha256: 466c436d3fbe10da74197d5d96d3f15f52832559744cc61a520a5a991f4c0bdd
+bytes: 5678
+sha256: 97b3b23d74ac310b4b12688dd708253c311a0836e4c77ceef20b12971ea490a1

@@ -1,0 +1,19 @@
+doc_id: IT-INC-2026-05
+doc_type: incident_review
+title: 'Разбор инцидента: неучтённое средство удалённого доступа на компьютере подрядчика'
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-06-26
+approved_by: Руководитель ИТ
+plants:
+- perm
+source: corpus/source/it/IT-INC-2026-05.md
+rendered: corpus/rendered/it/IT-INC-2026-05.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39068
+sha256: 82de2866d153cc693653bc30cd518add6396047191404b8e2b37d6ef9671fd8b

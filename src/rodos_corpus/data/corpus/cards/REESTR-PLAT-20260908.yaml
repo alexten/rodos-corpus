@@ -14,5 +14,5 @@ generated_by: payment_registers
 source: corpus/source/finance/REESTR-PLAT-20260908.table.yaml
 rendered: corpus/rendered/finance/REESTR-PLAT-20260908.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-bytes: 5917
-sha256: 1c0702dfc7640f11c98073c05b26a0498db2bbfd493c62dacf1d6f3a269926c4
+bytes: 5975
+sha256: c0577519c8e74c787598716867f235837a69db14cac450dab49a8165d40c77bb

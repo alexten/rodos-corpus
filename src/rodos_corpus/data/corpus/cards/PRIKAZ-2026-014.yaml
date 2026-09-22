@@ -1,0 +1,20 @@
+doc_id: PRIKAZ-2026-014
+doc_type: order
+title: Об утверждении графика проведения планово-предупредительных ремонтов на 2026
+  год
+org_unit: Администрация
+spaces:
+- common
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-02-05
+effective_from: 2026-02-05
+approved_by: Генеральный директор
+source: corpus/source/common/PRIKAZ-2026-014.md
+rendered: corpus/rendered/common/PRIKAZ-2026-014.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37928
+sha256: 8fec489f8a7319cd61e6aee340d8538bf7c7141b607af61091f01b945a1b65f1

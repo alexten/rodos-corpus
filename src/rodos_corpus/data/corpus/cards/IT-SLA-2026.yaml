@@ -1,0 +1,19 @@
+doc_id: IT-SLA-2026
+doc_type: sla
+title: Соглашение об уровне обслуживания ИТ-службы на 2026 год
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-12-15
+effective_from: 2026-01-01
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-SLA-2026.md
+rendered: corpus/rendered/it/IT-SLA-2026.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39381
+sha256: 8813f0b1377d4837ff2d9f26a1fb952fc19cb4034471a3bf7b0b3ec3c9fadfd0

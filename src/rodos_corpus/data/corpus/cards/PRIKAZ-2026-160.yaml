@@ -1,0 +1,19 @@
+doc_id: PRIKAZ-2026-160
+doc_type: order
+title: О проведении инвентаризации перед составлением годовой отчётности
+org_unit: Администрация
+spaces:
+- common
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-07
+effective_from: 2026-09-07
+approved_by: Генеральный директор
+source: corpus/source/common/PRIKAZ-2026-160.md
+rendered: corpus/rendered/common/PRIKAZ-2026-160.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37766
+sha256: 5918bcb8702a9b112d9eaf56da84d94ccaf49c411da6011ff117032bea1cdae0

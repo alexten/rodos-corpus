@@ -17,5 +17,5 @@ plants:
 source: corpus/source/production/PROSTOY-2026-07.md
 rendered: corpus/rendered/production/PROSTOY-2026-07.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 38659
-sha256: c595f6044d0e85114c168dd02bb41dc63e30873d8e7e45f38b7bec50323a82d0
+bytes: 38715
+sha256: 1bb453ebbb105384f1af73e85a59058c83b7f1b36f866d7e1ab541b9907d047f

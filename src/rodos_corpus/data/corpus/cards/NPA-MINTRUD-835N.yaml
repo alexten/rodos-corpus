@@ -1,0 +1,22 @@
+doc_id: NPA-MINTRUD-835N
+doc_type: npa
+title: Приказ Минтруда России от 27.11.2020 № 835н «Об утверждении Правил по охране
+  труда при работе с инструментом и приспособлениями»
+org_unit: Нормативная база
+spaces:
+- common
+- production
+confidentiality: public
+status: active
+format: pdf
+channel: npa
+source_url: http://pravo.gov.ru/proxy/ips/?docbody=&nd=102948278
+retrieved_at: 2026-09-22
+npa_requisites: Приказ Минтруда России от 27.11.2020 № 835н, текст Правил в исходной
+  редакции; срок действия продлён до 01.09.2027 приказом Минтруда от 29.04.2025 №
+  287н
+source: corpus/source/common/NPA-MINTRUD-835N.md
+rendered: corpus/rendered/common/NPA-MINTRUD-835N.pdf
+mime: application/pdf
+bytes: 77519
+sha256: 127a787c5146f28238b193d4355c7c4ee8487f1dab2d705ddc84d849c17e686c

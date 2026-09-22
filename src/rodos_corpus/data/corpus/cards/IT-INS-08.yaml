@@ -1,0 +1,23 @@
+doc_id: IT-INS-08
+doc_type: user_guide
+title: 'Работа с файловым сервером: общие папки, права и восстановление удалённого'
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-01-26
+effective_from: 2026-02-02
+approved_by: Руководитель ИТ
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/it/IT-INS-08.md
+rendered: corpus/rendered/it/IT-INS-08.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39291
+sha256: 6c03331306b2f9ba44614aa87dc8ca65e03577fd2e98b5df33bcfb850a75462c

@@ -1,0 +1,19 @@
+doc_id: CALL-2026-04
+doc_type: call_transcript
+title: Звонок по срочному заказу штоков с наценкой за срочность
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: txt
+channel: manual
+call_date: 2026-08-26
+call_direction: входящий
+counterparty: АО «Гидромаш-Юг»
+duration_min: 4
+source: corpus/source/sales/CALL-2026-04.md
+rendered: corpus/rendered/sales/CALL-2026-04.txt
+mime: text/plain
+bytes: 6376
+sha256: 831d55cda3ac99bcb1fefab974e45689d5198fcc66d68b378bdc33d57cf801f4

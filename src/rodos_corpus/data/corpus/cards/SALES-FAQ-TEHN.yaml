@@ -1,0 +1,19 @@
+doc_id: SALES-FAQ-TEHN
+doc_type: faq
+title: Типовые технические вопросы клиентов и ответы
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-05-05
+effective_from: 2026-05-12
+approved_by: Коммерческий директор
+source: corpus/source/sales/SALES-FAQ-TEHN.md
+rendered: corpus/rendered/sales/SALES-FAQ-TEHN.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38772
+sha256: 09fe6f3bd7c4a6e467e5a85cbdd0936f9714abe7206872d462ff2c5d0ae0cb63

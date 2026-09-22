@@ -1,0 +1,22 @@
+doc_id: SKAN-KD-456789-L1
+doc_type: drawing_scan
+title: Чертёж детали 45.67.89 «Вал выходной редуктора Р-160», лист 1 (скан)
+org_unit: Технологический отдел
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf_scan
+channel: dropdir
+approved_at: 2024-09-17
+approved_by: Главный технолог
+part: 45.67.89
+text_layer: false
+difficulty_class: scan_without_text
+expected_behaviour: карточка создаётся, фрагментов нет, в ответах не участвует
+generated_by: scans
+source: corpus/source/production/SKAN-KD-456789-L1.md
+rendered: corpus/rendered/production/SKAN-KD-456789-L1.pdf
+mime: application/pdf
+bytes: 550592
+sha256: 462520ceeba5aa2b030e93a8dd640e485e25ccccd2de784abbc3f0a27576b6b4

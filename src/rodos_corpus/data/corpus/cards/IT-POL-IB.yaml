@@ -1,0 +1,20 @@
+doc_id: IT-POL-IB
+doc_type: security_policy
+title: Политика информационной безопасности
+org_unit: ИТ-служба
+spaces:
+- it
+- common
+confidentiality: dsp
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-08-01
+effective_from: 2025-09-01
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-POL-IB.md
+rendered: corpus/rendered/it/IT-POL-IB.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 42854
+sha256: 47bbe25a98061f6af9b41369d98a3c10e144267410587c70ecf39cd1443a56b7

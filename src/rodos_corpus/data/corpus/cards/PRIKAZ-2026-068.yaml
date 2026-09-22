@@ -1,0 +1,20 @@
+doc_id: PRIKAZ-2026-068
+doc_type: order
+title: О переходе на электронный документооборот с контрагентами
+org_unit: Администрация
+spaces:
+- common
+- finance
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-04-27
+effective_from: 2026-04-27
+approved_by: Генеральный директор
+source: corpus/source/common/PRIKAZ-2026-068.md
+rendered: corpus/rendered/common/PRIKAZ-2026-068.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37859
+sha256: e82b439d3acf133e78a8143615a5aa242431280854b87652888f8150ea0ccefe

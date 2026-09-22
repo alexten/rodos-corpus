@@ -1,0 +1,20 @@
+doc_id: SALES-FAQ-KOMM
+doc_type: faq
+title: Типовые коммерческие вопросы и ответы
+org_unit: Коммерческий отдел
+spaces:
+- sales
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-05-05
+effective_from: 2026-05-12
+approved_by: Коммерческий директор
+source: corpus/source/sales/SALES-FAQ-KOMM.md
+rendered: corpus/rendered/sales/SALES-FAQ-KOMM.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39160
+sha256: 1f4bc45a3994b61b1958ac6354c6accf8c5d864894183a5cc383509fa822f18c

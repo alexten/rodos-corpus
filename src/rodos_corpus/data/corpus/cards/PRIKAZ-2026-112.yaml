@@ -1,0 +1,19 @@
+doc_id: PRIKAZ-2026-112
+doc_type: order
+title: О мерах по итогам аварии на линии цинкования
+org_unit: Администрация
+spaces:
+- common
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-07-13
+effective_from: 2026-07-13
+approved_by: Генеральный директор
+source: corpus/source/common/PRIKAZ-2026-112.md
+rendered: corpus/rendered/common/PRIKAZ-2026-112.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38657
+sha256: c99f258537ace40e0e88ee7df3dc76051110ba06cdd7d37a3f920c7b5e6dfffd

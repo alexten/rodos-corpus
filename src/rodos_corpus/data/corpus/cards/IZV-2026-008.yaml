@@ -18,5 +18,5 @@ part: 61.05.24
 source: corpus/source/production/IZV-2026-008.md
 rendered: corpus/rendered/production/IZV-2026-008.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 38207
-sha256: b3cdf59d140ff2699a566a3cf53cfd0d66bdc032dea6c747e179e9bf32ee18b0
+bytes: 38263
+sha256: 1af539098c90cd2badc31f52749c2d179d0a6bf2afab4c96d45a586282de558b

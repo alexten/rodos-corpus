@@ -1,0 +1,21 @@
+doc_id: IT-REESTR-UZ-PRIVILEG
+doc_type: privileged_account_register
+title: Реестр привилегированных учётных записей
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: dsp
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-09-22
+effective_from: 2026-09-22
+approved_by: Руководитель ИТ
+plants:
+- perm
+source: corpus/source/it/IT-REESTR-UZ-PRIVILEG.md
+rendered: corpus/rendered/it/IT-REESTR-UZ-PRIVILEG.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39214
+sha256: 62c5880c25cb4cd5f2a982fa5240f45978868c12b4efcc541621d1370843012c

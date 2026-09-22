@@ -1,0 +1,20 @@
+doc_id: FIN-REGL-002-r2
+doc_type: payment_approval_regulation
+title: Регламент согласования платежей
+org_unit: Финансовая служба
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 2
+approved_at: 2026-02-02
+effective_from: 2026-03-01
+approved_by: Финансовый директор
+supersedes: FIN-REGL-002-r1
+source: corpus/source/finance/FIN-REGL-002-r2.md
+rendered: corpus/rendered/finance/FIN-REGL-002-r2.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 40359
+sha256: ba42dc25672ae906ff462e0b8cda5bd63ca697c06f983dba53179b7b40bd907b

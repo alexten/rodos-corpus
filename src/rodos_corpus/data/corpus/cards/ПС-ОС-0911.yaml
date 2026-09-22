@@ -17,5 +17,5 @@ generated_by: equipment_passports
 source: corpus/source/production/ПС-ОС-0911.md
 rendered: corpus/rendered/production/ПС-ОС-0911.pdf
 mime: application/pdf
-bytes: 26671
-sha256: b621f1d12b10777caf42b70d34adc9601b975a31787910d173c15cc0eb70a8b4
+bytes: 26760
+sha256: 2ec770109d728aaa57e9e9616e8590ba8c390cdf30d44169be573efa119e858f

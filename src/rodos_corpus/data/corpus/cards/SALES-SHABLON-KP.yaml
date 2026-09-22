@@ -1,0 +1,19 @@
+doc_id: SALES-SHABLON-KP
+doc_type: quote_template
+title: Шаблон коммерческого предложения
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-08-20
+effective_from: 2026-09-01
+approved_by: Коммерческий директор
+source: corpus/source/sales/SALES-SHABLON-KP.md
+rendered: corpus/rendered/sales/SALES-SHABLON-KP.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38706
+sha256: 45dfac997411a34619db1a84f955d110387820186f93e1c91174ba52f50d6062

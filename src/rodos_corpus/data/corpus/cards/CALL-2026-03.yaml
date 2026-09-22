@@ -1,0 +1,19 @@
+doc_id: CALL-2026-03
+doc_type: call_transcript
+title: Звонок технического специалиста заказчика по допускам шестерни 52.31.12
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: txt
+channel: manual
+call_date: 2026-08-05
+call_direction: входящий
+counterparty: ООО «Конвейер-Системс»
+duration_min: 4
+source: corpus/source/sales/CALL-2026-03.md
+rendered: corpus/rendered/sales/CALL-2026-03.txt
+mime: text/plain
+bytes: 6920
+sha256: a33f7deba96b8d0c3037c3a2475ade5000cabf6930e5d981ed16b88704572705

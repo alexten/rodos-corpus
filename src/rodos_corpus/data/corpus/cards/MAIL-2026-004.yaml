@@ -1,0 +1,21 @@
+doc_id: MAIL-2026-004
+doc_type: customer_email
+title: Итоги разбора рекламации по партии валов 45.67.89
+org_unit: Коммерческий отдел
+spaces:
+- sales
+- production
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: n.sazonov@rodos-detal.example.com
+mail_to: zakupki@redmash.example.com
+mail_subject: 'Re: Рекламация по партии валов 45.67.89 — результаты разбора'
+mail_date: 2026-07-07
+mail_in_reply_to: MAIL-2026-003
+source: corpus/source/sales/MAIL-2026-004.md
+rendered: corpus/rendered/sales/MAIL-2026-004.eml
+mime: message/rfc822
+bytes: 3884
+sha256: 0da750f13a33803e0e159a63aa3c690cd3b72b0e7c1a130b90c85bc7ae8c4462

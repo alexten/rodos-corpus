@@ -1,0 +1,19 @@
+doc_id: PRIKAZ-2026-031
+doc_type: order
+title: О назначении ответственных за охрану труда на площадках
+org_unit: Администрация
+spaces:
+- common
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-03-02
+effective_from: 2026-03-02
+approved_by: Генеральный директор
+source: corpus/source/common/PRIKAZ-2026-031.md
+rendered: corpus/rendered/common/PRIKAZ-2026-031.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37747
+sha256: 67801de5cf399ee71d7a65b9bed1c11bef011185e3d7931708d4715784aed61d

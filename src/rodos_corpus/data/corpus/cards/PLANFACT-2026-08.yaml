@@ -14,5 +14,5 @@ generated_by: plan_fact
 source: corpus/source/finance/PLANFACT-2026-08.table.yaml
 rendered: corpus/rendered/finance/PLANFACT-2026-08.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-bytes: 6701
-sha256: c22a39b7e725df61978d432dea3fe5941c27d301ee3364351eebdf805d914b9f
+bytes: 6759
+sha256: 0839d691ea975bf6a6b38ed09eda5cecf2373a7b07432828acd82999080940af

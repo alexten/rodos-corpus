@@ -1,0 +1,24 @@
+doc_id: IT-REL-ERP-2026-08
+doc_type: release_notes
+title: 'Релиз-ноты 1С:ERP, август 2026 года: контроль лимитов по лимитно-заборным
+  картам'
+org_unit: ИТ-служба
+spaces:
+- it
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-08-18
+effective_from: 2026-08-24
+approved_by: Руководитель ИТ
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/it/IT-REL-ERP-2026-08.md
+rendered: corpus/rendered/it/IT-REL-ERP-2026-08.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38304
+sha256: 667ef3e4f07d72085b1deef7c6be73ca9be660062bba220454d56b1982eb4fad

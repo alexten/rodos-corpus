@@ -1,0 +1,18 @@
+doc_id: FIN-POL-OPLTRUDA
+doc_type: compensation_policy
+title: Положение об оплате труда и премировании
+org_unit: Финансовая служба
+spaces:
+- finance
+- common
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-01-12
+approved_by: Генеральный директор
+source: corpus/source/finance/FIN-POL-OPLTRUDA.md
+rendered: corpus/rendered/finance/FIN-POL-OPLTRUDA.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38942
+sha256: 07e89c7308222493515e89efdc290890c5e586a70b48053b53fec69415d90cf6

@@ -1,0 +1,22 @@
+doc_id: NPA-MINTRUD-782N
+doc_type: npa
+title: Приказ Минтруда России от 16.11.2020 № 782н «Об утверждении Правил по охране
+  труда при работе на высоте»
+org_unit: Нормативная база
+spaces:
+- common
+- production
+confidentiality: public
+status: active
+format: pdf
+channel: npa
+source_url: http://pravo.gov.ru/proxy/ips/?docbody=&nd=102838855
+retrieved_at: 2026-09-22
+npa_requisites: Приказ Минтруда России от 16.11.2020 № 782н, текст Правил в исходной
+  редакции; срок действия продлён до 01.09.2031 приказом Минтруда от 29.04.2025 №
+  287н
+source: corpus/source/common/NPA-MINTRUD-782N.md
+rendered: corpus/rendered/common/NPA-MINTRUD-782N.pdf
+mime: application/pdf
+bytes: 152829
+sha256: 03b7874b8ab685a0a3231bece5ef68e0ec256c3b149b75eb6fbeffd2ab61f37c

@@ -1,0 +1,22 @@
+doc_id: IT-INS-05
+doc_type: user_guide
+title: 'Работа в ЭДО: входящие документы и их приёмка'
+org_unit: ИТ-служба
+spaces:
+- it
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-02
+effective_from: 2026-04-09
+approved_by: Руководитель ИТ
+plants:
+- perm
+source: corpus/source/it/IT-INS-05.md
+rendered: corpus/rendered/it/IT-INS-05.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38908
+sha256: 88aee5fe7164f648382f869ad60aa48c97b1a8ab094e9fee6dc98cafbd37b8a4

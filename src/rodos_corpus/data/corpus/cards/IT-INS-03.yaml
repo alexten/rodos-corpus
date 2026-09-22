@@ -1,0 +1,22 @@
+doc_id: IT-INS-03
+doc_type: user_guide
+title: 'Работа в 1С:Бухгалтерия: ввод первичных документов'
+org_unit: ИТ-служба
+spaces:
+- it
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-02-16
+effective_from: 2026-02-23
+approved_by: Руководитель ИТ
+plants:
+- perm
+source: corpus/source/it/IT-INS-03.md
+rendered: corpus/rendered/it/IT-INS-03.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39250
+sha256: 6aa4b479a5d7efa11a1ee444f08f8317ea7d4e30cd2e7c572409e68beb5a19bc

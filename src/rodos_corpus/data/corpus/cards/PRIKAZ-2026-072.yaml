@@ -1,0 +1,20 @@
+doc_id: PRIKAZ-2026-072
+doc_type: order
+title: О введении пропускного режима с использованием временных бумажных пропусков
+org_unit: Администрация
+spaces:
+- common
+confidentiality: internal
+status: retracted
+retracted_by: PRIKAZ-2026-093
+retracted_at: 2026-06-08
+format: docx
+channel: dropdir
+approved_at: 2026-05-06
+effective_from: 2026-05-06
+approved_by: Генеральный директор
+source: corpus/source/common/PRIKAZ-2026-072.md
+rendered: corpus/rendered/common/PRIKAZ-2026-072.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37822
+sha256: ddf9274581571b7602ec5f4fb883577df887a2c6313b5c3f795557ecaa1e5c5b

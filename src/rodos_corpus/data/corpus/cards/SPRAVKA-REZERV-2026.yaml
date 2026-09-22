@@ -1,0 +1,17 @@
+doc_id: SPRAVKA-REZERV-2026
+doc_type: accounting_statement
+title: Справка-расчёт резерва по сомнительным долгам на 30.06.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: dsp
+status: active
+format: docx
+channel: manual
+approved_at: 2026-07-10
+approved_by: Главный бухгалтер
+source: corpus/source/finance/SPRAVKA-REZERV-2026.md
+rendered: corpus/rendered/finance/SPRAVKA-REZERV-2026.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38473
+sha256: 9f1dcac1c22fff02788c426ab54fc4f972612424628a7558b55b4672c2222d10

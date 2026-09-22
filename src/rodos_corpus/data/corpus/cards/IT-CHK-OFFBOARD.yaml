@@ -1,0 +1,19 @@
+doc_id: IT-CHK-OFFBOARD
+doc_type: offboarding_checklist
+title: Чек-лист отзыва доступов при увольнении
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-10-01
+effective_from: 2025-10-15
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-CHK-OFFBOARD.md
+rendered: corpus/rendered/it/IT-CHK-OFFBOARD.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39589
+sha256: 18e6e3e53ae179ad3f5519204fc995a900d0a793da5cddfff89ee75bf2e6a7ac

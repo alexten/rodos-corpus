@@ -1,0 +1,22 @@
+doc_id: NPA-MINTRUD-753N
+doc_type: npa
+title: Приказ Минтруда России от 28.10.2020 № 753н «Об утверждении Правил по охране
+  труда при погрузочно-разгрузочных работах и размещении грузов»
+org_unit: Нормативная база
+spaces:
+- common
+- production
+confidentiality: public
+status: active
+format: docx
+channel: npa
+source_url: http://pravo.gov.ru/proxy/ips/?docbody=&nd=102948258
+retrieved_at: 2026-09-22
+npa_requisites: Приказ Минтруда России от 28.10.2020 № 753н, текст Правил в исходной
+  редакции; срок действия продлён до 01.09.2027 приказом Минтруда от 29.04.2025 №
+  287н
+source: corpus/source/common/NPA-MINTRUD-753N.md
+rendered: corpus/rendered/common/NPA-MINTRUD-753N.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 69519
+sha256: 0e3ea8d27e7311a6a23a3cec3856ebf36058a986fc95fe7840c4efae0ba43e86

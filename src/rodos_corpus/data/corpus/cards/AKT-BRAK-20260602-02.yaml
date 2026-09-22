@@ -1,6 +1,6 @@
 doc_id: AKT-BRAK-20260602-02
 doc_type: defect_act
-title: Акт о браке по детали 88.14.50 от 02.06.2026
+title: Акт о браке по детали 61.05.20 от 02.06.2026
 org_unit: Отдел технического контроля
 spaces:
 - production
@@ -10,10 +10,10 @@ format: docx
 channel: dropdir
 approved_at: 2026-06-02
 approved_by: Начальник ОТК
-part: 88.14.50
+part: 61.05.20
 generated_by: defect_acts
 source: corpus/source/production/AKT-BRAK-20260602-02.md
 rendered: corpus/rendered/production/AKT-BRAK-20260602-02.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 37397
-sha256: 5c0037fc8f0247d2fa23a6303d2797320e19d985fb09467812f7b4499d1d9f44
+bytes: 37524
+sha256: 9be00642e0874cefb8b4e192b3d393e5d5cdf13b00c0c36a3fd8f8538e28605f

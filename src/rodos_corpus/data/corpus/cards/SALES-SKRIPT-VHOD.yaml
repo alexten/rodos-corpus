@@ -1,0 +1,19 @@
+doc_id: SALES-SKRIPT-VHOD
+doc_type: sales_script
+title: Скрипт обработки входящего обращения
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-02-10
+effective_from: 2026-02-17
+approved_by: Коммерческий директор
+source: corpus/source/sales/SALES-SKRIPT-VHOD.md
+rendered: corpus/rendered/sales/SALES-SKRIPT-VHOD.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39246
+sha256: cf3360c0afbb751fdcffed05079dc9c41ac53e393db7b2ee045c58310a984b83

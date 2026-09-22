@@ -1,0 +1,18 @@
+doc_id: FIN-REGL-DOGOVOR
+doc_type: contract_workflow_regulation
+title: Регламент договорной работы
+org_unit: Финансовая служба
+spaces:
+- finance
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-02-24
+approved_by: Финансовый директор
+source: corpus/source/finance/FIN-REGL-DOGOVOR.md
+rendered: corpus/rendered/finance/FIN-REGL-DOGOVOR.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38841
+sha256: 8ee7a5cb30c88eee3139ede5124ea4c3699e7f69d39433ea4801bc0aa38a9602

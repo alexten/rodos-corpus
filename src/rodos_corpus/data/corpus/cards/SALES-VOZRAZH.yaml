@@ -1,0 +1,19 @@
+doc_id: SALES-VOZRAZH
+doc_type: sales_script
+title: Работа с типовыми возражениями
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-05-19
+effective_from: 2026-05-26
+approved_by: Коммерческий директор
+source: corpus/source/sales/SALES-VOZRAZH.md
+rendered: corpus/rendered/sales/SALES-VOZRAZH.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39441
+sha256: 04c53e0db5528cb6c792c08d749acb045bcd824cc12e32fa9f810c3b96ff4f5c

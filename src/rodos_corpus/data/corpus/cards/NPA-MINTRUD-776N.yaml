@@ -1,0 +1,20 @@
+doc_id: NPA-MINTRUD-776N
+doc_type: npa
+title: Приказ Минтруда России от 29.10.2021 № 776н «Об утверждении Примерного положения
+  о системе управления охраной труда»
+org_unit: Нормативная база
+spaces:
+- common
+confidentiality: public
+status: active
+format: docx
+channel: npa
+source_url: http://pravo.gov.ru/proxy/ips/?docbody=&nd=602662850
+retrieved_at: 2026-09-22
+npa_requisites: Приказ Минтруда России от 29.10.2021 № 776н, исходная редакция (зарегистрирован
+  Минюстом России 14.12.2021 № 66318); действует с 01.03.2022
+source: corpus/source/common/NPA-MINTRUD-776N.md
+rendered: corpus/rendered/common/NPA-MINTRUD-776N.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 86137
+sha256: a99b2035228b08b972a1cdd9a386d5e48e34038a35fe0e41bef43cfd155dc1d8

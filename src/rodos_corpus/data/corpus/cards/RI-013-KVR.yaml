@@ -17,5 +17,5 @@ plants:
 source: corpus/source/production/RI-013-KVR.md
 rendered: corpus/rendered/production/RI-013-KVR.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 39126
-sha256: 2848a3f16694da05af381aa8fa5d626772754b586f67377d7d2f36f2140bc009
+bytes: 39182
+sha256: 96b22bc79f2a1ae6ec2b7c9d83043d2dd16999a4f80b066c72edb766580f170b

@@ -1,0 +1,22 @@
+doc_id: IT-POL-PDN-TEH
+doc_type: pdn_policy
+title: Технические меры защиты персональных данных
+org_unit: ИТ-служба
+spaces:
+- it
+- common
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-12-01
+effective_from: 2025-12-15
+approved_by: Руководитель ИТ
+refs_npa:
+- Федеральный закон от 27.07.2006 № 152-ФЗ «О персональных данных»
+source: corpus/source/it/IT-POL-PDN-TEH.md
+rendered: corpus/rendered/it/IT-POL-PDN-TEH.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39255
+sha256: c30830b55f7affc053cb6919b768ba302bbbd48556b730485a5cd11658c8d1ba

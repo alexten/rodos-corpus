@@ -20,5 +20,5 @@ refs_npa:
 source: corpus/source/common/POL-SUOT-001.md
 rendered: corpus/rendered/common/POL-SUOT-001.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 39209
-sha256: d80bdbbfc2ad9c105ad222f32dde86566ca3a7db75ddd97bc733da31043b70fb
+bytes: 39265
+sha256: b2fc9f25b657da61cde6f3e6899e0be7348a1993aca4f515b54428910693ac1d

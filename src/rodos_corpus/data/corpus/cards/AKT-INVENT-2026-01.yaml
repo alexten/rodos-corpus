@@ -1,0 +1,17 @@
+doc_id: AKT-INVENT-2026-01
+doc_type: inventory_act
+title: Акт инвентаризации расчётов с покупателями и поставщиками по состоянию на 30.06.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: dsp
+status: active
+format: docx
+channel: manual
+approved_at: 2026-07-10
+approved_by: Главный бухгалтер
+source: corpus/source/finance/AKT-INVENT-2026-01.md
+rendered: corpus/rendered/finance/AKT-INVENT-2026-01.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38820
+sha256: 3fd123d6cac3e9fc89ebfb845426b615429828d39718af4b84ef77a53a419f77

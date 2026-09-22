@@ -1,6 +1,6 @@
 doc_id: AKT-BRAK-20260623-03
 doc_type: defect_act
-title: Акт о браке по детали 52.31.11 от 23.06.2026
+title: Акт о браке по детали 45.67.89 от 23.06.2026
 org_unit: Отдел технического контроля
 spaces:
 - production
@@ -10,10 +10,10 @@ format: docx
 channel: dropdir
 approved_at: 2026-06-23
 approved_by: Начальник ОТК
-part: 52.31.11
+part: 45.67.89
 generated_by: defect_acts
 source: corpus/source/production/AKT-BRAK-20260623-03.md
 rendered: corpus/rendered/production/AKT-BRAK-20260623-03.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 37407
-sha256: e813f57dc7bc514cbe3910de76acd32f1df63f032cbb68cd2681555b1b20bbd8
+bytes: 37588
+sha256: 016acae3ecfb268105da28a533af8eb406b8d010ac149e955f0fbe39e730170a

@@ -1,0 +1,22 @@
+doc_id: NPA-FZ-152
+doc_type: npa
+title: Федеральный закон от 27.07.2006 № 152-ФЗ «О персональных данных» (ст. 3, 5–7,
+  9, 18.1, 19) (извлечение)
+org_unit: Нормативная база
+spaces:
+- common
+- it
+confidentiality: public
+status: active
+format: docx
+channel: npa
+source_url: http://pravo.gov.ru/proxy/ips/?docbody=&nd=102108261
+retrieved_at: 2026-09-22
+npa_requisites: Федеральный закон от 27.07.2006 № 152-ФЗ «О персональных данных»,
+  действующая редакция по данным ИПС «Законодательство России» на дату снимка; приведены
+  статьи 3, 5, 6, 7, 9, 18.1, 19
+source: corpus/source/common/NPA-FZ-152.md
+rendered: corpus/rendered/common/NPA-FZ-152.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 46778
+sha256: b1adf04b5cd56b8f1513b8840dbb0b75eef0db8c8393a4e2d238b4c94efb9f35

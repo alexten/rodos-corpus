@@ -1,0 +1,25 @@
+doc_id: PII-SPRAVKA-DOHOD-001
+doc_type: income_statement
+title: Справка о доходах физического лица (фикстура с ПДн)
+org_unit: Отдел кадров
+spaces:
+- _pii
+confidentiality: dsp
+status: active
+format: xlsx
+channel: manual
+contains_pii: true
+difficulty_class: pii_fixture
+expected_behaviour: 'карантин: не индексировать, в облачную модель не отправлять'
+generated_by: pii_fixtures
+approved_at: 2026-09-05
+approved_by: Главный бухгалтер
+pii_kinds:
+- фио
+- доходы
+- налог
+source: corpus/source/_pii/PII-SPRAVKA-DOHOD-001.table.yaml
+rendered: corpus/rendered/_pii/PII-SPRAVKA-DOHOD-001.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 5486
+sha256: 5de3e8671193d048658d48f431f369967672ddaacbb3f2eb3b8f0c81cb9e38f4

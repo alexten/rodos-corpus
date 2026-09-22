@@ -1,0 +1,19 @@
+doc_id: IT-REESTR-SISTEM
+doc_type: systems_register
+title: Реестр информационных систем
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-01-05
+effective_from: 2026-01-12
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-REESTR-SISTEM.md
+rendered: corpus/rendered/it/IT-REESTR-SISTEM.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39313
+sha256: c6c3a9e5c17c49c912cd78927bb030f11fbbf024d15d87454a904a46a1988e68

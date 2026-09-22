@@ -1,0 +1,18 @@
+doc_id: RASPOR-2026-022
+doc_type: order
+title: О порядке работы в период отпусков
+org_unit: Администрация
+spaces:
+- common
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-06-15
+effective_from: 2026-06-15
+approved_by: Генеральный директор
+source: corpus/source/common/RASPOR-2026-022.md
+rendered: corpus/rendered/common/RASPOR-2026-022.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37854
+sha256: 16c0ad9527f76c28d809dff389155e2ce756f6d63b64679df2bb5fa5dbefaaa7

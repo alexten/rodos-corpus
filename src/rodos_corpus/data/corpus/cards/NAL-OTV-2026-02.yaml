@@ -1,0 +1,20 @@
+doc_id: NAL-OTV-2026-02
+doc_type: tax_response
+title: Пояснения по требованию № 00-21/00587 от 08.05.2026 (расхождение в декларации
+  по НДС за 1 квартал 2026 года)
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: edo
+approved_at: 2026-05-19
+approved_by: Главный бухгалтер
+counterparty: АО «Редмаш»
+contract: РМ-2025/01
+source: corpus/source/finance/NAL-OTV-2026-02.md
+rendered: corpus/rendered/finance/NAL-OTV-2026-02.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38478
+sha256: 63b7f27fdd3d20036f1ce7b6473e99beb936ed101ff101f426745bbf62b3821e

@@ -15,5 +15,5 @@ generated_by: consumption_norms
 source: corpus/source/production/NORM-RASH-2026.table.yaml
 rendered: corpus/rendered/production/NORM-RASH-2026.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-bytes: 6711
-sha256: 88fec4bcd097d8c0c60f13137915f8f28d56726f34257616e26a8444c2b26146
+bytes: 6769
+sha256: c7ef33f6921364ecbd3310e55a0724a3d3368a14370359024713d34e035a2851

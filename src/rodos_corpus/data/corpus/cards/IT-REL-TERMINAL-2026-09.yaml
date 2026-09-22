@@ -1,0 +1,23 @@
+doc_id: IT-REL-TERMINAL-2026-09
+doc_type: release_notes
+title: 'Релиз-ноты, сентябрь 2026 года: обновление цеховых терминалов'
+org_unit: ИТ-служба
+spaces:
+- it
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-08
+effective_from: 2026-09-14
+approved_by: Руководитель ИТ
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/it/IT-REL-TERMINAL-2026-09.md
+rendered: corpus/rendered/it/IT-REL-TERMINAL-2026-09.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38359
+sha256: bfd9486b664f388a013ce8a92841eb787f78715f2a6b0516f930398159fcae0c

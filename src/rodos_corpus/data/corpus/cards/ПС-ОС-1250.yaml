@@ -18,5 +18,5 @@ generated_by: equipment_passports
 source: corpus/source/production/ПС-ОС-1250.md
 rendered: corpus/rendered/production/ПС-ОС-1250.pdf
 mime: application/pdf
-bytes: 29146
-sha256: f0088bcc16d6144e9ec88a926603c13fdbf6377e576fd6cb7230f1dad56d7654
+bytes: 29235
+sha256: 63d815de33f0bf68466d212923b356f9e8a4ed66695326efcd494991f085afef

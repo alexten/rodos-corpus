@@ -1,0 +1,17 @@
+doc_id: FIN-POL-BUDGET
+doc_type: budgeting_policy
+title: Положение о бюджетировании
+org_unit: Финансовая служба
+spaces:
+- finance
+confidentiality: dsp
+status: active
+format: docx
+channel: dropdir
+approved_at: 2025-10-20
+approved_by: Финансовый директор
+source: corpus/source/finance/FIN-POL-BUDGET.md
+rendered: corpus/rendered/finance/FIN-POL-BUDGET.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39256
+sha256: e74952802789833ed2cfbd6db1b14dc3b32110b01f66f27e150963a868739f9e

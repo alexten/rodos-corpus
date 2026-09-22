@@ -1,0 +1,19 @@
+doc_id: IT-REESTR-INTEGR
+doc_type: integrations_register
+title: Реестр интеграций и обменов данными
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-02
+effective_from: 2026-03-16
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-REESTR-INTEGR.md
+rendered: corpus/rendered/it/IT-REESTR-INTEGR.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38753
+sha256: bfa3239dba1d3922034085ac8a67429cce3cd41edc055908c6aa85896067df27

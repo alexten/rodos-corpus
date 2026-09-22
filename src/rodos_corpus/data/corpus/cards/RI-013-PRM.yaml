@@ -17,5 +17,5 @@ plants:
 source: corpus/source/production/RI-013-PRM.md
 rendered: corpus/rendered/production/RI-013-PRM.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 39221
-sha256: 8d8bc0a8984e137f5052b8a65c1e15caad4492f3b0e704947d9ca0a428b28bfa
+bytes: 39277
+sha256: a105e8f904b59366b35267d321df856198c68c980a902707a85f017f1795b62c

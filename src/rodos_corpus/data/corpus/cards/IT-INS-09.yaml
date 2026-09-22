@@ -1,0 +1,24 @@
+doc_id: IT-INS-09
+doc_type: user_guide
+title: 'Работа с цеховым терминалом: сменные задания и отметки о выработке'
+org_unit: ИТ-служба
+spaces:
+- it
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-09-11
+effective_from: 2026-09-16
+approved_by: Руководитель ИТ
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/it/IT-INS-09.md
+rendered: corpus/rendered/it/IT-INS-09.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39010
+sha256: fdead7d67e94e10a4624fa7c7b375d0c3cc85d2bcb230a604a7d091b7934bdb5

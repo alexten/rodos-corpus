@@ -1,0 +1,23 @@
+doc_id: IT-REL-ERP-2026-02
+doc_type: release_notes
+title: 'Релиз-ноты 1С:ERP, февраль 2026 года: отчёт по загрузке цехов'
+org_unit: ИТ-служба
+spaces:
+- it
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-02-24
+effective_from: 2026-03-02
+approved_by: Руководитель ИТ
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/it/IT-REL-ERP-2026-02.md
+rendered: corpus/rendered/it/IT-REL-ERP-2026-02.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38418
+sha256: 8fdcc317acc16047515d98c4b412e55781bd8e4bdb15b85faec65b207828f719

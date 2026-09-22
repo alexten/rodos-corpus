@@ -1,0 +1,20 @@
+doc_id: MAIL-2026-010
+doc_type: customer_email
+title: Запрос подтверждения срока изготовления узла в сборе для АО «Редмаш»
+org_unit: Коммерческий отдел
+spaces:
+- sales
+- production
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: n.sazonov@rodos-detal.example.com
+mail_to: t.melnikova@rodos-detal.example.com
+mail_subject: Срок изготовления узла 88.14.53 для АО «Редмаш»
+mail_date: 2026-09-02
+source: corpus/source/sales/MAIL-2026-010.md
+rendered: corpus/rendered/sales/MAIL-2026-010.eml
+mime: message/rfc822
+bytes: 2862
+sha256: 41a73ac4887281ffa0ac8f3f2c216217699cb610c212cb618944b0962e66cc8a

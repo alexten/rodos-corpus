@@ -18,5 +18,5 @@ refs_npa:
 source: corpus/source/common/PVTR-r2.md
 rendered: corpus/rendered/common/PVTR-r2.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 43559
-sha256: 042d33dcdff988e949c812292e894fd587d0f3d86266ac675b9cc7d2b7b05bb0
+bytes: 43615
+sha256: 82ccc204750813c0742d658816577a0b779c00749f6dcf753dd66a4e557e4fd4

@@ -17,5 +17,5 @@ generated_by: service_acts
 source: corpus/source/finance/AKT-2026-302.md
 rendered: corpus/rendered/finance/AKT-2026-302.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 37673
-sha256: e8ed19f84973b66daa086ea7712c6b145384be2df66b73f9c3e7b5ed6eee3f02
+bytes: 37729
+sha256: 385f6cf898863e92a488d7540101a4a473c52e5ea4b320a71d030f037124c597

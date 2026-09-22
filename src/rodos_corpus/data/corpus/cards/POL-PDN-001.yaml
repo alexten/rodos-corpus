@@ -19,5 +19,5 @@ refs_npa:
 source: corpus/source/common/POL-PDN-001.md
 rendered: corpus/rendered/common/POL-PDN-001.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 39070
-sha256: 38d91b4461d46d817205055895543c74bc37bc79a6136f60fc63837ecbc5fd66
+bytes: 39126
+sha256: 8f8722b9a457c93844d83d43905a9d8f0addd7ed3b2949046b95e22977984639

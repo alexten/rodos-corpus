@@ -1,0 +1,24 @@
+doc_id: IT-INS-01
+doc_type: user_guide
+title: 'Работа в 1С:ERP: заказы и производственные заказы'
+org_unit: ИТ-служба
+spaces:
+- it
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-09
+effective_from: 2026-03-16
+approved_by: Руководитель ИТ
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/it/IT-INS-01.md
+rendered: corpus/rendered/it/IT-INS-01.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39824
+sha256: 345cd19504dcd99b98ac980b60d5927084996a1e43a1d5c8633c9d71dd36f0e7

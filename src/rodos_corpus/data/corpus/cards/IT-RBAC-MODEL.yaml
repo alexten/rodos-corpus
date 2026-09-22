@@ -1,0 +1,19 @@
+doc_id: IT-RBAC-MODEL
+doc_type: rbac_model
+title: Ролевая модель доступа к информационным системам
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-01-20
+effective_from: 2026-02-01
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-RBAC-MODEL.md
+rendered: corpus/rendered/it/IT-RBAC-MODEL.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 40044
+sha256: 435f6cb366fe77d66dca123d3a7e0a9f45e9302c278cca1b8f51c81ea18ab7c3

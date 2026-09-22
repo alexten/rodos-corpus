@@ -15,5 +15,5 @@ generated_by: test_protocols
 source: corpus/source/production/PROT-20260613-02.md
 rendered: corpus/rendered/production/PROT-20260613-02.pdf
 mime: application/pdf
-bytes: 26749
-sha256: 39580344dcdeee0254ee56a177076ef6a154df2b60ee5182cc6dd83e6acfbb3e
+bytes: 26838
+sha256: d65982f67237c38980ddf44442611c695e936ecfb5de6fe4304b9a3d49ea5f38

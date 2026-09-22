@@ -1,0 +1,19 @@
+doc_id: IT-POL-PAROL
+doc_type: password_policy
+title: Парольная политика
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-08-01
+effective_from: 2025-09-01
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-POL-PAROL.md
+rendered: corpus/rendered/it/IT-POL-PAROL.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39153
+sha256: 9a21cbf3ccc54e83c1fe5910b520b5b0fc12d0d095155d8187593afbe222af6d

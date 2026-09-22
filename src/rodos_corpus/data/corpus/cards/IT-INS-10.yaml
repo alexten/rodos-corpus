@@ -1,0 +1,24 @@
+doc_id: IT-INS-10
+doc_type: user_guide
+title: Что делать при подозрении на фишинг или заражение
+org_unit: ИТ-служба
+spaces:
+- it
+- common
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-02-26
+effective_from: 2026-03-02
+approved_by: Руководитель ИТ
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/it/IT-INS-10.md
+rendered: corpus/rendered/it/IT-INS-10.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39219
+sha256: ee471f9a394198ba099f09d689d6416049a73f1772e8071e3366092e98e1ad9b

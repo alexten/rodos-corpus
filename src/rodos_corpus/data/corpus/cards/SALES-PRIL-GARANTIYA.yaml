@@ -1,0 +1,19 @@
+doc_id: SALES-PRIL-GARANTIYA
+doc_type: contract_appendix
+title: 'Приложение: гарантийные обязательства'
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-08-20
+effective_from: 2026-09-01
+approved_by: Коммерческий директор
+source: corpus/source/sales/SALES-PRIL-GARANTIYA.md
+rendered: corpus/rendered/sales/SALES-PRIL-GARANTIYA.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38133
+sha256: 5cf2babf0533c6e52a51b3125f47ea45beded01782d6fc6eafffcd748a6ea2e6

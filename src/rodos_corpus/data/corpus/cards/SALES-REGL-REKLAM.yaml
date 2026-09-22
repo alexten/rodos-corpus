@@ -1,0 +1,20 @@
+doc_id: SALES-REGL-REKLAM
+doc_type: process_regulation
+title: Регламент работы с рекламациями
+org_unit: Коммерческий отдел
+spaces:
+- sales
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-02-24
+effective_from: 2026-03-02
+approved_by: Коммерческий директор
+source: corpus/source/sales/SALES-REGL-REKLAM.md
+rendered: corpus/rendered/sales/SALES-REGL-REKLAM.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39776
+sha256: 527f49483fb0107f238fdfa32b0843bbf15a40f2e999c70229ec918345617c4c

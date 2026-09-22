@@ -22,5 +22,5 @@ valid_until: 2027-04-01
 source: corpus/source/finance/DOG-KS-2025-12.md
 rendered: corpus/rendered/finance/DOG-KS-2025-12.pdf
 mime: application/pdf
-bytes: 34465
-sha256: 9247f52a6b9944ba4e99cb366bfbcfcc8d7f124a6690a2522e9736abee2e2f6c
+bytes: 34554
+sha256: 3a0135ba7fcbef2baa449bafe54181f64ab771996db87f7c67d6d11cb67dee9f

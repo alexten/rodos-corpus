@@ -1,0 +1,18 @@
+doc_id: FIN-MET-SEBEST
+doc_type: costing_methodology
+title: Методика расчёта себестоимости продукции
+org_unit: Финансовая служба
+spaces:
+- finance
+- production
+confidentiality: dsp
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-03-16
+approved_by: Финансовый директор
+source: corpus/source/finance/FIN-MET-SEBEST.md
+rendered: corpus/rendered/finance/FIN-MET-SEBEST.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 40018
+sha256: 3a0f6c47312f2af8d0f035ad49b2dcff77bce6ba9b8a4ebacc17f9f5a1ca9b39

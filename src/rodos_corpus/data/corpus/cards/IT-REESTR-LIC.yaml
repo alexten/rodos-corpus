@@ -1,0 +1,23 @@
+doc_id: IT-REESTR-LIC
+doc_type: license_register
+title: Реестр лицензий на программное обеспечение
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-09-22
+effective_from: 2026-09-22
+approved_by: Руководитель ИТ
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/it/IT-REESTR-LIC.md
+rendered: corpus/rendered/it/IT-REESTR-LIC.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38820
+sha256: 8e2a84ca30f700988ea5efcb248d2ea378bee82511baa15d72b00334dcc2abc0

@@ -1,0 +1,22 @@
+doc_id: NPA-MINTRUD-903N
+doc_type: npa
+title: Приказ Минтруда России от 15.12.2020 № 903н «Об утверждении Правил по охране
+  труда при эксплуатации электроустановок» (извлечение)
+org_unit: Нормативная база
+spaces:
+- common
+- production
+confidentiality: public
+status: active
+format: pdf
+channel: npa
+source_url: http://pravo.gov.ru/proxy/ips/?docbody=&nd=102992195
+retrieved_at: 2026-09-22
+npa_requisites: Приказ Минтруда России от 15.12.2020 № 903н, текст Правил в исходной
+  редакции (с учётом приказа от 29.04.2022 № 279н); срок действия продлён до 01.09.2031
+  приказом Минтруда от 29.04.2025 № 287н
+source: corpus/source/common/NPA-MINTRUD-903N.md
+rendered: corpus/rendered/common/NPA-MINTRUD-903N.pdf
+mime: application/pdf
+bytes: 214925
+sha256: 10f46efbadb7aba6f7c0993979d1b930aaf7aa307cbd139a718a6d18cb808dee

@@ -7,10 +7,12 @@ from __future__ import annotations
 
 import re
 from pathlib import Path
+from typing import Any
 
 from rodos.corpus.world import World
 
 SPACES = {"production", "finance", "sales", "it", "common"}
+PII_SPACE = "_pii"
 FAKE_EMAIL = re.compile(r"@[\w.-]*example\.com$")
 FAKE_PHONE = re.compile(r"^\+7 \(495\) 000-00-\d\d$")
 
@@ -95,7 +97,8 @@ def check(world: World) -> list[str]:
         ref(where, party.get("contract"), contract_numbers, "договор")
         ref(where, party.get("manager_role"), role_keys, "роль менеджера")
         if not FAKE_INN.match(str(party.get("inn", ""))):
-            problems.append(f"{where}: ИНН «{party.get('inn')}» не из фиктивного диапазона (должен начинаться с 00)")
+            problems.append(
+                f"{where}: ИНН «{party.get('inn')}» не из фиктивного диапазона: нужен префикс 00")
         email = party.get("email")
         if email and not FAKE_EMAIL.search(email):
             problems.append(f"{where}: почта «{email}» вне зоны example.com")
@@ -175,9 +178,114 @@ def check_sources(root: Path | None = None) -> list[str]:
     return problems
 
 
+def check_pii_isolation(docs: list[Any]) -> list[str]:
+    """ПДн живут только в пространстве `_pii` и нигде больше.
+
+    Фикстуры существуют, чтобы проверить детектор, и ровно поэтому обязаны быть изолированы: попав в
+    обычный поток, они бы доказывали ровно обратное тому, ради чего сделаны (docs/spec/06, §5).
+    """
+    problems: list[str] = []
+    for doc in docs:
+        spaces = list(doc.card.get("spaces", []))
+        marked = bool(doc.card.get("contains_pii"))
+        if marked and spaces != [PII_SPACE]:
+            problems.append(f"{doc.doc_id}: документ с ПДн в пространствах {spaces}, а не только {PII_SPACE}")
+        if not marked and PII_SPACE in spaces:
+            problems.append(f"{doc.doc_id}: лежит в {PII_SPACE}, но не помечен contains_pii")
+        if marked and not doc.card.get("expected_behaviour"):
+            problems.append(f"{doc.doc_id}: фикстура с ПДн без описания ожидаемого поведения")
+    return problems
+
+
+def check_links(docs: list[Any]) -> list[str]:
+    """Ссылки между документами разрешаются, а цепочки редакций сходятся с обеих сторон.
+
+    Односторонняя ссылка — самая дорогая ошибка корпуса: документ считается действующим, потому что
+    никто не проставил ему `superseded_by`, и система честно отвечает по устаревшей редакции.
+    """
+    known = {doc.doc_id: doc for doc in docs}
+    problems: list[str] = []
+    for doc in docs:
+        for field in ("supersedes", "superseded_by", "retracted_by"):
+            target = doc.card.get(field)
+            if target and target not in known:
+                problems.append(f"{doc.doc_id}: поле {field} ссылается на несуществующий «{target}»")
+        if (target := doc.card.get("supersedes")) and target in known:
+            back = known[target].card
+            if back.get("superseded_by") != doc.doc_id:
+                problems.append(f"{doc.doc_id}: заменяет «{target}», но тот не ссылается обратно")
+            if back.get("status") != "superseded":
+                problems.append(f"{doc.doc_id}: заменяет «{target}», а у того статус «{back.get('status')}»")
+    return problems
+
+
+def check_names(docs: list[Any], world: World) -> list[str]:
+    """Каждое ФИО в документе — из `world/people.yaml`.
+
+    Требование не косметическое: случайно совпасть с реальным человеком в публичном репозитории легче,
+    чем кажется, а вычистить потом — невозможно.
+    """
+    # Сравниваем по основам слов и без учёта порядка: в документах фамилия склоняется («Ушаковой»),
+    # а в подписи письма имя идёт первым («Николай Сазонов»). Тащить сюда морфологический анализатор
+    # ради одного правила несоразмерно, а основы из пяти букв различают вымышленных людей от наших.
+    people = [{token[:5].lower() for token in person["full_name"].split()} for person in world.people]
+    # Пробел, а не \s: перенос строки разделяет подпись и должность, склеивать их нельзя.
+    pattern = re.compile(r"\b[А-ЯЁ][а-яё]{3,} (?:[А-ЯЁ][а-яё]{2,} [А-ЯЁ][а-яё]{2,}|[А-ЯЁ]\. ?[А-ЯЁ]\.)")
+    problems: list[str] = []
+    for doc in docs:
+        if doc.card.get("doc_type") == "npa" or PII_SPACE in doc.card.get("spaces", []):
+            continue
+        text = doc.body + str(doc.table or "")
+        for found in {re.sub(r"\s+", " ", match.group(0)).strip() for match in pattern.finditer(text)}:
+            stems = {token[:5].lower() for token in found.split() if len(token.strip(".")) > 1}
+            if not any(stems <= person for person in people):
+                problems.append(f"{doc.doc_id}: ФИО «{found}» нет в world/people.yaml")
+    return problems
+
+
+DIFFICULTY_MINIMUMS = {
+    "цепочки редакций": 6,
+    "отменённые документы": 1,
+    "нечитаемые сканы": 2,
+    "фикстуры с ПДн": 5,
+    "межпространственные документы": 20,
+    "табличные документы": 20,
+}
+
+
+def difficulty_inventory(docs: list[Any]) -> dict[str, int]:
+    """Сколько документов каждого заложенного класса сложности реально в корпусе."""
+    titles: dict[str, set[str]] = {}
+    for doc in docs:
+        titles.setdefault(str(doc.card.get("title", "")).lower(), set()).update(doc.card.get("spaces", []))
+    return {
+        "цепочки редакций": sum(1 for doc in docs if doc.card.get("status") == "superseded"),
+        "отменённые документы": sum(1 for doc in docs if doc.card.get("status") == "retracted"),
+        "нечитаемые сканы": sum(1 for doc in docs if doc.card.get("format") == "pdf_scan"),
+        "фикстуры с ПДн": sum(1 for doc in docs if doc.card.get("contains_pii")),
+        "межпространственные документы": sum(1 for doc in docs if len(doc.card.get("spaces", [])) > 1),
+        "табличные документы": sum(1 for doc in docs if doc.card.get("format") == "xlsx"),
+        "первичка ЭДО в XML": sum(1 for doc in docs if doc.card.get("format") == "xml"),
+        "письма и транскрипты": sum(1 for doc in docs if doc.card.get("format") in {"eml", "txt"}),
+        "одинаковые названия в разных пространствах": sum(1 for spaces in titles.values() if len(spaces) > 1),
+    }
+
+
 def main(root: Path | None = None) -> int:
-    problems = check(World.load(root)) + check_sources()
+    from rodos.corpus.source import load_all
+
+    world = World.load(root)
+    docs = load_all()
+    problems = (check(world) + check_sources() + check_pii_isolation(docs)
+                + check_links(docs) + check_names(docs, world))
+    inventory = difficulty_inventory(docs)
+    for name, minimum in DIFFICULTY_MINIMUMS.items():
+        if inventory[name] < minimum:
+            problems.append(f"классы сложности: «{name}» — {inventory[name]}, заявлено не менее {minimum}")
     for problem in problems:
         print(problem)
     print(f"нарушений: {len(problems)}")
+    print("\nклассы сложности:")
+    for name, count in inventory.items():
+        print(f"  {name:44s} {count:4d}")
     return 1 if problems else 0

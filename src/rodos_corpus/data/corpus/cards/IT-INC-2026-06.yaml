@@ -1,0 +1,20 @@
+doc_id: IT-INC-2026-06
+doc_type: incident_review
+title: 'Разбор инцидента: переполнение диска сервера 1С в день закрытия месяца'
+org_unit: ИТ-служба
+spaces:
+- it
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-08-07
+approved_by: Руководитель ИТ
+plants:
+- perm
+source: corpus/source/it/IT-INC-2026-06.md
+rendered: corpus/rendered/it/IT-INC-2026-06.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39091
+sha256: ab7a992cb569b816fd92401e9b0576bfd19c01fc9c23d69f84040432125c3da3

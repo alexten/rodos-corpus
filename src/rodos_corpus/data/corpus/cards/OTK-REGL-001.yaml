@@ -18,5 +18,5 @@ plants:
 source: corpus/source/production/OTK-REGL-001.md
 rendered: corpus/rendered/production/OTK-REGL-001.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 38963
-sha256: e3db91e2c8c44d232ea3ad0b21b83694f98947ba35ff673378081144d78153e9
+bytes: 39019
+sha256: 4147f3820d5295eee4ea0585d9c3a3c8d3c01e59d2f439d569e44e01046b37d4

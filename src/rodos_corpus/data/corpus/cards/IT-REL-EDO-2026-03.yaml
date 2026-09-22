@@ -1,0 +1,21 @@
+doc_id: IT-REL-EDO-2026-03
+doc_type: release_notes
+title: 'Релиз-ноты ЭДО, март 2026 года: переход на новую версию формата УПД'
+org_unit: ИТ-служба
+spaces:
+- it
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-03-25
+effective_from: 2026-04-01
+approved_by: Руководитель ИТ
+plants:
+- perm
+source: corpus/source/it/IT-REL-EDO-2026-03.md
+rendered: corpus/rendered/it/IT-REL-EDO-2026-03.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38215
+sha256: 6994f0d762d27411170900187a0eb47c5ccda7427894b824efeb3bc35dec874f

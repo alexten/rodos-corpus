@@ -1,0 +1,23 @@
+doc_id: IT-REESTR-INC-2026
+doc_type: incident_register
+title: Реестр инцидентов информационной безопасности и ИТ за 2026 год
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-09-22
+effective_from: 2026-09-22
+approved_by: Руководитель ИТ
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/it/IT-REESTR-INC-2026.md
+rendered: corpus/rendered/it/IT-REESTR-INC-2026.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39934
+sha256: 6530564b252e008bcc22cea0fcf547680ca7ab4bdb86586478449c2338be65d4

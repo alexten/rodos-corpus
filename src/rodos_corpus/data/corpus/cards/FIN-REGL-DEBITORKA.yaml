@@ -1,0 +1,17 @@
+doc_id: FIN-REGL-DEBITORKA
+doc_type: receivables_regulation
+title: Регламент работы с дебиторской задолженностью
+org_unit: Финансовая служба
+spaces:
+- finance
+confidentiality: dsp
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-05-18
+approved_by: Финансовый директор
+source: corpus/source/finance/FIN-REGL-DEBITORKA.md
+rendered: corpus/rendered/finance/FIN-REGL-DEBITORKA.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38876
+sha256: 89226e94fea4bdc3fe2f40ede6a90e2b3e75bf70b7c6682a02a03b3333967147

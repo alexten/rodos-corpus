@@ -1,0 +1,19 @@
+doc_id: MAIL-2026-006
+doc_type: customer_email
+title: Запрос коммерческого предложения на втулки и штоки от ООО «Привод-НН»
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: zakaz@privod-nn.example.com
+mail_to: n.sazonov@rodos-detal.example.com
+mail_subject: 'Запрос КП: втулки и штоки'
+mail_date: 2026-08-11
+source: corpus/source/sales/MAIL-2026-006.md
+rendered: corpus/rendered/sales/MAIL-2026-006.eml
+mime: message/rfc822
+bytes: 2404
+sha256: 373535adeaa5948e4baa63f3608ed2727dd96172c1695daa4268e5fe1c7e5765

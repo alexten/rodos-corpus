@@ -1,0 +1,23 @@
+doc_id: IT-INS-07
+doc_type: user_guide
+title: Настройка корпоративной почты на компьютере и телефоне
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-01-19
+effective_from: 2026-01-26
+approved_by: Руководитель ИТ
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/it/IT-INS-07.md
+rendered: corpus/rendered/it/IT-INS-07.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38870
+sha256: 83bac95781fdf0126fdf6f5b9611d5ba1a5281770f269fc2efd4567374e1a251

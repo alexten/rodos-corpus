@@ -1,0 +1,19 @@
+doc_id: KAT-2026-OBSCH
+doc_type: product_catalogue
+title: Каталог продукции ГК «Родос-Деталь» 2026
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: public
+status: active
+format: pdf
+channel: dropdir
+version: ред. 1
+approved_at: 2026-08-25
+effective_from: 2026-09-01
+approved_by: Коммерческий директор
+source: corpus/source/sales/KAT-2026-OBSCH.md
+rendered: corpus/rendered/sales/KAT-2026-OBSCH.pdf
+mime: application/pdf
+bytes: 36983
+sha256: b8906d35f35aa1ed8f567cf742b83ab811966b6f7e319b3daf8563ac04f6478e

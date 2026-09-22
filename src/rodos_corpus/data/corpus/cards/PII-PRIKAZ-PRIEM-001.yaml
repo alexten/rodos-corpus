@@ -1,0 +1,29 @@
+doc_id: PII-PRIKAZ-PRIEM-001
+doc_type: hr_order
+title: Приказ о приёме работника на работу (фикстура с ПДн)
+org_unit: Отдел кадров
+spaces:
+- _pii
+confidentiality: dsp
+status: active
+format: docx
+channel: manual
+contains_pii: true
+difficulty_class: pii_fixture
+expected_behaviour: 'карантин: не индексировать, в облачную модель не отправлять'
+generated_by: pii_fixtures
+approved_at: 2026-08-03
+approved_by: Генеральный директор
+pii_kinds:
+- фио
+- дата рождения
+- паспорт
+- адрес
+- снилс
+- инн
+- оклад
+source: corpus/source/_pii/PII-PRIKAZ-PRIEM-001.md
+rendered: corpus/rendered/_pii/PII-PRIKAZ-PRIEM-001.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37403
+sha256: 263fd584f3a7b642847c9c6ddd8d3ed30ef6fa64ee71d02d16323f8b19330b4c

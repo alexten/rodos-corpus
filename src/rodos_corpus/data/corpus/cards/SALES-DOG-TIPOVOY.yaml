@@ -1,0 +1,19 @@
+doc_id: SALES-DOG-TIPOVOY
+doc_type: contract_template
+title: Типовой договор поставки продукции
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-08-20
+effective_from: 2026-09-01
+approved_by: Коммерческий директор
+source: corpus/source/sales/SALES-DOG-TIPOVOY.md
+rendered: corpus/rendered/sales/SALES-DOG-TIPOVOY.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 40542
+sha256: 31e63ff15f988306062ae65fc91ff42c15813be8f9620f04cf2c35f5bef31c56

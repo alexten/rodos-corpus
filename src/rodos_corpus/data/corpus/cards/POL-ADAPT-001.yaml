@@ -19,5 +19,5 @@ refs_npa:
 source: corpus/source/common/POL-ADAPT-001.md
 rendered: corpus/rendered/common/POL-ADAPT-001.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 39058
-sha256: c3be95e77136da352280d37d277c586b19e11a435d9b7acc5293484ae921e8e4
+bytes: 39114
+sha256: f71b857aedb622cc2fd12bd8c42d12f0f36dae69bf4ac0313e0b10ef7e7cb77d

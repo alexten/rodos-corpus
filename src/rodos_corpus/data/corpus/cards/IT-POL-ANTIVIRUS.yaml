@@ -1,0 +1,19 @@
+doc_id: IT-POL-ANTIVIRUS
+doc_type: antivirus_policy
+title: Порядок антивирусной защиты и контроля съёмных носителей
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-08-01
+effective_from: 2025-09-01
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-POL-ANTIVIRUS.md
+rendered: corpus/rendered/it/IT-POL-ANTIVIRUS.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39281
+sha256: 5b9c01f6a7b5275173d7f5630c2ca52514fd64c3c3b2825eaf2a13f6869ef945

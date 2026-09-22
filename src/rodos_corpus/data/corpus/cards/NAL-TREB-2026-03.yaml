@@ -1,0 +1,20 @@
+doc_id: NAL-TREB-2026-03
+doc_type: tax_request
+title: Уведомление о вызове для дачи пояснений № 00-09/00214 от 14.08.2026 и ответ
+  на него (ставка НДС 0 % по экспортной поставке)
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: edo
+approved_at: 2026-08-14
+approved_by: Главный бухгалтер
+counterparty: ТОО «KazMashParts»
+contract: KMP-2025/02
+source: corpus/source/finance/NAL-TREB-2026-03.md
+rendered: corpus/rendered/finance/NAL-TREB-2026-03.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38473
+sha256: 639ac1154daa5f9b77a997a1521f8aca313f2109d8ef05490e68252fb2d9feae

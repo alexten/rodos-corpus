@@ -1,0 +1,20 @@
+doc_id: PRET-2026-01
+doc_type: claim_letter
+title: Претензия № 00-45 от 15.04.2026 к ООО «Литейный двор» по договору № ЛД-2024/27
+org_unit: Юридический отдел
+spaces:
+- finance
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: edo
+approved_at: 2026-04-15
+approved_by: Начальник отдела снабжения
+counterparty: ООО «Литейный двор»
+contract: ЛД-2024/27
+source: corpus/source/finance/PRET-2026-01.md
+rendered: corpus/rendered/finance/PRET-2026-01.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38307
+sha256: 68df7756029b65f52736bd7d4764c554a0e8bd28dae009b2ac98cb4770f2daba

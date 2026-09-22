@@ -1,0 +1,18 @@
+doc_id: FIN-REGL-ZAKUPKI
+doc_type: procurement_regulation
+title: Регламент закупочной деятельности
+org_unit: Финансовая служба
+spaces:
+- finance
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2025-11-17
+approved_by: Финансовый директор
+source: corpus/source/finance/FIN-REGL-ZAKUPKI.md
+rendered: corpus/rendered/finance/FIN-REGL-ZAKUPKI.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38689
+sha256: c1a8b4abcac8ee58463badc9a5d9111a901a3cc9c0086910124fce99ca956de1

@@ -18,5 +18,5 @@ generated_by: reconciliation_acts
 source: corpus/source/finance/SVERKA-2026H1-04.table.yaml
 rendered: corpus/rendered/finance/SVERKA-2026H1-04.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-bytes: 5560
-sha256: 57ee36d1960d11d9e120a0320a1dac0b6187e920dfe9f788b35e67c40f81ca83
+bytes: 5618
+sha256: d4f6e0a5618833780689d51c164fbcda94462727fb0e43bbefb401e2a47ed821

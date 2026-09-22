@@ -1,0 +1,19 @@
+doc_id: PRIKAZ-2026-055
+doc_type: order
+title: Об установлении лимита расчётов с подотчётными лицами
+org_unit: Администрация
+spaces:
+- common
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-04-13
+effective_from: 2026-04-13
+approved_by: Генеральный директор
+source: corpus/source/common/PRIKAZ-2026-055.md
+rendered: corpus/rendered/common/PRIKAZ-2026-055.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37736
+sha256: 533ffbe54885aef34093425e9e36e6d030bf7ffc690a613a6f02f707f4fd0dce

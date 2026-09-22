@@ -20,7 +20,7 @@ from typing import Any
 import yaml
 
 REQUIRED = ("doc_id", "doc_type", "title", "org_unit", "spaces", "confidentiality", "status", "format")
-FORMATS = {"docx", "pdf", "xlsx", "eml", "txt", "xml"}
+FORMATS = {"docx", "pdf", "xlsx", "eml", "txt", "xml", "pdf_scan"}
 STATUSES = {"active", "superseded", "retracted", "draft"}
 CONFIDENTIALITY = {"public", "internal", "dsp"}
 CHANNELS = {"dropdir", "edo", "mail", "npa", "manual"}
@@ -85,6 +85,10 @@ def validate(doc: SourceDoc) -> list[str]:
         problems.append(f"{doc.path.name}: неизвестный канал «{channel}»")
     if card.get("status") == "superseded" and not card.get("superseded_by"):
         problems.append(f"{doc.path.name}: замещённый документ без ссылки superseded_by")
+    # Отменённый документ обязан говорить, чем он отменён: иначе ответ «документ отменён» некуда раскрыть,
+    # а замолчавший документ без объяснения выглядит как потеря, а не как решение.
+    if card.get("status") == "retracted" and not card.get("retracted_by"):
+        problems.append(f"{doc.path.name}: отменённый документ без ссылки retracted_by")
     for name in ("approved_at", "effective_from", "effective_to"):
         value = card.get(name)
         if value is not None and not isinstance(value, date):
@@ -99,5 +103,6 @@ def load_all(root: Path | None = None) -> list[SourceDoc]:
     base = (root or corpus_root()) / "source"
     if not base.exists():
         return []
-    docs = [parse(path) for path in sorted(base.rglob("*")) if path.is_file() and path.suffix in {".md", ".yaml"}]
+    docs = [parse(path) for path in sorted(base.rglob("*"))
+            if path.is_file() and path.suffix in {".md", ".yaml"}]
     return sorted(docs, key=lambda doc: doc.doc_id)

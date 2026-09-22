@@ -1,0 +1,20 @@
+doc_id: IT-REGL-TERMINAL
+doc_type: process_regulation
+title: Порядок эксплуатации цеховых терминалов и промышленных ПК
+org_unit: ИТ-служба
+spaces:
+- it
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-02
+effective_from: 2026-03-16
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-REGL-TERMINAL.md
+rendered: corpus/rendered/it/IT-REGL-TERMINAL.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39115
+sha256: 3f90f13ee2b812bf13965726775baeeca66739902de31c0e90be3e5868539095

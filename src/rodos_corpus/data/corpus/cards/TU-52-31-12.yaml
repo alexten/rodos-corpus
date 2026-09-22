@@ -1,0 +1,20 @@
+doc_id: TU-52-31-12
+doc_type: technical_spec
+title: Технические условия на шестерню коническую редуктора (52.31.12)
+org_unit: Коммерческий отдел
+spaces:
+- sales
+- production
+confidentiality: public
+status: active
+format: pdf
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-10
+effective_from: 2026-03-25
+approved_by: Коммерческий директор
+source: corpus/source/sales/TU-52-31-12.md
+rendered: corpus/rendered/sales/TU-52-31-12.pdf
+mime: application/pdf
+bytes: 30514
+sha256: e326f97cbf583e895e664f080adfe4a935f454d3479fd4c0d11d5a0281d67ea4

@@ -19,5 +19,5 @@ part: 45.67.89
 source: corpus/source/finance/DS-RM-2025-01-02.md
 rendered: corpus/rendered/finance/DS-RM-2025-01-02.pdf
 mime: application/pdf
-bytes: 28448
-sha256: 6e7e182b94670a6359ec0f7bba3351885d3f06b611b07daeebadfd0f5f873635
+bytes: 28537
+sha256: 6d9b55b5f3cdb971aaad286b7e8e7fe9d50d00b45bb8241ece1519c67d92da44

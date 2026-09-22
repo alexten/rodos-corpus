@@ -1,0 +1,19 @@
+doc_id: SALES-POL-GARANTIYA
+doc_type: policy
+title: Гарантийная политика
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-03-17
+effective_from: 2026-03-24
+approved_by: Коммерческий директор
+source: corpus/source/sales/SALES-POL-GARANTIYA.md
+rendered: corpus/rendered/sales/SALES-POL-GARANTIYA.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39379
+sha256: b4e7fb4daaa9d8774ea4ce847301c6a941a9cca2e9082d4d3840839e2d7b52c3

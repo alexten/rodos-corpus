@@ -1,0 +1,19 @@
+doc_id: CALL-2026-01
+doc_type: call_transcript
+title: Звонок от АО «Редмаш» по срокам разбора рекламации РКЛ-2026-06
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: txt
+channel: manual
+call_date: 2026-06-22
+call_direction: входящий
+counterparty: АО «Редмаш»
+duration_min: 4
+source: corpus/source/sales/CALL-2026-01.md
+rendered: corpus/rendered/sales/CALL-2026-01.txt
+mime: text/plain
+bytes: 6225
+sha256: 8c84f907c5737f8ccf5b946c78be45c83156cfbb3d2beaacf3f1805aff35942d

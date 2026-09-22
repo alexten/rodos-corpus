@@ -20,5 +20,5 @@ refs_npa:
 source: corpus/source/production/OTK-MI-006.md
 rendered: corpus/rendered/production/OTK-MI-006.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 38667
-sha256: 3ee213ee6fbb92d2d1c51de06a49a4bd58fc5f048268066c26fe751d464bca14
+bytes: 38723
+sha256: e5df2de45fc1b3d4bf84d41fc52fa3214c8407cc17d31ed9bca7cb8fb1758acc

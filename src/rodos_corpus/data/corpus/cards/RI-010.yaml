@@ -17,5 +17,5 @@ plants:
 source: corpus/source/production/RI-010.md
 rendered: corpus/rendered/production/RI-010.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 39231
-sha256: 021549200015e9072b4d463dfddf536664f6e43edd3c0ab726078858a452e37a
+bytes: 39287
+sha256: 40a7c893b6d7b68d6d3e70a0e19cdeae9625534b00df4421e4ccaf5922ae78b7

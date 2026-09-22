@@ -23,5 +23,5 @@ refs_npa:
 source: corpus/source/production/OTK-REGL-003-r2.md
 rendered: corpus/rendered/production/OTK-REGL-003-r2.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 38886
-sha256: 60b854e5bae759c88577312e88fdcf2ddca3944ed62a246a265cea8ad9468cd8
+bytes: 38942
+sha256: cc9acb6caca80ddacfe287de309e1132474f2276e060a3fed38ced0448bea913

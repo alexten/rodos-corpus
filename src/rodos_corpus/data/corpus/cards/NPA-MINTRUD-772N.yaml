@@ -1,0 +1,22 @@
+doc_id: NPA-MINTRUD-772N
+doc_type: npa
+title: Приказ Минтруда России от 29.10.2021 № 772н «Об утверждении основных требований
+  к порядку разработки и содержанию правил и инструкций по охране труда, разрабатываемых
+  работодателем»
+org_unit: Нормативная база
+spaces:
+- common
+confidentiality: public
+status: active
+format: docx
+channel: npa
+source_url: http://pravo.gov.ru/proxy/ips/?docbody=&nd=602594430
+retrieved_at: 2026-09-22
+npa_requisites: Приказ Минтруда России от 29.10.2021 № 772н (зарегистрирован Минюстом
+  России 26.11.2021 № 66015); применение отложено до 01.01.2023 приказом от 17.03.2022
+  № 140н; действует с 01.03.2022 до 01.03.2028
+source: corpus/source/common/NPA-MINTRUD-772N.md
+rendered: corpus/rendered/common/NPA-MINTRUD-772N.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 42385
+sha256: ce6bc48cd316a06bd12f9b5952c683ed3b7389aff781d344b49636596b55f017

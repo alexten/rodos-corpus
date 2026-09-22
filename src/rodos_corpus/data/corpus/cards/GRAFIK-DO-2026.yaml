@@ -15,5 +15,5 @@ generated_by: document_flow_schedule
 source: corpus/source/finance/GRAFIK-DO-2026.table.yaml
 rendered: corpus/rendered/finance/GRAFIK-DO-2026.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-bytes: 6444
-sha256: 0468d5013f4d145b05e61eee37bc69e86a28488e39f7ce8a9c8025eb1fe6c0fc
+bytes: 6501
+sha256: f7190f38974c734d2ffb0aba4d427191e75ebc13407be49d69b06b56b9b9d2df

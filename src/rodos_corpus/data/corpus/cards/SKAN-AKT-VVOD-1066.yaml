@@ -1,0 +1,22 @@
+doc_id: SKAN-AKT-VVOD-1066
+doc_type: commissioning_act
+title: Акт ввода в эксплуатацию станка 3М151, инв. № ОС-1066 (скан)
+org_unit: Отдел главного механика
+spaces:
+- production
+confidentiality: internal
+status: active
+format: pdf_scan
+channel: dropdir
+approved_at: 2019-04-03
+approved_by: Технический директор
+equipment: ОС-1066
+text_layer: false
+difficulty_class: scan_without_text
+expected_behaviour: карточка создаётся, фрагментов нет, в ответах не участвует
+generated_by: scans
+source: corpus/source/production/SKAN-AKT-VVOD-1066.md
+rendered: corpus/rendered/production/SKAN-AKT-VVOD-1066.pdf
+mime: application/pdf
+bytes: 554973
+sha256: 34c26cc290d76b3bdc70ce7dcec143f3599707d1f29dbd9c14f79b6e45cc9c8d

@@ -1,0 +1,20 @@
+doc_id: TU-45-67-89
+doc_type: technical_spec
+title: Технические условия на вал выходной редуктора Р-160 (45.67.89)
+org_unit: Коммерческий отдел
+spaces:
+- sales
+- production
+confidentiality: public
+status: active
+format: pdf
+channel: dropdir
+version: ред. 1
+approved_at: 2026-08-01
+effective_from: 2026-08-15
+approved_by: Коммерческий директор
+source: corpus/source/sales/TU-45-67-89.md
+rendered: corpus/rendered/sales/TU-45-67-89.pdf
+mime: application/pdf
+bytes: 31197
+sha256: 98c439fdd087fba8226debe803e90b62a537c9a9497ab5ae6fd961d0aae8165b

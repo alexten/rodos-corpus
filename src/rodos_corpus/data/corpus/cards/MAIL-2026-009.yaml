@@ -1,0 +1,20 @@
+doc_id: MAIL-2026-009
+doc_type: customer_email
+title: Спор по применённой скидке — ООО «Агротех-Деталь», договор АТД-2025/06
+org_unit: Коммерческий отдел
+spaces:
+- sales
+- finance
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: zakupki@agroteh-detal.example.com
+mail_to: p.pestov@rodos-detal.example.com
+mail_subject: Спор по скидке — счёт № СЧ-2026-0206 от 18.07.2026
+mail_date: 2026-08-21
+source: corpus/source/sales/MAIL-2026-009.md
+rendered: corpus/rendered/sales/MAIL-2026-009.eml
+mime: message/rfc822
+bytes: 3052
+sha256: 1271277ffa91cca60b7b25a38c8f21b4d9512c8ae69839e2182b24029f9dda71

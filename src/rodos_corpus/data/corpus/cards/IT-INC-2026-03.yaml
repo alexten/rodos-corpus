@@ -1,0 +1,21 @@
+doc_id: IT-INC-2026-03
+doc_type: incident_review
+title: 'Разбор инцидента: сбой обмена между 1С:ERP и ЭДО, часть УПД не отправлена
+  контрагентам'
+org_unit: ИТ-служба
+spaces:
+- it
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-04-30
+approved_by: Руководитель ИТ
+plants:
+- perm
+source: corpus/source/it/IT-INC-2026-03.md
+rendered: corpus/rendered/it/IT-INC-2026-03.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39183
+sha256: c453d7fb93f12a8681843e4cb23e8a42532bc4869653b46f4e5dbbe1814576ec

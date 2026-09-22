@@ -25,7 +25,7 @@ def render_all(space: str | None = None, only: str | None = None, root: Path | N
         print(f"исходники с ошибками: {len(problems)}")
         return 1
     for doc in docs:
-        target, card = render(doc, root)
+        _, card = render(doc, root)
         print(f"{doc.doc_id:22s} {doc.fmt:4s} {card['bytes']:7d} Б  {card['title'][:60]}")
     print(f"готово: {len(docs)} документов")
     return 0

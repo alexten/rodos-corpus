@@ -1,0 +1,19 @@
+doc_id: PRIKAZ-2026-118
+doc_type: order
+title: О введении в действие Регламента входного контроля, редакция 3
+org_unit: Администрация
+spaces:
+- common
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-07-24
+effective_from: 2026-07-24
+approved_by: Генеральный директор
+source: corpus/source/common/PRIKAZ-2026-118.md
+rendered: corpus/rendered/common/PRIKAZ-2026-118.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37713
+sha256: a0b8220968ca246205279e7d45e60bb8648ea0b39475b7ab9c96d293ccdd2e29

@@ -20,5 +20,5 @@ refs_npa:
 source: corpus/source/production/TEH-REGL-003.md
 rendered: corpus/rendered/production/TEH-REGL-003.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 39585
-sha256: 03885e75d04f1e89e1f8d7411a48eec255cee283d47cecc6c18507ced8265cc2
+bytes: 39641
+sha256: 4c4b79e5b3a21741bfd3ab3ce811b4349e501c5166f58ca62df49b35dc840c07

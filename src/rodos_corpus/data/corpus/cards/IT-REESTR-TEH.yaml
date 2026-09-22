@@ -1,0 +1,23 @@
+doc_id: IT-REESTR-TEH
+doc_type: equipment_register
+title: Реестр компьютерной техники
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2026-09-22
+effective_from: 2026-09-22
+approved_by: Руководитель ИТ
+plants:
+- kovrov
+- perm
+- tolyatti
+source: corpus/source/it/IT-REESTR-TEH.md
+rendered: corpus/rendered/it/IT-REESTR-TEH.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 39814
+sha256: fc1096a7a7953894727382272477297110c65669f5f689ebb27850a256ab6766

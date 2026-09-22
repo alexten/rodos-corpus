@@ -1,0 +1,19 @@
+doc_id: IT-REGL-GRAFIK-DEZH
+doc_type: oncall_regulation
+title: Порядок дежурства и вызова ИТ-специалиста вне рабочего времени
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-12-15
+effective_from: 2026-01-01
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-REGL-GRAFIK-DEZH.md
+rendered: corpus/rendered/it/IT-REGL-GRAFIK-DEZH.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38894
+sha256: 05b212941af1d57473abe51d9c9374d5a28dbe5952eda436bcd1e6f7125791e3

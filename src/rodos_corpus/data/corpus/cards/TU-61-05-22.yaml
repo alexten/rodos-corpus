@@ -1,0 +1,20 @@
+doc_id: TU-61-05-22
+doc_type: technical_spec
+title: Технические условия на корпус редуктора Р-200, нижняя часть (61.05.22)
+org_unit: Коммерческий отдел
+spaces:
+- sales
+- production
+confidentiality: public
+status: active
+format: pdf
+channel: dropdir
+version: ред. 1
+approved_at: 2026-04-14
+effective_from: 2026-05-01
+approved_by: Коммерческий директор
+source: corpus/source/sales/TU-61-05-22.md
+rendered: corpus/rendered/sales/TU-61-05-22.pdf
+mime: application/pdf
+bytes: 30159
+sha256: 65804ea42dcb16fc7dc42fecd0081fd52008b7fd04bc9d576af13c2faa0666ae

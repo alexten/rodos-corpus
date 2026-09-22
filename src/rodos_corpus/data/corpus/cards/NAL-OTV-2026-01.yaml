@@ -1,0 +1,19 @@
+doc_id: NAL-OTV-2026-01
+doc_type: tax_response
+title: Ответ на требование № 00-17/00312 от 12.03.2026 (взаимоотношения с ООО «Прикамье-Прокат»)
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: docx
+channel: edo
+approved_at: 2026-03-24
+approved_by: Главный бухгалтер
+counterparty: ООО «Прикамье-Прокат»
+contract: ПП-2025/14
+source: corpus/source/finance/NAL-OTV-2026-01.md
+rendered: corpus/rendered/finance/NAL-OTV-2026-01.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38562
+sha256: 720aec6484d642f4a7ccea6d663753bc40e6ab83c41e4ccf82ca9be23283e27b

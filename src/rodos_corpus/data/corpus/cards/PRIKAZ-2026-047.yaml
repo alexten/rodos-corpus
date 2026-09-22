@@ -1,0 +1,19 @@
+doc_id: PRIKAZ-2026-047
+doc_type: order
+title: Об утверждении Положения о системе управления охраной труда
+org_unit: Администрация
+spaces:
+- common
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-03-30
+effective_from: 2026-03-30
+approved_by: Генеральный директор
+source: corpus/source/common/PRIKAZ-2026-047.md
+rendered: corpus/rendered/common/PRIKAZ-2026-047.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37733
+sha256: 6be7c85e54133fb8b83b444cf7d4deb667870c1d43da6487921e63b2eff2c79c

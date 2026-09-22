@@ -1,0 +1,19 @@
+doc_id: IT-REGL-USTANOVKA-PO
+doc_type: process_regulation
+title: Порядок установки и обновления программного обеспечения
+org_unit: ИТ-служба
+spaces:
+- it
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+version: ред. 1
+approved_at: 2025-09-10
+effective_from: 2025-09-22
+approved_by: Руководитель ИТ
+source: corpus/source/it/IT-REGL-USTANOVKA-PO.md
+rendered: corpus/rendered/it/IT-REGL-USTANOVKA-PO.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38898
+sha256: 5af79394e512fbfc72ac0202d62e4eceb1b61f60cdda87241d7c5f59b6c9d7f9

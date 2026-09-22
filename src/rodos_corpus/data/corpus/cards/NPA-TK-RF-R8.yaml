@@ -16,5 +16,5 @@ npa_requisites: Трудовой кодекс РФ от 30.12.2001 № 197-ФЗ,
 source: corpus/source/common/NPA-TK-RF-R8.md
 rendered: corpus/rendered/common/NPA-TK-RF-R8.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 39922
-sha256: 955d47b1632d3bde26c2b60886b7e3930eea969fc96661694bf9913ed4f4ae82
+bytes: 39978
+sha256: 10c1667f078b486c832d2ee7301109a316c992123bbc9724d08b4aec0d7a4fbb
