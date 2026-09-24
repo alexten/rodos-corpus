@@ -16,8 +16,8 @@ from pathlib import Path
 from typing import Any
 from xml.sax.saxutils import escape
 
-from rodos.corpus.generators.common import write_source, write_table_source
-from rodos.corpus.world import World
+from rodos_corpus.generators.common import write_source, write_table_source
+from rodos_corpus.world import World
 
 VAT_RATE = 20
 UPD_START = date(2026, 1, 16)

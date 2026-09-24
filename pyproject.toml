@@ -1,0 +1,74 @@
+[project]
+name = "rodos-corpus"
+version = "1.0.0"
+description = "Демо-корпус и модель мира вымышленной ГК «Родос-Деталь»"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+# Пересборка корпуса из модели мира. Потребителю не нужна: документы уже отрендерены и
+# закоммичены (ADR-0008), пакет их только отдаёт.
+build = [
+    "fpdf2>=2.8",
+    "openpyxl>=3.1",
+    "pillow>=10.0",
+    "python-docx>=1.1",
+]
+
+[project.scripts]
+rodos-corpus = "rodos_corpus.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+    "mypy>=1.11",
+    "types-pyyaml>=6.0.12.20260906",
+    "types-openpyxl>=3.1.5.20260827",
+]
+
+[tool.uv]
+default-groups = ["dev"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/rodos_corpus"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/rodos_corpus", "tests", "README.md", "LICENSE"]
+
+[tool.ruff]
+line-length = 110
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B", "SIM", "RUF"]
+# RUF001-003 ищут кириллицу, «похожую» на латиницу. В проекте, где вся документация и половина
+# строк по-русски, это правило срабатывает на каждой второй строке и не ловит ничего.
+ignore = ["RUF001", "RUF002", "RUF003"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.mypy]
+python_version = "3.12"
+packages = ["rodos_corpus"]
+mypy_path = "src"
+strict = true
+
+# Генераторы корпуса работают со справочниками мира, загруженными из YAML: там всё Any по построению,
+# и строгая типизация даёт не безопасность, а `cast` в каждой строке. Корректность этих модулей
+# проверяется линтером корпуса и тестами на воспроизводимость, а не системой типов.
+[[tool.mypy.overrides]]
+module = "rodos_corpus.generators.*"
+disallow_any_expr = false
+warn_return_any = false
+disable_error_code = ["operator", "arg-type", "misc", "index"]

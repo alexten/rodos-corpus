@@ -1,7 +1,7 @@
 """Мир должен быть согласован и заведомо фиктивен — иначе корпус нельзя публиковать."""
 
-from rodos.corpus.lint import check
-from rodos.corpus.world import World
+from rodos_corpus.lint import check
+from rodos_corpus.world import World
 
 
 def test_world_loads_and_is_consistent() -> None:

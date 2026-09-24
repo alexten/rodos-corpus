@@ -12,8 +12,8 @@ from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
 
-from rodos.corpus.generators.common import write_table_source
-from rodos.corpus.world import World
+from rodos_corpus.generators.common import write_table_source
+from rodos_corpus.world import World
 
 MONTHS = ("январь", "февраль", "март", "апрель", "май", "июнь",
           "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь")

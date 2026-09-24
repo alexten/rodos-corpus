@@ -19,8 +19,8 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
-from rodos.corpus.generators.common import write_source, write_table_source
-from rodos.corpus.world import World
+from rodos_corpus.generators.common import write_source, write_table_source
+from rodos_corpus.world import World
 
 PII_SPACE = "_pii"
 

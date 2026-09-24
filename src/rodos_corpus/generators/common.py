@@ -7,7 +7,7 @@ from typing import Any
 
 import yaml
 
-from rodos.corpus.source import corpus_root
+from rodos_corpus.source import corpus_root
 
 
 def write_source(space: str, doc_id: str, card: dict[str, Any], body: str, root: Path | None = None) -> Path:

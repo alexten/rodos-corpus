@@ -10,8 +10,8 @@ from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
 
-from rodos.corpus.generators.common import write_source
-from rodos.corpus.world import World
+from rodos_corpus.generators.common import write_source
+from rodos_corpus.world import World
 
 # Режимы резания по видам операций: подставляются в карту, чтобы в корпусе были проверяемые числа.
 MODES: dict[str, dict[str, Any]] = {

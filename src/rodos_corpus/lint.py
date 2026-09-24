@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 from typing import Any
 
-from rodos.corpus.world import World
+from rodos_corpus.world import World
 
 SPACES = {"production", "finance", "sales", "it", "common"}
 PII_SPACE = "_pii"
@@ -155,7 +155,7 @@ def check_sources(root: Path | None = None) -> list[str]:
     напишет автор. Настоящий ИНН в публичном репозитории отменить нельзя, поэтому проверка идёт по
     тексту, а не по намерению.
     """
-    from rodos.corpus.source import corpus_root
+    from rodos_corpus.source import corpus_root
 
     problems: list[str] = []
     base = (root or corpus_root()) / "source"
@@ -272,7 +272,7 @@ def difficulty_inventory(docs: list[Any]) -> dict[str, int]:
 
 
 def main(root: Path | None = None) -> int:
-    from rodos.corpus.source import load_all
+    from rodos_corpus.source import load_all
 
     world = World.load(root)
     docs = load_all()

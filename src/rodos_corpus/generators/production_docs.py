@@ -10,8 +10,8 @@ import random
 from datetime import date, timedelta
 from pathlib import Path
 
-from rodos.corpus.generators.common import write_source, write_table_source
-from rodos.corpus.world import World
+from rodos_corpus.generators.common import write_source, write_table_source
+from rodos_corpus.world import World
 
 SEED = 20260922
 

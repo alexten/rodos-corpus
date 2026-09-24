@@ -11,8 +11,8 @@ import time
 
 import pytest
 
-from rodos.corpus.render import render
-from rodos.corpus.source import corpus_root, load_all
+from rodos_corpus.render import render
+from rodos_corpus.source import corpus_root, load_all
 
 FORMATS = ("docx", "pdf", "xlsx", "eml", "txt", "xml", "pdf_scan")
 

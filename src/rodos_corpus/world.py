@@ -13,6 +13,8 @@ from typing import Any
 
 import yaml
 
+from rodos_corpus.paths import world_root
+
 FILES = (
     "sites", "workshops", "equipment", "materials", "parts", "counterparties",
     "contracts", "products", "systems", "roles", "people", "calendar", "cfo",
@@ -20,8 +22,8 @@ FILES = (
 
 
 def default_root() -> Path:
-    """Каталог world/ в корне репозитория."""
-    return Path(__file__).resolve().parents[3] / "world"
+    """Каталог модели мира внутри пакета."""
+    return world_root()
 
 
 @dataclass(frozen=True)

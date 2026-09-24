@@ -1,0 +1,39 @@
+name: ci
+
+on:
+  push: { branches: [main] }
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with: { enable-cache: true }
+      - run: uv sync --extra build
+      - run: uv run ruff check .
+      - run: uv run mypy
+      - run: uv run pytest -q
+      - run: uv run rodos-corpus lint
+      - run: uv run rodos-corpus verify
+
+  # Гейт воспроизводимости (ADR-0011). Смысл в том, что он идёт на ЧУЖОЙ машине:
+  # три совпавших пересборки локально ничего не доказывают — они проходят в одном часовом
+  # поясе, с одной версией интерпретатора и одними системными шрифтами. Так нашлись и
+  # часовой пояс в дате создания PDF, и системный DejaVu, и hash() в графике ППР.
+  reproducible:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with: { enable-cache: true }
+      - run: uv sync --extra build
+      - name: Породить исходники заново
+        run: uv run rodos-corpus generate
+      - name: Отрендерить корпус заново
+        run: uv run rodos-corpus render
+      - name: Пересобрать опись
+        run: uv run rodos-corpus manifest
+      - name: Ни один байт не должен измениться
+        run: git diff --exit-code

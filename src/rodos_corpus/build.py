@@ -5,8 +5,8 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 
-from rodos.corpus.render import render
-from rodos.corpus.source import load_all, validate
+from rodos_corpus.render import render
+from rodos_corpus.source import load_all, validate
 
 
 def render_all(space: str | None = None, only: str | None = None, root: Path | None = None) -> int:

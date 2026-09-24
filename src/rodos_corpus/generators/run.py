@@ -5,8 +5,8 @@ from __future__ import annotations
 from collections.abc import Callable
 from pathlib import Path
 
-from rodos.corpus.generators import finance_primary, finance_registers, fixtures, production_docs, tech_cards
-from rodos.corpus.world import World
+from rodos_corpus.generators import finance_primary, finance_registers, fixtures, production_docs, tech_cards
+from rodos_corpus.world import World
 
 Generator = Callable[..., list[Path]]
 ALL: tuple[tuple[str, Generator], ...] = (

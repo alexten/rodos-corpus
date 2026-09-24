@@ -19,6 +19,8 @@ from typing import Any
 
 import yaml
 
+from rodos_corpus.paths import corpus_root as _corpus_root
+
 REQUIRED = ("doc_id", "doc_type", "title", "org_unit", "spaces", "confidentiality", "status", "format")
 FORMATS = {"docx", "pdf", "xlsx", "eml", "txt", "xml", "pdf_scan"}
 STATUSES = {"active", "superseded", "retracted", "draft"}
@@ -28,7 +30,7 @@ FRONT_MATTER = re.compile(r"\A---\n(.*?)\n---\n?(.*)\Z", re.S)
 
 
 def corpus_root() -> Path:
-    return Path(__file__).resolve().parents[3] / "corpus"
+    return _corpus_root()
 
 
 @dataclass(frozen=True)
