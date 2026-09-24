@@ -19,8 +19,12 @@ from rodos_corpus.paths import stream_root
 from rodos_corpus.render import render
 from rodos_corpus.source import SourceDoc, load_all, validate
 
-EXPECTED = 12
+EXPECTED = 13
 WITH_ATTACHMENTS = {"EVT-2026-0007", "EVT-2026-0008", "EVT-2026-0009"}
+# Ловушки помечены полем `contains`, а не заголовком: потребитель читает заголовок,
+# и подсказка в нём обесценила бы ловушку.
+WITH_TRAPS = {"EVT-2026-0001", "EVT-2026-0002", "EVT-2026-0003",
+              "EVT-2026-0004", "EVT-2026-0005", "EVT-2026-0006"}
 
 
 @pytest.fixture(scope="module")
@@ -30,6 +34,20 @@ def stream_docs() -> list[SourceDoc]:
 
 def test_stream_loads(stream_docs: list[SourceDoc]) -> None:
     assert len(stream_docs) == EXPECTED
+
+
+def test_one_quote_request_is_free_of_traps(stream_docs: list[SourceDoc]) -> None:
+    """Поток обязан содержать хотя бы один запрос КП, который проходит до конца.
+
+    Скидка требует одновременно действующего договора, категории A или B и предоплаты
+    не меньше 30 %, и из восьми договоров мира это сочетание даёт только KMP-2025/02.
+    Пока такого дела не было, все шесть запросов оказывались ловушками, и сквозной
+    путь показать было нечем.
+    """
+    quotes = [doc for doc in stream_docs if doc.card.get("doc_type") == "quote_request"]
+    clean = [doc for doc in quotes if not doc.card.get("contains")]
+    assert [doc.doc_id for doc in clean] == ["EVT-2026-0010"]
+    assert {doc.doc_id for doc in quotes if doc.card.get("contains")} == WITH_TRAPS
 
 
 def test_every_event_is_valid(stream_docs: list[SourceDoc]) -> None:

@@ -87,3 +87,12 @@
   title: "Начальник склада готовой продукции"
   site: tolyatti
   approves: ["отгрузочные документы"]
+- key: yuriskonsult
+  title: "Юрисконсульт"
+  site: perm
+  approves: ["соответствие договоров законодательству и типовой форме"]
+  payment_limit_rub: null
+- key: nachalnik_pds
+  title: "Начальник производственно-диспетчерской службы"
+  approves: ["ускоренный срок изготовления", "наценку за срочность", "подтверждение загрузки цехов"]
+  payment_limit_rub: null

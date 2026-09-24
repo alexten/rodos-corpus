@@ -180,3 +180,15 @@
   role: tehnolog
   email: p.osipov@rodos-detal.example.com
   phone: +7 (495) 000-00-39
+- key: p31
+  fio: Гущина Л. А.
+  full_name: Гущина Лариса Аркадьевна
+  role: yuriskonsult
+  email: l.gushchina@rodos-detal.example.com
+  phone: +7 (495) 000-00-40
+- key: p32
+  fio: Ерохин С. В.
+  full_name: Ерохин Сергей Витальевич
+  role: nachalnik_pds
+  email: s.erohin@rodos-detal.example.com
+  phone: +7 (495) 000-00-41

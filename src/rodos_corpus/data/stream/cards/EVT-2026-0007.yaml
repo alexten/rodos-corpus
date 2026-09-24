@@ -10,7 +10,7 @@ status: active
 format: eml
 channel: mail
 mail_from: dogovor@tehsnab-ural.example.com
-mail_to: dogovor@rodos-detal.example.com
+mail_to: zakaz@rodos-detal.example.com
 mail_subject: Поставка металлопроката для ГК «Родос-Деталь» — проект договора во вложении
 mail_date: 2026-09-23
 received_at: 2026-09-23 11:40
@@ -21,5 +21,5 @@ attachments:
 source: stream/source/EVT-2026-0007.md
 rendered: stream/rendered/finance/EVT-2026-0007.eml
 mime: message/rfc822
-bytes: 62105
-sha256: 7210d00eaa6e9ae16c2b0a97bd6014a76853b136dd0a91674732b7e4f2c1737e
+bytes: 62103
+sha256: 788baa27a78307bd52f54778f0aba45b092ed1bf63811f71798e2f4ed3346d4e

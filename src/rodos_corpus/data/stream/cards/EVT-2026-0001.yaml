@@ -9,14 +9,16 @@ status: active
 format: eml
 channel: mail
 mail_from: zakupki@agroteh-detal.example.com
-mail_to: sales@rodos-detal.example.com
+mail_to: zakaz@rodos-detal.example.com
 mail_subject: 'Запрос КП: 45.67.89 — 60 шт., 52.31.12 — 30 шт., договор АТД-2025/06'
 mail_date: 2026-09-23
 received_at: 2026-09-23 09:14
+contains:
+- contract_conflicts_regulation
 scenario: quote
 sender_known: true
 source: stream/source/EVT-2026-0001.md
 rendered: stream/rendered/sales/EVT-2026-0001.eml
 mime: message/rfc822
 bytes: 3260
-sha256: 12697cbfbfca36037d1dd9c3fdc16c55a2f5f69c720140e070dabf670ce914c4
+sha256: 57802405384b8282cfd6439ebb497299310447e516ce5cebaf7ceaccf2c02317

@@ -9,7 +9,7 @@ status: active
 format: eml
 channel: mail
 mail_from: snab@konveyer-systems.example.com
-mail_to: sales@rodos-detal.example.com
+mail_to: zakaz@rodos-detal.example.com
 mail_subject: 'СРОЧНО: 88.14.53 — 12 шт. к 10.10.2026, договор КС-2025/12'
 mail_date: 2026-09-23
 received_at: 2026-09-23 17:42
@@ -21,4 +21,4 @@ source: stream/source/EVT-2026-0002.md
 rendered: stream/rendered/sales/EVT-2026-0002.eml
 mime: message/rfc822
 bytes: 3443
-sha256: 8807ca9af22d3ce889c6226e25e80dec9954113c6dfa59ac26fc546f4aa271ac
+sha256: 190194a01bf9eeeb2b9aac509fadb5a32a3e1dd710b8affb7e55b85a9e33ffec

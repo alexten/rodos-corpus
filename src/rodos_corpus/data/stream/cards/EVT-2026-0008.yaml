@@ -9,7 +9,7 @@ status: active
 format: eml
 channel: mail
 mail_from: zakupki@redmash.example.com
-mail_to: dogovor@rodos-detal.example.com
+mail_to: zakaz@rodos-detal.example.com
 mail_subject: Проект договора поставки на 2027 год взамен РМ-2025/01
 mail_date: 2026-09-23
 received_at: 2026-09-23 09:15
@@ -20,5 +20,5 @@ attachments:
 source: stream/source/EVT-2026-0008.md
 rendered: stream/rendered/finance/EVT-2026-0008.eml
 mime: message/rfc822
-bytes: 60630
-sha256: 169fb415208c479d4046ac98222adbc4859284fb0ddccc8c8a81fbf1d1a016f1
+bytes: 60628
+sha256: e3da5a01b811c812feb813e40efe31e7be5289ca7d0741d2f09e45adc1df74c2

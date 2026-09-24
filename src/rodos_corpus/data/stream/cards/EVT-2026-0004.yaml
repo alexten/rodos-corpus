@@ -9,7 +9,7 @@ status: active
 format: eml
 channel: mail
 mail_from: zakaz@gidromash-yug.example.com
-mail_to: sales@rodos-detal.example.com
+mail_to: zakaz@rodos-detal.example.com
 mail_subject: Заявка на поставку 73.22.30, 50 шт., по договору ГЮ-2025/04
 mail_date: 2026-09-24
 received_at: 2026-09-24 14:28
@@ -21,4 +21,4 @@ source: stream/source/EVT-2026-0004.md
 rendered: stream/rendered/sales/EVT-2026-0004.eml
 mime: message/rfc822
 bytes: 3028
-sha256: 7ac0cca9196d428a2b230ce53f958a9f6880163551170ba9a1053b75d3a14458
+sha256: 6731a45e111d8b026969987dd64665d78d79019ea89d5f23110a2d5c08e35cbf

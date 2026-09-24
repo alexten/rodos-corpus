@@ -21,7 +21,7 @@ import yaml
 
 from rodos_corpus.paths import cards_root, data_root, stream_root
 
-CORPUS_VERSION = "1.1.0"
+CORPUS_VERSION = "1.2.0"
 MANIFEST_FILE = "MANIFEST.json"
 
 

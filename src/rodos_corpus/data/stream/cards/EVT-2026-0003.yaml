@@ -9,7 +9,7 @@ status: active
 format: eml
 channel: mail
 mail_from: info@stankokomplekt-nsk.example.com
-mail_to: sales@rodos-detal.example.com
+mail_to: zakaz@rodos-detal.example.com
 mail_subject: Запрос цены на вал 45.67.90, 15 шт.
 mail_date: 2026-09-24
 received_at: 2026-09-24 11:05
@@ -21,4 +21,4 @@ source: stream/source/EVT-2026-0003.md
 rendered: stream/rendered/sales/EVT-2026-0003.eml
 mime: message/rfc822
 bytes: 3431
-sha256: c7a1adcbafcf9599f627bd9b6c51eed381927c22d4d381a81553ec27d5f9ba60
+sha256: b9817a24f75ff4fd9b66eb4c4addc4236f7f38b9a8c20206c5f7d8d9afec5781

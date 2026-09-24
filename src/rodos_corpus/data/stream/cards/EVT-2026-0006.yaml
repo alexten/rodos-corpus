@@ -9,7 +9,7 @@ status: active
 format: eml
 channel: mail
 mail_from: zakupki@privod-nn.example.com
-mail_to: sales@rodos-detal.example.com
+mail_to: zakaz@rodos-detal.example.com
 mail_subject: 'Заявка по договору ПНН-2025/08: 45.67.99 и 45.67.90'
 mail_date: 2026-09-25
 received_at: 2026-09-25 12:37
@@ -21,4 +21,4 @@ source: stream/source/EVT-2026-0006.md
 rendered: stream/rendered/sales/EVT-2026-0006.eml
 mime: message/rfc822
 bytes: 3426
-sha256: 3dec1588c1c66cc861dce5bd74c4208369e173118be70ea8afedcd9b9d3e326e
+sha256: 133bff1f4d8020c7f09ca10edd342f2b1fe41036b2e0616b1c48af2d2e0e382c
