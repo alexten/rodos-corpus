@@ -1,0 +1,16 @@
+doc_id: DOG-PROEKT-MTC-2027
+doc_type: contract_draft
+title: Проект договора поставки продукции № МТЦ-2027/10 на 2027 год
+org_unit: Юридический отдел
+spaces:
+- finance
+confidentiality: internal
+status: draft
+format: docx
+channel: mail
+counterparty: ООО «Машторг-Центр»
+source: stream/source/DOG-PROEKT-MTC-2027.md
+rendered: stream/rendered/finance/DOG-PROEKT-MTC-2027.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 41485
+sha256: 67a6c9b0b8290e69d46a7c60a2a143e6ba3d0e2a57b1822b72dd642f0804f3d3

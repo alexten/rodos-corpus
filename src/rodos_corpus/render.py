@@ -297,7 +297,34 @@ def render_eml(doc: SourceDoc, target: Path) -> None:
     if reply_to := card.get("mail_in_reply_to"):
         message["In-Reply-To"] = f"<{reply_to}@rodos-detal.example.com>"
     message.set_content("\n".join(_plain(line) for line in doc.body.splitlines()))
+    for attached in card.get("attachments") or []:
+        source = _attachment_path(attached, target.parent)
+        if not source.exists():
+            raise FileNotFoundError(
+                f"{doc.doc_id}: вложение «{attached}» ещё не отрендерено ({source})")
+        message.add_attachment(
+            source.read_bytes(), maintype="application",
+            subtype=MIME_SUBTYPE.get(source.suffix, "octet-stream"), filename=source.name)
+    if message.is_multipart():
+        # Граница multipart по умолчанию случайная — а корпус обязан собираться побайтово
+        # одинаково (ADR-0011). Поэтому она выводится из идентификатора документа.
+        message.set_boundary(f"----------{doc.doc_id}")
     target.write_bytes(message.as_bytes())
+
+
+MIME_SUBTYPE = {
+    ".docx": "vnd.openxmlformats-officedocument.wordprocessingml.document",
+    ".xlsx": "vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    ".pdf": "pdf",
+    ".xml": "xml",
+}
+
+
+def _attachment_path(doc_id: str, beside: Path) -> Path:
+    """Вложение лежит рядом с письмом: поток рендерится в один каталог."""
+    for candidate in sorted(beside.glob(f"{doc_id}.*")):
+        return candidate
+    return beside / doc_id
 
 
 def render_txt(doc: SourceDoc, target: Path) -> None:

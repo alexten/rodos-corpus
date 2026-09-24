@@ -1,0 +1,16 @@
+doc_id: DOG-PROEKT-RM-2027
+doc_type: contract_draft
+title: Проект договора поставки продукции № РМ-2027/01 на 2027 год
+org_unit: Юридический отдел
+spaces:
+- finance
+confidentiality: internal
+status: draft
+format: docx
+channel: mail
+counterparty: АО «Редмаш»
+source: stream/source/DOG-PROEKT-RM-2027.md
+rendered: stream/rendered/finance/DOG-PROEKT-RM-2027.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 41330
+sha256: cb82b0f467f50c5ef9b84e6e27fc704eef64114303767305e8e2e39e472c1a26

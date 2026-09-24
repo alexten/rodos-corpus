@@ -1,0 +1,16 @@
+doc_id: DOG-PROEKT-TSU-2026
+doc_type: contract_draft
+title: Проект договора поставки металлопродукции № ТСУ-2026/118
+org_unit: Юридический отдел
+spaces:
+- finance
+confidentiality: internal
+status: draft
+format: docx
+channel: mail
+counterparty: ООО «ТехСнаб-Урал»
+source: stream/source/DOG-PROEKT-TSU-2026.md
+rendered: stream/rendered/finance/DOG-PROEKT-TSU-2026.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 41838
+sha256: 67a9bd2b75652cc78d5f08c8179962a38bbd55c7b4a1712c3884ddb695a713a3

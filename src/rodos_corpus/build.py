@@ -24,6 +24,8 @@ def render_all(space: str | None = None, only: str | None = None, root: Path | N
     if problems:
         print(f"исходники с ошибками: {len(problems)}")
         return 1
+    # Вложения обязаны быть отрендерены раньше письма, которое их прикладывает.
+    docs = sorted(docs, key=lambda doc: doc.fmt == "eml")
     for doc in docs:
         _, card = render(doc, root)
         print(f"{doc.doc_id:22s} {doc.fmt:4s} {card['bytes']:7d} Б  {card['title'][:60]}")

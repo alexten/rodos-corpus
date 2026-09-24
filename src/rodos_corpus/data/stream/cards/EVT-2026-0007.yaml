@@ -1,0 +1,25 @@
+doc_id: EVT-2026-0007
+doc_type: contract_submission
+title: Письмо ООО «ТехСнаб-Урал» с предложением поставок металлопроката и проектом
+  договора
+org_unit: Юридический отдел
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: dogovor@tehsnab-ural.example.com
+mail_to: dogovor@rodos-detal.example.com
+mail_subject: Поставка металлопроката для ГК «Родос-Деталь» — проект договора во вложении
+mail_date: 2026-09-23
+received_at: 2026-09-23 11:40
+scenario: contract
+sender_known: false
+attachments:
+- DOG-PROEKT-TSU-2026
+source: stream/source/EVT-2026-0007.md
+rendered: stream/rendered/finance/EVT-2026-0007.eml
+mime: message/rfc822
+bytes: 62105
+sha256: 7210d00eaa6e9ae16c2b0a97bd6014a76853b136dd0a91674732b7e4f2c1737e

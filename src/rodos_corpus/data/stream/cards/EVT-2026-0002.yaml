@@ -1,0 +1,24 @@
+doc_id: EVT-2026-0002
+doc_type: quote_request
+title: Срочный запрос на узлы редуктора 88.14.53 со сроком поставки до 10.10.2026
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: snab@konveyer-systems.example.com
+mail_to: sales@rodos-detal.example.com
+mail_subject: 'СРОЧНО: 88.14.53 — 12 шт. к 10.10.2026, договор КС-2025/12'
+mail_date: 2026-09-23
+received_at: 2026-09-23 17:42
+contains:
+- rush_request
+scenario: quote
+sender_known: true
+source: stream/source/EVT-2026-0002.md
+rendered: stream/rendered/sales/EVT-2026-0002.eml
+mime: message/rfc822
+bytes: 3443
+sha256: 8807ca9af22d3ce889c6226e25e80dec9954113c6dfa59ac26fc546f4aa271ac

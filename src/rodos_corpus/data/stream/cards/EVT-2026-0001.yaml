@@ -1,0 +1,22 @@
+doc_id: EVT-2026-0001
+doc_type: quote_request
+title: Запрос коммерческого предложения на валы 45.67.89 и шестерни 52.31.12
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: zakupki@agroteh-detal.example.com
+mail_to: sales@rodos-detal.example.com
+mail_subject: 'Запрос КП: 45.67.89 — 60 шт., 52.31.12 — 30 шт., договор АТД-2025/06'
+mail_date: 2026-09-23
+received_at: 2026-09-23 09:14
+scenario: quote
+sender_known: true
+source: stream/source/EVT-2026-0001.md
+rendered: stream/rendered/sales/EVT-2026-0001.eml
+mime: message/rfc822
+bytes: 3260
+sha256: 12697cbfbfca36037d1dd9c3fdc16c55a2f5f69c720140e070dabf670ce914c4

@@ -14,20 +14,26 @@ from __future__ import annotations
 
 import hashlib
 import json
+from pathlib import Path
 from typing import Any
 
 import yaml
 
-from rodos_corpus.paths import cards_root, data_root
+from rodos_corpus.paths import cards_root, data_root, stream_root
 
-CORPUS_VERSION = "1.0.0"
+CORPUS_VERSION = "1.1.0"
 MANIFEST_FILE = "MANIFEST.json"
+
+
+def _card_files() -> list[Path]:
+    """Карточки корпуса и потока: опись покрывает и то, и другое."""
+    return sorted(cards_root().glob("*.yaml")) + sorted((stream_root() / "cards").glob("*.yaml"))
 
 
 def build() -> dict[str, Any]:
     """Собрать опись заново по карточкам — источник истины при сборке."""
     entries: dict[str, str] = {}
-    for card_path in sorted(cards_root().glob("*.yaml")):
+    for card_path in _card_files():
         card = yaml.safe_load(card_path.read_text(encoding="utf-8"))
         target = data_root() / str(card["rendered"])
         entries[str(card["doc_id"])] = hashlib.sha256(target.read_bytes()).hexdigest()
@@ -48,7 +54,7 @@ def verify() -> list[str]:
     recorded = manifest()["sha256"]
     problems: list[str] = []
     seen: set[str] = set()
-    for card_path in sorted(cards_root().glob("*.yaml")):
+    for card_path in _card_files():
         card = yaml.safe_load(card_path.read_text(encoding="utf-8"))
         doc_id = str(card["doc_id"])
         seen.add(doc_id)

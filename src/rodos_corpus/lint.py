@@ -159,6 +159,7 @@ def check_sources(root: Path | None = None) -> list[str]:
 
     problems: list[str] = []
     base = (root or corpus_root()) / "source"
+    label = "source" if root is None else f"{base.parent.name}/source"
     for path in sorted(base.rglob("*")) if base.exists() else []:
         if not path.is_file() or path.suffix not in {".md", ".yaml"}:
             continue
@@ -166,15 +167,15 @@ def check_sources(root: Path | None = None) -> list[str]:
         where = path.relative_to(base)
         if re.search(r"^doc_type:\s*npa\s*$", text, re.M):
             continue  # настоящий НПА — его текст не наш и правкам не подлежит
-        for label, value in IN_TEXT.findall(text):
+        for kind, value in IN_TEXT.findall(text):
             if not value.startswith("00"):
-                problems.append(f"source/{where}: {label} «{value}» не из фиктивного диапазона")
+                problems.append(f"{label}/{where}: {kind} «{value}» не из фиктивного диапазона")
         for email in set(re.findall(r"[\w.+-]+@[\w.-]+\.\w+", text)):
             if not FAKE_EMAIL.search(email):
-                problems.append(f"source/{where}: почта «{email}» вне зоны example.com")
+                problems.append(f"{label}/{where}: почта «{email}» вне зоны example.com")
         for phone in set(re.findall(r"\+7\s*\(\d{3}\)\s*[\d\s-]{7,12}", text)):
             if not FAKE_PHONE.match(phone.strip()):
-                problems.append(f"source/{where}: телефон «{phone.strip()}» вне фиктивного диапазона")
+                problems.append(f"{label}/{where}: телефон «{phone.strip()}» вне фиктивного диапазона")
     return problems
 
 
@@ -272,12 +273,13 @@ def difficulty_inventory(docs: list[Any]) -> dict[str, int]:
 
 
 def main(root: Path | None = None) -> int:
+    from rodos_corpus.paths import stream_root
     from rodos_corpus.source import load_all
 
     world = World.load(root)
     docs = load_all()
-    problems = (check(world) + check_sources() + check_pii_isolation(docs)
-                + check_links(docs) + check_names(docs, world))
+    problems = (check(world) + check_sources() + check_sources(stream_root())
+                + check_pii_isolation(docs) + check_links(docs) + check_names(docs, world))
     inventory = difficulty_inventory(docs)
     for name, minimum in DIFFICULTY_MINIMUMS.items():
         if inventory[name] < minimum:

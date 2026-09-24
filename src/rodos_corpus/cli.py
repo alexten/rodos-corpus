@@ -37,7 +37,12 @@ def main(argv: Sequence[str] | None = None) -> int:
         return run(args.names or None)
     if args.command == "render":
         from rodos_corpus.build import render_all
-        return render_all(args.space, args.only)
+        # Корпус и поток рендерятся одной командой: гейт воспроизводимости должен
+        # покрывать оба, иначе поток тихо разъедется.
+        code = render_all(args.space, args.only)
+        if code == 0 or args.only:
+            code = max(code, render_all(args.space, args.only, paths.stream_root()))
+        return code
     if args.command == "stats":
         from rodos_corpus.build import stats
         return stats()

@@ -1,0 +1,24 @@
+doc_id: EVT-2026-0006
+doc_type: quote_request
+title: Запрос цены на валы 45.67.99 и 45.67.90
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: zakupki@privod-nn.example.com
+mail_to: sales@rodos-detal.example.com
+mail_subject: 'Заявка по договору ПНН-2025/08: 45.67.99 и 45.67.90'
+mail_date: 2026-09-25
+received_at: 2026-09-25 12:37
+contains:
+- unknown_part_number
+scenario: quote
+sender_known: true
+source: stream/source/EVT-2026-0006.md
+rendered: stream/rendered/sales/EVT-2026-0006.eml
+mime: message/rfc822
+bytes: 3426
+sha256: 3dec1588c1c66cc861dce5bd74c4208369e173118be70ea8afedcd9b9d3e326e
