@@ -11,6 +11,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
         with: { enable-cache: true }
+      - run: uv python install
       - run: uv sync --extra build
       - run: uv run ruff check .
       - run: uv run mypy
@@ -28,6 +29,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
         with: { enable-cache: true }
+      - run: uv python install
       - run: uv sync --extra build
       - name: Породить исходники заново
         run: uv run rodos-corpus generate

@@ -82,3 +82,29 @@ def test_traps_are_labelled_outside_the_title(stream_docs: list[SourceDoc]) -> N
         title = str(doc.card["title"]).lower()
         for word in ("инъекц", "несуществующ", "посторонн", "просроч"):
             assert word not in title, f"{doc.doc_id}: заголовок выдаёт ловушку"
+
+
+def test_subject_folding_is_pinned() -> None:
+    """Сворачивание длинных заголовков писем — источник недетерминизма уровня патча Python.
+
+    Между 3.12.3 и 3.12.14 изменилось то, как email-библиотека сворачивает длинный
+    заголовок из encoded-word'ов: пробел на месте переноса в одной версии превращается в
+    `=?utf-8?q?_?=`, в другой исчезает. Корпус коммитится отрендеренным, поэтому такая
+    правка переписывает файлы молча — в CI это выглядело как «разъехались письма», а не
+    как «сменился интерпретатор».
+
+    Проверка ловит смену поведения здесь, одной понятной строкой, вместо того чтобы гейт
+    воспроизводимости показывал диф по всему потоку. `.python-version` держит патч-версию,
+    и uv в CI берёт именно её.
+    """
+    expected = (
+        b"Subject: =?utf-8?b?0JfQsNC/0YDQvtGBINGG0LXQvdGLINC90LAg0LLQsNC7?= 45.67.90, 15\n"
+        b" =?utf-8?q?_?==?utf-8?b?0YjRgi4=?="
+    )
+    body = (stream_root() / "rendered" / "sales" / "EVT-2026-0003.eml").read_bytes()
+    start = body.index(b"Subject: ")
+    actual = body[start:body.index(b"\nDate:", start)]
+    assert actual == expected, (
+        "изменилось сворачивание заголовков писем — проверьте версию Python "
+        f"(.python-version = {(Path(__file__).parents[1] / '.python-version').read_text().strip()})"
+    )
