@@ -9,6 +9,7 @@ status: draft
 format: docx
 channel: mail
 counterparty: "ООО «ТехСнаб-Урал»"
+contains: [unknown_counterparty, unilateral_price_change, missing_supplier_penalty]
 ---
 
 Проект договора в редакции Поставщика от 22.09.2026, направлен в адрес ООО «Родос-Деталь» для рассмотрения и подписания.

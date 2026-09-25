@@ -1,0 +1,19 @@
+doc_id: FIN-LIST-SOGL-MTC-2025
+doc_type: contract_approval_sheet
+title: Лист согласования дилерского договора № МТЦ-2025/10 с ООО «Машторг-Центр»
+org_unit: Финансовая служба
+spaces:
+- finance
+- sales
+confidentiality: internal
+status: active
+format: xlsx
+channel: manual
+approved_at: 2025-05-19
+approved_by: Коммерческий директор
+counterparty: ООО «Машторг-Центр»
+source: corpus/source/finance/FIN-LIST-SOGL-MTC-2025.table.yaml
+rendered: corpus/rendered/finance/FIN-LIST-SOGL-MTC-2025.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 6287
+sha256: 9fbd2d63ef955bdb019851ac1da352a964d7ab09c48012878c2b388e9985de9b

@@ -8,10 +8,10 @@ confidentiality: internal
 status: active
 format: xlsx
 channel: manual
-approved_at: 2026-09-30
+approved_at: 2026-09-25
 approved_by: Главный бухгалтер
 source: corpus/source/finance/FIN-REESTR-EDO-DOG-2026.table.yaml
 rendered: corpus/rendered/finance/FIN-REESTR-EDO-DOG-2026.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-bytes: 5748
-sha256: bbedbc7ed7967e505484ba7f86b9ac4ce9d09a31e72716004f7b329ed8d5038e
+bytes: 5889
+sha256: e22972bb8fb620a2920c037bd717d61f6ae2d3b68affeb7847042ef37e180b69

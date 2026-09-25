@@ -11,10 +11,10 @@ format: docx
 channel: dropdir
 approved_at: 2026-09-21
 effective_from: 2026-09-21
-approved_by: Менеджер по продажам
+approved_by: Начальник отдела снабжения
 counterparty: ООО «ТехСнаб-Урал»
 source: corpus/source/finance/FIN-ZAPISKA-TSU-2026.md
 rendered: corpus/rendered/finance/FIN-ZAPISKA-TSU-2026.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 38064
-sha256: 636c221bbd4adde077f74ffd49946583d7e3842185830f8a05d9026c7907e3b2
+bytes: 38089
+sha256: a5df3e9ecdbc5b8a2248640f2a9084e57e0f150abe5bab900a3d6abb1096519d

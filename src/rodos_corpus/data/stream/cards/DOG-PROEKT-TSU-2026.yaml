@@ -9,6 +9,10 @@ status: draft
 format: docx
 channel: mail
 counterparty: ООО «ТехСнаб-Урал»
+contains:
+- unknown_counterparty
+- unilateral_price_change
+- missing_supplier_penalty
 source: stream/source/DOG-PROEKT-TSU-2026.md
 rendered: stream/rendered/finance/DOG-PROEKT-TSU-2026.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document

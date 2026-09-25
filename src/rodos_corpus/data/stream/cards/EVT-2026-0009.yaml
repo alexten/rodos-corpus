@@ -17,6 +17,8 @@ scenario: contract
 sender_known: true
 attachments:
 - DOG-PROEKT-MTC-2027
+contains:
+- false_claim_of_no_changes
 source: stream/source/EVT-2026-0009.md
 rendered: stream/rendered/finance/EVT-2026-0009.eml
 mime: message/rfc822

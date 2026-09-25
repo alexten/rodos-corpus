@@ -19,12 +19,13 @@ from rodos_corpus.paths import stream_root
 from rodos_corpus.render import render
 from rodos_corpus.source import SourceDoc, load_all, validate
 
-EXPECTED = 13
+EXPECTED = 16
 WITH_ATTACHMENTS = {"EVT-2026-0007", "EVT-2026-0008", "EVT-2026-0009"}
 # Ловушки помечены полем `contains`, а не заголовком: потребитель читает заголовок,
 # и подсказка в нём обесценила бы ловушку.
 WITH_TRAPS = {"EVT-2026-0001", "EVT-2026-0002", "EVT-2026-0003",
-              "EVT-2026-0004", "EVT-2026-0005", "EVT-2026-0006"}
+              "EVT-2026-0004", "EVT-2026-0005", "EVT-2026-0006",
+              "EVT-2026-0011", "EVT-2026-0012", "EVT-2026-0013"}
 
 
 @pytest.fixture(scope="module")
@@ -48,6 +49,22 @@ def test_one_quote_request_is_free_of_traps(stream_docs: list[SourceDoc]) -> Non
     clean = [doc for doc in quotes if not doc.card.get("contains")]
     assert [doc.doc_id for doc in clean] == ["EVT-2026-0010"]
     assert {doc.doc_id for doc in quotes if doc.card.get("contains")} == WITH_TRAPS
+
+
+def test_one_contract_draft_is_free_of_traps(stream_docs: list[SourceDoc]) -> None:
+    """У сценария согласования договора тоже обязан быть сквозной путь.
+
+    Проект РМ-2027/01 написан на нашей же типовой форме — пункты 2.2, 2.3 и раздел 10 совпадают
+    с SALES-DOG-TIPOVOY дословно, — и письмо EVT-2026-0008 это честно и заявляет. Проверялось
+    сравнением с формой, а не на слово: у МТЦ-2027/10 то же письмо про «изменены только номер и
+    даты» неправда, там дописан пункт 10.5. Отсутствие метки у пары РМ — такое же утверждение о
+    данных, как её наличие у остальных.
+    """
+    drafts = [doc for doc in stream_docs if doc.card.get("doc_type") == "contract_draft"]
+    clean = [doc for doc in drafts if not doc.card.get("contains")]
+    assert [doc.doc_id for doc in clean] == ["DOG-PROEKT-RM-2027"]
+    letters = [doc for doc in stream_docs if doc.card.get("doc_type") == "contract_submission"]
+    assert [doc.doc_id for doc in letters if not doc.card.get("contains")] == ["EVT-2026-0008"]
 
 
 def test_every_event_is_valid(stream_docs: list[SourceDoc]) -> None:

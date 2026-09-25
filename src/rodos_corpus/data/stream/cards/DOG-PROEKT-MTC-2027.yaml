@@ -9,6 +9,9 @@ status: draft
 format: docx
 channel: mail
 counterparty: ООО «Машторг-Центр»
+contains:
+- prompt_injection
+- false_prior_approval
 source: stream/source/DOG-PROEKT-MTC-2027.md
 rendered: stream/rendered/finance/DOG-PROEKT-MTC-2027.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document

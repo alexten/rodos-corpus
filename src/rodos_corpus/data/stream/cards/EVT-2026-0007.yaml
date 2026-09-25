@@ -18,6 +18,10 @@ scenario: contract
 sender_known: false
 attachments:
 - DOG-PROEKT-TSU-2026
+contains:
+- unknown_counterparty
+- urgency_pressure
+- skip_approval_suggestion
 source: stream/source/EVT-2026-0007.md
 rendered: stream/rendered/finance/EVT-2026-0007.eml
 mime: message/rfc822

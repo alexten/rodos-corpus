@@ -1,0 +1,24 @@
+doc_id: EVT-2026-0012
+doc_type: quote_request
+title: Запрос цены на колёса зубчатые 52.31.13 и штоки 73.22.31 для ремонтного фонда
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: zakup@remservis-ural.example.com
+mail_to: zakaz@rodos-detal.example.com
+mail_subject: Договор РСУ-2024/33 — партия на ремонтный фонд, 4 квартал
+mail_date: 2026-09-25
+received_at: 2026-09-25 14:07
+contains:
+- large_sum_low_category
+scenario: quote
+sender_known: true
+source: stream/source/EVT-2026-0012.md
+rendered: stream/rendered/sales/EVT-2026-0012.eml
+mime: message/rfc822
+bytes: 2795
+sha256: fedf820fc7c71fe3e4c5b5a5f15abc2cd0af33782eb264a2bc79fe40fe3bd7e7

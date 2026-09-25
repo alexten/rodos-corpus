@@ -1,0 +1,24 @@
+doc_id: EVT-2026-0011
+doc_type: quote_request
+title: Запрос цены на валы 45.67.89, 45.67.91 и шестерни 52.31.11
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: zakupki@kazmashparts.example.com
+mail_to: zakaz@rodos-detal.example.com
+mail_subject: 'Заявка по договору KMP-2025/02: три позиции, отгрузка октябрь'
+mail_date: 2026-09-25
+received_at: 2026-09-25 11:38
+contains:
+- threshold_exact
+scenario: quote
+sender_known: true
+source: stream/source/EVT-2026-0011.md
+rendered: stream/rendered/sales/EVT-2026-0011.eml
+mime: message/rfc822
+bytes: 2777
+sha256: 7f24864b24be3c0002e81366e745bc57c6da7060a9d70e91ff8f24590d35d975

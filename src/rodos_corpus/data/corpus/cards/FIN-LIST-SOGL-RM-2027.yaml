@@ -10,10 +10,10 @@ status: active
 format: xlsx
 channel: manual
 approved_at: 2026-09-25
-approved_by: Генеральный директор
+approved_by: Финансовый директор
 counterparty: АО «Редмаш»
 source: corpus/source/finance/FIN-LIST-SOGL-RM-2027.table.yaml
 rendered: corpus/rendered/finance/FIN-LIST-SOGL-RM-2027.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-bytes: 6308
-sha256: 06b4f3d6c333c5f5b5f766753aa92c53cd964f622b0c3b7089323607b53e8fae
+bytes: 6420
+sha256: ed59d4829bd6a150034e4018fed2c7772a04798c01d4667511eddda9db881e51

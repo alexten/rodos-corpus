@@ -17,5 +17,5 @@ contract: МТЦ-2025/10
 source: corpus/source/finance/SPEC-MTC-2025-10-06.md
 rendered: corpus/rendered/finance/SPEC-MTC-2025-10-06.docx
 mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
-bytes: 38036
-sha256: c54f87a004c7a3ebaeb049457cd31614bc58edcec8143bb94973b5e7d5a14509
+bytes: 38039
+sha256: 486adfcc6c4cf0d96ff149e59e8256b2af4f59d5a039664bb7146dd8d5b7115f

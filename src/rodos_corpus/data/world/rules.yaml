@@ -298,7 +298,7 @@
   - B-Q03
   statement: 'Типовыми считаются условия, соответствующие утверждённой типовой форме договора: стандартная'
   evidence:
-  - FIN-LIST-SOGL-TSU-2026
+  - FIN-LIST-SOGL-MTC-2025
   - FIN-LIST-SOGL-RM-2027
 - id: DOGOVOR-4.2
   document: FIN-REGL-DOGOVOR
@@ -318,8 +318,8 @@
   statement: Предоставление скидки сверх матрицы скидок прайс-листа согласуется коммерческим директором
     и
   evidence:
-  - FIN-LIST-SOGL-TSU-2026
-  - FIN-PROTOKOL-RAZN-TSU-2026
+  - SALES-REESTR-SKIDKI-2026
+  - SALES-KP-2026-0179
 - id: DOGOVOR-5.1
   document: FIN-REGL-DOGOVOR
   clause: '5.1'
@@ -327,7 +327,7 @@
   - B-Q06
   statement: Договоры поставки на сумму до 5 000 000 ₽ подписывает коммерческий директор.
   evidence:
-  - FIN-LIST-SOGL-TSU-2026
+  - FIN-LIST-SOGL-MTC-2025
   - FIN-REESTR-EDO-DOG-2026
 - id: DOGOVOR-5.2
   document: FIN-REGL-DOGOVOR
@@ -337,6 +337,7 @@
   statement: Договоры на сумму свыше 5 000 000 ₽, а также любые договоры, не относящиеся к поставке продукции
   evidence:
   - FIN-LIST-SOGL-RM-2027
+  - FIN-LIST-SOGL-TSU-2026
   - FIN-REESTR-EDO-DOG-2026
 - id: DOGOVOR-2.2
   document: FIN-REGL-DOGOVOR

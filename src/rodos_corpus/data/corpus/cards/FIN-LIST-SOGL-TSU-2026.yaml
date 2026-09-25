@@ -1,19 +1,18 @@
 doc_id: FIN-LIST-SOGL-TSU-2026
 doc_type: contract_approval_sheet
-title: Лист согласования проекта договора поставки с ООО «ТехСнаб-Урал»
+title: Лист согласования проекта договора поставки металлопродукции № ТСУ-2026/118
 org_unit: Финансовая служба
 spaces:
 - finance
-- sales
 confidentiality: internal
 status: active
 format: xlsx
 channel: manual
 approved_at: 2026-09-25
-approved_by: Коммерческий директор
+approved_by: Финансовый директор
 counterparty: ООО «ТехСнаб-Урал»
 source: corpus/source/finance/FIN-LIST-SOGL-TSU-2026.table.yaml
 rendered: corpus/rendered/finance/FIN-LIST-SOGL-TSU-2026.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-bytes: 6311
-sha256: 624d08cd7bb12e0b41de66f990a375cbe0af5d0997a1aa59870dafad2164c6ea
+bytes: 6800
+sha256: ab25d02819be5d88e6aaf3de93ef4cf6097bf1c93f6468d3b51a28686cf21f8d
