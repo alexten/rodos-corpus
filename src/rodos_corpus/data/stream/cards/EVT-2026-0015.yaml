@@ -1,0 +1,22 @@
+doc_id: EVT-2026-0015
+doc_type: quote_request
+title: Запрос цены на штоки 73.22.30 и 73.22.31 для ремонтной программы
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: snab@sibgidromash.example.com
+mail_to: zakaz@rodos-detal.example.com
+mail_subject: 'СГМ-2026/05: штоки ГЦ-100/56 и ГЦ-80/45, 4 квартал'
+mail_date: 2026-09-25
+received_at: 2026-09-25 17:31
+scenario: quote
+sender_known: true
+source: stream/source/EVT-2026-0015.md
+rendered: stream/rendered/sales/EVT-2026-0015.eml
+mime: message/rfc822
+bytes: 2268
+sha256: be3e6a07f4e5d569c9cf3935427742e269233874cb0b201a792f9b7e7465cf86

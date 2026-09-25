@@ -1,0 +1,22 @@
+doc_id: EVT-2026-0014
+doc_type: quote_request
+title: Запрос цены на корпусные детали 61.05.20, 61.05.21 и валы 45.67.89
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: zakupki@volga-reduktor.example.com
+mail_to: zakaz@rodos-detal.example.com
+mail_subject: 'Заявка по договору ВР-2026/03: корпуса Р-160 и валы, поставка ноябрь'
+mail_date: 2026-09-25
+received_at: 2026-09-25 17:05
+scenario: quote
+sender_known: true
+source: stream/source/EVT-2026-0014.md
+rendered: stream/rendered/sales/EVT-2026-0014.eml
+mime: message/rfc822
+bytes: 2866
+sha256: 2e95a8c6fc105c839bd1dc4caf630118602ad2a8b0b837da25942418e362ce54

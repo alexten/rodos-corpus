@@ -1,0 +1,26 @@
+doc_id: UPD-2026-0119
+doc_type: upd
+title: Универсальный передаточный документ № УПД-2026-0119 от 02.08.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: xml
+channel: edo
+approved_at: 2026-08-02
+counterparty: АО «Волга-Редуктор»
+counterparty_inn: '006316445577'
+contract: ВР-2026/03
+payment_terms: предоплата 40 % по счёту, остальное в течение 10 календарных дней после
+  уведомления о готовности к отгрузке
+direction: реализация
+amount_net_rub: 2680000.0
+amount_vat_rub: 536000.0
+amount_total_rub: 3216000.0
+generated_by: upd
+source: corpus/source/finance/UPD-2026-0119.md
+rendered: corpus/rendered/finance/UPD-2026-0119.xml
+mime: application/xml
+bytes: 3105
+sha256: 77054742610a8cf833a472945a71a6bea295718c182b98acd516ffb30613203c

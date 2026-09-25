@@ -144,12 +144,11 @@ def upd(world: World, root: Path | None = None) -> list[Path]:
     sites = world.by_key("sites")
     parties = world.by_key("counterparties")
     written: list[Path] = []
-    sale_contracts = [c for c in world.contracts if c["kind"] in {"sale", "dealer"}]
-    purchase_contracts = [c for c in world.contracts if c["kind"] == "purchase"]
-
-    plan: list[tuple[str, dict[str, Any]]] = (
-        [("sale", contract) for contract in sale_contracts]
-        + [("purchase", contract) for contract in purchase_contracts])
+    # Номер УПД — это место договора в contracts.yaml. Порядок файла, а не «сначала продажи, потом
+    # закупки»: договор, дописанный в конец файла, получает новый номер и не сдвигает существующие.
+    plan: list[tuple[str, dict[str, Any]]] = [
+        ("sale" if contract["kind"] in {"sale", "dealer"} else "purchase", contract)
+        for contract in world.contracts if contract["kind"] in {"sale", "dealer", "purchase"}]
 
     for index, (kind, contract) in enumerate(plan):
         number = f"УПД-2026-{index + 101:04d}"
