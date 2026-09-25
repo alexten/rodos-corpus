@@ -3,7 +3,7 @@ doc_id: SALES-REGL-SKIDKI
 doc_type: process_regulation
 title: "Регламент применения скидок и дилерской матрицы"
 org_unit: "Коммерческий отдел"
-spaces: [sales]
+spaces: [sales, finance]
 confidentiality: dsp
 status: active
 format: docx
