@@ -1,0 +1,17 @@
+doc_id: SALES-REESTR-KP-2026
+doc_type: quote_register
+title: Реестр коммерческих предложений за сентябрь 2026 года
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: xlsx
+channel: manual
+approved_at: 2026-09-30
+approved_by: Коммерческий директор
+source: corpus/source/sales/SALES-REESTR-KP-2026.table.yaml
+rendered: corpus/rendered/sales/SALES-REESTR-KP-2026.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 6121
+sha256: 20a0b82d15724e88912e8085645d0ee67fbc558b7a74b1eebb21120bb74973e8

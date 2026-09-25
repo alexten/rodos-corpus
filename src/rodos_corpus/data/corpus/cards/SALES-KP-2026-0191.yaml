@@ -1,0 +1,20 @@
+doc_id: SALES-KP-2026-0191
+doc_type: quote
+title: Коммерческое предложение № КП-2026-0191 для ООО «Ремсервис-Урал»
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-16
+effective_from: 2026-09-16
+approved_by: Менеджер по продажам
+counterparty: ООО «Ремсервис-Урал»
+contract: РСУ-2024/33
+source: corpus/source/sales/SALES-KP-2026-0191.md
+rendered: corpus/rendered/sales/SALES-KP-2026-0191.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38503
+sha256: 6371cb63eb70e664e62cb646c53ce285650a2ec86c6ae9bdd50f7fb0de3ffccc

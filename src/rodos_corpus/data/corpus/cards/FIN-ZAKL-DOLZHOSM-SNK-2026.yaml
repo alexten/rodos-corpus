@@ -1,0 +1,19 @@
+doc_id: FIN-ZAKL-DOLZHOSM-SNK-2026
+doc_type: due_diligence_conclusion
+title: 'Заключение о проверке должной осмотрительности с отказом: ООО «Станкокомплект-НСК»'
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: dsp
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-23
+effective_from: 2026-09-23
+approved_by: Финансовый директор
+counterparty: ООО «Станкокомплект-НСК»
+source: corpus/source/finance/FIN-ZAKL-DOLZHOSM-SNK-2026.md
+rendered: corpus/rendered/finance/FIN-ZAKL-DOLZHOSM-SNK-2026.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38406
+sha256: 6dcee2f54e63d6f5b908895f6d821b30e7532259bc52f69755287f70361099af

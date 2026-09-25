@@ -1,0 +1,21 @@
+doc_id: SALES-KP-2026-0179
+doc_type: quote
+title: Коммерческое предложение № КП-2026-0179 для ТОО «KazMashParts» со скидкой сверх
+  матрицы
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-07
+effective_from: 2026-09-07
+approved_by: Коммерческий директор
+counterparty: ТОО «KazMashParts»
+contract: KMP-2025/02
+source: corpus/source/sales/SALES-KP-2026-0179.md
+rendered: corpus/rendered/sales/SALES-KP-2026-0179.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38392
+sha256: 9cd7ebc8a181493c0cb299fa693a5470ac8caf60ef534a028470fb614ad9934c

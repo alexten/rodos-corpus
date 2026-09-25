@@ -1,0 +1,19 @@
+doc_id: FIN-LIST-SOGL-RM-2027
+doc_type: contract_approval_sheet
+title: Лист согласования проекта договора поставки с АО «Редмаш» на 2027 год
+org_unit: Финансовая служба
+spaces:
+- finance
+- sales
+confidentiality: internal
+status: active
+format: xlsx
+channel: manual
+approved_at: 2026-09-25
+approved_by: Генеральный директор
+counterparty: АО «Редмаш»
+source: corpus/source/finance/FIN-LIST-SOGL-RM-2027.table.yaml
+rendered: corpus/rendered/finance/FIN-LIST-SOGL-RM-2027.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 6308
+sha256: 06b4f3d6c333c5f5b5f766753aa92c53cd964f622b0c3b7089323607b53e8fae

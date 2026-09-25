@@ -23,7 +23,17 @@ def test_every_rule_has_an_id_and_a_question() -> None:
         assert rule.get("statement"), f"{rule['id']}: нет текста пункта"
 
 
-def test_coverage_does_not_regress() -> None:
-    """Покрытие может только расти. Число поднимается вместе с добавленными документами."""
-    covered = sum(1 for rule in load() if len(set(rule.get("evidence") or [])) >= MIN_EVIDENCE)
-    assert covered >= 8, f"покрытых правил стало меньше: {covered}"
+def test_every_rule_is_covered_by_two_documents() -> None:
+    """Требование оператора: у каждого правила не меньше двух документов о его исполнении.
+
+    Здесь не «порог, который можно поднять», а полное покрытие: оно достигнуто, и новое правило
+    без двух свидетельств должно валить сборку сразу, а не накапливаться до следующей ревизии.
+    """
+    assert check() == []
+
+
+def test_coverage_is_counted_over_distinct_documents() -> None:
+    """Дважды названный один документ — одно свидетельство; иначе порог обходится опечаткой."""
+    for rule in load():
+        evidence = rule.get("evidence") or []
+        assert len(set(evidence)) >= MIN_EVIDENCE, f"{rule['id']}: {evidence}"

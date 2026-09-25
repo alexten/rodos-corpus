@@ -1,0 +1,21 @@
+doc_id: SPEC-MTC-2025-10-06
+doc_type: contract_spec
+title: Спецификация № 6 к дилерскому договору № МТЦ-2025/10 на 4-й квартал 2026 года
+org_unit: Коммерческий отдел
+spaces:
+- finance
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: edo
+approved_at: 2026-09-18
+effective_from: 2026-10-01
+approved_by: Коммерческий директор
+counterparty: ООО «Машторг-Центр»
+contract: МТЦ-2025/10
+source: corpus/source/finance/SPEC-MTC-2025-10-06.md
+rendered: corpus/rendered/finance/SPEC-MTC-2025-10-06.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38036
+sha256: c54f87a004c7a3ebaeb049457cd31614bc58edcec8143bb94973b5e7d5a14509

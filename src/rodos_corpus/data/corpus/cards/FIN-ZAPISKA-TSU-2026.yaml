@@ -1,0 +1,20 @@
+doc_id: FIN-ZAPISKA-TSU-2026
+doc_type: contract_initiation_memo
+title: Служебная записка о передаче на согласование договора, полученного от ООО «ТехСнаб-Урал»
+org_unit: Коммерческий отдел
+spaces:
+- finance
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-21
+effective_from: 2026-09-21
+approved_by: Менеджер по продажам
+counterparty: ООО «ТехСнаб-Урал»
+source: corpus/source/finance/FIN-ZAPISKA-TSU-2026.md
+rendered: corpus/rendered/finance/FIN-ZAPISKA-TSU-2026.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38064
+sha256: 636c221bbd4adde077f74ffd49946583d7e3842185830f8a05d9026c7907e3b2

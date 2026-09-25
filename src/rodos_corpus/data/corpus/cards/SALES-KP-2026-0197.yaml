@@ -1,0 +1,20 @@
+doc_id: SALES-KP-2026-0197
+doc_type: quote
+title: Коммерческое предложение № КП-2026-0197 для ООО «Машторг-Центр»
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-18
+effective_from: 2026-09-18
+approved_by: Менеджер по продажам
+counterparty: ООО «Машторг-Центр»
+contract: МТЦ-2025/10
+source: corpus/source/sales/SALES-KP-2026-0197.md
+rendered: corpus/rendered/sales/SALES-KP-2026-0197.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38315
+sha256: d248b2d46a78f980cf4bb1484baacd98afede62c85046a3720cda8e35ea06f77

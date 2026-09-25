@@ -1,0 +1,20 @@
+doc_id: SALES-KP-2026-0188
+doc_type: quote
+title: Коммерческое предложение № КП-2026-0188 для ООО «Привод-НН»
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-14
+effective_from: 2026-09-14
+approved_by: Менеджер по продажам
+counterparty: ООО «Привод-НН»
+contract: ПНН-2025/08
+source: corpus/source/sales/SALES-KP-2026-0188.md
+rendered: corpus/rendered/sales/SALES-KP-2026-0188.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38535
+sha256: 84e70ea63709fe80b534b9720daa03212399b20c0dab9e3cf8db46e5a1a17c06

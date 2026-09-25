@@ -1,0 +1,20 @@
+doc_id: SALES-TEHZAKL-2026-07
+doc_type: engineering_conclusion
+title: Техническое заключение № 2026-07 по заявке АО «Гидромаш-Юг» на штоки 73.22.30
+org_unit: Коммерческий отдел
+spaces:
+- sales
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-23
+effective_from: 2026-09-23
+approved_by: Инженер по продажам
+counterparty: АО «Гидромаш-Юг»
+source: corpus/source/sales/SALES-TEHZAKL-2026-07.md
+rendered: corpus/rendered/sales/SALES-TEHZAKL-2026-07.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38283
+sha256: e9f255fd6b8bf7a51ab153aca54493faba6b810b2149728e4f0d66cad61e0c10

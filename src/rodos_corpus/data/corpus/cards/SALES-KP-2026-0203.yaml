@@ -1,0 +1,21 @@
+doc_id: SALES-KP-2026-0203
+doc_type: quote
+title: Коммерческое предложение № КП-2026-0203 для ООО «Ремсервис-Урал» с ускоренным
+  сроком
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-21
+effective_from: 2026-09-21
+approved_by: Менеджер по продажам
+counterparty: ООО «Ремсервис-Урал»
+contract: РСУ-2024/33
+source: corpus/source/sales/SALES-KP-2026-0203.md
+rendered: corpus/rendered/sales/SALES-KP-2026-0203.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38510
+sha256: 4161759f40a1b6111a3866796b7f500501bf5cffe6a1599cf6153f234ada37cd

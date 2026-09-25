@@ -1,0 +1,19 @@
+doc_id: FIN-ZAKL-DOLZHOSM-TSU-2026
+doc_type: due_diligence_conclusion
+title: 'Заключение о проверке должной осмотрительности: ООО «ТехСнаб-Урал»'
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: dsp
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-09-24
+effective_from: 2026-09-24
+approved_by: Бухгалтер по расчётам с контрагентами
+counterparty: ООО «ТехСнаб-Урал»
+source: corpus/source/finance/FIN-ZAKL-DOLZHOSM-TSU-2026.md
+rendered: corpus/rendered/finance/FIN-ZAKL-DOLZHOSM-TSU-2026.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 38233
+sha256: 23b43ee947d6ae76ef9886e47d7284eb470107d18539ab154cc109a9f1bcac61

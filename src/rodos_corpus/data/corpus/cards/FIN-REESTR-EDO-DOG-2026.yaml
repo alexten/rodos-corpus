@@ -1,0 +1,17 @@
+doc_id: FIN-REESTR-EDO-DOG-2026
+doc_type: edo_contract_register
+title: Реестр договоров, заключённых через ЭДО, и сроков повторной проверки контрагентов
+org_unit: Финансовая служба
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: xlsx
+channel: manual
+approved_at: 2026-09-30
+approved_by: Главный бухгалтер
+source: corpus/source/finance/FIN-REESTR-EDO-DOG-2026.table.yaml
+rendered: corpus/rendered/finance/FIN-REESTR-EDO-DOG-2026.xlsx
+mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+bytes: 5748
+sha256: bbedbc7ed7967e505484ba7f86b9ac4ce9d09a31e72716004f7b329ed8d5038e
