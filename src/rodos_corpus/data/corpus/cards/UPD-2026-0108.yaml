@@ -14,12 +14,12 @@ counterparty_inn: '000000123456'
 contract: KMP-2025/02
 payment_terms: предоплата 50 %, остальное по факту отгрузки
 direction: реализация
-amount_net_rub: 59176000.0
-amount_vat_rub: 11835200.0
-amount_total_rub: 71011200.0
+amount_net_rub: 11429000.0
+amount_vat_rub: 2285800.0
+amount_total_rub: 13714800.0
 generated_by: upd
 source: corpus/source/finance/UPD-2026-0108.md
 rendered: corpus/rendered/finance/UPD-2026-0108.xml
 mime: application/xml
-bytes: 3391
-sha256: 4ab7d65d4b3bc9949073844676e1052a8ae36b4713833db0a50d962514185599
+bytes: 3397
+sha256: 0828e29531cf3fbbbb7800a460ad209f30bffec57850c8bb7045ce8e84cb877b

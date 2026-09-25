@@ -12,11 +12,11 @@ approved_at: 2026-08-05
 approved_by: Главный бухгалтер
 counterparty: ТОО «KazMashParts»
 contract: KMP-2025/02
-amount_total_rub: 20304000.0
+amount_total_rub: 3484800.0
 due_date: 2026-08-10
 generated_by: invoices
 source: corpus/source/finance/SCH-2026-0208.md
 rendered: corpus/rendered/finance/SCH-2026-0208.pdf
 mime: application/pdf
-bytes: 27292
-sha256: 271b1c16037579dbb7524abbb964037a0153257c09b743deda0d5d07129621d2
+bytes: 27189
+sha256: d1f1b01f0127acccc15e6b0856243339fe22a15b4c454479ed22e53b7c41d778

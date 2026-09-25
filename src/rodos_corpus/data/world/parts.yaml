@@ -9,7 +9,7 @@
   route: [015 токарная, 025 фрезерная (шпоночный паз), 040 термообработка ТВЧ, 055 круглошлифовальная, 070 контроль ОТК]
   equipment: [tok-ctx310-02, frz-vf2-03, term-tvch-09, shl-3m151-06]
   tolerances: { runout_mm: 0.03, surface_ra: 1.25, hardness_hrc: "45…50", diameter_field: "ø60 k6" }
-  customers: [redmash, privod_nn]
+  customers: [redmash, privod_nn, export_kz]
   weight_kg: 11.4
 - drawing_no: "45.67.90"
   name: "Вал промежуточный редуктора Р-160"
@@ -19,7 +19,7 @@
   route: [015 токарная, 025 фрезерная, 040 термообработка ТВЧ, 055 круглошлифовальная, 070 контроль ОТК]
   equipment: [tok-ctx310-02, frz-vf2-03, term-tvch-09, shl-3m151-06]
   tolerances: { runout_mm: 0.025, surface_ra: 1.25, hardness_hrc: "45…50", diameter_field: "ø45 k6" }
-  customers: [redmash]
+  customers: [redmash, mashtorg_center]
   weight_kg: 6.8
 - drawing_no: "45.67.91"
   name: "Вал быстроходный редуктора Р-200"
@@ -29,7 +29,7 @@
   route: [010 подготовительная, 015 токарная, 030 зубофрезерная, 040 термообработка печная, 055 круглошлифовальная, 070 контроль ОТК]
   equipment: [tok-ctx310-02, frz-6r13-04, term-sshz-08, shl-3m151-06]
   tolerances: { runout_mm: 0.02, surface_ra: 0.8, hardness_hrc: "52…56", diameter_field: "ø70 m6" }
-  customers: [redmash, konveyer_systems]
+  customers: [redmash, konveyer_systems, export_kz]
   weight_kg: 19.2
 - drawing_no: "45.67.92"
   name: "Вал тихоходный редуктора Р-200"
@@ -100,7 +100,7 @@
   route: [015 токарная, 030 зубофрезерная, 035 шевингование, 040 термообработка печная, 070 контроль ОТК]
   equipment: [cnc-1730-05, frz-6r13-04, term-sshz-08]
   tolerances: { gear_grade: "7-C ГОСТ 1643-81", hardness_hrc: "52…56", surface_ra: 1.25 }
-  customers: [redmash]
+  customers: [redmash, export_kz]
   weight_kg: 14.7
 - drawing_no: "52.31.12"
   name: "Шестерня коническая z=18, m=5"
@@ -120,7 +120,7 @@
   route: [015 токарная, 030 зубофрезерная, 070 контроль ОТК]
   equipment: [cnc-1730-05, frz-6r13-04]
   tolerances: { gear_grade: "8-C ГОСТ 1643-81", surface_ra: 2.5 }
-  customers: [privod_nn, remservis_ural]
+  customers: [privod_nn, remservis_ural, mashtorg_center]
   weight_kg: 17.9
 - drawing_no: "52.31.14"
   name: "Шестерня привода насоса z=14, m=2,5"

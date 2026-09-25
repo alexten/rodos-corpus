@@ -12,11 +12,11 @@ approved_at: 2026-07-27
 approved_by: Главный бухгалтер
 counterparty: ООО «Машторг-Центр»
 contract: МТЦ-2025/10
-amount_total_rub: 6336000.0
+amount_total_rub: 2304000.0
 due_date: 2026-08-01
 generated_by: invoices
 source: corpus/source/finance/SCH-2026-0207.md
 rendered: corpus/rendered/finance/SCH-2026-0207.pdf
 mime: application/pdf
-bytes: 25644
-sha256: 477f7e4898ffb6c6e83cdf88a1d27d1cdcc4a7de7daa984091c9dd4c0e231e76
+bytes: 25645
+sha256: cae289e3ceed86154bffea811cb09309dc08f186e0facae89f395e869036662a
