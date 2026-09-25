@@ -4,6 +4,7 @@ title: Типовой договор поставки продукции
 org_unit: Коммерческий отдел
 spaces:
 - sales
+- finance
 confidentiality: internal
 status: active
 format: docx
