@@ -1,0 +1,25 @@
+doc_id: UPD-2026-0121
+doc_type: upd
+title: Универсальный передаточный документ № УПД-2026-0121 от 24.08.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: xml
+channel: edo
+approved_at: 2026-08-24
+counterparty: ООО «Балтмашкомплект»
+counterparty_inn: 007806334455
+contract: БМК-2025/11
+payment_terms: предоплата 100 % по счёту
+direction: реализация
+amount_net_rub: 73598000.0
+amount_vat_rub: 14719600.0
+amount_total_rub: 88317600.0
+generated_by: upd
+source: corpus/source/finance/UPD-2026-0121.md
+rendered: corpus/rendered/finance/UPD-2026-0121.xml
+mime: application/xml
+bytes: 3360
+sha256: cb0c5a48d174561668c525620fc97fa82f1beeab4e460a3b006113ec578e6e30

@@ -1,0 +1,26 @@
+doc_id: UPD-2026-0120
+doc_type: upd
+title: Универсальный передаточный документ № УПД-2026-0120 от 13.08.2026
+org_unit: Бухгалтерия
+spaces:
+- finance
+confidentiality: internal
+status: active
+format: xml
+channel: edo
+approved_at: 2026-08-13
+counterparty: ООО «Сибгидромаш»
+counterparty_inn: '005503221144'
+contract: СГМ-2026/05
+payment_terms: предоплата 35 % по счёту, остальное в течение 5 банковских дней после
+  отгрузки
+direction: реализация
+amount_net_rub: 3942000.0
+amount_vat_rub: 788400.0
+amount_total_rub: 4730400.0
+generated_by: upd
+source: corpus/source/finance/UPD-2026-0120.md
+rendered: corpus/rendered/finance/UPD-2026-0120.xml
+mime: application/xml
+bytes: 2643
+sha256: c086896b6d168211eb0cbd5698640a68de3f3a564431637265806d3eb60f7312

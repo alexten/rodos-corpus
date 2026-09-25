@@ -1,0 +1,22 @@
+doc_id: EVT-2026-0016
+doc_type: quote_request
+title: Запрос цены на валы 45.67.92 и колёса зубчатые 52.31.13
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: zakaz@baltmashkomplekt.example.com
+mail_to: zakaz@rodos-detal.example.com
+mail_subject: 'Заявка по договору БМК-2025/11: 45.67.92 и 52.31.13'
+mail_date: 2026-09-25
+received_at: 2026-09-25 17:58
+scenario: quote
+sender_known: true
+source: stream/source/EVT-2026-0016.md
+rendered: stream/rendered/sales/EVT-2026-0016.eml
+mime: message/rfc822
+bytes: 2353
+sha256: 3f4678e04cd1beec36a10f3f6945d5ac428f0c60b8b5502c93fa438b659be245

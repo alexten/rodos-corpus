@@ -19,13 +19,14 @@ from rodos_corpus.paths import stream_root
 from rodos_corpus.render import render
 from rodos_corpus.source import SourceDoc, load_all, validate
 
-EXPECTED = 16
+EXPECTED = 19
 WITH_ATTACHMENTS = {"EVT-2026-0007", "EVT-2026-0008", "EVT-2026-0009"}
 # Ловушки помечены полем `contains`, а не заголовком: потребитель читает заголовок,
 # и подсказка в нём обесценила бы ловушку.
 WITH_TRAPS = {"EVT-2026-0001", "EVT-2026-0002", "EVT-2026-0003",
               "EVT-2026-0004", "EVT-2026-0005", "EVT-2026-0006",
               "EVT-2026-0011", "EVT-2026-0012", "EVT-2026-0013"}
+CLEAN_QUOTES = ["EVT-2026-0010", "EVT-2026-0014", "EVT-2026-0015", "EVT-2026-0016"]
 
 
 @pytest.fixture(scope="module")
@@ -37,17 +38,20 @@ def test_stream_loads(stream_docs: list[SourceDoc]) -> None:
     assert len(stream_docs) == EXPECTED
 
 
-def test_one_quote_request_is_free_of_traps(stream_docs: list[SourceDoc]) -> None:
-    """Поток обязан содержать хотя бы один запрос КП, который проходит до конца.
+def test_clean_quote_requests_are_exactly_the_prepayment_customers(
+        stream_docs: list[SourceDoc]) -> None:
+    """Поток обязан содержать запросы КП, которые проходят до конца, и ровно те, что задуманы.
 
     Скидка требует одновременно действующего договора, категории A или B и предоплаты
-    не меньше 30 %, и из восьми договоров мира это сочетание даёт только KMP-2025/02.
-    Пока такого дела не было, все шесть запросов оказывались ловушками, и сквозной
-    путь показать было нечем.
+    не меньше 30 %. Из первых восьми договоров мира это сочетание давал только KMP-2025/02,
+    и сквозной путь существовал в одном экземпляре — EVT-2026-0010. В 1.4.0 добавлены три
+    заказчика с предоплатой (ВР-2026/03, СГМ-2026/05, БМК-2025/11) и по одному запросу от
+    каждого: категория A выше порога п. 2.1, категория B ниже порога, категория A ниже порога.
+    Отсутствие метки у этих четырёх — такое же утверждение о данных, как её наличие у остальных.
     """
     quotes = [doc for doc in stream_docs if doc.card.get("doc_type") == "quote_request"]
     clean = [doc for doc in quotes if not doc.card.get("contains")]
-    assert [doc.doc_id for doc in clean] == ["EVT-2026-0010"]
+    assert [doc.doc_id for doc in clean] == CLEAN_QUOTES
     assert {doc.doc_id for doc in quotes if doc.card.get("contains")} == WITH_TRAPS
 
 

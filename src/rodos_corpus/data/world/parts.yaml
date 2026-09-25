@@ -12,7 +12,7 @@
   route: [015 токарная, 025 фрезерная (шпоночный паз), 040 термообработка ТВЧ, 055 круглошлифовальная, 070 контроль ОТК]
   equipment: [tok-ctx310-02, frz-vf2-03, term-tvch-09, shl-3m151-06]
   tolerances: { runout_mm: 0.03, surface_ra: 1.25, hardness_hrc: "45…50", diameter_field: "ø60 k6" }
-  customers: [redmash, privod_nn, export_kz]
+  customers: [redmash, privod_nn, export_kz, volga_reduktor]
   weight_kg: 11.4
 - drawing_no: "45.67.90"
   name: "Вал промежуточный редуктора Р-160"
@@ -42,7 +42,7 @@
   route: [010 подготовительная, 015 токарная, 025 фрезерная, 040 термообработка печная, 055 круглошлифовальная, 070 контроль ОТК]
   equipment: [cnc-1730-05, frz-vf2-03, term-sshz-08, shl-3m151-06]
   tolerances: { runout_mm: 0.03, surface_ra: 1.25, hardness_hrc: "50…54", diameter_field: "ø110 k6" }
-  customers: [redmash]
+  customers: [redmash, baltmashkomplekt]
   weight_kg: 41.5
 - drawing_no: "45.67.93"
   name: "Вал-шестерня привода конвейера"
@@ -123,7 +123,7 @@
   route: [015 токарная, 030 зубофрезерная, 070 контроль ОТК]
   equipment: [cnc-1730-05, frz-6r13-04]
   tolerances: { gear_grade: "8-C ГОСТ 1643-81", surface_ra: 2.5 }
-  customers: [privod_nn, remservis_ural, mashtorg_center]
+  customers: [privod_nn, remservis_ural, mashtorg_center, baltmashkomplekt]
   weight_kg: 17.9
 - drawing_no: "52.31.14"
   name: "Шестерня привода насоса z=14, m=2,5"
@@ -143,7 +143,7 @@
   route: [005 разметка, 015 расточная, 025 фрезерная, 045 сверлильная, 070 контроль ОТК]
   equipment: [frz-vf2-03, cnc-1730-05]
   tolerances: { axis_distance_mm: "±0,05", surface_ra: 3.2, flatness_mm: 0.05 }
-  customers: [redmash]
+  customers: [redmash, volga_reduktor]
   weight_kg: 52.0
 - drawing_no: "61.05.21"
   name: "Корпус редуктора Р-160, крышка"
@@ -153,7 +153,7 @@
   route: [005 разметка, 025 фрезерная, 045 сверлильная, 070 контроль ОТК]
   equipment: [frz-vf2-03]
   tolerances: { flatness_mm: 0.05, surface_ra: 3.2 }
-  customers: [redmash]
+  customers: [redmash, volga_reduktor]
   weight_kg: 28.4
 - drawing_no: "61.05.22"
   name: "Корпус редуктора Р-200, нижняя часть"
@@ -163,7 +163,7 @@
   route: [005 разметка, 015 расточная, 025 фрезерная, 045 сверлильная, 070 контроль ОТК]
   equipment: [cnc-1730-05]
   tolerances: { axis_distance_mm: "±0,05", surface_ra: 3.2, flatness_mm: 0.06 }
-  customers: [redmash, konveyer_systems]
+  customers: [redmash, konveyer_systems, volga_reduktor]
   weight_kg: 78.5
 - drawing_no: "61.05.23"
   name: "Корпус подшипникового узла конвейера"
@@ -193,7 +193,7 @@
   route: [015 токарная, 040 термообработка ТВЧ, 055 круглошлифовальная, 065 хромирование, 075 полирование, 070 контроль ОТК]
   equipment: [tok-ctx310-02, term-tvch-09, shl-3m151-06, galv-ag25-11]
   tolerances: { diameter_field: "ø56 f7", surface_ra: 0.32, coating_um: "20…25 хром", hardness_hrc: "48…52" }
-  customers: [gidromash_yug]
+  customers: [gidromash_yug, sibgidromash]
   weight_kg: 18.9
 - drawing_no: "73.22.31"
   name: "Шток гидроцилиндра ГЦ-80/45, L=500"
@@ -203,7 +203,7 @@
   route: [015 токарная, 040 термообработка ТВЧ, 055 круглошлифовальная, 065 хромирование, 075 полирование, 070 контроль ОТК]
   equipment: [tok-ctx310-02, term-tvch-09, shl-3m151-06, galv-ag25-11]
   tolerances: { diameter_field: "ø45 f7", surface_ra: 0.32, coating_um: "20…25 хром", hardness_hrc: "48…52" }
-  customers: [gidromash_yug, remservis_ural]
+  customers: [gidromash_yug, remservis_ural, sibgidromash]
   weight_kg: 9.7
 - drawing_no: "73.22.32"
   name: "Гильза гидроцилиндра ГЦ-100/56"
@@ -213,7 +213,7 @@
   route: [015 токарная, 020 хонингование, 070 контроль ОТК]
   equipment: [cnc-1730-05]
   tolerances: { bore_field: "ø100 H8", surface_ra: 0.4, straightness_mm_per_m: 0.1 }
-  customers: [gidromash_yug]
+  customers: [gidromash_yug, sibgidromash]
   weight_kg: 22.3
 - drawing_no: "73.22.33"
   name: "Поршень гидроцилиндра ГЦ-100/56"
@@ -223,7 +223,7 @@
   route: [015 токарная, 045 сверлильная, 070 контроль ОТК]
   equipment: [tok-16k20-01]
   tolerances: { diameter_field: "ø100 f8", surface_ra: 1.6 }
-  customers: [gidromash_yug]
+  customers: [gidromash_yug, sibgidromash]
   weight_kg: 3.4
 - drawing_no: "73.22.34"
   name: "Крышка гидроцилиндра передняя ГЦ-100/56"
@@ -386,7 +386,7 @@
   equipment: [press-p6330-12]
   components: ["45.67.89", "45.67.90", "52.31.10", "52.31.11", "61.05.20", "61.05.21", "88.14.40"]
   tolerances: { noise_db: "≤ 78", oil_leak: "не допускается", run_in_min: 30 }
-  customers: [redmash]
+  customers: [redmash, baltmashkomplekt]
   weight_kg: 128.0
 - drawing_no: "88.14.54"
   name: "Гидроцилиндр ГЦ-100/56 в сборе"

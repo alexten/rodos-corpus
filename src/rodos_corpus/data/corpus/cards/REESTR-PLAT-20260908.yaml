@@ -15,4 +15,4 @@ source: corpus/source/finance/REESTR-PLAT-20260908.table.yaml
 rendered: corpus/rendered/finance/REESTR-PLAT-20260908.xlsx
 mime: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
 bytes: 5975
-sha256: c0577519c8e74c787598716867f235837a69db14cac450dab49a8165d40c77bb
+sha256: 0c143fa9446b4dd67bf8f10783a5d6d2da654a01ee5405885ce39db3f7d91352
