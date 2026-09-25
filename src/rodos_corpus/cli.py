@@ -21,6 +21,9 @@ def _parser() -> argparse.ArgumentParser:
     commands.add_parser("stats", help="состав корпуса: документы по пространствам, типам и форматам")
     commands.add_parser("manifest", help="пересобрать MANIFEST.json по карточкам")
     commands.add_parser("verify", help="сверить файлы с описью")
+    rules = commands.add_parser("rules", help="бизнес-правила и свидетельства их исполнения")
+    rules.add_argument("--check", action="store_true",
+                       help="каждое правило подтверждено не менее чем двумя документами")
     where = commands.add_parser("path", help="пути внутри установленного пакета")
     where.add_argument("what", nargs="?", default="data",
                        choices=["data", "world", "corpus", "source", "rendered", "cards", "stream", "fonts"])
@@ -54,6 +57,9 @@ def main(argv: Sequence[str] | None = None) -> int:
             print(problem)
         print(f"расхождений: {len(problems)}")
         return 1 if problems else 0
+    if args.command == "rules":
+        from rodos_corpus.rules import main as rules_main
+        return rules_main(check_only=args.check)
     if args.command == "path":
         print(getattr(paths, f"{args.what}_root" if args.what != "data" else "data_root")())
         return 0
