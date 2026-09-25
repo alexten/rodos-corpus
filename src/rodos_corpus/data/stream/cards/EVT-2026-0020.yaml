@@ -1,0 +1,24 @@
+doc_id: EVT-2026-0020
+doc_type: complaint
+title: Рекламация ООО «Машторг-Центр» на шестерни 52.31.13 по спецификации № 6
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: office@mashtorg-center.example.com
+mail_to: reklamacii@rodos-detal.example.com
+mail_subject: 'Рекламация: сколы на шестернях 52.31.13, спецификация № 6 к МТЦ-2025/10'
+mail_date: 2026-09-24
+received_at: 2026-09-24 15:20
+contains:
+- no_shipment_found
+scenario: complaint
+sender_known: true
+source: stream/source/EVT-2026-0020.md
+rendered: stream/rendered/sales/EVT-2026-0020.eml
+mime: message/rfc822
+bytes: 2271
+sha256: eadc8d1b735d5cb9a13f6760d28f92744e6ed4775557b2ddc609a7ebd98a7eb3

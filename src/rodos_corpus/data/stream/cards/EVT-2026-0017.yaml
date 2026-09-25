@@ -1,0 +1,22 @@
+doc_id: EVT-2026-0017
+doc_type: complaint
+title: Рекламация ООО «Балтмашкомплект» на узлы редуктора 88.14.53 из партии по УПД-2026-0121
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: zakaz@baltmashkomplekt.example.com
+mail_to: reklamacii@rodos-detal.example.com
+mail_subject: Рекламация по узлам 88.14.53, УПД-2026-0121 от 24.08.2026, договор БМК-2025/11
+mail_date: 2026-09-23
+received_at: 2026-09-23 10:02
+scenario: complaint
+sender_known: true
+source: stream/source/EVT-2026-0017.md
+rendered: stream/rendered/sales/EVT-2026-0017.eml
+mime: message/rfc822
+bytes: 4615
+sha256: 9971fab3943a0461b2aa6a78c2cd335e03d4bb2cbc51d970716bd42af0048302

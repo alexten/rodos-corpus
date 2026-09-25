@@ -1,0 +1,25 @@
+doc_id: EVT-2026-0019
+doc_type: complaint
+title: Обращение АО «Редмаш» о гарантийном ремонте узла редуктора 88.14.53, отгруженного
+  в 2025 году
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: zakupki@redmash.example.com
+mail_to: reklamacii@rodos-detal.example.com
+mail_subject: Гарантийный случай по узлу редуктора 88.14.53, договор РМ-2025/01
+mail_date: 2026-09-24
+received_at: 2026-09-24 09:48
+contains:
+- warranty_expired
+scenario: complaint
+sender_known: true
+source: stream/source/EVT-2026-0019.md
+rendered: stream/rendered/sales/EVT-2026-0019.eml
+mime: message/rfc822
+bytes: 3002
+sha256: afb1177f9de63fd3f83f7dcf221a32c36f86c2d9cfaa4ba86c0c0be625d994d5
