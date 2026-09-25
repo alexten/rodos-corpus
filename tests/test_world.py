@@ -26,3 +26,14 @@ def test_assemblies_reference_existing_parts() -> None:
     for assembly in assemblies:
         for component in assembly["components"]:
             assert component in parts
+
+
+def test_service_role_is_not_a_person() -> None:
+    # Субъект агента (rodos-agent 05 A-240): читает под своим ключом, но не подписывает и не согласует.
+    world = World.load()
+    roles = world.by_key("roles")
+    assert roles["agent_service"]["kind"] == "service"
+    assert roles["agent_service"]["approves"] == []
+    assert not [p for p in world.people if p.get("role") == "agent_service"]
+    world.roles.append({"key": "bot", "title": "Бот", "kind": "robot", "approves": []})
+    assert check(world) == ["roles/bot: неизвестный вид роли «robot»"]

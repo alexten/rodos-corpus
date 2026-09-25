@@ -12,6 +12,7 @@ from typing import Any
 from rodos_corpus.world import World
 
 SPACES = {"production", "finance", "sales", "it", "common"}
+ROLE_KINDS = {"person", "service"}
 PII_SPACE = "_pii"
 FAKE_EMAIL = re.compile(r"@[\w.-]*example\.com$")
 FAKE_PHONE = re.compile(r"^\+7 \(495\) 000-00-\d\d$")
@@ -118,10 +119,18 @@ def check(world: World) -> list[str]:
         ref(where, system.get("owner_role"), role_keys, "владелец")
         ref(where, system.get("business_owner_role"), role_keys, "бизнес-владелец")
 
+    service_roles = set()
     for role in world.roles:
         if (owner := role.get("space_owner")) and owner not in SPACES:
             problems.append(f"roles/{role['key']}: неизвестное пространство «{owner}»")
         ref(f"roles/{role['key']}", role.get("site"), site_keys, "площадка")
+        kind = role.get("kind", "person")
+        if kind not in ROLE_KINDS:
+            problems.append(f"roles/{role['key']}: неизвестный вид роли «{kind}»")
+        if kind == "service":
+            service_roles.add(role["key"])
+            if role.get("approves") or role.get("space_owner") or role.get("payment_limit_rub"):
+                problems.append(f"roles/{role['key']}: у сервиса нет полномочий и пространств")
 
     owners = [role["space_owner"] for role in world.roles if role.get("space_owner")]
     for space in sorted(SPACES - set(owners)):
@@ -130,6 +139,8 @@ def check(world: World) -> list[str]:
     for person in world.people:
         where = f"people/{person['key']}"
         ref(where, person.get("role"), role_keys, "роль")
+        if person.get("role") in service_roles:
+            problems.append(f"{where}: сотрудник на роли сервиса «{person['role']}»")
         if not FAKE_EMAIL.search(person.get("email", "")):
             problems.append(f"{where}: почта «{person.get('email')}» вне зоны example.com")
         if not FAKE_PHONE.match(person.get("phone", "")):
