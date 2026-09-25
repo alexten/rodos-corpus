@@ -1,0 +1,26 @@
+doc_id: EVT-2026-0018
+doc_type: complaint
+title: Письмо ООО «Конвейер-Системс» о статусе обращения по маркировке упаковочных
+  мест 88.14.55
+org_unit: Коммерческий отдел
+spaces:
+- sales
+confidentiality: internal
+status: active
+format: eml
+channel: mail
+mail_from: snab@konveyer-systems.example.com
+mail_to: reklamacii@rodos-detal.example.com
+mail_subject: Маркировка упаковочных мест по поставке натяжных станций 88.14.55 —
+  статус обращения
+mail_date: 2026-09-23
+received_at: 2026-09-23 14:35
+contains:
+- duplicate_complaint
+scenario: complaint
+sender_known: true
+source: stream/source/EVT-2026-0018.md
+rendered: stream/rendered/sales/EVT-2026-0018.eml
+mime: message/rfc822
+bytes: 3945
+sha256: 7009250ac700918e55ae9fea50969839d4386e1c0839b3f1b4a613e0e0e5b926
