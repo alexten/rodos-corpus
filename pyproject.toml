@@ -1,6 +1,6 @@
 [project]
 name = "rodos-corpus"
-version = "1.3.0"
+version = "1.3.1"
 description = "Демо-корпус и модель мира вымышленной ГК «Родос-Деталь»"
 readme = "README.md"
 license = { file = "LICENSE" }

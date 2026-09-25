@@ -77,8 +77,14 @@ def _freeze_zip(path: Path) -> None:
             archive.writestr(frozen, payload)
 
 
-def _blocks(body: str) -> list[tuple[str, Any]]:
-    """Тело документа → последовательность блоков (вид, содержимое)."""
+def parse_blocks(body: str) -> list[tuple[str, Any]]:
+    """Тело документа → последовательность блоков (вид, содержимое).
+
+    Часть публичного API: тот же разбор нужен потребителю, который ищет в документе ссылку на
+    пункт регламента, — иначе он повторит разбор своей регуляркой и разойдётся с рендерером.
+    Виды блоков: `heading` (уровень, текст), `table` (строки без разделителя), `bullets`,
+    `note` (цитата `> `), `paragraph`.
+    """
     blocks: list[tuple[str, Any]] = []
     lines = body.splitlines()
     index = 0
@@ -120,8 +126,8 @@ def _blocks(body: str) -> list[tuple[str, Any]]:
     return blocks
 
 
-def _plain(text: str) -> str:
-    """Убирает markdown-разметку выделения, оставляя текст."""
+def plain_text(text: str) -> str:
+    """Убирает markdown-разметку выделения, оставляя текст. Публичное имя."""
     return re.sub(r"\*\*(.+?)\*\*|\*(.+?)\*|`(.+?)`", lambda m: m.group(1) or m.group(2) or m.group(3), text)
 
 
@@ -162,17 +168,17 @@ def render_docx(doc: SourceDoc, target: Path) -> None:
         paragraph.runs[0].italic = True
     document.add_heading(str(doc.card["title"]), level=0)
 
-    for kind, payload in _blocks(doc.body):
+    for kind, payload in parse_blocks(doc.body):
         if kind == "heading":
             level, text = payload
-            document.add_heading(_plain(text), level=min(level, 4))
+            document.add_heading(plain_text(text), level=min(level, 4))
         elif kind == "paragraph":
-            document.add_paragraph(_plain(payload))
+            document.add_paragraph(plain_text(payload))
         elif kind == "bullets":
             for item in payload:
-                document.add_paragraph(_plain(item), style="List Bullet")
+                document.add_paragraph(plain_text(item), style="List Bullet")
         elif kind == "note":
-            paragraph = document.add_paragraph(_plain(payload))
+            paragraph = document.add_paragraph(plain_text(payload))
             paragraph.runs[0].italic = True
         elif kind == "table":
             rows: list[list[str]] = payload
@@ -180,7 +186,7 @@ def render_docx(doc: SourceDoc, target: Path) -> None:
             table.style = "Table Grid"
             for row_index, row in enumerate(rows):
                 for cell_index, value in enumerate(row):
-                    table.cell(row_index, cell_index).text = _plain(value)
+                    table.cell(row_index, cell_index).text = plain_text(value)
     core = document.core_properties
     core.author = core.last_modified_by = AUTHOR
     core.created = core.modified = BUILD_TIME
@@ -210,28 +216,28 @@ def render_pdf(doc: SourceDoc, target: Path) -> None:
     cell(0, 7, str(doc.card["title"]))
     pdf.ln(2)
 
-    for kind, payload in _blocks(doc.body):
+    for kind, payload in parse_blocks(doc.body):
         if kind == "heading":
             level, text = payload
             pdf.set_font("DejaVu", "B", max(12 - level, 9))
-            cell(0, 6, _plain(text))
+            cell(0, 6, plain_text(text))
         elif kind == "paragraph":
             pdf.set_font("DejaVu", "", 10)
-            cell(0, 5, _plain(payload))
+            cell(0, 5, plain_text(payload))
         elif kind == "bullets":
             pdf.set_font("DejaVu", "", 10)
             for item in payload:
-                cell(0, 5, f"• {_plain(item)}")
+                cell(0, 5, f"• {plain_text(item)}")
         elif kind == "note":
             pdf.set_font("DejaVu", "", 9)
-            cell(0, 5, _plain(payload))
+            cell(0, 5, plain_text(payload))
         elif kind == "table":
             rows: list[list[str]] = payload
             pdf.set_font("DejaVu", "", 8)
             columns = max(len(row) for row in rows)
             available = pdf.w - 2 * pdf.l_margin
             # Ширина колонки пропорциональна длине её самого длинного значения, но не уже 18 мм.
-            longest = [max((len(_plain(row[index])) for row in rows if index < len(row)), default=1)
+            longest = [max((len(plain_text(row[index])) for row in rows if index < len(row)), default=1)
                        for index in range(columns)]
             widths = [max(18.0, available * value / sum(longest)) for value in longest]
             scale = available / sum(widths)
@@ -241,7 +247,7 @@ def render_pdf(doc: SourceDoc, target: Path) -> None:
                 for row in rows:
                     table_row = table.row()
                     for index in range(columns):
-                        table_row.cell(_plain(row[index]) if index < len(row) else "")
+                        table_row.cell(plain_text(row[index]) if index < len(row) else "")
         pdf.ln(1)
     pdf.output(str(target))
 
@@ -296,7 +302,7 @@ def render_eml(doc: SourceDoc, target: Path) -> None:
     message["Message-ID"] = f"<{doc.doc_id}@rodos-detal.example.com>"
     if reply_to := card.get("mail_in_reply_to"):
         message["In-Reply-To"] = f"<{reply_to}@rodos-detal.example.com>"
-    message.set_content("\n".join(_plain(line) for line in doc.body.splitlines()))
+    message.set_content("\n".join(plain_text(line) for line in doc.body.splitlines()))
     for attached in card.get("attachments") or []:
         source = _attachment_path(attached, target.parent)
         if not source.exists():
@@ -329,7 +335,7 @@ def _attachment_path(doc_id: str, beside: Path) -> Path:
 
 def render_txt(doc: SourceDoc, target: Path) -> None:
     lines = [*_header_lines(doc), "", str(doc.card["title"]), ""]
-    lines += [_plain(line) for line in doc.body.splitlines()]
+    lines += [plain_text(line) for line in doc.body.splitlines()]
     target.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -351,8 +357,8 @@ def render_pdf_scan(doc: SourceDoc, target: Path) -> None:
     y = 150
     draw.text((110, y), str(doc.card["title"]), font=title_font, fill=40)
     y += 70
-    for kind, payload in _blocks(doc.body):
-        text = _plain(payload if isinstance(payload, str) else str(payload[1]))
+    for kind, payload in parse_blocks(doc.body):
+        text = plain_text(payload if isinstance(payload, str) else str(payload[1]))
         font = title_font if kind == "heading" else body_font
         for line in _wrap(text, 64 if kind == "heading" else 78):
             draw.text((110, y), line, font=font, fill=55)

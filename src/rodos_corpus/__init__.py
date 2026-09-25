@@ -24,12 +24,13 @@ from rodos_corpus.paths import (
     stream_root,
     world_root,
 )
+from rodos_corpus.render import EXTENSIONS, parse_blocks, plain_text
 from rodos_corpus.source import SourceDoc, load_all, parse, validate
 from rodos_corpus.world import World
 
 __all__ = [
-    "CORPUS_VERSION", "SourceDoc", "World",
+    "CORPUS_VERSION", "EXTENSIONS", "SourceDoc", "World",
     "cards_root", "corpus_root", "data_root", "fonts_root", "load_all", "manifest",
-    "parse", "rendered_path", "rendered_root", "source_root", "stream_root",
-    "validate", "verify", "world_root",
+    "parse", "parse_blocks", "plain_text", "rendered_path", "rendered_root", "source_root",
+    "stream_root", "validate", "verify", "world_root",
 ]
