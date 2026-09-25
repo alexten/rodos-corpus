@@ -3,7 +3,7 @@ doc_id: SALES-DOG-TIPOVOY
 doc_type: contract_template
 title: "Типовой договор поставки продукции"
 org_unit: "Коммерческий отдел"
-spaces: [sales]
+spaces: [sales, finance]
 confidentiality: internal
 status: active
 format: docx
