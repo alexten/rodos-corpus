@@ -1,0 +1,20 @@
+doc_id: SALES-VYEZD-RKL-2026-06
+doc_type: claim_visit_decision
+title: Решение о выезде представителя по рекламации РКЛ-2026-06 АО «Редмаш»
+org_unit: Коммерческий отдел
+spaces:
+- sales
+- production
+confidentiality: internal
+status: active
+format: docx
+channel: dropdir
+approved_at: 2026-06-19
+effective_from: 2026-06-19
+approved_by: Менеджер по продажам и начальник ОТК
+counterparty: АО «Редмаш»
+source: corpus/source/sales/SALES-VYEZD-RKL-2026-06.md
+rendered: corpus/rendered/sales/SALES-VYEZD-RKL-2026-06.docx
+mime: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+bytes: 37973
+sha256: 0914c2d5ad0b59d3ffaee80691832740bff93fd07eeeb47cb498228211f384a5
